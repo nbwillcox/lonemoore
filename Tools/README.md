@@ -36,3 +36,5 @@ Run phase2_import.py through Unreal's Python commandlet to rebuild the key atlas
 ## Public release packaging
 
 Use Tools/Build.ps1 -Test -Package -Configuration Shipping -ArchiveDirectory Builds/Distribution for a Shipping package. Then run python Tools/package_release.py to create the Windows ZIP and SHA-256 checksum in Dist. The archive excludes saves, logs, crash dumps, and debug symbols.
+
+The packaged player launcher is `play-lonemoore.exe`. Unreal module names, runtime paths, and existing save folders keep their internal identifiers for compatibility.

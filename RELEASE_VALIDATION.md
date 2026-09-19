@@ -12,9 +12,11 @@ Release preparation: September 19, 2026.
 - All 33 registered combat sound assets were resident with valid duration. The walkthrough ran without audio output; this is asset-loading validation, not a listening review.
 - Archive verification: 30 files, no saves, logs, crash dumps, or debug symbols. The Windows Visual C++ runtime installers and runtime notices are included.
 - The 20 protected existing save files matched their recorded hashes. Packaged walkthroughs used separate user directories and unique test characters.
-- Release ZIP: `Lonemoore-0.2.0-Windows-x64.zip`, 1,219,280,260 bytes.
-- SHA-256: `e7791669d21fa34e95d20d831d34468d18ebab271f739cdd2c47d942ab60e2bb`.
+- Release ZIP: `Lonemoore-0.2.0-Windows-x64.zip`, 1,219,280,262 bytes.
+- SHA-256: `5e9d41be8fae020174f36cd5b80e1da380b41d17e79bd251879ab00ae63ed179`.
 
 The older walkthrough had a hard-coded expectation of 27 sounds. It now derives the expected count from the current registry; the rebuilt Shipping package passed the corrected check. Gameplay sound data was unchanged.
 
 Automated checks and selected rendered screens do not establish sustained human playtesting or final balance.
+
+Launcher naming update: the release now starts through `play-lonemoore.exe`. The ZIP was extracted and all 31 walkthrough checks passed when started through that launcher. Its embedded game runtime and cooked content match the previously validated build. The player guide, package instructions, and future packaging workflow use the same launcher name.

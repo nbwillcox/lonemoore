@@ -8,7 +8,11 @@ package = root / 'Builds/Distribution/Windows'
 output = root / 'Dist'
 output.mkdir(exist_ok=True)
 archive = output / 'Lonemoore-0.2.0-Windows-x64.zip'
-if not (package / 'DungeonCrawler.exe').is_file():
+launcher = package / 'play-lonemoore.exe'
+legacy_launcher = package / 'DungeonCrawler.exe'
+if legacy_launcher.is_file():
+    legacy_launcher.replace(launcher)
+if not launcher.is_file():
     raise SystemExit('Build the Shipping distribution first.')
 
 with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
@@ -23,7 +27,7 @@ with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         z.write(path, relative.as_posix())
     z.writestr('README.txt', '''Lonemoore 0.2.0 - Windows x64 Shipping build
 
-Extract the entire ZIP into a writable folder and run DungeonCrawler.exe.
+Extract the entire ZIP into a writable folder and run play-lonemoore.exe.
 Keep all supplied folders together. Unreal Editor is not required.
 If needed, install Engine/Extras/Redist/en-us/vc_redist.x64.exe.
 

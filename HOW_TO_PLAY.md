@@ -1,6 +1,6 @@
 # Lonemoore
 
-Download the compiled Windows ZIP from [GitHub Releases](https://github.com/nbwillcox/lonemoore/releases/tag/v0.2.0), extract the entire archive, and double-click **DungeonCrawler.exe** in the extracted folder. Keep its accompanying folders together. See the [README](README.md) for installation and runtime prerequisite instructions. Start a **New Game** for this release.
+Download the compiled Windows ZIP from [GitHub Releases](https://github.com/nbwillcox/lonemoore/releases/tag/v0.2.0), extract the entire archive, and double-click **play-lonemoore.exe** in the extracted folder. Keep its accompanying folders together. See the [README](README.md) for installation and runtime prerequisite instructions. Start a **New Game** for this release.
 
 Choose any of the seven classes: Warrior, Mage, Ranger, Cleric, Rogue, Paladin or Warlock. Enter your character's name, choose Normal or Hardcore, then begin. Names can contain up to 24 letters, numbers, spaces, apostrophes, hyphens or underscores. Each name identifies a separate journey; choose another name to start another character. Companions still join below, and every starting class can form a party of five different classes.
 

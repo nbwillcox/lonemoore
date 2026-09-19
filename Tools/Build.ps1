@@ -20,4 +20,9 @@ if($Package){
  if($LASTEXITCODE -ne 0){throw 'Game build failed'}
  & "$engineRoot\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun "-project=$projectFile" -noP4 -platform=Win64 "-clientconfig=$Configuration" -skipbuild -nocompileeditor -cook -stage -pak -prereqs -archive "-archivedirectory=$ArchiveDirectory" -unattended -utf8output
  if($LASTEXITCODE -ne 0){throw 'Packaging failed'}
+ # Brand the public bootstrap launcher; its embedded runtime path stays intact.
+ $windowsPackage=Join-Path $ArchiveDirectory 'Windows'
+ $bootstrap=Join-Path $windowsPackage 'DungeonCrawler.exe'
+ if(!(Test-Path -LiteralPath $bootstrap)){throw 'Packaged launcher is missing'}
+ Move-Item -LiteralPath $bootstrap -Destination (Join-Path $windowsPackage 'play-lonemoore.exe') -Force
 }

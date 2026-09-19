@@ -14,8 +14,8 @@ Use the compiled game ZIP listed under the release's **Assets**. GitHub's **Code
 
 1. Download `Lonemoore-0.2.0-Windows-x64.zip` using the link above.
 2. Right-click the ZIP in Windows and choose **Extract All**. Extract it into a folder you can write to.
-3. Open the extracted folder and double-click **DungeonCrawler.exe**. This is Lonemoore's executable.
-4. Keep the `DungeonCrawler` and `Engine` folders beside the executable. Do not run the game from inside the ZIP or move only the executable.
+3. Open the extracted folder and double-click **play-lonemoore.exe**. This is Lonemoore's executable.
+4. Keep all accompanying folders beside the executable. Do not run the game from inside the ZIP or move only the executable.
 
 You do not need Unreal Engine, an editor, Git, or any build tools to play. The release is for 64-bit Windows and uses DirectX 12. Minimum hardware requirements have not yet been established.
 

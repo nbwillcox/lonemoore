@@ -24,7 +24,9 @@ if "%artChoice%"=="6" set "artFloor=9"
 if "%artChoice%"=="7" set "artFloor=11"
 if "%artChoice%"=="8" set "artFloor=13"
 if "%artChoice%"=="9" set "artFloor=15"
-if exist "Builds\Windows\DungeonCrawler.exe" (
+if exist "Builds\Windows\play-lonemoore.exe" (
+ start "" "%~dp0Builds\Windows\play-lonemoore.exe" -RegionalArtPlaytest -ArtFloor=%artFloor% -windowed
+) else if exist "Builds\Windows\DungeonCrawler.exe" (
  start "" "%~dp0Builds\Windows\DungeonCrawler.exe" -RegionalArtPlaytest -ArtFloor=%artFloor% -windowed
 ) else (
  start "" "D:\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe" "%~dp0DungeonCrawler.uproject" /Game/Game/Maps/Boot -game -RegionalArtPlaytest -ArtFloor=%artFloor% -windowed
