@@ -52,3 +52,6 @@ The Shipping output is `Builds/Distribution/Windows`. Build output, caches, loca
 ## Artwork and audio
 
 The creator, nbwillcox, permits free redistribution of the original artwork and audio included with Lonemoore. The creator states that these assets were not sourced from external creators. This permission applies to the original game art and audio, and does not grant rights to Unreal Engine or its runtime components. No separate open-source license for the game code is specified.
+
+See [release validation](RELEASE_VALIDATION.md) for the packaged walkthrough and checksum.
+
