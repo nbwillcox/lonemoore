@@ -1,0 +1,347 @@
+{
+  "region_id": "old_city_sewers",
+  "campaign_region_index": 1,
+  "region_name": "Old City Sewers",
+  "status": "APPROVED_INTEGRATED_MAIN_PACKAGED_TESTED",
+  "seed": 1947,
+  "units": "metres in Blender; centimetres in Unreal FBX import",
+  "texel_density": 1024,
+  "texture_conventions": {
+    "base_color": "sRGB, unlit pigment",
+    "normal": "DirectX tangent, linear, BC5/TC_Normalmap, flip_green_channel=False",
+    "roughness": "linear grayscale, TC_Grayscale",
+    "metallic": "linear grayscale; iron only",
+    "decals": "straight RGBA alpha; sRGB RGB; alpha linear; transparent border"
+  },
+  "materials": [
+    {
+      "id": "ConduitBrick",
+      "role": "wall",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/ConduitBrick/ConduitBrick_BC.png",
+        "normal": "textures/ConduitBrick/ConduitBrick_N.png",
+        "roughness": "textures/ConduitBrick/ConduitBrick_R.png"
+      },
+      "placement": "Dry-to-damp main walls; damp localized by decals",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_ConduitBrick"
+    },
+    {
+      "id": "ReservoirAshlar",
+      "role": "wall",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/ReservoirAshlar/ReservoirAshlar_BC.png",
+        "normal": "textures/ReservoirAshlar/ReservoirAshlar_N.png",
+        "roughness": "textures/ReservoirAshlar/ReservoirAshlar_R.png"
+      },
+      "placement": "Dry-to-damp main walls; damp localized by decals",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_ReservoirAshlar"
+    },
+    {
+      "id": "MaintenanceFlags",
+      "role": "floor",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/MaintenanceFlags/MaintenanceFlags_BC.png",
+        "normal": "textures/MaintenanceFlags/MaintenanceFlags_N.png",
+        "roughness": "textures/MaintenanceFlags/MaintenanceFlags_R.png"
+      },
+      "placement": "Maintenance walkway above shallow channel",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_MaintenanceFlags"
+    },
+    {
+      "id": "VaultBrick",
+      "role": "ceiling",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/VaultBrick/VaultBrick_BC.png",
+        "normal": "textures/VaultBrick/VaultBrick_N.png",
+        "roughness": "textures/VaultBrick/VaultBrick_R.png"
+      },
+      "placement": "Vault lining; orient bond along vault",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_VaultBrick"
+    },
+    {
+      "id": "LimestoneCoping",
+      "role": "trim",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/LimestoneCoping/LimestoneCoping_BC.png",
+        "normal": "textures/LimestoneCoping/LimestoneCoping_N.png",
+        "roughness": "textures/LimestoneCoping/LimestoneCoping_R.png"
+      },
+      "placement": "Coping, arch stones and sill edges",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_LimestoneCoping"
+    },
+    {
+      "id": "CorrodedIron",
+      "role": "metal",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/CorrodedIron/CorrodedIron_BC.png",
+        "normal": "textures/CorrodedIron/CorrodedIron_N.png",
+        "roughness": "textures/CorrodedIron/CorrodedIron_R.png",
+        "metallic": "textures/CorrodedIron/CorrodedIron_M.png"
+      },
+      "placement": "Pipe and drain grate",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_CorrodedIron"
+    },
+    {
+      "id": "MossMat",
+      "role": "growth",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/MossMat/MossMat_BC.png",
+        "normal": "textures/MossMat/MossMat_N.png",
+        "roughness": "textures/MossMat/MossMat_R.png"
+      },
+      "placement": "Hanging moss only near seepage",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_MossMat"
+    },
+    {
+      "id": "MurkyWater",
+      "role": "water",
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "maps": {
+        "base_color": "textures/MurkyWater/MurkyWater_BC.png",
+        "normal": "textures/MurkyWater/MurkyWater_N.png",
+        "roughness": "textures/MurkyWater/MurkyWater_R.png"
+      },
+      "placement": "Shallow side channel, below walkway",
+      "runtime_material": "/Game/OldCitySewers/Materials/MI_Game_MurkyWater"
+    }
+  ],
+  "decals": [
+    {
+      "id": "RisingDamp",
+      "role": "decal",
+      "size_m": [
+        2,
+        1
+      ],
+      "resolution": 2048,
+      "alpha": "straight, BaseColor A; transparent border; no black matte",
+      "maps": {
+        "base_color": "textures/RisingDamp/RisingDamp_BC.png",
+        "roughness": "textures/RisingDamp/RisingDamp_R.png"
+      }
+    },
+    {
+      "id": "MineralBloom",
+      "role": "decal",
+      "size_m": [
+        1.2,
+        1.2
+      ],
+      "resolution": 2048,
+      "alpha": "straight, BaseColor A; transparent border; no black matte",
+      "maps": {
+        "base_color": "textures/MineralBloom/MineralBloom_BC.png",
+        "roughness": "textures/MineralBloom/MineralBloom_R.png"
+      }
+    },
+    {
+      "id": "PipeJointLeak",
+      "role": "decal",
+      "size_m": [
+        0.6,
+        1.2
+      ],
+      "resolution": 2048,
+      "alpha": "straight, BaseColor A; transparent border; no black matte",
+      "maps": {
+        "base_color": "textures/PipeJointLeak/PipeJointLeak_BC.png",
+        "roughness": "textures/PipeJointLeak/PipeJointLeak_R.png"
+      }
+    },
+    {
+      "id": "MortarSpall",
+      "role": "decal",
+      "size_m": [
+        0.75,
+        0.5
+      ],
+      "resolution": 2048,
+      "alpha": "straight, BaseColor A; transparent border; no black matte",
+      "maps": {
+        "base_color": "textures/MortarSpall/MortarSpall_BC.png",
+        "roughness": "textures/MortarSpall/MortarSpall_R.png"
+      }
+    }
+  ],
+  "props": [
+    {
+      "id": "SM_OCS_PipeOutlet",
+      "role": "decoration",
+      "fbx": "props/SM_OCS_PipeOutlet.fbx",
+      "glb": "props/SM_OCS_PipeOutlet.glb",
+      "size_m": [
+        0.45,
+        0.987,
+        0.45
+      ],
+      "triangles": 6464,
+      "materials": [
+        "CorrodedIron"
+      ],
+      "collision": "none; integration owner decides; no gameplay",
+      "pivot": "barrel centre",
+      "intended_placement": "wall above side channel, decorative only"
+    },
+    {
+      "id": "SM_OCS_DrainGrate",
+      "role": "decoration",
+      "fbx": "props/SM_OCS_DrainGrate.fbx",
+      "glb": "props/SM_OCS_DrainGrate.glb",
+      "size_m": [
+        0.905,
+        1.12,
+        0.06
+      ],
+      "triangles": 2444,
+      "materials": [
+        "CorrodedIron"
+      ],
+      "collision": "none; integration owner decides; no gameplay",
+      "pivot": "floor level at centre",
+      "intended_placement": "shallow side channel cover, decorative only"
+    },
+    {
+      "id": "SM_OCS_HangingMoss",
+      "role": "decoration",
+      "fbx": "props/SM_OCS_HangingMoss.fbx",
+      "glb": "props/SM_OCS_HangingMoss.glb",
+      "size_m": [
+        1.0071,
+        0.0987,
+        0.8937
+      ],
+      "triangles": 10728,
+      "materials": [
+        "MossMat"
+      ],
+      "collision": "none; integration owner decides; no gameplay",
+      "pivot": "top mount centre",
+      "intended_placement": "localized wet wall/vault joints clear of enemy silhouettes"
+    }
+  ],
+  "camera": {
+    "height_cm": 155,
+    "horizontal_fov_deg": 76,
+    "grid_cm": 400,
+    "aspect": "16:9"
+  },
+  "sources": [
+    "scripts/bake_textures.py",
+    "scripts/build_blender.py",
+    "scripts/render_gallery.py",
+    "sources/OldCitySewers.blend",
+    "sources/OldCitySewers_Neutral.blend",
+    "sources/Material_Prop_Review.blend"
+  ],
+  "unreal_test_status": "Unreal 5.8.2 isolated import, saved parent shader compilation, texture assignments, physical prop scale, nine deferred decal actors, camera and captured appearance validated. No live-game or packaged validation.",
+  "showcase": {
+    "fbx": "props/ShowcaseCorridor.fbx",
+    "blend": "sources/OldCitySewers.blend",
+    "size_m": [
+      4,
+      16,
+      5.2
+    ],
+    "role": "review only, no collision or generated layout",
+    "lights": [
+      {
+        "location_m": [
+          -1.7,
+          2.4,
+          2.25
+        ],
+        "color": [
+          1,
+          0.39,
+          0.1
+        ],
+        "intensity": 2600
+      },
+      {
+        "location_m": [
+          1.7,
+          6.4,
+          2.25
+        ],
+        "color": [
+          1,
+          0.39,
+          0.1
+        ],
+        "intensity": 2600
+      },
+      {
+        "location_m": [
+          -1.7,
+          10.4,
+          2.25
+        ],
+        "color": [
+          1,
+          0.39,
+          0.1
+        ],
+        "intensity": 2600
+      }
+    ],
+    "camera_blender_m": [
+      0.3,
+      0.3,
+      1.55
+    ]
+  },
+  "production_tools_run": [
+    "Python with numpy and Pillow: procedural field baking and QA",
+    "Blender 5.2.0: geometry, material reconstruction, FBX/GLB export and Cycles renders",
+    "Unreal Engine 5.8.2: isolated Python import, material construction, saved-asset validation and offscreen captures"
+  ],
+  "image_generation": {
+    "available": true,
+    "run": false,
+    "reason": "No additional illustration required for procedural surfaces and geometry."
+  },
+  "scripts": [
+    "scripts/Build-Pack.ps1",
+    "scripts/unreal_import.py",
+    "scripts/unreal_preview.py",
+    "scripts/unreal_validate_saved.py",
+    "scripts/validate_and_board.py",
+    "scripts/finalize_pack.py"
+  ],
+  "previews": {
+    "blender_torchlit": "previews/Blender_Torchlit_Corridor.png",
+    "blender_neutral": "previews/Blender_Neutral_Corridor.png",
+    "unreal_torchlit": "previews/Unreal_Torchlit_Corridor.png",
+    "unreal_neutral": "previews/Unreal_Neutral_Corridor.png",
+    "materials": "previews/Materials_Neutral_Overview.jpg",
+    "props": "previews/Blender_Props_Neutral.png",
+    "decals": "previews/Decals_Transparency_Overview.png"
+  },
+  "integration_handoff": "INTEGRATION_HANDOFF.md",
+  "source_art_pack_root": "J:/Lonemoore_Art_OldCitySewers",
+  "relative_source_paths_resolve_against": "source_art_pack_root",
+  "integration": {
+    "date": "2026-09-16",
+    "content_root": "/Game/OldCitySewers",
+    "runtime_parent": "/Game/OldCitySewers/Materials/M_OCS_WorldSurface",
+    "world_repeat_cm": 200,
+    "region_index": 1,
+    "review": "Saved/SewerArtIntegration/Packaged/runtime_results.txt",
+    "documentation": "SEWER_ART_INTEGRATION.md"
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "status": "PASS",
+  "materials": [
+    {
+      "region": "Cathedral",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Cathedral_Wall.MI_RK_Cathedral_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_LimeWall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Cathedral_LimeWall_BC.T_Cathedral_LimeWall_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Cathedral_LimeWall_N.T_Cathedral_LimeWall_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Cathedral_LimeWall_R.T_Cathedral_LimeWall_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Cathedral",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Cathedral_Floor.MI_RK_Cathedral_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_ProcessionalInlay",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Cathedral_ProcessionalInlay_BC.T_Cathedral_ProcessionalInlay_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Cathedral_ProcessionalInlay_N.T_Cathedral_ProcessionalInlay_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Cathedral_ProcessionalInlay_R.T_Cathedral_ProcessionalInlay_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Cathedral",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Cathedral_Vault.MI_RK_Cathedral_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_PlasterSoffit",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Cathedral_PlasterSoffit_BC.T_Cathedral_PlasterSoffit_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Cathedral_PlasterSoffit_N.T_Cathedral_PlasterSoffit_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Cathedral_PlasterSoffit_R.T_Cathedral_PlasterSoffit_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Cathedral",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Cathedral_Trim.MI_RK_Cathedral_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_CarvedLimestone",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Cathedral_CarvedLimestone_BC.T_Cathedral_CarvedLimestone_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Cathedral_CarvedLimestone_N.T_Cathedral_CarvedLimestone_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Cathedral_CarvedLimestone_R.T_Cathedral_CarvedLimestone_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Cathedral",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Cathedral_Iron.MI_RK_Cathedral_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Cathedral_OxidizedIron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Cathedral_OxidizedIron_BC.T_Cathedral_OxidizedIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Cathedral_OxidizedIron_N.T_Cathedral_OxidizedIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Cathedral_OxidizedIron_R.T_Cathedral_OxidizedIron_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Catacombs",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Catacombs_Wall.MI_RK_Catacombs_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_BurialRubble",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialRubble_BC.T_Catacombs_BurialRubble_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialRubble_N.T_Catacombs_BurialRubble_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialRubble_R.T_Catacombs_BurialRubble_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Catacombs",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Catacombs_Floor.MI_RK_Catacombs_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_ChippedFlags",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Catacombs_ChippedFlags_BC.T_Catacombs_ChippedFlags_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Catacombs_ChippedFlags_N.T_Catacombs_ChippedFlags_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Catacombs_ChippedFlags_R.T_Catacombs_ChippedFlags_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Catacombs",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Catacombs_Vault.MI_RK_Catacombs_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_BurialSoffit",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialSoffit_BC.T_Catacombs_BurialSoffit_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialSoffit_N.T_Catacombs_BurialSoffit_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialSoffit_R.T_Catacombs_BurialSoffit_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Catacombs",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Catacombs_Trim.MI_RK_Catacombs_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_ChalkLimestone",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Catacombs_ChalkLimestone_BC.T_Catacombs_ChalkLimestone_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Catacombs_ChalkLimestone_N.T_Catacombs_ChalkLimestone_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Catacombs_ChalkLimestone_R.T_Catacombs_ChalkLimestone_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Catacombs",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Catacombs_Iron.MI_RK_Catacombs_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_AgedBronze",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_AgedBronze_BC.T_Catacombs_AgedBronze_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_AgedBronze_N.T_Catacombs_AgedBronze_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_AgedBronze_R.T_Catacombs_AgedBronze_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Warrens",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Warrens_Wall.MI_RK_Warrens_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_EarthShale",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Warrens_EarthShale_BC.T_Warrens_EarthShale_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Warrens_EarthShale_N.T_Warrens_EarthShale_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Warrens_EarthShale_R.T_Warrens_EarthShale_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Warrens",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Warrens_Floor.MI_RK_Warrens_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_PackedEarth",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Warrens_PackedEarth_BC.T_Warrens_PackedEarth_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Warrens_PackedEarth_N.T_Warrens_PackedEarth_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Warrens_PackedEarth_R.T_Warrens_PackedEarth_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Warrens",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Warrens_Vault.MI_RK_Warrens_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_RootSoil",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Warrens_RootSoil_BC.T_Warrens_RootSoil_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Warrens_RootSoil_N.T_Warrens_RootSoil_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Warrens_RootSoil_R.T_Warrens_RootSoil_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Warrens",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Warrens_Trim.MI_RK_Warrens_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_ScavengedOak",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Warrens_ScavengedOak_BC.T_Warrens_ScavengedOak_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Warrens_ScavengedOak_N.T_Warrens_ScavengedOak_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Warrens_ScavengedOak_R.T_Warrens_ScavengedOak_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Warrens",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Warrens_Iron.MI_RK_Warrens_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Warrens_BatteredIron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Warrens_BatteredIron_BC.T_Warrens_BatteredIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Warrens_BatteredIron_N.T_Warrens_BatteredIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Warrens_BatteredIron_R.T_Warrens_BatteredIron_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Crypts",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Crypts_Wall.MI_RK_Crypts_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_VigilMarble",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Crypts_VigilMarble_BC.T_Crypts_VigilMarble_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Crypts_VigilMarble_N.T_Crypts_VigilMarble_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Crypts_VigilMarble_R.T_Crypts_VigilMarble_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Crypts",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Crypts_Floor.MI_RK_Crypts_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_MortuaryInlay",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Crypts_MortuaryInlay_BC.T_Crypts_MortuaryInlay_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Crypts_MortuaryInlay_N.T_Crypts_MortuaryInlay_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Crypts_MortuaryInlay_R.T_Crypts_MortuaryInlay_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Crypts",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Crypts_Vault.MI_RK_Crypts_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_CofferedStone",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Crypts_CofferedStone_BC.T_Crypts_CofferedStone_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Crypts_CofferedStone_N.T_Crypts_CofferedStone_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Crypts_CofferedStone_R.T_Crypts_CofferedStone_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Crypts",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Crypts_Trim.MI_RK_Crypts_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_SepulchralBorder",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Crypts_SepulchralBorder_BC.T_Crypts_SepulchralBorder_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Crypts_SepulchralBorder_N.T_Crypts_SepulchralBorder_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Crypts_SepulchralBorder_R.T_Crypts_SepulchralBorder_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Crypts",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Crypts_Iron.MI_RK_Crypts_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Crypts_TarnishedSilver",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Crypts_TarnishedSilver_BC.T_Crypts_TarnishedSilver_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Crypts_TarnishedSilver_N.T_Crypts_TarnishedSilver_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Crypts_TarnishedSilver_R.T_Crypts_TarnishedSilver_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Fortress",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Fortress_Wall.MI_RK_Fortress_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_DefenseBlocks",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Fortress_DefenseBlocks_BC.T_Fortress_DefenseBlocks_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Fortress_DefenseBlocks_N.T_Fortress_DefenseBlocks_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Fortress_DefenseBlocks_R.T_Fortress_DefenseBlocks_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Fortress",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Fortress_Floor.MI_RK_Fortress_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_GarrisonPavers",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Fortress_GarrisonPavers_BC.T_Fortress_GarrisonPavers_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Fortress_GarrisonPavers_N.T_Fortress_GarrisonPavers_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Fortress_GarrisonPavers_R.T_Fortress_GarrisonPavers_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Fortress",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Fortress_Vault.MI_RK_Fortress_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_BarracksPlanks",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Fortress_BarracksPlanks_BC.T_Fortress_BarracksPlanks_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Fortress_BarracksPlanks_N.T_Fortress_BarracksPlanks_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Fortress_BarracksPlanks_R.T_Fortress_BarracksPlanks_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Fortress",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Fortress_Trim.MI_RK_Fortress_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_ForgedStraps",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Fortress_ForgedStraps_BC.T_Fortress_ForgedStraps_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Fortress_ForgedStraps_N.T_Fortress_ForgedStraps_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Fortress_ForgedStraps_R.T_Fortress_ForgedStraps_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Fortress",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Fortress_Iron.MI_RK_Fortress_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Fortress_WardenIron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Fortress_WardenIron_BC.T_Fortress_WardenIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Fortress_WardenIron_N.T_Fortress_WardenIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Fortress_WardenIron_R.T_Fortress_WardenIron_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Deep",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Deep_Wall.MI_RK_Deep_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Deep_ChasmRock",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Deep_ChasmRock_BC.T_Deep_ChasmRock_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Deep_ChasmRock_N.T_Deep_ChasmRock_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Deep_ChasmRock_R.T_Deep_ChasmRock_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Deep",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Deep_Floor.MI_RK_Deep_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Deep_FracturedBedrock",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Deep_FracturedBedrock_BC.T_Deep_FracturedBedrock_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Deep_FracturedBedrock_N.T_Deep_FracturedBedrock_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Deep_FracturedBedrock_R.T_Deep_FracturedBedrock_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Deep",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Deep_Vault.MI_RK_Deep_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Deep_Overburden",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Deep_Overburden_BC.T_Deep_Overburden_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Deep_Overburden_N.T_Deep_Overburden_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Deep_Overburden_R.T_Deep_Overburden_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Deep",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Deep_Trim.MI_RK_Deep_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Deep_MineralEdges",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Deep_MineralEdges_BC.T_Deep_MineralEdges_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Deep_MineralEdges_N.T_Deep_MineralEdges_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Deep_MineralEdges_R.T_Deep_MineralEdges_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Deep",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Deep_Iron.MI_RK_Deep_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Deep_AncientIron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Deep_AncientIron_BC.T_Deep_AncientIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Deep_AncientIron_N.T_Deep_AncientIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Deep_AncientIron_R.T_Deep_AncientIron_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Infernal",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Infernal_Wall.MI_RK_Infernal_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_SealMonolith",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Infernal_SealMonolith_BC.T_Infernal_SealMonolith_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Infernal_SealMonolith_N.T_Infernal_SealMonolith_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Infernal_SealMonolith_R.T_Infernal_SealMonolith_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Infernal",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Infernal_Floor.MI_RK_Infernal_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_ShatteredPavement",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Infernal_ShatteredPavement_BC.T_Infernal_ShatteredPavement_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Infernal_ShatteredPavement_N.T_Infernal_ShatteredPavement_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Infernal_ShatteredPavement_R.T_Infernal_ShatteredPavement_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Infernal",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Infernal_Vault.MI_RK_Infernal_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_ScorchedSoffit",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Infernal_ScorchedSoffit_BC.T_Infernal_ScorchedSoffit_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Infernal_ScorchedSoffit_N.T_Infernal_ScorchedSoffit_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Infernal_ScorchedSoffit_R.T_Infernal_ScorchedSoffit_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Infernal",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Infernal_Trim.MI_RK_Infernal_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_RitualEdges",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Infernal_RitualEdges_BC.T_Infernal_RitualEdges_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Infernal_RitualEdges_N.T_Infernal_RitualEdges_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Infernal_RitualEdges_R.T_Infernal_RitualEdges_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Infernal",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Infernal_Iron.MI_RK_Infernal_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Infernal_HeatIron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Infernal_HeatIron_BC.T_Infernal_HeatIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Infernal_HeatIron_N.T_Infernal_HeatIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Infernal_HeatIron_R.T_Infernal_HeatIron_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Hell",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Hell_Wall.MI_RK_Hell_Wall",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Hell_ColumnBasalt",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Hell_ColumnBasalt_BC.T_Hell_ColumnBasalt_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Hell_ColumnBasalt_N.T_Hell_ColumnBasalt_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Hell_ColumnBasalt_R.T_Hell_ColumnBasalt_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Hell",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Hell_Floor.MI_RK_Hell_Floor",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Hell_HellforgePlates",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Hell_HellforgePlates_BC.T_Hell_HellforgePlates_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Hell_HellforgePlates_N.T_Hell_HellforgePlates_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Hell_HellforgePlates_R.T_Hell_HellforgePlates_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Hell",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Hell_Vault.MI_RK_Hell_Vault",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Hell_HangingBasalt",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Hell_HangingBasalt_BC.T_Hell_HangingBasalt_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Hell_HangingBasalt_N.T_Hell_HangingBasalt_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Hell_HangingBasalt_R.T_Hell_HangingBasalt_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Hell",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Hell_Trim.MI_RK_Hell_Trim",
+      "source": "/Game/RegionalIdentity/Materials/MI_UV_Hell_BrokenHaloStone",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Hell_BrokenHaloStone_BC.T_Hell_BrokenHaloStone_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Hell_BrokenHaloStone_N.T_Hell_BrokenHaloStone_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Hell_BrokenHaloStone_R.T_Hell_BrokenHaloStone_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Hell",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Hell_Iron.MI_RK_Hell_Iron",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Hell_InfernalMetal",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Hell_InfernalMetal_BC.T_Hell_InfernalMetal_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Hell_InfernalMetal_N.T_Hell_InfernalMetal_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Hell_InfernalMetal_R.T_Hell_InfernalMetal_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Sewer",
+      "role": "Wall",
+      "material": "/Game/RoomKit/Materials/MI_RK_Sewer_Wall.MI_RK_Sewer_Wall",
+      "source": "/Game/OldCitySewers/Textures/T_ReservoirAshlar",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_ReservoirAshlar_BC.T_ReservoirAshlar_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_ReservoirAshlar_N.T_ReservoirAshlar_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_ReservoirAshlar_R.T_ReservoirAshlar_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Sewer",
+      "role": "Floor",
+      "material": "/Game/RoomKit/Materials/MI_RK_Sewer_Floor.MI_RK_Sewer_Floor",
+      "source": "/Game/OldCitySewers/Textures/T_MaintenanceFlags",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_MaintenanceFlags_BC.T_MaintenanceFlags_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_MaintenanceFlags_N.T_MaintenanceFlags_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_MaintenanceFlags_R.T_MaintenanceFlags_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Sewer",
+      "role": "Vault",
+      "material": "/Game/RoomKit/Materials/MI_RK_Sewer_Vault.MI_RK_Sewer_Vault",
+      "source": "/Game/OldCitySewers/Textures/T_VaultBrick",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_VaultBrick_BC.T_VaultBrick_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_VaultBrick_N.T_VaultBrick_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_VaultBrick_R.T_VaultBrick_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Sewer",
+      "role": "Trim",
+      "material": "/Game/RoomKit/Materials/MI_RK_Sewer_Trim.MI_RK_Sewer_Trim",
+      "source": "/Game/OldCitySewers/Textures/T_LimestoneCoping",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_LimestoneCoping_BC.T_LimestoneCoping_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_LimestoneCoping_N.T_LimestoneCoping_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_LimestoneCoping_R.T_LimestoneCoping_R"
+      },
+      "uv_repeat_m": 2
+    },
+    {
+      "region": "Sewer",
+      "role": "Iron",
+      "material": "/Game/RoomKit/Materials/MI_RK_Sewer_Iron.MI_RK_Sewer_Iron",
+      "source": "/Game/OldCitySewers/Textures/T_CorrodedIron",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_CorrodedIron_BC.T_CorrodedIron_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_CorrodedIron_N.T_CorrodedIron_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_CorrodedIron_R.T_CorrodedIron_R"
+      },
+      "uv_repeat_m": 2
+    }
+  ]
+}

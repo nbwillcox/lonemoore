@@ -1,0 +1,186 @@
+{
+  "cause": "The exact tenfold global encounter budget was spread over 100 authored rooms. No coverage or early-route requirement existed; random tile placement could cluster encounters into even fewer rooms.",
+  "floors": [
+    {
+      "floor": 0,
+      "name": "Last Dawn Cathedral \u2014 Level 1: The Unanswered Bell",
+      "originalEncounters": 1,
+      "previousModularEncounters": 10,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 90,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 7.0
+    },
+    {
+      "floor": 1,
+      "name": "Old City Sewers \u2014 Level 1: The Drowned Conduit",
+      "originalEncounters": 3,
+      "previousModularEncounters": 30,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 70,
+      "newEncounterTarget": 72,
+      "targetMultiplierOverSparseV4": 2.4
+    },
+    {
+      "floor": 2,
+      "name": "Old City Sewers \u2014 Level 2: The Rat King's Cistern",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 3,
+      "name": "Forgotten Catacombs \u2014 Level 1: The Failed Chapel",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 4,
+      "name": "Forgotten Catacombs \u2014 Level 2: The Ossuary",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 5,
+      "name": "Goblin Warrens \u2014 Level 1: The Scavenger Roads",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 6,
+      "name": "Goblin Warrens \u2014 Level 2: The Thorn Court",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 7,
+      "name": "Ancient Crypts \u2014 Level 1: The Pilgrim's Vigil",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 8,
+      "name": "Ancient Crypts \u2014 Level 2: The Crimson Sepulchre",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 9,
+      "name": "Buried Fortress \u2014 Level 1: The Warden's Cells",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 10,
+      "name": "Buried Fortress \u2014 Level 2: The Hollow Keep",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 11,
+      "name": "The Deep \u2014 Level 1: The Chasm of Wings",
+      "originalEncounters": 3,
+      "previousModularEncounters": 30,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 70,
+      "newEncounterTarget": 72,
+      "targetMultiplierOverSparseV4": 2.4
+    },
+    {
+      "floor": 12,
+      "name": "The Deep \u2014 Level 2: The Drake's Heart",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 13,
+      "name": "Infernal Ruins \u2014 Level 1: The Sealed Witness",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 14,
+      "name": "Infernal Ruins \u2014 Level 2: The Ashen Compact",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 15,
+      "name": "Hell \u2014 Level 1: The Ashen Threshold",
+      "originalEncounters": 3,
+      "previousModularEncounters": 30,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 70,
+      "newEncounterTarget": 72,
+      "targetMultiplierOverSparseV4": 2.4
+    },
+    {
+      "floor": 16,
+      "name": "Hell \u2014 Level 2: The Hellforge",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    },
+    {
+      "floor": 17,
+      "name": "Hell \u2014 Level 3: The Broken Halo",
+      "originalEncounters": 2,
+      "previousModularEncounters": 20,
+      "explorationRooms": 100,
+      "minimumEmptyRoomsBeforeClustering": 80,
+      "newEncounterTarget": 70,
+      "targetMultiplierOverSparseV4": 3.5
+    }
+  ],
+  "newPolicy": "A fresh floor populates at least70 of99 ordinary exploration rooms, one encounter per populated room, with balanced reuse of original enemy rosters. The first fight is in the nearest eligible room. Native results are recorded separately."
+}

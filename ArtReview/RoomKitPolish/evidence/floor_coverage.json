@@ -1,0 +1,2888 @@
+{
+  "rooms": [
+    {
+      "id": "arrival_chamber",
+      "source": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 464.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "608038437f1c18e889f224c290c6b0c018f36aa73c19ef5b3699a17f117fb797",
+      "fbxSha256": "8ff535b99d2d3c592fae1ee2d77c709308444477a5f95787abbac0f763d9df1d",
+      "fbx": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 463.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "vaulted_hall",
+      "source": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 112.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "cef82c77f208cc17609e6e6bcb85cfd067720c2c907b9c9c744a3c8556d51b53",
+      "fbxSha256": "d4d13922d5012b7ffab690a2501d49b3321b349a7e074680eb6a9f83bc4be631",
+      "fbx": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 111.99999952316283,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854418079772,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "long_gallery",
+      "source": {
+        "floorTriangles": 34,
+        "upwardTriangles": 34,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 272.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 2474,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "3d03f023b322e48fa070b39faf56779947bfb9c735aacc779623a6cbaccb7db9",
+      "fbxSha256": "248e841b31c2e6fead708d306a2af9ca2c531bddba90edd9525e708c2413f9f0",
+      "fbx": {
+        "floorTriangles": 34,
+        "upwardTriangles": 34,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 271.9999961853023,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 2474,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "short_turn",
+      "source": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 112.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "6900b3c2ff97edac48aa4e4c415e0d14a4454833a04f278a20226b50c4ad4725",
+      "fbxSha256": "1b458c97d9d0c09e10e6b7c14df38d69f133aff817c5fca8f07954f75b27bbc4",
+      "fbx": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 111.99999904632566,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "rounded_turn",
+      "source": {
+        "floorTriangles": 210,
+        "upwardTriangles": 210,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 112.00000003398523,
+        "largestTriangleM2": 0.78125,
+        "longestTriangleEdgeM": 1.7677669529663689,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 0.9999999403953552,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 0.9999999403953534,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [
+          {
+            "cell": [
+              3,
+              3
+            ],
+            "xy": [
+              -1.8,
+              1.35
+            ]
+          },
+          {
+            "cell": [
+              3,
+              3
+            ],
+            "xy": [
+              -1.8,
+              1.8
+            ]
+          },
+          {
+            "cell": [
+              3,
+              3
+            ],
+            "xy": [
+              -1.35,
+              1.8
+            ]
+          }
+        ],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "33a4a83d0389fc8cdfcbf970b9169a21ec737cf5fa3508cd561b2fdd2a88c1c5",
+      "fbxSha256": "09ec34f76a2f2feed5eb6e53ffade10bc34ceb204852c78e4b9ed477b6130885",
+      "fbx": {
+        "floorTriangles": 210,
+        "upwardTriangles": 210,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 112.00000003900352,
+        "largestTriangleM2": 0.7812501144409096,
+        "longestTriangleEdgeM": 1.7677670541188024,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 0.9999999403953552,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 0.9999999403953534,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 6.119594218034763e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [
+          {
+            "cell": [
+              3,
+              3
+            ],
+            "xy": [
+              -1.8,
+              -1.35
+            ]
+          },
+          {
+            "cell": [
+              3,
+              3
+            ],
+            "xy": [
+              -1.8,
+              -1.8
+            ]
+          },
+          {
+            "cell": [
+              3,
+              3
+            ],
+            "xy": [
+              -1.35,
+              -1.8
+            ]
+          }
+        ],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "t_junction",
+      "source": {
+        "floorTriangles": 20,
+        "upwardTriangles": 20,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 160.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 1225,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "edb216beb37c5126b7fe4f5649c0a518461c56d6a8d74f46ccd775d982a4d79f",
+      "fbxSha256": "3e2c163bb6bddeb78ed71e08cbfa1b445db4e589e138f13d4c2119d7e07eff01",
+      "fbx": {
+        "floorTriangles": 20,
+        "upwardTriangles": 20,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 159.99999904632566,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 1225,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "cross_hall",
+      "source": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 400.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "ec835156d8d403b83d36fb4c5d0b79ce338230dbeca07fe385dca7a97e213ce6",
+      "fbxSha256": "12b4e687f5da38bdac6ef95ba489f2ebac433060fd031d52bbf9af023a62caf7",
+      "fbx": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 399.99999618530205,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "circular_ossuary",
+      "source": {
+        "floorTriangles": 736,
+        "upwardTriangles": 736,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 415.9332198673931,
+        "largestTriangleM2": 0.78125,
+        "longestTriangleEdgeM": 1.7677669529663689,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 0.9999999403953552,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 0.9999999403953534,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.8,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.8,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.35,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.35,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -4.9,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -4.45,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              4.45,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              4.9,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.35,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.35,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.8,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.8,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              -4.9
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              -4.45
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.35,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.35,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.35,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.35,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              -4.9
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              -4.45
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              4.45
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              4.9
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.35,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.35,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.35,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.35,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              4.45
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              4.9
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.8,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.8,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.35,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.35,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -4.9,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -4.45,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              4.45,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              4.9,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.35,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.35,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.8,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.8,
+              9.8
+            ]
+          }
+        ],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "60c513f290da304fe109fa1d7217cfc4d94d4db83c4a5a266a252ee8d36976ba",
+      "fbxSha256": "02a08ae4a695dc7f169851b25d97571aaea83c37f3863aafc1b44e89e4760542",
+      "fbx": {
+        "floorTriangles": 736,
+        "upwardTriangles": 736,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 415.9332214743233,
+        "largestTriangleM2": 0.7812504959104871,
+        "longestTriangleEdgeM": 1.7677674587284786,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 0.9999999403953552,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 0.9999999403953534,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 6.119594218034763e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.8,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.8,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.35,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -5.35,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -4.9,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              1
+            ],
+            "xy": [
+              -4.45,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              4.45,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              4.9,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.35,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.35,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.8,
+              9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              1
+            ],
+            "xy": [
+              5.8,
+              9.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              4.9
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.8,
+              4.45
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.35,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              1,
+              2
+            ],
+            "xy": [
+              -9.35,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.35,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.35,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              4.9
+            ]
+          },
+          {
+            "cell": [
+              5,
+              2
+            ],
+            "xy": [
+              9.8,
+              4.45
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              -4.45
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              -4.9
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.8,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.35,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              1,
+              4
+            ],
+            "xy": [
+              -9.35,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.35,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.35,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              -4.45
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              -4.9
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              -5.35
+            ]
+          },
+          {
+            "cell": [
+              5,
+              4
+            ],
+            "xy": [
+              9.8,
+              -5.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.8,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.8,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.35,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -5.35,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -4.9,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              2,
+              5
+            ],
+            "xy": [
+              -4.45,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              4.45,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              4.9,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.35,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.35,
+              -9.8
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.8,
+              -9.35
+            ]
+          },
+          {
+            "cell": [
+              4,
+              5
+            ],
+            "xy": [
+              5.8,
+              -9.8
+            ]
+          }
+        ],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "octagonal_chamber",
+      "source": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 400.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "712b97f2fd78ac7a24e96e6af910add622ac1d25a9e7651f7d0c1b7b0733e3cd",
+      "fbxSha256": "89b31a297404747644bdd9e6aa6189473a6b2cf6f3e5825407b5e93245db2275",
+      "fbx": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 399.99999618530205,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "cruciform_chapel",
+      "source": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 400.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "3928bfc39a239fab6701f28a1323359ae9719c918e082e3365fedacdf32212d2",
+      "fbxSha256": "45d6e790c885c761b315d560a7217624ea1ec86aa0cf3eefb7d0946aaaa10915",
+      "fbx": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 399.99999618530205,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "burial_gallery",
+      "source": {
+        "floorTriangles": 34,
+        "upwardTriangles": 34,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 272.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 2474,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "ca4a0648f53ea0090c812ac2dcfdb5370044c10ebcae10c29199462bbc650367",
+      "fbxSha256": "47f5e85b482db816da964da67e11cec821c34a5b761603023162fe0d0b25e250",
+      "fbx": {
+        "floorTriangles": 34,
+        "upwardTriangles": 34,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 271.9999961853023,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 2474,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "twin_crypt",
+      "source": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 464.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "d1b4cd8e26fda2d1d5cfa95e7f1e84cbeb31aa6ce5d3222cefbf33b0ba2ec9ec",
+      "fbxSha256": "d27635cb2f1892f71f6699c5f1bb04904bb28b8fc926f7208ca66038002f9de9",
+      "fbx": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 463.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "reliquary",
+      "source": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 400.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "44e87f4faf047b41124392505df8bac2566735f28989329f33b8c5ba8f2ac273",
+      "fbxSha256": "a02ecb01fbe7cac36c6b14bcf9de48df111b463e042ae4611aca486d4ea5d5c9",
+      "fbx": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 399.99999618530205,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "sunken_shrine",
+      "source": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 464.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "94136ae5c8890a1c8a52464ea43ef48dc3cceadc0a37e756bf61456e2fe91f6d",
+      "fbxSha256": "d46d015c7bd9e069365321f3d5bde9750c0dee0747df941f2438027c37d8f353",
+      "fbx": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 463.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "guard_barracks",
+      "source": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 464.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "821a6096a7dc795b8ca9a231f4c893ee31db282132c55fca48a6455569e6e2e7",
+      "fbxSha256": "05be8db4fd081a34a6178b62ef394600d2a1bf7426132fc256dfa747dcb91a9a",
+      "fbx": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 463.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "ruined_library",
+      "source": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 464.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "3ba5082e4f7a881d871df834b95f90e56853119990f35b7cfacd6fe91b4678c7",
+      "fbxSha256": "e1ef2b17d1aa77d3966a58256cb17369c2f42a0e76bfaa6de80cacd67f8ebe65",
+      "fbx": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 463.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "pillar_court",
+      "source": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 464.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "aa934f66f3004fa1b608e2943d45d39b3955933164a995c6487c128d43084c3c",
+      "fbxSha256": "0a4b33b3984c398928a89ac1e56070f9316bab5c46d350b8d9b5c78734bec381",
+      "fbx": {
+        "floorTriangles": 58,
+        "upwardTriangles": 58,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 463.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 4358,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "broken_sanctum",
+      "source": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 400.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "0c21c7ea4acdfabb23115658db715f24b31aefec5b56b811c0181f7e515f19dc",
+      "fbxSha256": "e6ae61ffb4afba8abf52633b4ac03a6e8a4c0da5931c9410c283400cf8cb15b2",
+      "fbx": {
+        "floorTriangles": 50,
+        "upwardTriangles": 50,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 399.99999618530205,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "cavern_hall",
+      "source": {
+        "floorTriangles": 752,
+        "upwardTriangles": 752,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 400.38671839240254,
+        "largestTriangleM2": 0.78125,
+        "longestTriangleEdgeM": 1.7677669529663689,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 0.9999999403953552,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 0.9999999403953534,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "2df6441879e58e103136e036719b422d361fe8b93bd4a777040ec6f52bf8aab8",
+      "fbxSha256": "588eb90374fbc20b3ed8e76111a4d3245f40d12a0939c19977bb589eda20058a",
+      "fbx": {
+        "floorTriangles": 752,
+        "upwardTriangles": 752,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 400.38672012969187,
+        "largestTriangleM2": 0.7812504959104871,
+        "longestTriangleEdgeM": 1.7677674587284786,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3670,
+        "cornerNormalZMin": 0.9999999403953552,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 0.9999999403953534,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 6.119594218034763e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "void_bridge",
+      "source": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 112.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "ae1d52c6d25a920ed3ba0eda5494fcad55ea33d47cc555810cfec9955d40a6b5",
+      "fbxSha256": "ff00099c1b0cd32bef5156c801c268c077d5bc2ce7e9ba835bce98c1303fbed2",
+      "fbx": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 111.99999952316283,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854418079772,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "fire_bridge",
+      "source": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 112.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "b0660fc2fdd7f2136999d9370b66a5dd3fea4b664abc4ec50d4a5ebb5c016983",
+      "fbxSha256": "87d8b67009145d672d652edd6ed9bef98f0c3e93e5aca56e9bb5be5efa639561",
+      "fbx": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 111.99999952316283,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854418079772,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "cistern_crossing",
+      "source": {
+        "floorTriangles": 26,
+        "upwardTriangles": 26,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 208.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 1606,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "a29a268fdf993f9bea070f4bcac93448f14e3ad5ea72e4f3f71a51bd1b0259dd",
+      "fbxSha256": "2f02a718910afe3722ea760c6c66e7bd7ec4ff9705133284bd8bc4386306cb73",
+      "fbx": {
+        "floorTriangles": 26,
+        "upwardTriangles": 26,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 207.99999952316273,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 1606,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "boss_approach",
+      "source": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 112.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "19ae89987d51dcae1842bd1f83791e7f0b1e642472aef7873f87ae8959a48377",
+      "fbxSha256": "80c0fb71f9b2b232067ea092e5763d97383c40d04384fd4ff8b301baec321508",
+      "fbx": {
+        "floorTriangles": 14,
+        "upwardTriangles": 14,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 111.99999952316283,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854418079772,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 844,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "boss_arena",
+      "source": {
+        "floorTriangles": 54,
+        "upwardTriangles": 54,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 432.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 4104,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "5fda6f78fafc5db93cc5d8b7d30cbdd81ec44da8ceb4f48f8d8f5c161cf72dfe",
+      "fbxSha256": "928fe0ab03457c7b2f6499a6d0dd4147a5da4994e37e70305ab1bdfa47afe4f5",
+      "fbx": {
+        "floorTriangles": 54,
+        "upwardTriangles": 54,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 431.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 4104,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    },
+    {
+      "id": "sealed_descent",
+      "source": {
+        "floorTriangles": 52,
+        "upwardTriangles": 52,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 416.0,
+        "largestTriangleM2": 8.0,
+        "longestTriangleEdgeM": 5.656854249492381,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor",
+          "Iron",
+          "Trim",
+          "Vault",
+          "Wall"
+        ],
+        "samples": 3977,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 0,
+        "bitangentSigns": [
+          1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 0,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "sourceSha256": "9917e799e3d490bd08cd37a4496c55c8acefecaaf7e423cf16f55bce93e1d0d8",
+      "fbxSha256": "85cb507e61ba91cc12aa80929291a163955f17ad44982c2293c25fb2678a537c",
+      "fbx": {
+        "floorTriangles": 52,
+        "upwardTriangles": 52,
+        "downwardTriangles": 0,
+        "degenerateTriangles": 0,
+        "floorAreaM2": 415.9999961853018,
+        "largestTriangleM2": 8.00000095367426,
+        "longestTriangleEdgeM": 5.6568545866671585,
+        "floorZMin": 0.0,
+        "floorZMax": 0.0,
+        "materialNames": [
+          "Floor.001",
+          "Iron.001",
+          "Trim.001",
+          "Vault.001",
+          "Wall.001"
+        ],
+        "samples": 3977,
+        "cornerNormalZMin": 1.0,
+        "cornerNormalZMax": 1.0,
+        "cornerNormalLengthMin": 1.0,
+        "downwardCornerNormals": 0,
+        "horizontalCornerNormals": 0,
+        "customNormalMeshes": 1,
+        "bitangentSigns": [
+          -1.0
+        ],
+        "invalidUVs": 0,
+        "metricUvMaxError": 5.960464477539062e-07,
+        "centerMissing": [],
+        "footprintSampleMissing": [],
+        "laneMissing": [],
+        "wrongZ": []
+      },
+      "unchanged": true
+    }
+  ],
+  "roundTrip": true,
+  "roomCount": 25,
+  "notes": [
+    "Dense samples cover a 3.6m square within each nominal 4m navigation cell, so curved physical wall cut-offs can produce corner misses outside their true room shell.",
+    "Centre and 60cm-wide route-strip coverage are reported independently from full cell footprint samples.",
+    "Export copies intentionally reflect Y for Unreal. FBX coverage queries therefore reflect Y without changing the imported geometry.",
+    "This audit checks source and round-trip geometry; it does not test Unreal Nanite cluster culling or material rendering."
+  ],
+  "failures": [],
+  "passed": true
+}

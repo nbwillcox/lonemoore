@@ -1,0 +1,45 @@
+{
+  "assets": [
+    {
+      "id": "SM_SharedCrate",
+      "size_m": [
+        1.1399998664855957,
+        0.8250000476837158,
+        0.7515000104904175
+      ],
+      "triangles": 11212,
+      "materials": [
+        "Oak",
+        "Iron"
+      ]
+    },
+    {
+      "id": "SM_SharedLever",
+      "size_m": [
+        0.550000011920929,
+        0.550000011920929,
+        1.0749999284744263
+      ],
+      "triangles": 5056,
+      "materials": [
+        "Iron",
+        "Oak"
+      ]
+    }
+  ],
+  "textures": "2K procedural source maps, DirectX normals, sRGB BC, linear N/R/M",
+  "units": "metres; FBX import to Unreal centimetres",
+  "preview": "Blender Cycles neutral studio",
+  "seed": 91626,
+  "source_script": "Tools/build_shared_props.py",
+  "import_script": "Tools/import_shared_props.py",
+  "base_color_encoding": "sRGB encoded PNG; explicitly converted from linear source pigments",
+  "content_root": "/Game/SharedInteractables",
+  "animation": {
+    "target": "existing uncollected world-key sprites",
+    "period_seconds": 2.4,
+    "vertical_travel_cm": 20,
+    "pickup_logic": "unchanged"
+  },
+  "regional_art_status": "WAITING_FOR_OWNER_PLAN_APPROVAL"
+}

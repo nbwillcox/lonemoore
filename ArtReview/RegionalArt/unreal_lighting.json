@@ -1,0 +1,70 @@
+{
+  "status": "CAPTURES_COMPLETE",
+  "regions": [
+    {
+      "name": "Last Dawn Cathedral",
+      "level": "/Game/RegionalArt/Review_Cathedral",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    },
+    {
+      "name": "Forgotten Catacombs",
+      "level": "/Game/RegionalArt/Review_Catacombs",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    },
+    {
+      "name": "Goblin Warrens",
+      "level": "/Game/RegionalArt/Review_Warrens",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    },
+    {
+      "name": "Ancient Crypts",
+      "level": "/Game/RegionalArt/Review_Crypts",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    },
+    {
+      "name": "Buried Fortress",
+      "level": "/Game/RegionalArt/Review_Fortress",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    },
+    {
+      "name": "The Deep",
+      "level": "/Game/RegionalArt/Review_Deep",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    },
+    {
+      "name": "Infernal Ruins",
+      "level": "/Game/RegionalArt/Review_Infernal",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    },
+    {
+      "name": "Hell",
+      "level": "/Game/RegionalArt/Review_Hell",
+      "camera_height_cm": 155,
+      "horizontal_fov": 76,
+      "decals": 4,
+      "props": 6
+    }
+  ],
+  "errors": []
+}

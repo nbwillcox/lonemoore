@@ -1,0 +1,154 @@
+{
+  "reviewedAt": "2026-09-18T16:58:03.896758+00:00",
+  "reviewer": "room_geometry independent image inspection",
+  "result": "PASS_WITH_COVERAGE_LIMITATIONS",
+  "source": "RoomKitPolishCandidate packaged Windows executable",
+  "captureResolution": [
+    3440,
+    1369
+  ],
+  "naniteEnabled": true,
+  "capturesInspected": 12,
+  "visibleFloorViews": 10,
+  "wallLimitedViews": 2,
+  "observedDisappearingFloorDefects": 0,
+  "method": "Inspected all actual packaged screenshots in three labelled 2x2 viewing sheets, checking textured foreground, wall bases and door approaches against the previously inspected pre-fix black-floor screenshots.",
+  "records": [
+    {
+      "room": "circular_ossuary",
+      "directionIndex": 0,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_0.png",
+      "sourceSha256": "99b08c457d74550fd2fd2d5b0933363bd41879caa47017a9ea9e170715f74d33",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "circular_ossuary",
+      "directionIndex": 1,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_1.png",
+      "sourceSha256": "db2cdc7277be407269d50d77ec989061ddc8ec27f1b6c0562ed434dd2d4f1929",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "circular_ossuary",
+      "directionIndex": 2,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_2.png",
+      "sourceSha256": "629c6c27d8811bc4fc423f65bd6f88944b7779b76503dc13b2a24d84710fe5f1",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "circular_ossuary",
+      "directionIndex": 3,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_3.png",
+      "sourceSha256": "520488190dd06a6e3410c6be6eaec8079ef123c496a5d7e411bcc81eee866877",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "rounded_turn",
+      "directionIndex": 0,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_rounded_turn_0.png",
+      "sourceSha256": "a1bc041a7e2dbec7547bcf53b9052ab27947387cc0784d6fe3eb99539b1c4816",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "rounded_turn",
+      "directionIndex": 1,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_rounded_turn_1.png",
+      "sourceSha256": "514c829566777af74723a6832522c8893920a38fd75c2bcc34304f20075471a1",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "rounded_turn",
+      "directionIndex": 2,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_rounded_turn_2.png",
+      "sourceSha256": "462421efc221b5f6c7f3d3b00478ce7a60ef2808255233c4027217bbc6acca93",
+      "floorVisible": false,
+      "disappearingFloorObserved": null,
+      "result": "LIMITED_FLOOR_COVERAGE",
+      "observation": "Nearby solid wall fills the view; no meaningful floor inspection is possible."
+    },
+    {
+      "room": "rounded_turn",
+      "directionIndex": 3,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_rounded_turn_3.png",
+      "sourceSha256": "bf26c0eedadfc83733d04eef50780a1cd035d030664fe11e9ca6efddd0960ed2",
+      "floorVisible": false,
+      "disappearingFloorObserved": null,
+      "result": "LIMITED_FLOOR_COVERAGE",
+      "observation": "Nearby solid wall fills the view; no meaningful floor inspection is possible."
+    },
+    {
+      "room": "cavern_hall",
+      "directionIndex": 0,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_cavern_hall_0.png",
+      "sourceSha256": "65a7e8c1c9495b721e25e69e577c60ef3fc08d19b4a2adaeaa417330b323da6e",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "cavern_hall",
+      "directionIndex": 1,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_cavern_hall_1.png",
+      "sourceSha256": "bc2336ac9fcc81cd9009badcdd43bc26c1fc10583a7f7f3589f137c961b36be3",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "cavern_hall",
+      "directionIndex": 2,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_cavern_hall_2.png",
+      "sourceSha256": "cd53975ea55105f6ab6dddebe2be68b0294181a6d08b69910f62c354d345225c",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    },
+    {
+      "room": "cavern_hall",
+      "directionIndex": 3,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_cavern_hall_3.png",
+      "sourceSha256": "3f854e0e3974c74f956c591f20b30f9e89da58957b74fd6ef06d15ffe9ea2a77",
+      "floorVisible": true,
+      "disappearingFloorObserved": false,
+      "result": "PASS",
+      "observation": "Foreground floor is continuously textured, including approaches and wall bases."
+    }
+  ],
+  "comparisonOldSources": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\floor_visual_review.json",
+  "captureLogs": [
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\packaged_floor_circular_ossuary.log",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\packaged_floor_rounded_turn.log",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\packaged_floor_cavern_hall.log"
+  ],
+  "contactSheets": [
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\floor_circular_ossuary_all_directions.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\floor_rounded_turn_all_directions.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\floor_cavern_hall_all_directions.jpg"
+  ],
+  "limitations": [
+    "The two rounded-turn directions facing close walls contain no visible floor; they are not counted as floor passes.",
+    "Still captures at one centre position per room under floor-1 Cathedral materials do not establish every moving-camera position or regional palette.",
+    "This review verifies visual floor presence only; performance and full campaign path validation are separate."
+  ]
+}

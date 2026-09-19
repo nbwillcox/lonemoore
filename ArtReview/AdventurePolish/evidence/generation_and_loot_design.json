@@ -1,0 +1,78 @@
+{
+  "status": "PACKAGED_VALIDATED_AND_INSTALLED",
+  "sections": {
+    "previous": 104,
+    "current": 68,
+    "reductionPercent": 34.615,
+    "exploration": 64,
+    "bossBranch": 4,
+    "cellCm": 400,
+    "mapCells": [
+      58,
+      86
+    ]
+  },
+  "distribution": {
+    "targetEncounterRoomCoverage": 0.7,
+    "currentCatalogEncounterSites": [
+      45,
+      46
+    ],
+    "minimumOriginalRosterCopies": 7,
+    "ordinaryChests": 16,
+    "traps": 4,
+    "distinctSupplyRooms": 20,
+    "gatedSanctuaryChests": 2
+  },
+  "checkpoint": {
+    "tile": "V",
+    "localCellFromStairCenter": [
+      -1,
+      -1
+    ],
+    "insideExitCells": true,
+    "requiresOpenedKeyAndGuardianGates": true,
+    "action": "Save Auto and register return waypoint"
+  },
+  "chests": {
+    "catalogItems": 33,
+    "pool": "Every item for ordinary chests; equipment for sanctuaries; no party filter",
+    "determinism": "Layout seed, floor and chest cell; independent of global RNG and retries",
+    "earlyQualityWeights": [
+      38,
+      42,
+      16,
+      3,
+      1
+    ],
+    "deepQualityWeights": [
+      1,
+      4,
+      15,
+      40,
+      40
+    ],
+    "fullInventory": "Atomic AddItem rejection leaves chest, reward and gold unclaimed"
+  },
+  "nativeSuitesAdded": [
+    "Dungeon.Adventure.DescentCheckpointAndGates",
+    "Dungeon.Adventure.ChestCatalogAndDepthQuality",
+    "Dungeon.Adventure.ChestFullBagsAndDeterminism"
+  ],
+  "oldSizeAssertions": "Changed only authored version4; expanded version3 tenfold checks retained",
+  "buildOrPackageRunByThisAgent": false,
+  "validation": {
+    "automationSuitesPassed": 35,
+    "seededDistributionCases": 432,
+    "fullCampaignStarters": 7,
+    "campaignFloorResults": 126,
+    "nativeFloors": 18,
+    "nativePhysicalSweeps": 72758,
+    "nativeFailures": 0,
+    "packagedJourneyChecks": 31,
+    "suiteEvidence": "AutomationFinal/index.json",
+    "packagedLog": "packaged_all_floors.log",
+    "lootEvidence": "chest_catalog_quality.txt"
+  },
+  "releaseEvidence": "promotion.json"
+}

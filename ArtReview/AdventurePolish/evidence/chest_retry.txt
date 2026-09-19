@@ -1,0 +1,1 @@
+PASS: full bags preserve reward/gold; global random actions and save/load retain contents; later claim transfers exact stack and gold once; empty chest cannot duplicate.

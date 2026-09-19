@@ -1,0 +1,236 @@
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 31 decals, 12 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 377 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 3 batches, 40 decals, 11 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 377 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 3 batches, 40 decals, 11 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 31 decals, 12 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 31 decals, 12 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 31 decals, 11 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 31 decals, 11 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 377 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 30 decals, 10 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 377 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 30 decals, 10 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 31 decals, 10 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 31 decals, 11 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 31 decals, 13 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 31 decals, 13 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 377 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 30 decals, 11 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 377 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 30 decals, 11 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 4 batches, 31 decals, 12 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 31 decals, 12 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS 385 boundary capsule sweeps, 0 mismatches
+PASS Non-colliding dressing: 5 batches, 31 decals, 12 materials
+PASS Correct themed world key loaded without collision
+PASS Reachable key inspection view
+PASS Floating key travel 20.00 cm
+PASS Themed key preserves pickup and lock identity
+PASS Collected key visual removed
+PASS Reachable themed lever inspection view
+PASS Themed lever preserves switch state
+PASS Lever gate opens
+PASS Lever gate opens
+PASS Map blocks gameplay movement
+PASS Existing 2D enemy combat starts
+PASS Campaign writes disabled
+Floors: 18; total boundary sweeps: 6882; failures: 0

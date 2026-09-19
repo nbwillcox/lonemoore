@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "generatedUtc": "2026-09-18T17:20:23.675871+00:00",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "cpu": "AMD Ryzen 7 3700X",
+  "outputResolution": [
+    3440,
+    1369
+  ],
+  "quality": "Epic; existing automatic render-resolution setting (r.ScreenPercentage=0); TSR history 100",
+  "method": "Uncapped offscreen stationary scenes; 8-second warm-up then 2400 captured frames; 1300 central warmed samples analyzed per scene. VSync disabled for benchmark processes only.",
+  "sceneCount": 7,
+  "fpsRange": [
+    73.6,
+    75.6
+  ],
+  "p99MsRange": [
+    14.268,
+    14.942
+  ],
+  "matchedScenes": [
+    {
+      "scene": "Floor_02_Entrance",
+      "previousFps": 73.7,
+      "updatedFps": 73.6,
+      "fpsChangePercent": -0.136,
+      "previousP99Ms": 14.867,
+      "updatedP99Ms": 14.942
+    },
+    {
+      "scene": "Floor_07_BossApproach",
+      "previousFps": 75.9,
+      "updatedFps": 75.0,
+      "fpsChangePercent": -1.186,
+      "previousP99Ms": 14.446,
+      "updatedP99Ms": 14.577
+    },
+    {
+      "scene": "Floor_07_Bridge",
+      "previousFps": 74.3,
+      "updatedFps": 74.6,
+      "fpsChangePercent": 0.404,
+      "previousP99Ms": 14.607,
+      "updatedP99Ms": 14.502
+    },
+    {
+      "scene": "Floor_07_Entrance",
+      "previousFps": 76.0,
+      "updatedFps": 75.6,
+      "fpsChangePercent": -0.526,
+      "previousP99Ms": 14.503,
+      "updatedP99Ms": 14.268
+    },
+    {
+      "scene": "Floor_09_BossApproach",
+      "previousFps": 74.4,
+      "updatedFps": 73.9,
+      "fpsChangePercent": -0.672,
+      "previousP99Ms": 14.827,
+      "updatedP99Ms": 14.616
+    }
+  ],
+  "additionalRegions": [
+    {
+      "label": "Release",
+      "scene": "Floor_13_Entrance",
+      "samples": 1300,
+      "fps": 75.1,
+      "mean_ms": 13.313,
+      "p99_ms": 14.677,
+      "p99_fps": 68.1,
+      "stats_ms": {
+        "GameThreadTime": 2.179,
+        "RenderThreadTime": 5.252,
+        "GPUTime": 12.304,
+        "GPU/TemporalSuperResolution": 2.662,
+        "GPU/RenderDeferredLighting": 3.617,
+        "GPU/LumenSceneUpdate": 0.323,
+        "GPU/LumenScreenProbeGather": 0.008
+      }
+    },
+    {
+      "label": "Release",
+      "scene": "Floor_17_Entrance",
+      "samples": 1300,
+      "fps": 75.5,
+      "mean_ms": 13.237,
+      "p99_ms": 14.505,
+      "p99_fps": 68.9,
+      "stats_ms": {
+        "GameThreadTime": 2.129,
+        "RenderThreadTime": 5.276,
+        "GPUTime": 12.225,
+        "GPU/TemporalSuperResolution": 2.658,
+        "GPU/RenderDeferredLighting": 3.619,
+        "GPU/LumenSceneUpdate": 0.328,
+        "GPU/LumenScreenProbeGather": 0.008
+      }
+    }
+  ],
+  "largestAbsoluteMatchedFpsChangePercent": 1.186,
+  "sources": {
+    "Saved\\RoomKitPass\\performance_results.json": "b29e5d40fc435c980558e490cf01244631cd0b4f742de2c4047eaff9c154c832",
+    "Saved\\RoomKitPolish\\performance_results.json": "11dd4e66077c2a1b9c89d89f0dd896e733d955b4158da7b2d764c05f29e91f85"
+  },
+  "limitations": "Stationary warmed measurements do not establish every gameplay route, loading hitch or display tearing behavior. Added regional scenes have no older matched benchmark."
+}

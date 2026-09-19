@@ -1,0 +1,732 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "GUARDIAN001",
+			"instance": "D3D21B264207DC95ED02D8B4E3AE4443",
+			"instanceName": "GUARDIAN001-27344",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 11 (25H2) [10.0.26200.9457] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 3060",
+			"cPUModel": "AMD Ryzen 7 3700X 8-Core Processor             ",
+			"rAMInGB": 32,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.09.18-18.37.28",
+	"succeeded": 30,
+	"succeededWithWarnings": 5,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 237.67623901367188,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "ChestCatalogAndDepthQuality",
+			"fullTestPath": "Dungeon.Adventure.ChestCatalogAndDepthQuality",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.25150841474533081,
+			"dateTime": "2026.09.18-18.33.30",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ChestFullBagsAndDeterminism",
+			"fullTestPath": "Dungeon.Adventure.ChestFullBagsAndDeterminism",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 1.6568180322647095,
+			"dateTime": "2026.09.18-18.33.31",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DescentCheckpointAndGates",
+			"fullTestPath": "Dungeon.Adventure.DescentCheckpointAndGates",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.34360200166702271,
+			"dateTime": "2026.09.18-18.33.32",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RecruitMarkersAndDescentFallback",
+			"fullTestPath": "Dungeon.Adventure.RecruitMarkersAndDescentFallback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 6.5608611106872559,
+			"dateTime": "2026.09.18-18.33.33",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ImportedEffects",
+			"fullTestPath": "Dungeon.Audio.ImportedEffects",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.014121301472187042,
+			"dateTime": "2026.09.18-18.33.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SemanticFallbacks",
+			"fullTestPath": "Dungeon.Audio.SemanticFallbacks",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.0079562999308109283,
+			"dateTime": "2026.09.18-18.33.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SkillFeedback",
+			"fullTestPath": "Dungeon.Audio.SkillFeedback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.018913302570581436,
+			"dateTime": "2026.09.18-18.33.39",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AllFloorsSeedsAndGates",
+			"fullTestPath": "Dungeon.CampaignExpansion.AllFloorsSeedsAndGates",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 62.653774261474609,
+			"dateTime": "2026.09.18-18.33.39",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "floor=0 unique=100 area=1920..2377 enemies=10 former=1 PASS\nfloor=1 unique=100 area=1918..2412 enemies=30 former=3 PASS\nfloor=2 unique=100 area=1884..2447 enemies=20 former=2 PASS\nfloor=3 unique=100 area=2407..2595 enemies=20 former=2 PASS\nfloor=4 unique=100 area=2389..2592 enemies=40 former=4 PASS\nfloor=5 unique=100 area=2257..2797 enemies=40 former=4 PASS\nfloor=6 unique=100 area=2072..2754 enemies=40 former=4 PASS\nfloor=7 unique=100 area=1880..2364 enemies=40 former=4 PASS\nfloor=8 unique=100 area=1793..2355 enemies=40 former=4 PASS\nfloor=9 unique=100 area=2378..2606 enemies=60 former=6 PASS\nfloor=10 unique=100 area=2385..2587 enemies=60 former=6 PASS\nfloor=11 unique=100 area=2206..2848 enemies=90 former=9 PASS\nfloor=12 unique=100 area=2171..2791 enemies=60 former=6 PASS\nfloor=13 unique=100 area=1846..2329 enemies=60 former=6 PASS\nfloor=14 unique=100 area=1817..2345 enemies=80 former=8 PASS\nfloor=15 unique=100 area=1869..2356 enemies=120 former=12 PASS\nfloor=16 unique=100 area=1834..2380 enemies=80 former=8 PASS\nfloor=17 unique=100 area=1872..2356 enemies=80 former=8 PASS\n1800 generated layouts, 2700 deliberate bypass injections\n",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.34.42"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ContinueJourney",
+			"fullTestPath": "Dungeon.CampaignExpansion.ContinueJourney",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.2498769760131836,
+			"dateTime": "2026.09.18-18.34.42",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CombatAndDeath",
+			"fullTestPath": "Dungeon.Core.CombatAndDeath",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 12.209360122680664,
+			"dateTime": "2026.09.18-18.34.44",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHttp: HTTP request timed out after 3.00 seconds URL=https://www.google.com/generate_204",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.34.47"
+				}
+			],
+			"warnings": 1,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PersistenceAndHunts",
+			"fullTestPath": "Dungeon.Core.PersistenceAndHunts",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.5758447647094727,
+			"dateTime": "2026.09.18-18.34.57",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "QuarriesAndEndingPersistence",
+			"fullTestPath": "Dungeon.Core.QuarriesAndEndingPersistence",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.8196442127227783,
+			"dateTime": "2026.09.18-18.34.59",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Rules",
+			"fullTestPath": "Dungeon.Core.Rules",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.42555549740791321,
+			"dateTime": "2026.09.18-18.35.02",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PersistenceFogCombat",
+			"fullTestPath": "Dungeon.Expansion.PersistenceFogCombat",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.6046702861785889,
+			"dateTime": "2026.09.18-18.35.02",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "PlayableRoute",
+			"fullTestPath": "Dungeon.Expansion.PlayableRoute",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.34901899099349976,
+			"dateTime": "2026.09.18-18.35.05",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "PASS: 925 actual movement steps, 21 actual battles including Rat King, 6 health potions, key pickup, both seals, successful descent. Level-three warrior/mage/priest fixture; ordinary stats and combat; all regular encounters and optional lever/secret vaults included.\n",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.05"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SeedsAndBypasses",
+			"fullTestPath": "Dungeon.Expansion.SeedsAndBypasses",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 4.0360379219055176,
+			"dateTime": "2026.09.18-18.35.05",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "seed=73519 original_area=158 expanded_area=2125 original_encounters=2 expanded_encounters=20\nseed=178248 original_area=158 expanded_area=2128 original_encounters=2 expanded_encounters=20\nseed=282977 original_area=158 expanded_area=2063 original_encounters=2 expanded_encounters=20\n100 seeds, 100 reproducibility checks, 200 injected gate bypasses; unique=100 area=1951..2456\n",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.09"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "DoorsVisibilityPersistence",
+			"fullTestPath": "Dungeon.Integrity.DoorsVisibilityPersistence",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.5920498371124268,
+			"dateTime": "2026.09.18-18.35.09",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "LegacySaves",
+			"fullTestPath": "Dungeon.Integrity.LegacySaves",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 5.1243925094604492,
+			"dateTime": "2026.09.18-18.35.12",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Supported v2/v3 serialized fixtures passed; 2 existing supported saves restored; 2 retired 104-section v4 saves rejected. Existing source bytes checked unchanged; no player-slot writes or deletions.",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.17"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SeedsAndDependencies",
+			"fullTestPath": "Dungeon.Integrity.SeedsAndDependencies",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.1524028778076172,
+			"dateTime": "2026.09.18-18.35.17",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "Validated 18 configurations x 100 seeds = 1800 floors. Each includes unavailable-required-gate bypass test, reachable key, switch dependency and legal-action fixed point. 1.942 seconds.\n",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.19"
+				}
+			],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AccessorySlots",
+			"fullTestPath": "Dungeon.Inventory.AccessorySlots",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.5911397933959961,
+			"dateTime": "2026.09.18-18.35.19",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "IdenticalSceneFixtures",
+			"fullTestPath": "Dungeon.Performance.IdenticalSceneFixtures",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 6.364224910736084,
+			"dateTime": "2026.09.18-18.35.22",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "MapViewportCoverage",
+			"fullTestPath": "Dungeon.Performance.MapViewportCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.0080998986959457397,
+			"dateTime": "2026.09.18-18.35.28",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Astra",
+			"fullTestPath": "Dungeon.Phase2.Astra",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.20972940325737,
+			"dateTime": "2026.09.18-18.35.28",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EconomyPresentation",
+			"fullTestPath": "Dungeon.Phase2.EconomyPresentation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.21134480834007263,
+			"dateTime": "2026.09.18-18.35.29",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Refinements",
+			"fullTestPath": "Dungeon.Phase2.Refinements",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 2.8020730018615723,
+			"dateTime": "2026.09.18-18.35.29",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "InitialSaveAndCreationRollback",
+			"fullTestPath": "Dungeon.Profiles.InitialSaveAndCreationRollback",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 5.2924246788024902,
+			"dateTime": "2026.09.18-18.35.32",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHttp: HTTP request timed out after 3.00 seconds URL=https://www.google.com/generate_204",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.35"
+				}
+			],
+			"warnings": 1,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "IsolatedSaveBrowserAndHardcore",
+			"fullTestPath": "Dungeon.Profiles.IsolatedSaveBrowserAndHardcore",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 31.364141464233398,
+			"dateTime": "2026.09.18-18.35.37",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHttp: HTTP request timed out after 3.00 seconds URL=https://www.google.com/generate_204",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.40"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogStreaming: Failed to read file 'J:/First Person Dungeon Crawler Game/Saved/SaveGames/ProfileDisk_4DBBABEC49E969FE9C530DB797A19030_Characters/Elara/Deaths_7DA3DB32433474BF8A9D6C89DE0A882F.sav' error.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.49"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogStreaming: Failed to read file 'J:/First Person Dungeon Crawler Game/Saved/SaveGames/ProfileDisk_4DBBABEC49E969FE9C530DB797A19030_Characters/Elara/Deaths_7DA3DB32433474BF8A9D6C89DE0A882F.sav' error.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.50"
+				},
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogStreaming: Failed to read file 'J:/First Person Dungeon Crawler Game/Saved/SaveGames/ProfileDisk_4DBBABEC49E969FE9C530DB797A19030_Characters/Elara/Deaths_7DA3DB32433474BF8A9D6C89DE0A882F.sav' error.",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.35.56"
+				}
+			],
+			"warnings": 4,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "NamesAndSevenClasses",
+			"fullTestPath": "Dungeon.Profiles.NamesAndSevenClasses",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 1.5008618831634521,
+			"dateTime": "2026.09.18-18.36.08",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "AllFloorsSeedsAndGates",
+			"fullTestPath": "Dungeon.RoomKit.AllFloorsSeedsAndGates",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 12.278542518615723,
+			"dateTime": "2026.09.18-18.36.10",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHttp: HTTP request timed out after 3.00 seconds URL=https://www.google.com/generate_204",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.36.13"
+				},
+				{
+					"event":
+					{
+						"type": "Info",
+						"message": "floor=0 seeds=24 unique=24 area=1610..1654 PASS\nfloor=1 seeds=24 unique=24 area=1602..1642 PASS\nfloor=2 seeds=24 unique=24 area=1606..1646 PASS\nfloor=3 seeds=24 unique=24 area=1614..1650 PASS\nfloor=4 seeds=24 unique=24 area=1602..1650 PASS\nfloor=5 seeds=24 unique=24 area=1594..1646 PASS\nfloor=6 seeds=24 unique=24 area=1602..1650 PASS\nfloor=7 seeds=24 unique=24 area=1606..1650 PASS\nfloor=8 seeds=24 unique=24 area=1606..1650 PASS\nfloor=9 seeds=24 unique=24 area=1598..1650 PASS\nfloor=10 seeds=24 unique=24 area=1610..1670 PASS\nfloor=11 seeds=24 unique=24 area=1602..1650 PASS\nfloor=12 seeds=24 unique=24 area=1606..1654 PASS\nfloor=13 seeds=24 unique=24 area=1598..1654 PASS\nfloor=14 seeds=24 unique=24 area=1614..1646 PASS\nfloor=15 seeds=24 unique=24 area=1598..1658 PASS\nfloor=16 seeds=24 unique=24 area=1614..1678 PASS\nfloor=17 seeds=24 unique=24 area=1610..1654 PASS\ncases=432 authored_types=25 bypass_injections=648\n",
+						"context": "",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.36.22"
+				}
+			],
+			"warnings": 1,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EncounterMigrationPreservesProgress",
+			"fullTestPath": "Dungeon.RoomKit.EncounterMigrationPreservesProgress",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.43671280145645142,
+			"dateTime": "2026.09.18-18.36.22",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "EncounterRoomCoverage",
+			"fullTestPath": "Dungeon.RoomKit.EncounterRoomCoverage",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 5.1909999847412109,
+			"dateTime": "2026.09.18-18.36.22",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "RejectMalformedAssembly",
+			"fullTestPath": "Dungeon.RoomKit.RejectMalformedAssembly",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 0.23285609483718872,
+			"dateTime": "2026.09.18-18.36.28",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SaveAndLegacyJourney",
+			"fullTestPath": "Dungeon.RoomKit.SaveAndLegacyJourney",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 3.3837883472442627,
+			"dateTime": "2026.09.18-18.36.28",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CompleteRoutesAndEndings",
+			"fullTestPath": "Dungeon.Story.CompleteRoutesAndEndings",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 50.058010101318359,
+			"dateTime": "2026.09.18-18.36.31",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogHttp: HTTP request timed out after 3.00 seconds URL=https://www.google.com/generate_204",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.09.18-18.36.34"
+				}
+			],
+			"warnings": 1,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "SaveConfirmation",
+			"fullTestPath": "Dungeon.UI.SaveConfirmation",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"D3D21B264207DC95ED02D8B4E3AE4443"
+			],
+			"duration": 7.1049089431762695,
+			"dateTime": "2026.09.18-18.37.21",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}

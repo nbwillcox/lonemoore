@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "audit": "Static regional dressing placement simulation",
+  "generatedUtc": "2026-09-18T16:57:08.398963+00:00",
+  "inputs": {
+    "roomTemplates": {
+      "path": "Content\\Game\\Data\\room_kit.json",
+      "sha256": "12e09ff3ecc4fd47f8daab935103ba9f4de548895d0073bf254f87a0617a4346"
+    },
+    "wallAnchors": {
+      "path": "Content\\Game\\Data\\room_dressing_anchors.json",
+      "sha256": "afc2f2c8aa2a4e0b81d8a86016044aa7661f4dad14024d6301cf83aa5da8e5a6"
+    },
+    "importedPropBounds": {
+      "path": "Content\\Game\\Data\\regional_dressing.json",
+      "sha256": "99845d84211a8c403af1daf4c379d10815a9a574c2e43cb9832020a41371e23c"
+    },
+    "placementImplementation": {
+      "path": "Source\\DungeonCrawler\\DungeonRoomDressing.cpp",
+      "sha256": "9ca198ba6129824ed43261eab015873987f012b3dc2ea93639765c04116cd5d0"
+    }
+  },
+  "roomTemplates": 25,
+  "regions": 9,
+  "propTypes": 24,
+  "configurations": 4200,
+  "selectedPlacements": 16800,
+  "scaleAttempts": 24258,
+  "acceptedPlacements": 16800,
+  "rejectedPlacements": 0,
+  "scaleDistribution": {
+    "1.0": 11824,
+    "0.75": 2534,
+    "0.55": 2402,
+    "0.4": 40
+  },
+  "overlappingNewPropAabbs": 0,
+  "aabbsOutsideModule": 0,
+  "missingPropTypes": [],
+  "minimumAnchorPlaneClearanceCm": 10.0,
+  "minimumNativeFrontDot": 1.0,
+  "groundedMinimumZCm": 2,
+  "laneHalfWidthCm": 45,
+  "failures": [],
+  "overlapExamples": [],
+  "outsideExamples": [],
+  "perRoom": [
+    {
+      "id": "arrival_chamber",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "vaulted_hall",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "long_gallery",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "short_turn",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "rounded_turn",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "t_junction",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "cross_hall",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "circular_ossuary",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "octagonal_chamber",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "cruciform_chapel",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "burial_gallery",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "twin_crypt",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "reliquary",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "sunken_shrine",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "guard_barracks",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "ruined_library",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "pillar_court",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "broken_sanctum",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "cavern_hall",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "void_bridge",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "fire_bridge",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "cistern_crossing",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "boss_approach",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "boss_arena",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    },
+    {
+      "id": "sealed_descent",
+      "configurations": 168,
+      "accepted": 672,
+      "rejected": 0
+    }
+  ],
+  "placementsByProp": {
+    "cathedral_votive": 800,
+    "cathedral_bell": 800,
+    "cathedral_lectern": 800,
+    "sewer_ooze_pipe": 800,
+    "sewer_sump_grate": 800,
+    "sewer_sludge_bank": 800,
+    "catacombs_bone_pile": 400,
+    "catacombs_ossuary": 400,
+    "warrens_barricade": 800,
+    "warrens_cache": 800,
+    "warrens_fungus": 800,
+    "crypts_sarcophagus": 800,
+    "crypts_vigil": 800,
+    "crypts_standard": 800,
+    "fortress_armory": 400,
+    "fortress_shackles": 400,
+    "deep_drake_skull": 800,
+    "deep_ribcage": 800,
+    "deep_crystals": 800,
+    "infernal_seal": 400,
+    "infernal_brazier": 400,
+    "hell_lava_basin": 800,
+    "hell_fissure": 800,
+    "hell_drake_trophy": 800
+  },
+  "limitations": [
+    "Pure Python simulation using current JSON bounds and the documented C++ selector; not execution of Unreal placement code.",
+    "Exhausts 25 templates, nine regional prop lists and each selector modulo period. These are hypothetical configurations, not 4,200 played floors or sampled dungeon seeds.",
+    "Checks the new props against 45cm-expanded logical centre-to-centre lanes and each other using conservative axis-aligned bounding boxes.",
+    "Wall clearance is relative to the selected anchor plane. It does not prove clearance against the detailed curved shell, embedded columns, existing older props, doors, braziers or stair geometry.",
+    "Quarter-turn room rotation and grid translation preserve these local checks; independent physics/gate sweeps remain necessary.",
+    "Does not verify native visibility, textures, Nanite culling, visual intersections, performance or player experience. Native captures and gameplay checks remain separate."
+  ]
+}

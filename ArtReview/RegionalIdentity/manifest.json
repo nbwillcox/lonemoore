@@ -1,0 +1,1855 @@
+{
+  "version": 2,
+  "status": "INTEGRATED_PACKAGED_VALIDATED",
+  "regions": [
+    {
+      "index": 0,
+      "code": "Cathedral",
+      "name": "Last Dawn Cathedral",
+      "floors": [
+        "Last Dawn Cathedral \u2014 Level 1: The Unanswered Bell"
+      ],
+      "lore": "The bell has not rung for a century. Beneath its altar, something still answers.",
+      "direction": "Chalk lime walls with exposed dressed foundations; pale processional inlay; plaster soffits and pointed limestone ribs."
+    },
+    {
+      "index": 2,
+      "code": "Catacombs",
+      "name": "Forgotten Catacombs",
+      "floors": [
+        "Forgotten Catacombs \u2014 Level 1: The Failed Chapel",
+        "Forgotten Catacombs \u2014 Level 2: The Ossuary"
+      ],
+      "lore": "The crowns in these graves predate the city. Lonemoore was built on a warning.",
+      "direction": "Dry rubble and deep stacked ossuary compartments; chipped limestone flags; heavy shelf lintels and burial coffers."
+    },
+    {
+      "index": 3,
+      "code": "Warrens",
+      "name": "Goblin Warrens",
+      "floors": [
+        "Goblin Warrens \u2014 Level 1: The Scavenger Roads",
+        "Goblin Warrens \u2014 Level 2: The Thorn Court"
+      ],
+      "lore": "The goblins trade in broken seals. They have mistaken the locks for treasure.",
+      "direction": "Excavated earth and shale with salvaged timber braces; trodden soil and small stones; roots and crude overhead planks."
+    },
+    {
+      "index": 4,
+      "code": "Crypts",
+      "name": "Ancient Crypts",
+      "floors": [
+        "Ancient Crypts \u2014 Level 1: The Pilgrim's Vigil",
+        "Ancient Crypts \u2014 Level 2: The Crimson Sepulchre"
+      ],
+      "lore": "Holy names were scraped from every coffin. The last inscription reads: Do not answer her.",
+      "direction": "Formal tall funerary panels, veined pale stone and dark borders; contrasting stone inlay floor; recessed stone coffers."
+    },
+    {
+      "index": 5,
+      "code": "Fortress",
+      "name": "Buried Fortress",
+      "floors": [
+        "Buried Fortress \u2014 Level 1: The Warden's Cells",
+        "Buried Fortress \u2014 Level 2: The Hollow Keep"
+      ],
+      "lore": "The garrison fought inward, not outward. This fortress was built to keep something underneath it.",
+      "direction": "Massive squared defensive blocks and iron straps; herringbone fired pavers; flat oak and iron supported ceilings."
+    },
+    {
+      "index": 6,
+      "code": "Deep",
+      "name": "The Deep",
+      "floors": [
+        "The Deep \u2014 Level 1: The Chasm of Wings",
+        "The Deep \u2014 Level 2: The Drake's Heart"
+      ],
+      "lore": "Beyond the chasm, the stars appear below your feet. The descent has left the mortal world.",
+      "direction": "Angular exposed rock faces with mineral inclusions; fractured bedrock underfoot; faceted hanging overburden and rock lintels."
+    },
+    {
+      "index": 7,
+      "code": "Infernal",
+      "name": "Infernal Ruins",
+      "floors": [
+        "Infernal Ruins \u2014 Level 1: The Sealed Witness",
+        "Infernal Ruins \u2014 Level 2: The Ashen Compact"
+      ],
+      "lore": "Seven generations fed the seals. The last keeper chose power instead. The breach remembers.",
+      "direction": "Monolithic scorched ritual slabs with narrow seal joints; shattered ash covered pavements; tapered red stone ribs and dark ceiling slabs."
+    },
+    {
+      "index": 8,
+      "code": "Hell",
+      "name": "Hell",
+      "floors": [
+        "Hell \u2014 Level 1: The Ashen Threshold",
+        "Hell \u2014 Level 2: The Hellforge",
+        "Hell \u2014 Level 3: The Broken Halo"
+      ],
+      "lore": "Astra wears the Hell Key. The door is bound to her will. Killing her may break its master, but not its hunger.",
+      "direction": "Fractured columnar basalt and angular iron bracing, cooled slag underfoot, hanging volcanic teeth and furnace ribs. Sparse embers stay within fractures."
+    }
+  ],
+  "materials": [
+    {
+      "id": "Cathedral_LimeWall",
+      "region": 0,
+      "role": "wall",
+      "kind": "lime",
+      "color": [
+        0.55,
+        0.5,
+        0.41
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Cathedral_LimeWall/Cathedral_LimeWall_BC.png",
+        "normal": "textures/Cathedral_LimeWall/Cathedral_LimeWall_N.png",
+        "roughness": "textures/Cathedral_LimeWall/Cathedral_LimeWall_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_LimeWall",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Cathedral_LimeWall"
+    },
+    {
+      "id": "Cathedral_ProcessionalInlay",
+      "region": 0,
+      "role": "floor",
+      "kind": "inlay",
+      "color": [
+        0.43,
+        0.4,
+        0.34
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Cathedral_ProcessionalInlay/Cathedral_ProcessionalInlay_BC.png",
+        "normal": "textures/Cathedral_ProcessionalInlay/Cathedral_ProcessionalInlay_N.png",
+        "roughness": "textures/Cathedral_ProcessionalInlay/Cathedral_ProcessionalInlay_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_ProcessionalInlay",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Cathedral_ProcessionalInlay"
+    },
+    {
+      "id": "Cathedral_PlasterSoffit",
+      "region": 0,
+      "role": "ceiling",
+      "kind": "plaster",
+      "color": [
+        0.48,
+        0.44,
+        0.36
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Cathedral_PlasterSoffit/Cathedral_PlasterSoffit_BC.png",
+        "normal": "textures/Cathedral_PlasterSoffit/Cathedral_PlasterSoffit_N.png",
+        "roughness": "textures/Cathedral_PlasterSoffit/Cathedral_PlasterSoffit_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_PlasterSoffit",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Cathedral_PlasterSoffit"
+    },
+    {
+      "id": "Cathedral_CarvedLimestone",
+      "region": 0,
+      "role": "trim",
+      "kind": "cutstone",
+      "color": [
+        0.42,
+        0.38,
+        0.3
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Cathedral_CarvedLimestone/Cathedral_CarvedLimestone_BC.png",
+        "normal": "textures/Cathedral_CarvedLimestone/Cathedral_CarvedLimestone_N.png",
+        "roughness": "textures/Cathedral_CarvedLimestone/Cathedral_CarvedLimestone_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Cathedral_CarvedLimestone",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Cathedral_CarvedLimestone"
+    },
+    {
+      "id": "Catacombs_BurialRubble",
+      "region": 2,
+      "role": "wall",
+      "kind": "rubble",
+      "color": [
+        0.39,
+        0.35,
+        0.28
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Catacombs_BurialRubble/Catacombs_BurialRubble_BC.png",
+        "normal": "textures/Catacombs_BurialRubble/Catacombs_BurialRubble_N.png",
+        "roughness": "textures/Catacombs_BurialRubble/Catacombs_BurialRubble_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_BurialRubble",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Catacombs_BurialRubble"
+    },
+    {
+      "id": "Catacombs_ChippedFlags",
+      "region": 2,
+      "role": "floor",
+      "kind": "brokenflags",
+      "color": [
+        0.38,
+        0.35,
+        0.29
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Catacombs_ChippedFlags/Catacombs_ChippedFlags_BC.png",
+        "normal": "textures/Catacombs_ChippedFlags/Catacombs_ChippedFlags_N.png",
+        "roughness": "textures/Catacombs_ChippedFlags/Catacombs_ChippedFlags_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_ChippedFlags",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Catacombs_ChippedFlags"
+    },
+    {
+      "id": "Catacombs_BurialSoffit",
+      "region": 2,
+      "role": "ceiling",
+      "kind": "smallbrick",
+      "color": [
+        0.32,
+        0.28,
+        0.22
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Catacombs_BurialSoffit/Catacombs_BurialSoffit_BC.png",
+        "normal": "textures/Catacombs_BurialSoffit/Catacombs_BurialSoffit_N.png",
+        "roughness": "textures/Catacombs_BurialSoffit/Catacombs_BurialSoffit_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_BurialSoffit",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Catacombs_BurialSoffit"
+    },
+    {
+      "id": "Catacombs_ChalkLimestone",
+      "region": 2,
+      "role": "trim",
+      "kind": "chalk",
+      "color": [
+        0.49,
+        0.44,
+        0.33
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Catacombs_ChalkLimestone/Catacombs_ChalkLimestone_BC.png",
+        "normal": "textures/Catacombs_ChalkLimestone/Catacombs_ChalkLimestone_N.png",
+        "roughness": "textures/Catacombs_ChalkLimestone/Catacombs_ChalkLimestone_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Catacombs_ChalkLimestone",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Catacombs_ChalkLimestone"
+    },
+    {
+      "id": "Warrens_EarthShale",
+      "region": 3,
+      "role": "wall",
+      "kind": "shale",
+      "color": [
+        0.31,
+        0.29,
+        0.21
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Warrens_EarthShale/Warrens_EarthShale_BC.png",
+        "normal": "textures/Warrens_EarthShale/Warrens_EarthShale_N.png",
+        "roughness": "textures/Warrens_EarthShale/Warrens_EarthShale_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_EarthShale",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Warrens_EarthShale"
+    },
+    {
+      "id": "Warrens_PackedEarth",
+      "region": 3,
+      "role": "floor",
+      "kind": "earth",
+      "color": [
+        0.3,
+        0.24,
+        0.15
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Warrens_PackedEarth/Warrens_PackedEarth_BC.png",
+        "normal": "textures/Warrens_PackedEarth/Warrens_PackedEarth_N.png",
+        "roughness": "textures/Warrens_PackedEarth/Warrens_PackedEarth_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_PackedEarth",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Warrens_PackedEarth"
+    },
+    {
+      "id": "Warrens_RootSoil",
+      "region": 3,
+      "role": "ceiling",
+      "kind": "roots",
+      "color": [
+        0.29,
+        0.26,
+        0.18
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Warrens_RootSoil/Warrens_RootSoil_BC.png",
+        "normal": "textures/Warrens_RootSoil/Warrens_RootSoil_N.png",
+        "roughness": "textures/Warrens_RootSoil/Warrens_RootSoil_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_RootSoil",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Warrens_RootSoil"
+    },
+    {
+      "id": "Warrens_ScavengedOak",
+      "region": 3,
+      "role": "trim",
+      "kind": "wood",
+      "color": [
+        0.36,
+        0.24,
+        0.12
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Warrens_ScavengedOak/Warrens_ScavengedOak_BC.png",
+        "normal": "textures/Warrens_ScavengedOak/Warrens_ScavengedOak_N.png",
+        "roughness": "textures/Warrens_ScavengedOak/Warrens_ScavengedOak_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Warrens_ScavengedOak",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Warrens_ScavengedOak"
+    },
+    {
+      "id": "Crypts_VigilMarble",
+      "region": 4,
+      "role": "wall",
+      "kind": "marble",
+      "color": [
+        0.47,
+        0.48,
+        0.47
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Crypts_VigilMarble/Crypts_VigilMarble_BC.png",
+        "normal": "textures/Crypts_VigilMarble/Crypts_VigilMarble_N.png",
+        "roughness": "textures/Crypts_VigilMarble/Crypts_VigilMarble_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_VigilMarble",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Crypts_VigilMarble"
+    },
+    {
+      "id": "Crypts_MortuaryInlay",
+      "region": 4,
+      "role": "floor",
+      "kind": "checker",
+      "color": [
+        0.44,
+        0.44,
+        0.4
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Crypts_MortuaryInlay/Crypts_MortuaryInlay_BC.png",
+        "normal": "textures/Crypts_MortuaryInlay/Crypts_MortuaryInlay_N.png",
+        "roughness": "textures/Crypts_MortuaryInlay/Crypts_MortuaryInlay_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_MortuaryInlay",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Crypts_MortuaryInlay"
+    },
+    {
+      "id": "Crypts_CofferedStone",
+      "region": 4,
+      "role": "ceiling",
+      "kind": "darkmarble",
+      "color": [
+        0.24,
+        0.25,
+        0.26
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Crypts_CofferedStone/Crypts_CofferedStone_BC.png",
+        "normal": "textures/Crypts_CofferedStone/Crypts_CofferedStone_N.png",
+        "roughness": "textures/Crypts_CofferedStone/Crypts_CofferedStone_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_CofferedStone",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Crypts_CofferedStone"
+    },
+    {
+      "id": "Crypts_SepulchralBorder",
+      "region": 4,
+      "role": "trim",
+      "kind": "darkmarble",
+      "color": [
+        0.25,
+        0.27,
+        0.29
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Crypts_SepulchralBorder/Crypts_SepulchralBorder_BC.png",
+        "normal": "textures/Crypts_SepulchralBorder/Crypts_SepulchralBorder_N.png",
+        "roughness": "textures/Crypts_SepulchralBorder/Crypts_SepulchralBorder_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Crypts_SepulchralBorder",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Crypts_SepulchralBorder"
+    },
+    {
+      "id": "Fortress_DefenseBlocks",
+      "region": 5,
+      "role": "wall",
+      "kind": "largeblocks",
+      "color": [
+        0.37,
+        0.38,
+        0.36
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Fortress_DefenseBlocks/Fortress_DefenseBlocks_BC.png",
+        "normal": "textures/Fortress_DefenseBlocks/Fortress_DefenseBlocks_N.png",
+        "roughness": "textures/Fortress_DefenseBlocks/Fortress_DefenseBlocks_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_DefenseBlocks",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Fortress_DefenseBlocks"
+    },
+    {
+      "id": "Fortress_GarrisonPavers",
+      "region": 5,
+      "role": "floor",
+      "kind": "herringbone",
+      "color": [
+        0.34,
+        0.27,
+        0.21
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Fortress_GarrisonPavers/Fortress_GarrisonPavers_BC.png",
+        "normal": "textures/Fortress_GarrisonPavers/Fortress_GarrisonPavers_N.png",
+        "roughness": "textures/Fortress_GarrisonPavers/Fortress_GarrisonPavers_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_GarrisonPavers",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Fortress_GarrisonPavers"
+    },
+    {
+      "id": "Fortress_BarracksPlanks",
+      "region": 5,
+      "role": "ceiling",
+      "kind": "wood",
+      "color": [
+        0.31,
+        0.25,
+        0.18
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Fortress_BarracksPlanks/Fortress_BarracksPlanks_BC.png",
+        "normal": "textures/Fortress_BarracksPlanks/Fortress_BarracksPlanks_N.png",
+        "roughness": "textures/Fortress_BarracksPlanks/Fortress_BarracksPlanks_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_BarracksPlanks",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Fortress_BarracksPlanks"
+    },
+    {
+      "id": "Fortress_ForgedStraps",
+      "region": 5,
+      "role": "trim",
+      "kind": "iron",
+      "color": [
+        0.24,
+        0.25,
+        0.25
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Fortress_ForgedStraps/Fortress_ForgedStraps_BC.png",
+        "normal": "textures/Fortress_ForgedStraps/Fortress_ForgedStraps_N.png",
+        "roughness": "textures/Fortress_ForgedStraps/Fortress_ForgedStraps_R.png",
+        "metallic": "textures/Fortress_ForgedStraps/Fortress_ForgedStraps_M.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Fortress_ForgedStraps",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Fortress_ForgedStraps"
+    },
+    {
+      "id": "Deep_ChasmRock",
+      "region": 6,
+      "role": "wall",
+      "kind": "rock",
+      "color": [
+        0.29,
+        0.34,
+        0.35
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Deep_ChasmRock/Deep_ChasmRock_BC.png",
+        "normal": "textures/Deep_ChasmRock/Deep_ChasmRock_N.png",
+        "roughness": "textures/Deep_ChasmRock/Deep_ChasmRock_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Deep_ChasmRock",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Deep_ChasmRock"
+    },
+    {
+      "id": "Deep_FracturedBedrock",
+      "region": 6,
+      "role": "floor",
+      "kind": "bedrock",
+      "color": [
+        0.31,
+        0.34,
+        0.33
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Deep_FracturedBedrock/Deep_FracturedBedrock_BC.png",
+        "normal": "textures/Deep_FracturedBedrock/Deep_FracturedBedrock_N.png",
+        "roughness": "textures/Deep_FracturedBedrock/Deep_FracturedBedrock_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Deep_FracturedBedrock",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Deep_FracturedBedrock"
+    },
+    {
+      "id": "Deep_Overburden",
+      "region": 6,
+      "role": "ceiling",
+      "kind": "rock",
+      "color": [
+        0.25,
+        0.29,
+        0.3
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Deep_Overburden/Deep_Overburden_BC.png",
+        "normal": "textures/Deep_Overburden/Deep_Overburden_N.png",
+        "roughness": "textures/Deep_Overburden/Deep_Overburden_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Deep_Overburden",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Deep_Overburden"
+    },
+    {
+      "id": "Deep_MineralEdges",
+      "region": 6,
+      "role": "trim",
+      "kind": "mineral",
+      "color": [
+        0.38,
+        0.43,
+        0.4
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Deep_MineralEdges/Deep_MineralEdges_BC.png",
+        "normal": "textures/Deep_MineralEdges/Deep_MineralEdges_N.png",
+        "roughness": "textures/Deep_MineralEdges/Deep_MineralEdges_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Deep_MineralEdges",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Deep_MineralEdges"
+    },
+    {
+      "id": "Infernal_SealMonolith",
+      "region": 7,
+      "role": "wall",
+      "kind": "monolith",
+      "color": [
+        0.38,
+        0.28,
+        0.22
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Infernal_SealMonolith/Infernal_SealMonolith_BC.png",
+        "normal": "textures/Infernal_SealMonolith/Infernal_SealMonolith_N.png",
+        "roughness": "textures/Infernal_SealMonolith/Infernal_SealMonolith_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_SealMonolith",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Infernal_SealMonolith"
+    },
+    {
+      "id": "Infernal_ShatteredPavement",
+      "region": 7,
+      "role": "floor",
+      "kind": "brokenflags",
+      "color": [
+        0.36,
+        0.3,
+        0.25
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Infernal_ShatteredPavement/Infernal_ShatteredPavement_BC.png",
+        "normal": "textures/Infernal_ShatteredPavement/Infernal_ShatteredPavement_N.png",
+        "roughness": "textures/Infernal_ShatteredPavement/Infernal_ShatteredPavement_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_ShatteredPavement",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Infernal_ShatteredPavement"
+    },
+    {
+      "id": "Infernal_ScorchedSoffit",
+      "region": 7,
+      "role": "ceiling",
+      "kind": "scorch",
+      "color": [
+        0.3,
+        0.24,
+        0.22
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Infernal_ScorchedSoffit/Infernal_ScorchedSoffit_BC.png",
+        "normal": "textures/Infernal_ScorchedSoffit/Infernal_ScorchedSoffit_N.png",
+        "roughness": "textures/Infernal_ScorchedSoffit/Infernal_ScorchedSoffit_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_ScorchedSoffit",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Infernal_ScorchedSoffit"
+    },
+    {
+      "id": "Infernal_RitualEdges",
+      "region": 7,
+      "role": "trim",
+      "kind": "seal",
+      "color": [
+        0.4,
+        0.29,
+        0.2
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Infernal_RitualEdges/Infernal_RitualEdges_BC.png",
+        "normal": "textures/Infernal_RitualEdges/Infernal_RitualEdges_N.png",
+        "roughness": "textures/Infernal_RitualEdges/Infernal_RitualEdges_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Infernal_RitualEdges",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Infernal_RitualEdges"
+    },
+    {
+      "id": "Hell_ColumnBasalt",
+      "region": 8,
+      "role": "wall",
+      "kind": "basalt",
+      "color": [
+        0.245,
+        0.235,
+        0.22
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Hell_ColumnBasalt/Hell_ColumnBasalt_BC.png",
+        "normal": "textures/Hell_ColumnBasalt/Hell_ColumnBasalt_N.png",
+        "roughness": "textures/Hell_ColumnBasalt/Hell_ColumnBasalt_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Hell_ColumnBasalt",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Hell_ColumnBasalt"
+    },
+    {
+      "id": "Hell_CooledSlag",
+      "region": 8,
+      "role": "floor",
+      "kind": "lava",
+      "color": [
+        0.26,
+        0.24,
+        0.21
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Hell_CooledSlag/Hell_CooledSlag_BC.png",
+        "normal": "textures/Hell_CooledSlag/Hell_CooledSlag_N.png",
+        "roughness": "textures/Hell_CooledSlag/Hell_CooledSlag_R.png",
+        "emission": "textures/Hell_CooledSlag/Hell_CooledSlag_E.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Hell_CooledSlag",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Hell_CooledSlag"
+    },
+    {
+      "id": "Hell_HangingBasalt",
+      "region": 8,
+      "role": "ceiling",
+      "kind": "basaltroof",
+      "color": [
+        0.23,
+        0.225,
+        0.21
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Hell_HangingBasalt/Hell_HangingBasalt_BC.png",
+        "normal": "textures/Hell_HangingBasalt/Hell_HangingBasalt_N.png",
+        "roughness": "textures/Hell_HangingBasalt/Hell_HangingBasalt_R.png",
+        "emission": "textures/Hell_HangingBasalt/Hell_HangingBasalt_E.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Hell_HangingBasalt",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Hell_HangingBasalt"
+    },
+    {
+      "id": "Hell_FurnaceIron",
+      "region": 8,
+      "role": "trim",
+      "kind": "iron",
+      "color": [
+        0.255,
+        0.245,
+        0.22
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Hell_FurnaceIron/Hell_FurnaceIron_BC.png",
+        "normal": "textures/Hell_FurnaceIron/Hell_FurnaceIron_N.png",
+        "roughness": "textures/Hell_FurnaceIron/Hell_FurnaceIron_R.png",
+        "metallic": "textures/Hell_FurnaceIron/Hell_FurnaceIron_M.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Hell_FurnaceIron",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Hell_FurnaceIron"
+    },
+    {
+      "id": "Hell_HellforgePlates",
+      "region": 8,
+      "role": "forge_floor",
+      "kind": "forge",
+      "color": [
+        0.28,
+        0.26,
+        0.23
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Hell_HellforgePlates/Hell_HellforgePlates_BC.png",
+        "normal": "textures/Hell_HellforgePlates/Hell_HellforgePlates_N.png",
+        "roughness": "textures/Hell_HellforgePlates/Hell_HellforgePlates_R.png",
+        "metallic": "textures/Hell_HellforgePlates/Hell_HellforgePlates_M.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Hell_HellforgePlates",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Hell_HellforgePlates"
+    },
+    {
+      "id": "Hell_BrokenHaloStone",
+      "region": 8,
+      "role": "halo_floor",
+      "kind": "obsidian",
+      "color": [
+        0.29,
+        0.285,
+        0.265
+      ],
+      "repeat_m": 2,
+      "resolution": [
+        2048,
+        2048
+      ],
+      "maps": {
+        "base_color": "textures/Hell_BrokenHaloStone/Hell_BrokenHaloStone_BC.png",
+        "normal": "textures/Hell_BrokenHaloStone/Hell_BrokenHaloStone_N.png",
+        "roughness": "textures/Hell_BrokenHaloStone/Hell_BrokenHaloStone_R.png"
+      },
+      "unreal_uv_material": "/Game/RegionalIdentity/Materials/MI_UV_Hell_BrokenHaloStone",
+      "unreal_world_material": "/Game/RegionalIdentity/Materials/MI_Hell_BrokenHaloStone"
+    }
+  ],
+  "decals": [],
+  "props": [
+    {
+      "id": "SM_ID_Catacombs_Wall",
+      "role": "wall",
+      "region": 2,
+      "fbx": "meshes/SM_ID_Catacombs_Wall.fbx",
+      "size_m": [
+        4.0,
+        0.9399999976158142,
+        5.715000152587891
+      ],
+      "triangles": 3780,
+      "materials": [
+        "Catacombs_BurialRubble",
+        "Catacombs_ChalkLimestone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Catacombs_Wall"
+    },
+    {
+      "id": "SM_ID_Catacombs_Niche",
+      "role": "niche",
+      "region": 2,
+      "fbx": "meshes/SM_ID_Catacombs_Niche.fbx",
+      "size_m": [
+        4.0,
+        0.9399999976158142,
+        5.715000152587891
+      ],
+      "triangles": 6372,
+      "materials": [
+        "Catacombs_BurialRubble",
+        "Catacombs_ChalkLimestone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Catacombs_Niche"
+    },
+    {
+      "id": "SM_ID_Catacombs_Arch",
+      "role": "arch",
+      "region": 2,
+      "fbx": "meshes/SM_ID_Catacombs_Arch.fbx",
+      "size_m": [
+        4.0,
+        0.7400000095367432,
+        5.715000152587891
+      ],
+      "triangles": 540,
+      "materials": [
+        "Catacombs_ChalkLimestone",
+        "Catacombs_BurialRubble",
+        "Catacombs_BurialSoffit"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Catacombs_Arch"
+    },
+    {
+      "id": "SM_ID_Catacombs_Floor",
+      "role": "floor",
+      "region": 2,
+      "fbx": "meshes/SM_ID_Catacombs_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Catacombs_ChippedFlags"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Catacombs_Floor"
+    },
+    {
+      "id": "SM_ID_Catacombs_Vault",
+      "role": "vault",
+      "region": 2,
+      "fbx": "meshes/SM_ID_Catacombs_Vault.fbx",
+      "size_m": [
+        4.139999866485596,
+        4.139999866485596,
+        0.559999942779541
+      ],
+      "triangles": 756,
+      "materials": [
+        "Catacombs_BurialSoffit",
+        "Catacombs_ChalkLimestone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Catacombs_Vault"
+    },
+    {
+      "id": "SM_ID_Catacombs_Cap",
+      "role": "cap",
+      "region": 2,
+      "fbx": "meshes/SM_ID_Catacombs_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Catacombs_BurialSoffit"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Catacombs_Cap"
+    },
+    {
+      "id": "SM_ID_Cathedral_Wall",
+      "role": "wall",
+      "region": 0,
+      "fbx": "meshes/SM_ID_Cathedral_Wall.fbx",
+      "size_m": [
+        4.0,
+        0.7599999904632568,
+        5.204999923706055
+      ],
+      "triangles": 972,
+      "materials": [
+        "Cathedral_LimeWall",
+        "Cathedral_CarvedLimestone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Cathedral_Wall"
+    },
+    {
+      "id": "SM_ID_Cathedral_Niche",
+      "role": "niche",
+      "region": 0,
+      "fbx": "meshes/SM_ID_Cathedral_Niche.fbx",
+      "size_m": [
+        4.0,
+        0.7800000309944153,
+        5.204999923706055
+      ],
+      "triangles": 2700,
+      "materials": [
+        "Cathedral_LimeWall",
+        "Cathedral_CarvedLimestone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Cathedral_Niche"
+    },
+    {
+      "id": "SM_ID_Cathedral_Arch",
+      "role": "arch",
+      "region": 0,
+      "fbx": "meshes/SM_ID_Cathedral_Arch.fbx",
+      "size_m": [
+        4.0,
+        0.880000114440918,
+        5.199999809265137
+      ],
+      "triangles": 1104,
+      "materials": [
+        "Cathedral_CarvedLimestone",
+        "Cathedral_LimeWall"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Cathedral_Arch"
+    },
+    {
+      "id": "SM_ID_Cathedral_Floor",
+      "role": "floor",
+      "region": 0,
+      "fbx": "meshes/SM_ID_Cathedral_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Cathedral_ProcessionalInlay"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Cathedral_Floor"
+    },
+    {
+      "id": "SM_ID_Cathedral_Vault",
+      "role": "vault",
+      "region": 0,
+      "fbx": "meshes/SM_ID_Cathedral_Vault.fbx",
+      "size_m": [
+        4.10061502456665,
+        4.10061502456665,
+        0.9911584854125977
+      ],
+      "triangles": 4608,
+      "materials": [
+        "Cathedral_PlasterSoffit",
+        "Cathedral_CarvedLimestone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Cathedral_Vault"
+    },
+    {
+      "id": "SM_ID_Cathedral_Cap",
+      "role": "cap",
+      "region": 0,
+      "fbx": "meshes/SM_ID_Cathedral_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Cathedral_PlasterSoffit"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Cathedral_Cap"
+    },
+    {
+      "id": "SM_ID_Crypts_Wall",
+      "role": "wall",
+      "region": 4,
+      "fbx": "meshes/SM_ID_Crypts_Wall.fbx",
+      "size_m": [
+        4.0,
+        0.6700000166893005,
+        5.715000152587891
+      ],
+      "triangles": 2604,
+      "materials": [
+        "Crypts_SepulchralBorder",
+        "Crypts_VigilMarble"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Crypts_Wall"
+    },
+    {
+      "id": "SM_ID_Crypts_Niche",
+      "role": "niche",
+      "region": 4,
+      "fbx": "meshes/SM_ID_Crypts_Niche.fbx",
+      "size_m": [
+        4.0,
+        0.6700000166893005,
+        5.715000152587891
+      ],
+      "triangles": 2604,
+      "materials": [
+        "Crypts_SepulchralBorder",
+        "Crypts_VigilMarble"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Crypts_Niche"
+    },
+    {
+      "id": "SM_ID_Crypts_Arch",
+      "role": "arch",
+      "region": 4,
+      "fbx": "meshes/SM_ID_Crypts_Arch.fbx",
+      "size_m": [
+        4.039999961853027,
+        0.7300000190734863,
+        5.715000152587891
+      ],
+      "triangles": 884,
+      "materials": [
+        "Crypts_SepulchralBorder",
+        "Crypts_VigilMarble",
+        "Crypts_CofferedStone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Crypts_Arch"
+    },
+    {
+      "id": "SM_ID_Crypts_Floor",
+      "role": "floor",
+      "region": 4,
+      "fbx": "meshes/SM_ID_Crypts_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Crypts_MortuaryInlay"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Crypts_Floor"
+    },
+    {
+      "id": "SM_ID_Crypts_Vault",
+      "role": "vault",
+      "region": 4,
+      "fbx": "meshes/SM_ID_Crypts_Vault.fbx",
+      "size_m": [
+        4.139999866485596,
+        4.139999866485596,
+        0.559999942779541
+      ],
+      "triangles": 1188,
+      "materials": [
+        "Crypts_CofferedStone",
+        "Crypts_SepulchralBorder",
+        "Crypts_VigilMarble"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Crypts_Vault"
+    },
+    {
+      "id": "SM_ID_Crypts_Cap",
+      "role": "cap",
+      "region": 4,
+      "fbx": "meshes/SM_ID_Crypts_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Crypts_CofferedStone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Crypts_Cap"
+    },
+    {
+      "id": "SM_ID_Deep_Wall",
+      "role": "wall",
+      "region": 6,
+      "fbx": "meshes/SM_ID_Deep_Wall.fbx",
+      "size_m": [
+        4.0,
+        0.757380485534668,
+        5.715000152587891
+      ],
+      "triangles": 588,
+      "materials": [
+        "Deep_ChasmRock"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Deep_Wall"
+    },
+    {
+      "id": "SM_ID_Deep_Niche",
+      "role": "niche",
+      "region": 6,
+      "fbx": "meshes/SM_ID_Deep_Niche.fbx",
+      "size_m": [
+        4.0,
+        0.757380485534668,
+        5.715000152587891
+      ],
+      "triangles": 588,
+      "materials": [
+        "Deep_ChasmRock"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Deep_Niche"
+    },
+    {
+      "id": "SM_ID_Deep_Arch",
+      "role": "arch",
+      "region": 6,
+      "fbx": "meshes/SM_ID_Deep_Arch.fbx",
+      "size_m": [
+        4.0,
+        0.7950000762939453,
+        5.715000152587891
+      ],
+      "triangles": 372,
+      "materials": [
+        "Deep_ChasmRock",
+        "Deep_MineralEdges",
+        "Deep_Overburden"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Deep_Arch"
+    },
+    {
+      "id": "SM_ID_Deep_Floor",
+      "role": "floor",
+      "region": 6,
+      "fbx": "meshes/SM_ID_Deep_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Deep_FracturedBedrock"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Deep_Floor"
+    },
+    {
+      "id": "SM_ID_Deep_Vault",
+      "role": "vault",
+      "region": 6,
+      "fbx": "meshes/SM_ID_Deep_Vault.fbx",
+      "size_m": [
+        4.0,
+        4.0,
+        0.8637862205505371
+      ],
+      "triangles": 280,
+      "materials": [
+        "Deep_Overburden"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Deep_Vault"
+    },
+    {
+      "id": "SM_ID_Deep_Cap",
+      "role": "cap",
+      "region": 6,
+      "fbx": "meshes/SM_ID_Deep_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Deep_Overburden"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Deep_Cap"
+    },
+    {
+      "id": "SM_ID_Fortress_Wall",
+      "role": "wall",
+      "region": 5,
+      "fbx": "meshes/SM_ID_Fortress_Wall.fbx",
+      "size_m": [
+        4.0,
+        0.7200000286102295,
+        5.715000152587891
+      ],
+      "triangles": 756,
+      "materials": [
+        "Fortress_DefenseBlocks",
+        "Fortress_ForgedStraps"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Fortress_Wall"
+    },
+    {
+      "id": "SM_ID_Fortress_Niche",
+      "role": "niche",
+      "region": 5,
+      "fbx": "meshes/SM_ID_Fortress_Niche.fbx",
+      "size_m": [
+        4.0,
+        0.7200000286102295,
+        5.715000152587891
+      ],
+      "triangles": 756,
+      "materials": [
+        "Fortress_DefenseBlocks",
+        "Fortress_ForgedStraps"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Fortress_Niche"
+    },
+    {
+      "id": "SM_ID_Fortress_Arch",
+      "role": "arch",
+      "region": 5,
+      "fbx": "meshes/SM_ID_Fortress_Arch.fbx",
+      "size_m": [
+        4.029999732971191,
+        0.6399999856948853,
+        5.715000152587891
+      ],
+      "triangles": 1296,
+      "materials": [
+        "Fortress_ForgedStraps",
+        "Fortress_BarracksPlanks"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Fortress_Arch"
+    },
+    {
+      "id": "SM_ID_Fortress_Floor",
+      "role": "floor",
+      "region": 5,
+      "fbx": "meshes/SM_ID_Fortress_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Fortress_GarrisonPavers"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Fortress_Floor"
+    },
+    {
+      "id": "SM_ID_Fortress_Vault",
+      "role": "vault",
+      "region": 5,
+      "fbx": "meshes/SM_ID_Fortress_Vault.fbx",
+      "size_m": [
+        4.019999980926514,
+        4.019999980926514,
+        0.7350001335144043
+      ],
+      "triangles": 648,
+      "materials": [
+        "Fortress_BarracksPlanks",
+        "Fortress_ForgedStraps"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Fortress_Vault"
+    },
+    {
+      "id": "SM_ID_Fortress_Cap",
+      "role": "cap",
+      "region": 5,
+      "fbx": "meshes/SM_ID_Fortress_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Fortress_BarracksPlanks"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Fortress_Cap"
+    },
+    {
+      "id": "SM_ID_Hell_Wall",
+      "role": "wall",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_Wall.fbx",
+      "size_m": [
+        4.0,
+        1.100000023841858,
+        5.715000152587891
+      ],
+      "triangles": 488,
+      "materials": [
+        "Hell_ColumnBasalt",
+        "Hell_FurnaceIron"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_Wall"
+    },
+    {
+      "id": "SM_ID_Hell_Niche",
+      "role": "niche",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_Niche.fbx",
+      "size_m": [
+        4.0,
+        1.100000023841858,
+        5.715000152587891
+      ],
+      "triangles": 488,
+      "materials": [
+        "Hell_ColumnBasalt",
+        "Hell_FurnaceIron"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_Niche"
+    },
+    {
+      "id": "SM_ID_Hell_Arch",
+      "role": "arch",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_Arch.fbx",
+      "size_m": [
+        4.0,
+        0.8799999952316284,
+        5.715000152587891
+      ],
+      "triangles": 396,
+      "materials": [
+        "Hell_ColumnBasalt",
+        "Hell_FurnaceIron",
+        "Hell_HangingBasalt"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_Arch"
+    },
+    {
+      "id": "SM_ID_Hell_Floor",
+      "role": "floor",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Hell_CooledSlag"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_Floor"
+    },
+    {
+      "id": "SM_ID_Hell_Vault",
+      "role": "vault",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_Vault.fbx",
+      "size_m": [
+        4.054854393005371,
+        4.0,
+        0.9329471588134766
+      ],
+      "triangles": 976,
+      "materials": [
+        "Hell_HangingBasalt",
+        "Hell_FurnaceIron"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_Vault"
+    },
+    {
+      "id": "SM_ID_Hell_Cap",
+      "role": "cap",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Hell_HangingBasalt"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_Cap"
+    },
+    {
+      "id": "SM_ID_Hell_ForgeFloor",
+      "role": "forge_floor",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_ForgeFloor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Hell_HellforgePlates"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_ForgeFloor"
+    },
+    {
+      "id": "SM_ID_Hell_HaloFloor",
+      "role": "halo_floor",
+      "region": 8,
+      "fbx": "meshes/SM_ID_Hell_HaloFloor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Hell_BrokenHaloStone"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Hell_HaloFloor"
+    },
+    {
+      "id": "SM_ID_Infernal_Wall",
+      "role": "wall",
+      "region": 7,
+      "fbx": "meshes/SM_ID_Infernal_Wall.fbx",
+      "size_m": [
+        4.0,
+        0.7799999713897705,
+        5.715000152587891
+      ],
+      "triangles": 720,
+      "materials": [
+        "Infernal_SealMonolith",
+        "Infernal_RitualEdges"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Infernal_Wall"
+    },
+    {
+      "id": "SM_ID_Infernal_Niche",
+      "role": "niche",
+      "region": 7,
+      "fbx": "meshes/SM_ID_Infernal_Niche.fbx",
+      "size_m": [
+        4.0,
+        0.7799999713897705,
+        5.715000152587891
+      ],
+      "triangles": 720,
+      "materials": [
+        "Infernal_SealMonolith",
+        "Infernal_RitualEdges"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Infernal_Niche"
+    },
+    {
+      "id": "SM_ID_Infernal_Arch",
+      "role": "arch",
+      "region": 7,
+      "fbx": "meshes/SM_ID_Infernal_Arch.fbx",
+      "size_m": [
+        4.0,
+        0.7950000762939453,
+        5.715000152587891
+      ],
+      "triangles": 372,
+      "materials": [
+        "Infernal_SealMonolith",
+        "Infernal_RitualEdges",
+        "Infernal_ScorchedSoffit"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Infernal_Arch"
+    },
+    {
+      "id": "SM_ID_Infernal_Floor",
+      "role": "floor",
+      "region": 7,
+      "fbx": "meshes/SM_ID_Infernal_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Infernal_ShatteredPavement"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Infernal_Floor"
+    },
+    {
+      "id": "SM_ID_Infernal_Vault",
+      "role": "vault",
+      "region": 7,
+      "fbx": "meshes/SM_ID_Infernal_Vault.fbx",
+      "size_m": [
+        4.053121566772461,
+        4.019999980926514,
+        0.8436341285705566
+      ],
+      "triangles": 648,
+      "materials": [
+        "Infernal_ScorchedSoffit",
+        "Infernal_RitualEdges"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Infernal_Vault"
+    },
+    {
+      "id": "SM_ID_Infernal_Cap",
+      "role": "cap",
+      "region": 7,
+      "fbx": "meshes/SM_ID_Infernal_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Infernal_ScorchedSoffit"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Infernal_Cap"
+    },
+    {
+      "id": "SM_ID_Warrens_Wall",
+      "role": "wall",
+      "region": 3,
+      "fbx": "meshes/SM_ID_Warrens_Wall.fbx",
+      "size_m": [
+        4.0,
+        0.8601074814796448,
+        5.715000152587891
+      ],
+      "triangles": 8916,
+      "materials": [
+        "Warrens_EarthShale",
+        "Warrens_ScavengedOak"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Warrens_Wall"
+    },
+    {
+      "id": "SM_ID_Warrens_Niche",
+      "role": "niche",
+      "region": 3,
+      "fbx": "meshes/SM_ID_Warrens_Niche.fbx",
+      "size_m": [
+        4.0,
+        0.8601074814796448,
+        5.715000152587891
+      ],
+      "triangles": 8916,
+      "materials": [
+        "Warrens_EarthShale",
+        "Warrens_ScavengedOak"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Warrens_Niche"
+    },
+    {
+      "id": "SM_ID_Warrens_Arch",
+      "role": "arch",
+      "region": 3,
+      "fbx": "meshes/SM_ID_Warrens_Arch.fbx",
+      "size_m": [
+        4.029999732971191,
+        0.6399999856948853,
+        5.715000152587891
+      ],
+      "triangles": 1296,
+      "materials": [
+        "Warrens_ScavengedOak",
+        "Warrens_EarthShale",
+        "Warrens_RootSoil"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Warrens_Arch"
+    },
+    {
+      "id": "SM_ID_Warrens_Floor",
+      "role": "floor",
+      "region": 3,
+      "fbx": "meshes/SM_ID_Warrens_Floor.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Warrens_PackedEarth"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Warrens_Floor"
+    },
+    {
+      "id": "SM_ID_Warrens_Vault",
+      "role": "vault",
+      "region": 3,
+      "fbx": "meshes/SM_ID_Warrens_Vault.fbx",
+      "size_m": [
+        4.019999980926514,
+        4.019999980926514,
+        1.127291202545166
+      ],
+      "triangles": 1296,
+      "materials": [
+        "Warrens_RootSoil",
+        "Warrens_ScavengedOak"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Warrens_Vault"
+    },
+    {
+      "id": "SM_ID_Warrens_Cap",
+      "role": "cap",
+      "region": 3,
+      "fbx": "meshes/SM_ID_Warrens_Cap.fbx",
+      "size_m": [
+        4.001999855041504,
+        4.001999855041504,
+        0.20000000298023224
+      ],
+      "triangles": 108,
+      "materials": [
+        "Warrens_RootSoil"
+      ],
+      "pivot": "original module pivot at ground centre, metres",
+      "collision": "none; original runtime collision retained",
+      "unreal_mesh": "/Game/RegionalIdentity/Meshes/SM_ID_Warrens_Cap"
+    }
+  ],
+  "conventions": {
+    "scale": "metres in Blender, centimetres in Unreal; 4 m grid retained",
+    "base_color": "sRGB, unlit diffuse reflectance only",
+    "normal": "DirectX +X -Y +Z, linear, BC5 in Unreal",
+    "roughness": "linear grayscale",
+    "density": "1024 pixels/metre; each texture repeats over 2 m",
+    "collision": "original invisible collision components retained, new visual meshes have NoCollision"
+  },
+  "reference_images_inspected": [
+    ".art/.concepts/hell-gate.png",
+    ".art/.concepts/abyssal-descent.png",
+    ".art/.concepts/sewer-tunnels-cistern.png",
+    ".art/.concepts/fungal-caverns.png",
+    ".art/.concepts/grand-catacombs.png",
+    ".art/.concepts/desecrated-temple.png",
+    ".art/.concepts/old-prison-cells.png"
+  ],
+  "reference_access": "All listed images were accessible and visually inspected; source images were not altered or pasted into material maps.",
+  "image_generation": "Available, not used. All new exports were produced procedurally and with Blender geometry.",
+  "runtime_changes": "Integrated in main: regional visual modules, world-scaled wall materials, moving secret-door visual children, and an explicit cook directory. Original collision components remain authoritative.",
+  "packaged_validation": {
+    "status": "INTEGRATED_PACKAGED_VALIDATED",
+    "engine": "Unreal Engine 5.8.2",
+    "regression_suites": 12,
+    "floors": 18,
+    "boundary_sweeps": 6882,
+    "failures": 0,
+    "packaged_screenshots": 108,
+    "shared_interactable_review": "PASS",
+    "game_executable": "Builds/Windows/DungeonCrawler/Binaries/Win64/DungeonCrawler.exe",
+    "package_sha256": "811c17d3b0086e56615eaecd5b86d0b761f54382fb817a444cd70e2c17d600bc"
+  },
+  "integration_handoff": "HANDOFF.md"
+}

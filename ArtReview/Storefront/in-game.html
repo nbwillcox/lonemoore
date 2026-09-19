@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>In-game storefronts</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#100e0c;color:#f1e8d6}
+body{margin:0;padding:24px;max-width:1600px;margin-inline:auto}h1{font-family:Georgia,serif;font-weight:normal;margin:0 0 8px;color:#e6c88e}p{color:#c6bdad;margin:0 0 20px;line-height:1.5}nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}button{font:inherit;color:#dfd5c4;background:#231e17;border:1px solid #645239;border-radius:5px;padding:10px 15px;cursor:pointer}button:hover,button:focus-visible{background:#403323;outline:2px solid #d6b774;outline-offset:2px}button[aria-pressed=true]{background:#d6b774;color:#17130f;border-color:#d6b774}figure{margin:0}figcaption{margin-bottom:10px;font-size:18px;color:#e6c88e}img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#080706;border:1px solid #493b29;border-radius:5px;box-sizing:border-box}#status{margin-top:12px;color:#c6bdad;font-size:14px}[hidden]{display:none!important}@media(max-width:600px){body{padding:14px}button{padding:9px 11px;font-size:14px}}
+</style>
+</head>
+<body>
+<h1>In-game storefronts</h1>
+<p>Packaged game captures at 1600 × 900. Choose a shop or interaction to inspect its actual in-game layout.</p>
+<nav aria-label="Choose a storefront screenshot" id="choices"></nav>
+<figure>
+<figcaption id="caption">Tavern</figcaption>
+<a id="full" target="_blank" rel="noopener" aria-label="Open full-size screenshot"><img id="capture" alt="Tavern storefront in the packaged game" width="1600" height="900"></a>
+</figure>
+<p id="status" role="status" aria-live="polite">Loading packaged game capture…</p>
+<script>
+const captures=[['tavern','Tavern'],['healer','Healer'],['merchant','Merchant'],['blacksmith','Blacksmith'],['gambler','Gambler'],['backAlley','Back Alley'],['huntBoard','Hunt Board'],['dungeonEntrance','Dungeon Entrance'],['merchant_buy_confirmation','Purchase confirmation'],['merchant_equipped_sale_confirmation','Equipped sale confirmation'],['merchant_history','Action history']];
+const base='../../Saved/Storefront/Packaged-1600x900/ReviewUser/Saved/Validation/Storefront/';
+const image=document.querySelector('#capture'),caption=document.querySelector('#caption'),status=document.querySelector('#status'),full=document.querySelector('#full'),choices=document.querySelector('#choices');
+function show(id,label){caption.textContent=label;image.alt=label+' in the packaged game';status.textContent='Loading packaged game capture…';choices.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.id===id)));const path=base+id+'.png';full.href=path;image.src=path;history.replaceState(null,'','#'+id)}
+for(const [id,label] of captures){const button=document.createElement('button');button.type='button';button.dataset.id=id;button.textContent=label;button.setAttribute('aria-pressed','false');button.addEventListener('click',()=>show(id,label));choices.append(button)}
+image.addEventListener('load',()=>{status.textContent='Click the screenshot to open the full-size capture.'});
+image.addEventListener('error',()=>{status.textContent='This packaged capture is not available yet. Return after the packaged review has finished.'});
+const initial=captures.find(([id])=>id===location.hash.slice(1))||captures[0];show(...initial);
+</script>
+</body>
+</html>

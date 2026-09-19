@@ -1,0 +1,1 @@
+PASS: additive old-v4 repair; every modified room unseen; original live/defeated encounter roster locations and progress retained; repeat calls unchanged; corpse/completed/v3 floors unchanged.

@@ -1,0 +1,261 @@
+{
+  "status": "PASS",
+  "generatedUtc": "2026-09-18T18:59:26.618133+00:00",
+  "sceneCount": 7,
+  "expectedSceneCount": 7,
+  "expectedScenes": [
+    "Floor_02_Entrance",
+    "Floor_07_BossApproach",
+    "Floor_07_Bridge",
+    "Floor_07_Entrance",
+    "Floor_09_BossApproach",
+    "Floor_13_Entrance",
+    "Floor_17_Entrance"
+  ],
+  "samplesPerScene": 1300,
+  "candidate": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows",
+  "candidateExecutableSha256": "fa44f9b753da02c82168ec067db09f62e9bc1f74fae28e381aaa4a4643ad9d0f",
+  "currentAuthoredSections": 68,
+  "previousAuthoredSections": 104,
+  "comparisonType": "contextual_changed_layout",
+  "identicalWorkload": false,
+  "fpsRange": [
+    72.3,
+    75.9
+  ],
+  "p95MsRange": [
+    13.738,
+    14.462
+  ],
+  "p99MsRange": [
+    14.289,
+    15.13
+  ],
+  "gpuMeanMsRange": [
+    12.156,
+    12.839
+  ],
+  "outputResolution": [
+    3440,
+    1369
+  ],
+  "method": "Uncapped offscreen stationary native scenes; eight-second warm-up; 2400 captured frames; analyze 1300 central warmed samples using the prior percentile convention.",
+  "installedSettingsUnchanged": true,
+  "limitations": "These are warmed stationary offscreen captures, not sustained gameplay or loading-hitch measurements. Previous RoomKitPolish Release scenes are contextual comparisons only: authored floors changed from 104 to 68 sections, altering layouts, content placement and visible work. Matching scene labels do not make the workloads identical or establish an optimization speedup. Monitor tearing is not measured.",
+  "errors": [],
+  "sources": {
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_02_Entrance.capture.json": "a003c58129fb226b868e1254f9bc264ddf3c4211c083df30654ddc0e6daa39fd",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_02_Entrance.csv": "eeee138821a04c14451c6030ff7f416b218ef51a21b29511679a80231c305170",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_02_Entrance.png": "31648181605a2cd54e551baa9a48cdd57a8091f787ee2b597445ffa358d30220",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_02_Entrance.log": "a7c066995c207f4a65644bc1f1765bcf322943e9479e5386b2064f68217b2e8a",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_BossApproach.capture.json": "a05856341d417ed9329a72fa596a46f857c06c20201ef39f5669429b2acb94b5",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_BossApproach.csv": "4d7cf6bb09f0e81e75ca4129c0a47bd0dd44a47997f405867a008e963932eb99",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_BossApproach.png": "ad410c5c7eeb99eb30738569ab251a4a15e8f86f76f69cf2a966c74b4089b972",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_BossApproach.log": "0f3f1b54ede87d91dfb4ff0ac5a101175a9c2b0d5ebaf361e1b167961d7feb51",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Bridge.capture.json": "c8a74abe1c009823177a64b686708f95f658b1edd95bd22b6a2ea747f5b547bd",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Bridge.csv": "6093a09d883730e2d7545b7a4e6d43b2476ef1601cbfbf9f2e2945214cb4929c",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Bridge.png": "b7a5b510ab1ab6e84f2564a5ba8a010d403ec7babec80bc82355f5e84f2b0a12",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Bridge.log": "6e1a745eb68e0c193d77f81ff76fd0db3e3264cec0d6a407f78a2c95c111274c",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Entrance.capture.json": "e067edf72480c94bcdb270a84b32f50abab5211aeb9015c804b142ee4b2a3fdf",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Entrance.csv": "e345145ebb5017fa7d935ef6c3aa956f50289163910a8392f69a9fff66c1db09",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Entrance.png": "6981cb8907e33dc5a690a14b987c2a5294a53fb6152eb59e09d69fd708a0028d",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_07_Entrance.log": "2bcb0ba1e20688cff49f07a7e94a2d5dee694cb9fe747188929d2c400f45429e",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_09_BossApproach.capture.json": "0cb2092a74f23c1af0cf8c78e699f1248ce32f830804587a7df1adf23ce04980",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_09_BossApproach.csv": "50ef6cc6de7c74a83ed956278f4af822c9f45aac8d15d59b52a21ed9f01f5aa2",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_09_BossApproach.png": "8a32c02823db260a94aafadbc9b77810d0f9e13fe0a59c099db395d25cd0b53e",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_09_BossApproach.log": "5afac47ec7e0e53d76f1f4c1ab723e6509eb5c79939b31c821c3043cba719c4c",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_13_Entrance.capture.json": "e8f4e9fae029d1defa2e4be6b655bedded21e1a72b2786e313f88a33df44b6e3",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_13_Entrance.csv": "d0df2e8818b9c393ec40b9db3dbcdea0259bf4afa79df40fa3f435973abd8e8c",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_13_Entrance.png": "291025d2ba89a7be428ba06d5d2e8c98ba74dd1f47bd9c48ef574b1dcb154dad",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_13_Entrance.log": "c8fbca006b68702b9110a75f5c4b68be9929c4af40e89164e552cb685ad519ef",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_17_Entrance.capture.json": "0ba348cfb5a46106542d8c16c1ed8ed555d02b5d6a929d4ffe12214ce46bc6ff",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_17_Entrance.csv": "70dfa1d878a93b53b16baf5e8b32507ca32d06e98d56dbe56c96e632aa0a44d1",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_17_Entrance.png": "c9c6c8f77841afc117b921567cb8edf56cad66d9ad04cdd38014c0eb791476be",
+    "Saved\\AdventurePolish\\Performance\\Release\\Floor_17_Entrance.log": "ae9161fdcc3fa212dadf9a58030a7aae353572f74bbea7b343ff750342740980",
+    "Saved\\RoomKitPolish\\performance_results.json": "11dd4e66077c2a1b9c89d89f0dd896e733d955b4158da7b2d764c05f29e91f85"
+  },
+  "scenes": [
+    {
+      "label": "Release",
+      "scene": "Floor_02_Entrance",
+      "samples": 1300,
+      "totalCapturedFrames": 2400,
+      "fps": 74.5,
+      "mean_ms": 13.43,
+      "p95_ms": 13.957,
+      "p95_fps": 71.6,
+      "p99_ms": 14.508,
+      "p99_fps": 68.9,
+      "gpu_mean_ms": 12.42,
+      "stats_ms": {
+        "GameThreadTime": 2.178,
+        "RenderThreadTime": 5.291,
+        "GPUTime": 12.42,
+        "GPU/TemporalSuperResolution": 2.678,
+        "GPU/RenderDeferredLighting": 3.614,
+        "GPU/LumenSceneUpdate": 0.327,
+        "GPU/LumenScreenProbeGather": 0.008
+      },
+      "outputResolution": [
+        3440,
+        1369
+      ]
+    },
+    {
+      "label": "Release",
+      "scene": "Floor_07_BossApproach",
+      "samples": 1300,
+      "totalCapturedFrames": 2400,
+      "fps": 72.7,
+      "mean_ms": 13.752,
+      "p95_ms": 14.462,
+      "p95_fps": 69.1,
+      "p99_ms": 15.13,
+      "p99_fps": 66.1,
+      "gpu_mean_ms": 12.726,
+      "stats_ms": {
+        "GameThreadTime": 2.281,
+        "RenderThreadTime": 5.663,
+        "GPUTime": 12.726,
+        "GPU/TemporalSuperResolution": 2.652,
+        "GPU/RenderDeferredLighting": 3.73,
+        "GPU/LumenSceneUpdate": 0.33,
+        "GPU/LumenScreenProbeGather": 0.017
+      },
+      "outputResolution": [
+        3440,
+        1369
+      ]
+    },
+    {
+      "label": "Release",
+      "scene": "Floor_07_Bridge",
+      "samples": 1300,
+      "totalCapturedFrames": 2400,
+      "fps": 75.4,
+      "mean_ms": 13.256,
+      "p95_ms": 13.937,
+      "p95_fps": 71.7,
+      "p99_ms": 14.391,
+      "p99_fps": 69.5,
+      "gpu_mean_ms": 12.232,
+      "stats_ms": {
+        "GameThreadTime": 2.238,
+        "RenderThreadTime": 5.168,
+        "GPUTime": 12.232,
+        "GPU/TemporalSuperResolution": 2.71,
+        "GPU/RenderDeferredLighting": 3.623,
+        "GPU/LumenSceneUpdate": 0.318,
+        "GPU/LumenScreenProbeGather": 0.016
+      },
+      "outputResolution": [
+        3440,
+        1369
+      ]
+    },
+    {
+      "label": "Release",
+      "scene": "Floor_07_Entrance",
+      "samples": 1300,
+      "totalCapturedFrames": 2400,
+      "fps": 75.9,
+      "mean_ms": 13.172,
+      "p95_ms": 13.738,
+      "p95_fps": 72.8,
+      "p99_ms": 14.362,
+      "p99_fps": 69.6,
+      "gpu_mean_ms": 12.156,
+      "stats_ms": {
+        "GameThreadTime": 2.182,
+        "RenderThreadTime": 5.333,
+        "GPUTime": 12.156,
+        "GPU/TemporalSuperResolution": 2.693,
+        "GPU/RenderDeferredLighting": 3.545,
+        "GPU/LumenSceneUpdate": 0.326,
+        "GPU/LumenScreenProbeGather": 0.008
+      },
+      "outputResolution": [
+        3440,
+        1369
+      ]
+    },
+    {
+      "label": "Release",
+      "scene": "Floor_09_BossApproach",
+      "samples": 1300,
+      "totalCapturedFrames": 2400,
+      "fps": 72.3,
+      "mean_ms": 13.824,
+      "p95_ms": 14.351,
+      "p95_fps": 69.7,
+      "p99_ms": 14.843,
+      "p99_fps": 67.4,
+      "gpu_mean_ms": 12.839,
+      "stats_ms": {
+        "GameThreadTime": 2.214,
+        "RenderThreadTime": 5.341,
+        "GPUTime": 12.839,
+        "GPU/TemporalSuperResolution": 2.655,
+        "GPU/RenderDeferredLighting": 3.918,
+        "GPU/LumenSceneUpdate": 0.327,
+        "GPU/LumenScreenProbeGather": 0.016
+      },
+      "outputResolution": [
+        3440,
+        1369
+      ]
+    },
+    {
+      "label": "Release",
+      "scene": "Floor_13_Entrance",
+      "samples": 1300,
+      "totalCapturedFrames": 2400,
+      "fps": 75.0,
+      "mean_ms": 13.332,
+      "p95_ms": 13.82,
+      "p95_fps": 72.4,
+      "p99_ms": 14.289,
+      "p99_fps": 70.0,
+      "gpu_mean_ms": 12.318,
+      "stats_ms": {
+        "GameThreadTime": 2.174,
+        "RenderThreadTime": 5.254,
+        "GPUTime": 12.318,
+        "GPU/TemporalSuperResolution": 2.69,
+        "GPU/RenderDeferredLighting": 3.661,
+        "GPU/LumenSceneUpdate": 0.319,
+        "GPU/LumenScreenProbeGather": 0.008
+      },
+      "outputResolution": [
+        3440,
+        1369
+      ]
+    },
+    {
+      "label": "Release",
+      "scene": "Floor_17_Entrance",
+      "samples": 1300,
+      "totalCapturedFrames": 2400,
+      "fps": 75.3,
+      "mean_ms": 13.285,
+      "p95_ms": 13.871,
+      "p95_fps": 72.1,
+      "p99_ms": 14.643,
+      "p99_fps": 68.3,
+      "gpu_mean_ms": 12.261,
+      "stats_ms": {
+        "GameThreadTime": 2.16,
+        "RenderThreadTime": 5.355,
+        "GPUTime": 12.261,
+        "GPU/TemporalSuperResolution": 2.684,
+        "GPU/RenderDeferredLighting": 3.681,
+        "GPU/LumenSceneUpdate": 0.322,
+        "GPU/LumenScreenProbeGather": 0.008
+      },
+      "outputResolution": [
+        3440,
+        1369
+      ]
+    }
+  ]
+}

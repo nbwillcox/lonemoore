@@ -1,0 +1,982 @@
+[
+  {
+    "source": ".art\\characters\\cleric.png",
+    "bytes": 2963960,
+    "sha256": "7823dc2cd8c00e2674fdd9c2c42eabdbb2dc69f43abe35a56b250ffb91e6e2ce",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\characters\\mage.png",
+    "bytes": 2874377,
+    "sha256": "0332617249a75b75fc43f9333b23ba9e8d4dd695b0f7260280254767dbdf68a6",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\characters\\paladin.png",
+    "bytes": 3011803,
+    "sha256": "ad3af6d230bde3d875b3a3887b4bca441c8d79cc37d799eef4b008719a728cb4",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\characters\\ranger.png",
+    "bytes": 2809534,
+    "sha256": "1864a99ba62fbe7ba931b238a29b384df6a6fbfdab87059291bf445eb2d22981",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\characters\\rogue.png",
+    "bytes": 2625743,
+    "sha256": "c25e8342ac6742c8d4a2dae20f35f72bef934277734fa9836bcda3dd533a215d",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\characters\\warlock.png",
+    "bytes": 2839185,
+    "sha256": "6002e8a64c8bc33d7b3be136488e3a60837cf49e635e81103e933126eccc9366",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\characters\\warrior.png",
+    "bytes": 3127135,
+    "sha256": "e870c8230a127ed249434d11bac02f60e2f2c22fb4a803e8ef8ca9a8cefa42d2",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\accessories_icons.png",
+    "bytes": 2364254,
+    "sha256": "20ca8484bd2c87795ad3050eca125d25e61c849be032da0998d0a4ba10d53570",
+    "size": [
+      1942,
+      809
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\bodyarmor_icons.png",
+    "bytes": 2784719,
+    "sha256": "4896b9ad62c5ba717153a062e939ce1747be23ae926933e2b80791f42b7ed0d7",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\bootarmor_icons.png",
+    "bytes": 2482051,
+    "sha256": "00b544d48c363ee849f3ed40f9ddc23774573b2e27ecd9db0332638ce5c9b0b0",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\foods_potions_etc_icons.png",
+    "bytes": 2246902,
+    "sha256": "775914c1947a60ffd86244b170ff8abf61290f138afe6af8bcdacb4f41b21c8f",
+    "size": [
+      1916,
+      821
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\glovearmor_icons.png",
+    "bytes": 2631768,
+    "sha256": "ea7c8afcb1726a7d9866982d03e67e0061aca4cfd5be32549a0c47ad99068321",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\helmet_icons.png",
+    "bytes": 2484540,
+    "sha256": "3d92cec0617e4baad0f029627766333b41758cfe50b23ba018ed4e454f13b99d",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\hunt_board_example.png",
+    "bytes": 3323172,
+    "sha256": "164cf7e2116e9e2de5f0156e428358c7ef79eb2ab897e74c137f8c581cf78161",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\offhand_icons.png",
+    "bytes": 2657732,
+    "sha256": "535566fb0caa5c186a2429d7ac9a65a01191b825d8801eaaea5e544146c4ef12",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\town_icons.png",
+    "bytes": 3012452,
+    "sha256": "e9d703057dfe806254d2a0004e4b38a34bdb273f8a9f621a53ebc02f1464d76b",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\ui_ux_icons.png",
+    "bytes": 3326515,
+    "sha256": "719770e417f4011a2a20f133a97907557c5a56f6a808129e68c9b945774503e9",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\gear_icons\\weapon_icons.png",
+    "bytes": 2276423,
+    "sha256": "290debaa2d9dfe26fcace8967af596de9ee224e869824a6cc24f7b55ebac768b",
+    "size": [
+      1774,
+      887
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\hell_key.png",
+    "bytes": 1745349,
+    "sha256": "1ce42a0de1dfd980e7e62e05f883d56215c915c2b486a0d23713d13ef7e00456",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\hunt_board_images\\banditrogue.png",
+    "bytes": 2729877,
+    "sha256": "a28320db1d7c792d69944fbf2b19d4be21f6ccc6692d7b1ebab4f6730639e273",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\dragon_highthreat.png",
+    "bytes": 2769169,
+    "sha256": "2c924c623be8acc97149ad8182de1dcdfcd1566bd457809c8110fc25b7433f44",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\goblins.png",
+    "bytes": 2633467,
+    "sha256": "aa4ae9e54c31894df24a58fefb7786efda4f67bdf413886e051d58309fac9e1c",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_archangel.png",
+    "bytes": 3206841,
+    "sha256": "519828112e2ac836d36bf5a957509a069efee313a63c7d514f21f83288e28144",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_goblin.png",
+    "bytes": 2435059,
+    "sha256": "ae83e1607708d78f9dffb586a9f1a39514ed3e8275722425c18eccf6e5737beb",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_guardian.png",
+    "bytes": 2438744,
+    "sha256": "587fa1e20a41f0bcdb87faf5ce2e2dd2651fcfb2189dab80ec3bf7f8d676d3f0",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_hound.png",
+    "bytes": 2558073,
+    "sha256": "e96a789d34e205f15a9eddf6db89a775894043c7b930e863dc0f8981ee9567f8",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_imp.png",
+    "bytes": 2248475,
+    "sha256": "1c63633530799464509a3b1ce25d9707bf1abaabc85d7e44ad7ff88082213993",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_incubus.png",
+    "bytes": 2329980,
+    "sha256": "647dbc5b85cc254ebbf168cc6e40fce85c0127cea703e39531f230dd80014b63",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_pitlord.png",
+    "bytes": 1888438,
+    "sha256": "fb4eb863724e0a2bf195b6be7b0c62b3ee146a48b8f6027b438a243ce29e0b49",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_princepality.png",
+    "bytes": 3147852,
+    "sha256": "907d18c9c7ccafe0559c3a7a8703fc40109b6e385760db671ae7bc64611c3c4e",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_succubus.png",
+    "bytes": 2169293,
+    "sha256": "849d06d1119e76ff68b8d318edcfeb51ef01d47ece09fc1e8dac5d9fa1480c41",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_summoner.png",
+    "bytes": 2426404,
+    "sha256": "de86237a56abb530f3c1e8cf7d3ab4756aab478c35de122ef1b0942529f18527",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\huntboard.png",
+    "bytes": 3128316,
+    "sha256": "8faa2e344b8d85a834f00eebdd77cac69b48c163f2a4a2778e5f759c1b43c277",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\kinghog.png",
+    "bytes": 3056105,
+    "sha256": "5a92979cc80cc9c831e7388c7ef88ea18162337d2a5ebf36315c2a6f380fffbd",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\lych.png",
+    "bytes": 2593592,
+    "sha256": "0387d3db0e689b597a7cb4f29afd469264382823764f35116449e9361a4a6553",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\ogres.png",
+    "bytes": 2877301,
+    "sha256": "6bf3927d8bc2759a386cec946df90bb47bab040226e60899760a91e6dcd433e9",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\parchment.png",
+    "bytes": 3072320,
+    "sha256": "6afe1c4fbb9d94a4931fcf4386d4c2eb90128fd137479bc4661a20f625a6db10",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\spiders.png",
+    "bytes": 2257545,
+    "sha256": "47b24ec6947b5181b571a1dedbb58fd2b708f8cee96b6db12bf6ab7faa36031f",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\swampwyrm.png",
+    "bytes": 2360221,
+    "sha256": "1b45aa5736ca349350ed05f81323ecc4572e1e40fbbc5137dd9b59182c325596",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\undead.png",
+    "bytes": 2355361,
+    "sha256": "ccbb884760b22ca80ffe28767e5b05ebf4c9c3800b44a8dc927adcaf121c5e7f",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\wax_icon.png",
+    "bytes": 2314169,
+    "sha256": "07da8a4647b6b51d11735e6a481c605e1b42b66f1edadd13db7c5deec0ba885e",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\hunt_board_images\\wolf.png",
+    "bytes": 2876671,
+    "sha256": "61fed19861c96c9bfcc4ece35f9610592e925840e79cfd3dce4cf2ec7d719f69",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\keys.png",
+    "bytes": 2358471,
+    "sha256": "3448f5c591c7bee0e75492350354b76cb1c4b22361ffacb50cabeb2b1459797c",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\locations\\core dungeon paths\\straightCorridor.png",
+    "bytes": 2916084,
+    "sha256": "1faa2e36ea4eb7728c556094a6dc2068404471a0b61e9c1c261f37d002514a6a",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\backAlley.png",
+    "bytes": 2647485,
+    "sha256": "860d9fbb9165957e5c790b63051de6d4a71ecbe2641b68537833449d77443f4f",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\blacksmith.png",
+    "bytes": 2244019,
+    "sha256": "05bde5ce29124d75aa344cab00d15a1bf48300b4779bd9244df9000d83715081",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\dungeonEntrance.png",
+    "bytes": 2894272,
+    "sha256": "bed0dc1ee962dabd8aebfe482eee869e144786a541ef726d584d624c75abeb77",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\gambler.png",
+    "bytes": 2234214,
+    "sha256": "3def3f8fc8fa902930def2bca98edf12f65472544b29e03d5cf03570e431f0ad",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\healer.png",
+    "bytes": 2136517,
+    "sha256": "4fbbe2cef8779ace3c20b9927082e193124087b8a498a70b592fbb515446f00d",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\huntBoard.png",
+    "bytes": 2749341,
+    "sha256": "f3b6380a7a71ac191ef79b7a71453feaf4f70483055d3672edcff99539e39f47",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\mainTownSquare.png",
+    "bytes": 2820782,
+    "sha256": "713b8592d7577fb59e05f1f7e6da53d9596a1e41b2c497dfd900db9f701daaf9",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\merchant.png",
+    "bytes": 2072424,
+    "sha256": "77ee4f4b63ef139e65906752011d2aa44d250a699a5e41d9eca79f84d99b26fd",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\locations\\town\\tavern.png",
+    "bytes": 2241921,
+    "sha256": "c0ee61a7bb3a9fc4e10bcd97c8e0fbdc516c9038a56af4da5d496368e9520bad",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\monsters\\ArmoredFemaleSuccubus1.png",
+    "bytes": 1854231,
+    "sha256": "a4ff216de06d44cf630dbc2a3aedeeaf81448e452d0b157ad69816e352717e32",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\banditcrossbowman1.png",
+    "bytes": 2295856,
+    "sha256": "6e7568dd79e4ce343c2c2bad32fa883d880d992226a095a6608cb8f9640ac052",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\banditCutthroat1.png",
+    "bytes": 2022166,
+    "sha256": "9c8f9e613f43005ff94c8c30dae1101ab53cf832364cde22c15729e26fe3ed43",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\beetle1.png",
+    "bytes": 2104003,
+    "sha256": "9678f96de03ffdb37782a259cb19516a48b3a9a9e8ad5c7d88dd5ce17d26c35a",
+    "size": [
+      1245,
+      1263
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\cavespider1.png",
+    "bytes": 2715764,
+    "sha256": "7da4d2f74c75e8e64e6729ee80ef77308d17b147ed2fe7a78956d4cba536f073",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\concept1.png",
+    "bytes": 2630153,
+    "sha256": "673935bf02a67cd8fac25adc4b239bbef5374615d7b821cc4c70dd4df2a1fae5",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\monsters\\cryptGuardian1.png",
+    "bytes": 2935353,
+    "sha256": "6b9094c0b9bedd313610c37f82354cc5e0a2c8d658ad3b338b185d0b828cd3dc",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\cultenforcer1.png",
+    "bytes": 3203627,
+    "sha256": "3c120514b6b41c78c10eb3d53546e04478582859497a892dda3ca5e7a9f3caa2",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\cultmage1.png",
+    "bytes": 2942752,
+    "sha256": "7f11251e99a9b35619d3855f5460e73776d8d0bfc581a67b3c2251a98e1cfca3",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\cultPriest1.png",
+    "bytes": 2831735,
+    "sha256": "121bc048bfdc5b347d9f4fa8b9c799b41aac20029b23eb137b0cd45987769294",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\darkwitch1.png",
+    "bytes": 2767248,
+    "sha256": "3c33d689d6c549ad363161ed106051162399aae01fb8f5542aa79f6ce614d85f",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\dungeonbat1.png",
+    "bytes": 2752793,
+    "sha256": "1e7fe71e8ef477e8c3f858cff67748476231c6b41f31add0f975dbf057c47ad7",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\enragedVampiress1.png",
+    "bytes": 2827217,
+    "sha256": "1112d9262fb91c66b571d850933839be01adf06a87ca041fc736cca986ce9fa2",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\final_boss.png",
+    "bytes": 2668762,
+    "sha256": "3ab4443ac448e554116a7f419ce90b72b6a3000a5e5df9bf1d7b7a74c735238e",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\final_boss_concept.png",
+    "bytes": 3182098,
+    "sha256": "5ecbb8f55adf714669e9682eb6bcfaf1dbe24e8dcd204c4cb00d42746962a7d0",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\monsters\\final_boss_concept1.png",
+    "bytes": 3114624,
+    "sha256": "5067f4f08689522a7b63cceee4fcd0f40c3bbf6fff45be4606bc9741f70fa2b9",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\monsters\\fungalrat1.png",
+    "bytes": 2067957,
+    "sha256": "a37ef90a23a7400974d624e2e7ea5c875cb745ac4566f619a38f99c48cbd40ef",
+    "size": [
+      1375,
+      1144
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\goblinbrute1.png",
+    "bytes": 2282678,
+    "sha256": "b685944820d9127d986ff63bf33eb03f92ddde70fb3f4da8480659ea215aa3ba",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\goblinscavenger1.png",
+    "bytes": 1972392,
+    "sha256": "f68758dc2bd9fe9ee0737ce240409d866ef1730f578d42dfb0233b9f28daf8ce",
+    "size": [
+      1346,
+      1168
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\goblinshaman1.png",
+    "bytes": 2861047,
+    "sha256": "52b07df1f052c39f71ded3ea240a4fdc53a509b25666dbc7d32b3329c6b1c3a6",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\gravehound1.png",
+    "bytes": 1218104,
+    "sha256": "2051b00a915e0474380671589a4ff7192c6d59cf1c6313086d2b800a737d4446",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\koboldspearman1.png",
+    "bytes": 2047373,
+    "sha256": "5167f449f3cb8eaa0c92859c4bf05580a0c9c6c8dffa2cf4200431ecdc0f3066",
+    "size": [
+      1136,
+      1385
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\lycanthrope1.png",
+    "bytes": 2496586,
+    "sha256": "1b7850282b62ef3b950d4aee3e920a23715c1314391f23ebf62b8933b67b4641",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\mimic1.png",
+    "bytes": 2491433,
+    "sha256": "4ac80a6aa441681b8f3b2565e80ecd49635d35f8a960a049a10a7730e42fc115",
+    "size": [
+      1374,
+      1145
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\minotaurJailer1.png",
+    "bytes": 2616111,
+    "sha256": "7621e681696d43861b2c1b453e196b43faa5503125ef7ff6171bdf98b920468d",
+    "size": [
+      1145,
+      1374
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\rat1.png",
+    "bytes": 2169817,
+    "sha256": "e0d776d0f014fa8d79065edfa2049d0c4a471abacd38ce7bcdaae7db84b1995e",
+    "size": [
+      1304,
+      1206
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\restlessknight1.png",
+    "bytes": 2980880,
+    "sha256": "c99ddc0a63827941dc7ced17a6202b69fd9a50aa08d23bb0a37945ee2cc72be0",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\skeleton1.png",
+    "bytes": 2476347,
+    "sha256": "c618c65dd9ec2f7324ab951404cc11c770fb0c297511a29050c5b23e463a4263",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\skeletonarcher1.png",
+    "bytes": 2566180,
+    "sha256": "3593383669a12d6ededec30263c3547d8259ed0f799a65cefe82b4214e2420ff",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\slime1.png",
+    "bytes": 3204501,
+    "sha256": "8d2f427903380a38fec8442179ab9ec58b2d1978cc579af4b3c7a4496bbf06bb",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\stonegargoyle1.png",
+    "bytes": 3263635,
+    "sha256": "bb882fa159efaf2c7069c7f033d8f055fb0be943cfcadbc73cb8e6ade1dad029",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\TheBlackthornMatriarch.png",
+    "bytes": 2489614,
+    "sha256": "7490809f9947f426bb622147367f4d63203f810464d6bc3663d1781fec3ca312",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\TheDeathReaperDrake.png",
+    "bytes": 2443814,
+    "sha256": "a5a9821fead18b6d197ab2b45f98e4c84843321c704b3edea8f0024635138bc5",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\TheGrandAgniDrake.png",
+    "bytes": 2818050,
+    "sha256": "ab296f85461c07a9e580b7a6c374aa6e015ef18ccc6056dc1368bed9727b5000",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\TheGrandAgniDrake_bak.png",
+    "bytes": 2355284,
+    "sha256": "d4260a2d1283d4f5bbdd599fda15fe75e258c03bb5ab4c14ec34e3e5a9ea83ae",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGB"
+  },
+  {
+    "source": ".art\\monsters\\TheGrrandReaperDrake.png",
+    "bytes": 2583031,
+    "sha256": "b4cfbd9919b3926d4a189197369ed5a204ca4613c6cd418651fc943552a5262a",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\TheHollowCastellan.png",
+    "bytes": 2714913,
+    "sha256": "a7ec7beec413e5ce13a7bad9e2143c84ec2f9faeb3575e09effd960e97ba44f1",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\TheRatKing.png",
+    "bytes": 3083510,
+    "sha256": "24daafd9ff3766e0c0ec3b281ade22675164921c3c74565ed05ead345da18ae6",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\TheWidowQueen.png",
+    "bytes": 3092376,
+    "sha256": "d334218c45bb13cd1e6e05382eda25595fd9d7e539415a9d14e4cff077cd70cd",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\vampireDuelist1.png",
+    "bytes": 1774040,
+    "sha256": "cb7c90ae136e1a4fb22de923b88d3bc39e840773b79e9bc3b323732001f55f9a",
+    "size": [
+      1122,
+      1402
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\werewolf1.png",
+    "bytes": 2855143,
+    "sha256": "5a511dc7110dbb5fa58175e662754947a4875b05117b5f898c198c5d0752dab9",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\witch1.png",
+    "bytes": 2218012,
+    "sha256": "8000c6e28ab136d52b594db268205f120c0a97da96df487e0d21b95fc0d906b1",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\monsters\\wraith1.png",
+    "bytes": 2751590,
+    "sha256": "181e9e0948f16d859b67aa7e116e042c75da27574813a8457a31401f42484400",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\waypoint_shrine.png",
+    "bytes": 2553260,
+    "sha256": "e46c1b30bb97561f58c9b5c98e9fd70ab3c73a96452904ee0306e77fc038fa6b",
+    "size": [
+      1086,
+      1448
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "source": ".art\\waypoint_shrine_room.png",
+    "bytes": 3136085,
+    "sha256": "0832c56711e6d10acf938cab4e35c693a142f2aae5c49815fe272628ed84763a",
+    "size": [
+      1448,
+      1086
+    ],
+    "mode": "RGB"
+  }
+]

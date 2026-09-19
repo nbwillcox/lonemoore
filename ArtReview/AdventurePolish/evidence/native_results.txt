@@ -1,0 +1,32 @@
+PASS Native review starts in an isolated profile root
+PASS All 27 short combat sounds are resident before play
+PASS All seven classes have selectable native controls
+PASS Warlock can be selected from new game
+PASS Name entry has keyboard focus
+PASS An empty name cannot begin a journey
+PASS Native character input and backspace edit the name
+PASS Enter begins a named Warlock journey
+PASS Morrow quicksave written
+PASS Native new-save button works
+PASS Two manual saves coexist with auto and quick slots
+PASS Second named character starts as Rogue
+PASS Selene has an independent quicksave
+PASS Load browser lists both named characters
+PASS Native character selector opens Morrow's saves
+PASS Native slot selector requests the older manual save
+PASS Load confirmation is clickable
+PASS Loading restores the chosen character and exact manual snapshot
+PASS 46 enemy sprites have alpha-corrected feet at floor contact
+PASS 5 shrine visuals share their exact map tile centres
+PASS Dimmed player torch and fill remain active
+PASS New floor contains 68 sections, 34.6 percent fewer
+PASS An unobstructed normal enemy approach exists
+PASS Checkpoint rejects activation before the boss and key
+PASS 45 enemy sprites have alpha-corrected feet at floor contact
+PASS 5 shrine visuals share their exact map tile centres
+PASS Dimmed player torch and fill remain active
+PASS Descent shrine writes a real autosave and return point
+PASS Disk reload restores checkpoint position and completed gates
+PASS Town teleport returns to the post-boss shrine
+PASS Only the uniquely named native-review profiles are removed
+AdventurePolish native review failures=0

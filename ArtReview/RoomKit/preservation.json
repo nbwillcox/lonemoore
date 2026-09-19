@@ -1,0 +1,503 @@
+{
+  "status": "PASS",
+  "protected": 124,
+  "unchanged": 124,
+  "files": [
+    {
+      "path": ".art\\hell_key.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\keys.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\loadingscreen.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\pause-menu-top.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\splashscreen.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\start-menu-top.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\waypoint_shrine_room.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\waypoint_shrine.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\abandon-gate-house.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\abyssal-descent.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\desecrated-temple.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\forgotten-mines.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\fungal-caverns.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\grand-catacombs.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\hell-gate.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\lost-underground-city.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\old-prison-cells.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.concepts\\sewer-tunnels-cistern.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.ui-ux\\combat-UI.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.ui-ux\\lonemoore-title-bar.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.ui-ux\\main-menu-parchment.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.ui-ux\\main.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\.ui-ux\\paused-title-bar.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\characters\\cleric.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\characters\\mage.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\characters\\paladin.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\characters\\ranger.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\characters\\rogue.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\characters\\warlock.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\characters\\warrior.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\accessories_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\bodyarmor_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\bootarmor_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\foods_potions_etc_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\glovearmor_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\helmet_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\hunt_board_example.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\offhand_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\town_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\ui_ux_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\gear_icons\\weapon_icons.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\banditrogue.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\dragon_highthreat.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\goblins.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_archangel.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_goblin.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_guardian.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_hound.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_imp.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_incubus.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_pitlord.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_princepality.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_succubus.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\hell_summoner.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\huntboard.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\kinghog.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\lych.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\ogres.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\parchment.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\spiders.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\swampwyrm.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\undead.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\wax_icon.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\hunt_board_images\\wolf.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\core dungeon paths\\straightCorridor.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\backAlley.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\blacksmith.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\dungeonEntrance.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\gambler.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\healer.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\huntBoard.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\mainTownSquare.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\merchant.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\locations\\town\\tavern.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\ArmoredFemaleSuccubus1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\banditcrossbowman1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\banditCutthroat1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\beetle1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\cavespider1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\concept1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\cryptGuardian1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\cultenforcer1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\cultmage1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\cultPriest1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\darkwitch1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\dungeonbat1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\enragedVampiress1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\final_boss_concept.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\final_boss_concept1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\final_boss.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\fungalrat1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\goblinbrute1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\goblinscavenger1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\goblinshaman1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\gravehound1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\koboldspearman1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\lycanthrope1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\mimic1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\minotaurJailer1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\rat1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\restlessknight1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\skeleton1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\skeletonarcher1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\slime1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\stonegargoyle1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheBlackthornMatriarch.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheDeathReaperDrake.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheGrandAgniDrake_bak.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheGrandAgniDrake.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheGrrandReaperDrake.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheHollowCastellan.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheRatKing.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\TheWidowQueen.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\vampireDuelist1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\werewolf1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\witch1.png",
+      "unchanged": true
+    },
+    {
+      "path": ".art\\monsters\\wraith1.png",
+      "unchanged": true
+    },
+    {
+      "path": "Builds\\Windows\\DungeonCrawler\\Saved\\Config\\Windows\\GameUserSettings.ini",
+      "unchanged": true
+    },
+    {
+      "path": "Builds\\Windows\\DungeonCrawler\\Saved\\SaveGames\\Lonemoore_Auto.sav",
+      "unchanged": true
+    },
+    {
+      "path": "Builds\\Windows\\DungeonCrawler\\Saved\\SaveGames\\Lonemoore_BeforeAstra.sav",
+      "unchanged": true
+    },
+    {
+      "path": "Builds\\Windows\\DungeonCrawler\\Saved\\SaveGames\\Lonemoore_Manual.sav",
+      "unchanged": true
+    },
+    {
+      "path": "Builds\\Windows\\DungeonCrawler\\Saved\\SaveGames\\Lonemoore_Quick.sav",
+      "unchanged": true
+    },
+    {
+      "path": "Builds\\ExpansionPrototype\\Windows\\DungeonCrawler\\Saved\\Config\\Windows\\GameUserSettings.ini",
+      "unchanged": true
+    },
+    {
+      "path": "Builds\\ExpansionPrototype\\Windows\\DungeonCrawler\\Saved\\SaveGames\\ExpansionPrototype_Auto.sav",
+      "unchanged": true
+    }
+  ]
+}

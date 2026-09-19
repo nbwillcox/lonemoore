@@ -1,0 +1,84 @@
+{
+  "status": "INTEGRATED_PACKAGED_VALIDATED",
+  "engine": "Unreal Engine 5.8.2",
+  "regression_suites": 12,
+  "floors": 18,
+  "boundary_sweeps": 6882,
+  "failures": 0,
+  "packaged_screenshots": 108,
+  "shared_interactable_review": "PASS",
+  "preservation": {
+    "counts": {
+      "original_assets": 698,
+      "reference_art": 113,
+      "saves": 25,
+      "campaign": 1,
+      "source": 25,
+      "config": 2
+    },
+    "mismatches": [],
+    "source_changes_allowed": [
+      "Config/DefaultGame.ini",
+      "Source/DungeonCrawler/DungeonEnvironment.cpp",
+      "Source/DungeonCrawler/DungeonRegionalArt.cpp",
+      "Source/DungeonCrawler/DungeonRegionalArtReview.cpp"
+    ],
+    "preferences_restored": true
+  },
+  "visual_review": {
+    "status": "PASS",
+    "renderer": "Actual packaged Windows game, Unreal Engine 5.8.2",
+    "resolution": [
+      1600,
+      900
+    ],
+    "camera_eye_cm": 155,
+    "horizontal_fov_degrees": 76,
+    "contact_sheets_inspected": [
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Entrance_01-06.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Entrance_07-12.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Entrance_13-18.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Passage_01-06.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Passage_07-12.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Passage_13-18.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Key_01-06.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Key_07-12.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Key_13-18.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Lever_01-06.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Lever_07-12.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Lever_13-18.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Map_01-06.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Map_07-12.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Map_13-18.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Combat_01-06.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Combat_07-12.jpg",
+      "J:\\First Person Dungeon Crawler Game\\ArtReview\\RegionalIdentity\\Runtime\\Combat_13-18.jpg"
+    ],
+    "packaged_views_inspected_via_contacts": 108,
+    "full_size_views_inspected": [
+      "Floor_01_Entrance.png",
+      "Floor_01_Passage.png",
+      "Floor_04_Passage.png",
+      "Floor_06_Passage.png",
+      "Floor_08_Passage.png",
+      "Floor_10_Passage.png",
+      "Floor_12_Passage.png",
+      "Floor_14_Passage.png",
+      "Floor_16_Passage.png",
+      "Floor_17_Passage.png",
+      "Floor_18_Passage.png"
+    ],
+    "shared_prop_full_size_view": "Builds/Windows/DungeonCrawler/Saved/SharedPropUpdate/04_crate_game.png",
+    "findings": [
+      "The new regional wall, floor and ceiling materials rendered without checkerboard or missing-asset surfaces in the inspected views.",
+      "No open module seams or visibly stretched surface maps were observed in these views.",
+      "Architectural forms distinguish plaster cathedral, burial compartments, timber warrens, funerary crypts, garrison masonry, caves, ritual monoliths and basalt Hell.",
+      "Hell floor variants are visibly distinct. Emissive cracks remain localized; surrounding stone is readable.",
+      "Existing 2D enemies, keys, levers and crate remain readable. Maps and interface retain their prior presentation."
+    ],
+    "corrections_during_main_integration": [],
+    "scope": "All 18 floors at the six scripted review positions, plus listed full-size inspections; not an exhaustive manual visit to every tile or a performance benchmark."
+  },
+  "game_executable": "Builds/Windows/DungeonCrawler/Binaries/Win64/DungeonCrawler.exe",
+  "package_sha256": "811c17d3b0086e56615eaecd5b86d0b761f54382fb817a444cd70e2c17d600bc"
+}

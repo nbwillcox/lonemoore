@@ -1,0 +1,92 @@
+[
+  {
+    "label": "Release",
+    "scene": "Floor_02_Entrance",
+    "samples": 1300,
+    "fps": 73.7,
+    "mean_ms": 13.561,
+    "p99_ms": 14.867,
+    "p99_fps": 67.3,
+    "stats_ms": {
+      "GameThreadTime": 2.037,
+      "RenderThreadTime": 4.726,
+      "GPUTime": 12.564,
+      "GPU/TemporalSuperResolution": 2.682,
+      "GPU/RenderDeferredLighting": 3.819,
+      "GPU/LumenSceneUpdate": 0.324,
+      "GPU/LumenScreenProbeGather": 0.014
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_07_BossApproach",
+    "samples": 1300,
+    "fps": 75.9,
+    "mean_ms": 13.168,
+    "p99_ms": 14.446,
+    "p99_fps": 69.2,
+    "stats_ms": {
+      "GameThreadTime": 1.964,
+      "RenderThreadTime": 4.453,
+      "GPUTime": 12.172,
+      "GPU/TemporalSuperResolution": 2.631,
+      "GPU/RenderDeferredLighting": 3.593,
+      "GPU/LumenSceneUpdate": 0.324,
+      "GPU/LumenScreenProbeGather": 0.013
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_07_Bridge",
+    "samples": 1300,
+    "fps": 74.3,
+    "mean_ms": 13.464,
+    "p99_ms": 14.607,
+    "p99_fps": 68.5,
+    "stats_ms": {
+      "GameThreadTime": 2.023,
+      "RenderThreadTime": 4.765,
+      "GPUTime": 12.462,
+      "GPU/TemporalSuperResolution": 2.71,
+      "GPU/RenderDeferredLighting": 3.588,
+      "GPU/LumenSceneUpdate": 0.328,
+      "GPU/LumenScreenProbeGather": 0.014
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_07_Entrance",
+    "samples": 1300,
+    "fps": 76.0,
+    "mean_ms": 13.158,
+    "p99_ms": 14.503,
+    "p99_fps": 69.0,
+    "stats_ms": {
+      "GameThreadTime": 2.004,
+      "RenderThreadTime": 4.657,
+      "GPUTime": 12.142,
+      "GPU/TemporalSuperResolution": 2.649,
+      "GPU/RenderDeferredLighting": 3.56,
+      "GPU/LumenSceneUpdate": 0.314,
+      "GPU/LumenScreenProbeGather": 0.014
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_09_BossApproach",
+    "samples": 1300,
+    "fps": 74.4,
+    "mean_ms": 13.434,
+    "p99_ms": 14.827,
+    "p99_fps": 67.4,
+    "stats_ms": {
+      "GameThreadTime": 1.929,
+      "RenderThreadTime": 4.453,
+      "GPUTime": 12.451,
+      "GPU/TemporalSuperResolution": 2.63,
+      "GPU/RenderDeferredLighting": 3.882,
+      "GPU/LumenSceneUpdate": 0.327,
+      "GPU/LumenScreenProbeGather": 0.014
+    }
+  }
+]

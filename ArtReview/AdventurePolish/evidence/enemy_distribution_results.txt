@@ -1,0 +1,19 @@
+floor=0 seeds=24 encounter_sites=45..45 latest_first_room=1 PASS
+floor=1 seeds=24 encounter_sites=45..45 latest_first_room=1 PASS
+floor=2 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=3 seeds=24 encounter_sites=46..46 latest_first_room=2 PASS
+floor=4 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=5 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=6 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=7 seeds=24 encounter_sites=46..46 latest_first_room=2 PASS
+floor=8 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=9 seeds=24 encounter_sites=46..46 latest_first_room=2 PASS
+floor=10 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=11 seeds=24 encounter_sites=45..45 latest_first_room=1 PASS
+floor=12 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=13 seeds=24 encounter_sites=46..46 latest_first_room=2 PASS
+floor=14 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=15 seeds=24 encounter_sites=45..45 latest_first_room=1 PASS
+floor=16 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+floor=17 seeds=24 encounter_sites=46..46 latest_first_room=1 PASS
+cases=432; each floor covers >=70% exploration rooms, no clustered fresh rooms, first encounter <=2 room exits, balanced original enemy rosters.

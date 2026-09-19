@@ -1,0 +1,262 @@
+{
+  "generatedUtc": "2026-09-18T17:23:32.094567+00:00",
+  "promoted": true,
+  "captureDirectory": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit",
+  "comparisons": 4,
+  "displayedPackagedFloorComparisons": 4,
+  "nativePropTypes": 24,
+  "checks": [
+    {
+      "label": "Blender prop library",
+      "status": "PASS",
+      "detail": "24 props across nine themes; 80,576 triangles total. Source assets only.",
+      "evidence": "evidence/prop_source_validation.json"
+    },
+    {
+      "label": "Props imported into Unreal",
+      "status": "PASS",
+      "detail": "24 meshes and 45 regional material instances recorded.",
+      "evidence": "evidence/prop_import.json"
+    },
+    {
+      "label": "Final automated game tests",
+      "status": "PASS",
+      "detail": "25 passed, 0 failed, 0 unfinished.",
+      "evidence": "evidence/automation_final.json"
+    },
+    {
+      "label": "Encounter distribution",
+      "status": "PASS",
+      "detail": "432 seeded floors checked; fights spread across at least 70% of exploration rooms, with an early encounter within two room exits.",
+      "evidence": "evidence/enemy_distribution_results.txt"
+    },
+    {
+      "label": "Floor surface coverage",
+      "status": "PASS",
+      "detail": "25 room meshes checked through export and reimport. This measures geometry coverage; it is separate from the rendered comparison.",
+      "evidence": "evidence/floor_coverage.json"
+    },
+    {
+      "label": "Prop placement bounds simulation",
+      "status": "PASS",
+      "detail": "4,200 static configurations; 16,800 accepted placements; 0 new-prop box overlaps. This is a source-data simulation, separate from native checks.",
+      "evidence": "evidence/placement_simulation.json"
+    },
+    {
+      "label": "Packaged room and gate checks",
+      "status": "PASS",
+      "detail": "18/18 floors; 115,089 physical boundary sweeps; 0 failures.",
+      "evidence": "evidence/runtime_results.txt"
+    },
+    {
+      "label": "Automated prop placement review",
+      "status": "PASS",
+      "detail": "18/18 floors completed; 0 failures. Automated camera review, not a hands-on playtest.",
+      "evidence": "evidence/native_dressing_review.log"
+    },
+    {
+      "label": "Installed build and saved games",
+      "status": "PASS",
+      "detail": "Promotion report records matching runtime hashes and excludes saved-game directories.",
+      "evidence": "evidence/promotion.json"
+    }
+  ],
+  "images": [
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\FloorDiagnosis\\Nanite\\Floor_01_FloorCheck_circular_ossuary_0.png",
+      "thumbnail": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_0.jpg",
+      "original": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_0.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_0.png",
+      "thumbnail": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_0.jpg",
+      "original": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_0.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\FloorDiagnosis\\Nanite\\Floor_01_FloorCheck_circular_ossuary_1.png",
+      "thumbnail": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_1.jpg",
+      "original": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_1.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_1.png",
+      "thumbnail": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_1.jpg",
+      "original": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_1.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\FloorDiagnosis\\Nanite\\Floor_01_FloorCheck_circular_ossuary_2.png",
+      "thumbnail": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_2.jpg",
+      "original": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_2.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_2.png",
+      "thumbnail": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_2.jpg",
+      "original": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_2.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\FloorDiagnosis\\Nanite\\Floor_01_FloorCheck_circular_ossuary_3.png",
+      "thumbnail": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_3.jpg",
+      "original": "comparison\\before_Floor_01_FloorCheck_circular_ossuary_3.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_FloorCheck_circular_ossuary_3.png",
+      "thumbnail": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_3.jpg",
+      "original": "comparison\\after_Floor_01_FloorCheck_circular_ossuary_3.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Prop_SM_RD_cathedral_votive.png",
+      "thumbnail": "native\\Floor_01_Prop_SM_RD_cathedral_votive.jpg",
+      "original": "native\\Floor_01_Prop_SM_RD_cathedral_votive.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Prop_SM_RD_cathedral_bell.png",
+      "thumbnail": "native\\Floor_01_Prop_SM_RD_cathedral_bell.jpg",
+      "original": "native\\Floor_01_Prop_SM_RD_cathedral_bell.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Prop_SM_RD_cathedral_lectern.png",
+      "thumbnail": "native\\Floor_01_Prop_SM_RD_cathedral_lectern.jpg",
+      "original": "native\\Floor_01_Prop_SM_RD_cathedral_lectern.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_02_Prop_SM_RD_sewer_ooze_pipe.png",
+      "thumbnail": "native\\Floor_02_Prop_SM_RD_sewer_ooze_pipe.jpg",
+      "original": "native\\Floor_02_Prop_SM_RD_sewer_ooze_pipe.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_02_Prop_SM_RD_sewer_sump_grate.png",
+      "thumbnail": "native\\Floor_02_Prop_SM_RD_sewer_sump_grate.jpg",
+      "original": "native\\Floor_02_Prop_SM_RD_sewer_sump_grate.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_02_Prop_SM_RD_sewer_sludge_bank.png",
+      "thumbnail": "native\\Floor_02_Prop_SM_RD_sewer_sludge_bank.jpg",
+      "original": "native\\Floor_02_Prop_SM_RD_sewer_sludge_bank.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_04_Prop_SM_RD_catacombs_bone_pile.png",
+      "thumbnail": "native\\Floor_04_Prop_SM_RD_catacombs_bone_pile.jpg",
+      "original": "native\\Floor_04_Prop_SM_RD_catacombs_bone_pile.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_04_Prop_SM_RD_catacombs_ossuary.png",
+      "thumbnail": "native\\Floor_04_Prop_SM_RD_catacombs_ossuary.jpg",
+      "original": "native\\Floor_04_Prop_SM_RD_catacombs_ossuary.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_06_Prop_SM_RD_warrens_barricade.png",
+      "thumbnail": "native\\Floor_06_Prop_SM_RD_warrens_barricade.jpg",
+      "original": "native\\Floor_06_Prop_SM_RD_warrens_barricade.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_06_Prop_SM_RD_warrens_cache.png",
+      "thumbnail": "native\\Floor_06_Prop_SM_RD_warrens_cache.jpg",
+      "original": "native\\Floor_06_Prop_SM_RD_warrens_cache.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_06_Prop_SM_RD_warrens_fungus.png",
+      "thumbnail": "native\\Floor_06_Prop_SM_RD_warrens_fungus.jpg",
+      "original": "native\\Floor_06_Prop_SM_RD_warrens_fungus.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_08_Prop_SM_RD_crypts_sarcophagus.png",
+      "thumbnail": "native\\Floor_08_Prop_SM_RD_crypts_sarcophagus.jpg",
+      "original": "native\\Floor_08_Prop_SM_RD_crypts_sarcophagus.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_08_Prop_SM_RD_crypts_vigil.png",
+      "thumbnail": "native\\Floor_08_Prop_SM_RD_crypts_vigil.jpg",
+      "original": "native\\Floor_08_Prop_SM_RD_crypts_vigil.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_08_Prop_SM_RD_crypts_standard.png",
+      "thumbnail": "native\\Floor_08_Prop_SM_RD_crypts_standard.jpg",
+      "original": "native\\Floor_08_Prop_SM_RD_crypts_standard.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_10_Prop_SM_RD_fortress_armory.png",
+      "thumbnail": "native\\Floor_10_Prop_SM_RD_fortress_armory.jpg",
+      "original": "native\\Floor_10_Prop_SM_RD_fortress_armory.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_10_Prop_SM_RD_fortress_shackles.png",
+      "thumbnail": "native\\Floor_10_Prop_SM_RD_fortress_shackles.jpg",
+      "original": "native\\Floor_10_Prop_SM_RD_fortress_shackles.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_12_Prop_SM_RD_deep_drake_skull.png",
+      "thumbnail": "native\\Floor_12_Prop_SM_RD_deep_drake_skull.jpg",
+      "original": "native\\Floor_12_Prop_SM_RD_deep_drake_skull.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_12_Prop_SM_RD_deep_ribcage.png",
+      "thumbnail": "native\\Floor_12_Prop_SM_RD_deep_ribcage.jpg",
+      "original": "native\\Floor_12_Prop_SM_RD_deep_ribcage.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_12_Prop_SM_RD_deep_crystals.png",
+      "thumbnail": "native\\Floor_12_Prop_SM_RD_deep_crystals.jpg",
+      "original": "native\\Floor_12_Prop_SM_RD_deep_crystals.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_14_Prop_SM_RD_infernal_seal.png",
+      "thumbnail": "native\\Floor_14_Prop_SM_RD_infernal_seal.jpg",
+      "original": "native\\Floor_14_Prop_SM_RD_infernal_seal.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_14_Prop_SM_RD_infernal_brazier.png",
+      "thumbnail": "native\\Floor_14_Prop_SM_RD_infernal_brazier.jpg",
+      "original": "native\\Floor_14_Prop_SM_RD_infernal_brazier.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_16_Prop_SM_RD_hell_lava_basin.png",
+      "thumbnail": "native\\Floor_16_Prop_SM_RD_hell_lava_basin.jpg",
+      "original": "native\\Floor_16_Prop_SM_RD_hell_lava_basin.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_16_Prop_SM_RD_hell_fissure.png",
+      "thumbnail": "native\\Floor_16_Prop_SM_RD_hell_fissure.jpg",
+      "original": "native\\Floor_16_Prop_SM_RD_hell_fissure.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_16_Prop_SM_RD_hell_drake_trophy.png",
+      "thumbnail": "native\\Floor_16_Prop_SM_RD_hell_drake_trophy.jpg",
+      "original": "native\\Floor_16_Prop_SM_RD_hell_drake_trophy.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Entrance.png",
+      "thumbnail": "native\\Floor_01_Entrance.jpg",
+      "original": "native\\Floor_01_Entrance.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Circular.png",
+      "thumbnail": "native\\Floor_01_Circular.jpg",
+      "original": "native\\Floor_01_Circular.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Bridge.png",
+      "thumbnail": "native\\Floor_01_Bridge.jpg",
+      "original": "native\\Floor_01_Bridge.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_BossApproach.png",
+      "thumbnail": "native\\Floor_01_BossApproach.jpg",
+      "original": "native\\Floor_01_BossApproach.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_GuardianSeal.png",
+      "thumbnail": "native\\Floor_01_GuardianSeal.jpg",
+      "original": "native\\Floor_01_GuardianSeal.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_SealedStairs.png",
+      "thumbnail": "native\\Floor_01_SealedStairs.jpg",
+      "original": "native\\Floor_01_SealedStairs.png"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RegionalDressing\\CONTACT_SHEET.jpg",
+      "thumbnail": "source\\CONTACT_SHEET.jpg",
+      "original": "source\\CONTACT_SHEET_original.jpg"
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,32 @@
+{
+  "blender": "5.2.0 LTS",
+  "grid_metres": 4,
+  "door_clearance_metres": 3,
+  "wall_thickness_metres": 0.46,
+  "boundary_pivot": [
+    0,
+    0,
+    0
+  ],
+  "modules": [
+    "I_Altar",
+    "I_Arch",
+    "I_Brazier",
+    "I_Camp",
+    "I_Door",
+    "I_Drain",
+    "I_Floor",
+    "I_Grate",
+    "I_Mushrooms",
+    "I_Niche",
+    "I_Pillar",
+    "I_Pipe",
+    "I_Rubble",
+    "I_Stairs",
+    "I_Statue",
+    "I_Tomb",
+    "I_Trim",
+    "I_Vault",
+    "I_Wall"
+  ]
+}

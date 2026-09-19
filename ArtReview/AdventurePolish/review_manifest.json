@@ -1,0 +1,471 @@
+{
+  "generatedUtc": "2026-09-18T19:04:39+00:00",
+  "candidateCaptureDirectory": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish",
+  "roomCaptureDirectory": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit",
+  "evidenceDirectory": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish",
+  "checks": [
+    {
+      "label": "Final automated tests",
+      "status": "PASS",
+      "detail": "35 passed (5 with warnings), 0 failed, 0 unfinished. Report: 2026.09.18-18.37.28.",
+      "evidence": "evidence/automation_final.json"
+    },
+    {
+      "label": "Packaged journey and save review",
+      "status": "PASS",
+      "detail": "31 recorded checks passed; 0 failures. Automated native input and disk-save checks, not a hands-on playtest.",
+      "evidence": "evidence/native_results.txt"
+    },
+    {
+      "label": "Current 18-floor geometry and gates",
+      "status": "PASS",
+      "detail": "18/18 floors; 72,758 physical sweeps; 6 room types captured; 0 failures.",
+      "evidence": "evidence/room_runtime_results.txt"
+    },
+    {
+      "label": "Combat sound source checks",
+      "status": "PASS",
+      "detail": "27 cues; 21 distinct skill cues; peak -6.376 dBFS. Waveform and routing checks do not establish subjective listening quality.",
+      "evidence": "evidence/combat_audio_validation.json"
+    },
+    {
+      "label": "Playable build installation",
+      "status": "PASS",
+      "detail": "3 launch locations recorded; runtime file hashes checked after copying. Start Play Lonemoore.cmd and choose New Game for a named journey.",
+      "evidence": "evidence/promotion.json"
+    },
+    {
+      "label": "Current performance measurements",
+      "status": "MEASURED",
+      "detail": "7 recorded scene runs. Timings are measurements, not a universal performance guarantee.",
+      "evidence": "evidence/performance_results.json"
+    },
+    {
+      "label": "Journey screenshots",
+      "status": "CAPTURED",
+      "detail": "12/12 real candidate screenshots available. Capture presence is not a visual approval.",
+      "evidence": ""
+    },
+    {
+      "label": "Representative floor screenshots",
+      "status": "CAPTURED",
+      "detail": "18/18 current candidate floors pictured. Geometry and gate results are reported separately.",
+      "evidence": ""
+    }
+  ],
+  "images": [
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\01_all_classes.png",
+      "original": "native/01_all_classes.png",
+      "preview": "native/01_all_classes.jpg",
+      "sha256": "a630ab658e5e8a4de92a06ce364dd25569747aa16bd1a6251378105d4e3dfe92",
+      "width": 3440,
+      "height": 1369,
+      "caption": "New journeys begin with the complete existing class roster.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\02_name_character.png",
+      "original": "native/02_name_character.png",
+      "preview": "native/02_name_character.jpg",
+      "sha256": "1c71bfb161d58e85c3588c6aa7803fc9bab9ae57ea8cef6ccf20027c8d151c41",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Keyboard name entry, validation, and a named journey.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\03_multiple_saves.png",
+      "original": "native/03_multiple_saves.png",
+      "preview": "native/03_multiple_saves.jpg",
+      "sha256": "b25849e14dab0b8bb27c570a28301a487347fcf935f30acacd0f09513f6cbfac",
+      "width": 3440,
+      "height": 1369,
+      "caption": "New manual saves sit alongside that character\u2019s autosave and quicksave.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\04_character_browser.png",
+      "original": "native/04_character_browser.png",
+      "preview": "native/04_character_browser.jpg",
+      "sha256": "a56fdb9bd543689eb610ab75a11c430ef35b1bd97fa159dc8c312dc4308cc558",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Separate named characters appear in the load browser.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\05_character_slots.png",
+      "original": "native/05_character_slots.png",
+      "preview": "native/05_character_slots.jpg",
+      "sha256": "6eaadf97f9d90fd09d7815057df3a13b97641690a45dada71f0be73bf8d2fd5d",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Each character has their own list of saved moments.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\06_load_confirmation.png",
+      "original": "native/06_load_confirmation.png",
+      "preview": "native/06_load_confirmation.jpg",
+      "sha256": "ee820c90c6c7d895632039f3653d31447709abfa23c627fbe9663a7ec1633948",
+      "width": 3440,
+      "height": 1369,
+      "caption": "The confirmation identifies the save about to be restored.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\07_darker_arrival_and_shrine.png",
+      "original": "native/07_darker_arrival_and_shrine.png",
+      "preview": "native/07_darker_arrival_and_shrine.jpg",
+      "sha256": "842c94f1bfeb2fe13651031a0f48e7810b682108e30131d896c707168c93e454",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Dimmer player lighting keeps the dungeon mood while retaining local visibility.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\08_enemy_ground_contact.png",
+      "original": "native/08_enemy_ground_contact.png",
+      "preview": "native/08_enemy_ground_contact.jpg",
+      "sha256": "8fd525ab7be493350703b9b0d255a3166ef27ca51408e5fa4c1112a4e5730594",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Sprite placement accounts for transparent space below the artwork.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\09_post_boss_save_shrine.png",
+      "original": "native/09_post_boss_save_shrine.png",
+      "preview": "native/09_post_boss_save_shrine.jpg",
+      "sha256": "586227d02d410f2f9abe0a4ae9fb622e96b8e53662abf5a65efb7ecf430d37f1",
+      "width": 3440,
+      "height": 1369,
+      "caption": "The descent chamber includes a shrine behind the required key and guardian gates.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\10_checkpoint_saved.png",
+      "original": "native/10_checkpoint_saved.png",
+      "preview": "native/10_checkpoint_saved.jpg",
+      "sha256": "e0f7f064de11dc48038f12c5a0bca4d8ca0525cc453e103d6bcd0bc815c20deb",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Activating the cleared checkpoint writes an autosave and a return point.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\11_waypoint_selection.png",
+      "original": "native/11_waypoint_selection.png",
+      "preview": "native/11_waypoint_selection.jpg",
+      "sha256": "5ffe115707e62f8251b1d1f2840146b9e936c7046b503f684ae52b2c4dcbf084",
+      "width": 3440,
+      "height": 1369,
+      "caption": "The cleared checkpoint becomes an available destination.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\12_smaller_floor_map.png",
+      "original": "native/12_smaller_floor_map.png",
+      "preview": "native/12_smaller_floor_map.jpg",
+      "sha256": "5a0095dafb6beb530fec9c5b75a2f56f565d49a155b0ab6c03f20ba0fe1e6d45",
+      "width": 3440,
+      "height": 1369,
+      "caption": "New floors use 68 sections instead of 104, about 35% fewer, with the boss branch retained.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Entrance.png",
+      "original": "floors/Floor_01_Entrance.png",
+      "preview": "floors/Floor_01_Entrance.jpg",
+      "sha256": "108ba93e0c11736467e5d7f987a63b8c4c2d087ea46afc12777ddd19098dc167",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Entrance view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_02_Circular.png",
+      "original": "floors/Floor_02_Circular.png",
+      "preview": "floors/Floor_02_Circular.jpg",
+      "sha256": "51897a629e2ed052c5b6bcec23b18d4208dab0b1e522cd42ee09cdc54a3e7fe6",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Circular view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_03_BossApproach.png",
+      "original": "floors/Floor_03_BossApproach.png",
+      "preview": "floors/Floor_03_BossApproach.jpg",
+      "sha256": "7a45033bb0967cd7bef9054bbace115274293543cd724875843a00b6563ea992",
+      "width": 3440,
+      "height": 1369,
+      "caption": "BossApproach view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_04_RoundedTurn.png",
+      "original": "floors/Floor_04_RoundedTurn.png",
+      "preview": "floors/Floor_04_RoundedTurn.jpg",
+      "sha256": "27c026b3fe5ddb29cc373c60ebf7e9cf3a81c31456f6f80213c161b84cd92c5c",
+      "width": 3440,
+      "height": 1369,
+      "caption": "RoundedTurn view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_05_Bridge.png",
+      "original": "floors/Floor_05_Bridge.png",
+      "preview": "floors/Floor_05_Bridge.jpg",
+      "sha256": "e2e844655e28f2d01461c932f5e8c26b545e5b045700bac1b9b04d161f5c8da0",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Bridge view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_06_SealedStairs.png",
+      "original": "floors/Floor_06_SealedStairs.png",
+      "preview": "floors/Floor_06_SealedStairs.jpg",
+      "sha256": "6a52e05e3c610c4279feb401b5abb7ed7eac476010cce27dcd301fcc3a020511",
+      "width": 3440,
+      "height": 1369,
+      "caption": "SealedStairs view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_07_Entrance.png",
+      "original": "floors/Floor_07_Entrance.png",
+      "preview": "floors/Floor_07_Entrance.jpg",
+      "sha256": "be39b259490abecdc5f44b110146466843fd1f67f1912c065b65cbb50b322c56",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Entrance view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_08_Circular.png",
+      "original": "floors/Floor_08_Circular.png",
+      "preview": "floors/Floor_08_Circular.jpg",
+      "sha256": "2db9ae071d849ab2d455fbe2a1747a6cdc8a4fc23d69d42e5609e2c260c725a5",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Circular view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_09_BossApproach.png",
+      "original": "floors/Floor_09_BossApproach.png",
+      "preview": "floors/Floor_09_BossApproach.jpg",
+      "sha256": "d68d0a58d093eb14c52bb2a8a083fab1462822308fb26a6c9230466039e41d4f",
+      "width": 3440,
+      "height": 1369,
+      "caption": "BossApproach view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_10_RoundedTurn.png",
+      "original": "floors/Floor_10_RoundedTurn.png",
+      "preview": "floors/Floor_10_RoundedTurn.jpg",
+      "sha256": "3e5f77eedb148ff56402dc64e1f8bef72fc76a634db03518168fa970a26b15e5",
+      "width": 3440,
+      "height": 1369,
+      "caption": "RoundedTurn view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_11_Bridge.png",
+      "original": "floors/Floor_11_Bridge.png",
+      "preview": "floors/Floor_11_Bridge.jpg",
+      "sha256": "0d91c47c9c1537714b325dd652b327c3ff537d72ef4ee3cae0428a3b79e1dcc6",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Bridge view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_12_SealedStairs.png",
+      "original": "floors/Floor_12_SealedStairs.png",
+      "preview": "floors/Floor_12_SealedStairs.jpg",
+      "sha256": "803b186d4b815afec2018ff5810ab6f143a405ed58c0cc2ec367065f93284a17",
+      "width": 3440,
+      "height": 1369,
+      "caption": "SealedStairs view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_13_Entrance.png",
+      "original": "floors/Floor_13_Entrance.png",
+      "preview": "floors/Floor_13_Entrance.jpg",
+      "sha256": "2754089d117c2166632654524e16ae1c07e5d3c2fded58e8f546dc62af3f09a5",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Entrance view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_14_Circular.png",
+      "original": "floors/Floor_14_Circular.png",
+      "preview": "floors/Floor_14_Circular.jpg",
+      "sha256": "2c94272d31d9b30b2f06ae1389d355431f51828c4bbbf320289f78385f928cda",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Circular view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_15_BossApproach.png",
+      "original": "floors/Floor_15_BossApproach.png",
+      "preview": "floors/Floor_15_BossApproach.jpg",
+      "sha256": "66a79392624ce72eb28f0d3eec774bff68456a491fa23c8932959abdb17ace4e",
+      "width": 3440,
+      "height": 1369,
+      "caption": "BossApproach view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_16_RoundedTurn.png",
+      "original": "floors/Floor_16_RoundedTurn.png",
+      "preview": "floors/Floor_16_RoundedTurn.jpg",
+      "sha256": "1f336a4938498db4a5e998eacceb4ac35a2086a429a5485bb58e3b7a3c449ada",
+      "width": 3440,
+      "height": 1369,
+      "caption": "RoundedTurn view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_17_Bridge.png",
+      "original": "floors/Floor_17_Bridge.png",
+      "preview": "floors/Floor_17_Bridge.jpg",
+      "sha256": "8037c4109ca8b901305f5795383507316ce5980a1d531485b65b14ef5942ca7b",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Bridge view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_18_SealedStairs.png",
+      "original": "floors/Floor_18_SealedStairs.png",
+      "preview": "floors/Floor_18_SealedStairs.jpg",
+      "sha256": "ee632d0a8d34918e6927dcfe5fc798bd35353b8a67935c0e634655435736e81d",
+      "width": 3440,
+      "height": 1369,
+      "caption": "SealedStairs view from the current 68-section generation.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Entrance.png",
+      "original": "comparison/previous_entrance.png",
+      "preview": "comparison/previous_entrance.jpg",
+      "sha256": "2c0ac7345ab8567f4d9f73a8007c13427eed181487c2347111550799e221595f",
+      "width": 3440,
+      "height": 1369,
+      "caption": "Earlier RoomKitPolish entrance, retained only as a labeled reference.",
+      "tag": "Previous candidate \u00b7 different layout and camera"
+    },
+    {
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\07_darker_arrival_and_shrine.png",
+      "original": "comparison/current_arrival.png",
+      "preview": "comparison/current_arrival.jpg",
+      "sha256": "842c94f1bfeb2fe13651031a0f48e7810b682108e30131d896c707168c93e454",
+      "width": 3440,
+      "height": 1369,
+      "caption": "New arrival and shrine capture; dimmer player lighting.",
+      "tag": "Current candidate \u00b7 native Unreal capture"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "href": "evidence/automation_final.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\AutomationFinal\\index.json",
+      "sha256": "4a6f141b4bd2273f376c74115d6e4785fd4eb34c2a922a884d8d998f77af4b7c"
+    },
+    {
+      "href": "evidence/native_results.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\AdventurePolish\\native_results.txt",
+      "sha256": "03c2caf3a0cf31d6611b5bb2412ecb4a2067fed009024458dcb725dd389a7a19"
+    },
+    {
+      "href": "evidence/room_runtime_results.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\AdventurePolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\runtime_results.txt",
+      "sha256": "de6e3fdfd23e6cf630ae2df451e828aebe4e3a2f403986f37c808bdab0debac7"
+    },
+    {
+      "href": "evidence/combat_audio_validation.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\combat_audio_validation.json",
+      "sha256": "bc9f7ac2d2ddeb460d7dd5bbd54bafa7de7644c8db4328408618c6d5758e39b7"
+    },
+    {
+      "href": "evidence/combat_audio_import.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\combat_audio_import.json",
+      "sha256": "1f6bf5229a3b41414c810448a89ee166ba4b75f37407e11d0a5dce5f95df3d22"
+    },
+    {
+      "href": "evidence/generation_and_loot_design.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\generation_and_loot_design.json",
+      "sha256": "1fc51489229e50de687731e80cef2f191e1105736bcf18ce8edddb95364f7fe3"
+    },
+    {
+      "href": "evidence/ProfileGuide.md",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\ProfileGuide.md",
+      "sha256": "47bbfdb4701a5eed427758764873beeac10bfd3f7c51c6c4a7eb24ad4105001d"
+    },
+    {
+      "href": "evidence/chest_catalog_quality.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\chest_catalog_quality.txt",
+      "sha256": "0b498b305666c8dd32e7b7b7cd3eb75f4735ec8fb8d464b7486030dafa3a5840"
+    },
+    {
+      "href": "evidence/chest_retry.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\chest_retry.txt",
+      "sha256": "50f77f9204a02389cf943af9bb4ae11da89d7685deccf50056eec88ecd0e1046"
+    },
+    {
+      "href": "evidence/descent_checkpoints.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\descent_checkpoints.txt",
+      "sha256": "72323d506204bc8ce7661aedb94a83191cd2d624f1029117786a1b4e6fdf5c80"
+    },
+    {
+      "href": "evidence/recruit_interactions.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\recruit_interactions.txt",
+      "sha256": "d847c584bcba270cb37d1b9d78882851442b48673f122e9b4ed8f5ea63d90e80"
+    },
+    {
+      "href": "evidence/campaign_routes.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\campaign_routes.txt",
+      "sha256": "32a90a510fb06c2ea91cedba907c32b5e4f5a79ce49511ca14cca7b1f10255fd"
+    },
+    {
+      "href": "evidence/enemy_distribution_results.txt",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\enemy_distribution_results.txt",
+      "sha256": "6967d9c4ab4e3f0ddba5e4fbefde7480eacd29f5a0a9e3b12da40d22fad58295"
+    },
+    {
+      "href": "evidence/promotion.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\promotion.json",
+      "sha256": "3adb9aac3b134808a4a8d761a93e0976bb4ed9f7e84e4de82de7a63ee25456cc"
+    },
+    {
+      "href": "evidence/performance_results.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\performance_results.json",
+      "sha256": "483fa4598518f8e21fd7b9aba4033f200ac9afdc2ebf6c82028a2486e4553f8a"
+    },
+    {
+      "href": "evidence/performance_comparison.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\performance_comparison.json",
+      "sha256": "2d875591af286837c2d7a89351af1e8faa97c92fad3d094a17f42d2a67d9c8aa"
+    },
+    {
+      "href": "evidence/performance_release_evidence.json",
+      "source": "J:\\First Person Dungeon Crawler Game\\Saved\\AdventurePolish\\performance_release_evidence.json",
+      "sha256": "602122d461b89b2781bdfcea2c1f2e7836d286168a4986011ca3ef47941605b2"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Automated results are not a hands-on playtest or visual approval.",
+    "Audio waveform validation is not a subjective listening review.",
+    "Previous/current images have different layouts and camera positions."
+  ]
+}

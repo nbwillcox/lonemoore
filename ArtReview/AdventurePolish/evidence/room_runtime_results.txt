@@ -1,0 +1,397 @@
+PASS floor=0 Authored floor prerequisites 
+PASS floor=0 All boundary physical sweeps=4071 mismatches=0
+floor=0 sweep_class=Wall count=1567
+floor=0 sweep_class=Open count=2464
+floor=0 sweep_class=Pit count=36
+floor=0 sweep_class=Secret count=1
+floor=0 sweep_class=Bars count=1
+floor=0 sweep_class=Door count=2
+PASS floor=0 Arrival faces a connected passage
+PASS floor=0 Player torch and ambient fill present
+PASS floor=0 Entrance fog hides the unexplored floor
+PASS floor=0 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=0 Wall, floor and vault sections retain distinct material assignments
+PASS floor=0 One themed staircase, no overlapping legacy staircase
+PASS floor=0 Dedicated ominous boss approach exists
+PASS floor=0 Forced stair position cannot bypass locked approach
+PASS floor=0 Gate physical sweeps=2 mismatches=0
+PASS floor=0 Possessing the key does not bypass the living boss
+PASS floor=0 Living guardian physically seals descent
+PASS floor=0 Gate physical sweeps=2 mismatches=0
+PASS floor=0 Legal key and guardian completion release the stairs
+PASS floor=0 Authored descent chamber exists
+PASS floor=0 Exploration and opening gates reuse the static architecture
+PASS floor=1 Authored floor prerequisites 
+PASS floor=1 All boundary physical sweeps=4005 mismatches=0
+floor=1 sweep_class=Wall count=1572
+floor=1 sweep_class=Open count=2393
+floor=1 sweep_class=Pit count=36
+floor=1 sweep_class=Secret count=1
+floor=1 sweep_class=Bars count=1
+floor=1 sweep_class=Door count=2
+PASS floor=1 Arrival faces a connected passage
+PASS floor=1 Player torch and ambient fill present
+PASS floor=1 Entrance fog hides the unexplored floor
+PASS floor=1 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=1 Wall, floor and vault sections retain distinct material assignments
+PASS floor=1 One themed staircase, no overlapping legacy staircase
+PASS floor=1 Dedicated ominous boss approach exists
+PASS floor=1 Forced stair position cannot bypass locked approach
+PASS floor=1 Gate physical sweeps=2 mismatches=0
+PASS floor=1 Gate physical sweeps=2 mismatches=0
+PASS floor=1 Legal key and guardian completion release the stairs
+PASS floor=1 Authored descent chamber exists
+PASS floor=1 Exploration and opening gates reuse the static architecture
+PASS floor=2 Authored floor prerequisites 
+PASS floor=2 All boundary physical sweeps=4047 mismatches=0
+floor=2 sweep_class=Wall count=1575
+floor=2 sweep_class=Open count=2432
+floor=2 sweep_class=Pit count=36
+floor=2 sweep_class=Secret count=1
+floor=2 sweep_class=Bars count=1
+floor=2 sweep_class=Door count=2
+PASS floor=2 Arrival faces a connected passage
+PASS floor=2 Player torch and ambient fill present
+PASS floor=2 Entrance fog hides the unexplored floor
+PASS floor=2 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=2 Wall, floor and vault sections retain distinct material assignments
+PASS floor=2 One themed staircase, no overlapping legacy staircase
+PASS floor=2 Dedicated ominous boss approach exists
+PASS floor=2 Forced stair position cannot bypass locked approach
+PASS floor=2 Gate physical sweeps=2 mismatches=0
+PASS floor=2 Possessing the key does not bypass the living boss
+PASS floor=2 Living guardian physically seals descent
+PASS floor=2 Gate physical sweeps=2 mismatches=0
+PASS floor=2 Legal key and guardian completion release the stairs
+PASS floor=2 Authored descent chamber exists
+PASS floor=2 Exploration and opening gates reuse the static architecture
+PASS floor=3 Authored floor prerequisites 
+PASS floor=3 All boundary physical sweeps=4063 mismatches=0
+floor=3 sweep_class=Wall count=1572
+floor=3 sweep_class=Open count=2451
+floor=3 sweep_class=Secret count=1
+floor=3 sweep_class=Pit count=36
+floor=3 sweep_class=Bars count=1
+floor=3 sweep_class=Door count=2
+PASS floor=3 Arrival faces a connected passage
+PASS floor=3 Player torch and ambient fill present
+PASS floor=3 Entrance fog hides the unexplored floor
+PASS floor=3 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=3 Wall, floor and vault sections retain distinct material assignments
+PASS floor=3 One themed staircase, no overlapping legacy staircase
+PASS floor=3 Dedicated ominous boss approach exists
+PASS floor=3 Forced stair position cannot bypass locked approach
+PASS floor=3 Gate physical sweeps=2 mismatches=0
+PASS floor=3 Gate physical sweeps=2 mismatches=0
+PASS floor=3 Legal key and guardian completion release the stairs
+PASS floor=3 Authored descent chamber exists
+PASS floor=3 Exploration and opening gates reuse the static architecture
+PASS floor=4 Authored floor prerequisites 
+PASS floor=4 All boundary physical sweeps=4031 mismatches=0
+floor=4 sweep_class=Wall count=1572
+floor=4 sweep_class=Open count=2419
+floor=4 sweep_class=Secret count=1
+floor=4 sweep_class=Pit count=36
+floor=4 sweep_class=Bars count=1
+floor=4 sweep_class=Door count=2
+PASS floor=4 Arrival faces a connected passage
+PASS floor=4 Player torch and ambient fill present
+PASS floor=4 Entrance fog hides the unexplored floor
+PASS floor=4 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=4 Wall, floor and vault sections retain distinct material assignments
+PASS floor=4 One themed staircase, no overlapping legacy staircase
+PASS floor=4 Dedicated ominous boss approach exists
+PASS floor=4 Forced stair position cannot bypass locked approach
+PASS floor=4 Gate physical sweeps=2 mismatches=0
+PASS floor=4 Possessing the key does not bypass the living boss
+PASS floor=4 Living guardian physically seals descent
+PASS floor=4 Gate physical sweeps=2 mismatches=0
+PASS floor=4 Legal key and guardian completion release the stairs
+PASS floor=4 Authored descent chamber exists
+PASS floor=4 Exploration and opening gates reuse the static architecture
+PASS floor=5 Authored floor prerequisites 
+PASS floor=5 All boundary physical sweeps=4011 mismatches=0
+floor=5 sweep_class=Wall count=1575
+floor=5 sweep_class=Open count=2396
+floor=5 sweep_class=Secret count=1
+floor=5 sweep_class=Pit count=36
+floor=5 sweep_class=Bars count=1
+floor=5 sweep_class=Door count=2
+PASS floor=5 Arrival faces a connected passage
+PASS floor=5 Player torch and ambient fill present
+PASS floor=5 Entrance fog hides the unexplored floor
+PASS floor=5 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=5 Wall, floor and vault sections retain distinct material assignments
+PASS floor=5 One themed staircase, no overlapping legacy staircase
+PASS floor=5 Dedicated ominous boss approach exists
+PASS floor=5 Forced stair position cannot bypass locked approach
+PASS floor=5 Gate physical sweeps=2 mismatches=0
+PASS floor=5 Gate physical sweeps=2 mismatches=0
+PASS floor=5 Legal key and guardian completion release the stairs
+PASS floor=5 Authored descent chamber exists
+PASS floor=5 Exploration and opening gates reuse the static architecture
+PASS floor=6 Authored floor prerequisites 
+PASS floor=6 All boundary physical sweeps=4057 mismatches=0
+floor=6 sweep_class=Wall count=1569
+floor=6 sweep_class=Open count=2448
+floor=6 sweep_class=Secret count=1
+floor=6 sweep_class=Pit count=36
+floor=6 sweep_class=Bars count=1
+floor=6 sweep_class=Door count=2
+PASS floor=6 Arrival faces a connected passage
+PASS floor=6 Player torch and ambient fill present
+PASS floor=6 Entrance fog hides the unexplored floor
+PASS floor=6 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=6 Wall, floor and vault sections retain distinct material assignments
+PASS floor=6 One themed staircase, no overlapping legacy staircase
+PASS floor=6 Dedicated ominous boss approach exists
+PASS floor=6 Forced stair position cannot bypass locked approach
+PASS floor=6 Gate physical sweeps=2 mismatches=0
+PASS floor=6 Possessing the key does not bypass the living boss
+PASS floor=6 Living guardian physically seals descent
+PASS floor=6 Gate physical sweeps=2 mismatches=0
+PASS floor=6 Legal key and guardian completion release the stairs
+PASS floor=6 Authored descent chamber exists
+PASS floor=6 Exploration and opening gates reuse the static architecture
+PASS floor=7 Authored floor prerequisites 
+PASS floor=7 All boundary physical sweeps=4040 mismatches=0
+floor=7 sweep_class=Wall count=1567
+floor=7 sweep_class=Open count=2433
+floor=7 sweep_class=Secret count=1
+floor=7 sweep_class=Pit count=36
+floor=7 sweep_class=Bars count=1
+floor=7 sweep_class=Door count=2
+PASS floor=7 Arrival faces a connected passage
+PASS floor=7 Player torch and ambient fill present
+PASS floor=7 Entrance fog hides the unexplored floor
+PASS floor=7 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=7 Wall, floor and vault sections retain distinct material assignments
+PASS floor=7 One themed staircase, no overlapping legacy staircase
+PASS floor=7 Dedicated ominous boss approach exists
+PASS floor=7 Forced stair position cannot bypass locked approach
+PASS floor=7 Gate physical sweeps=2 mismatches=0
+PASS floor=7 Gate physical sweeps=2 mismatches=0
+PASS floor=7 Legal key and guardian completion release the stairs
+PASS floor=7 Authored descent chamber exists
+PASS floor=7 Exploration and opening gates reuse the static architecture
+PASS floor=8 Authored floor prerequisites 
+PASS floor=8 All boundary physical sweeps=4065 mismatches=0
+floor=8 sweep_class=Wall count=1573
+floor=8 sweep_class=Open count=2452
+floor=8 sweep_class=Secret count=1
+floor=8 sweep_class=Pit count=36
+floor=8 sweep_class=Bars count=1
+floor=8 sweep_class=Door count=2
+PASS floor=8 Arrival faces a connected passage
+PASS floor=8 Player torch and ambient fill present
+PASS floor=8 Entrance fog hides the unexplored floor
+PASS floor=8 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=8 Wall, floor and vault sections retain distinct material assignments
+PASS floor=8 One themed staircase, no overlapping legacy staircase
+PASS floor=8 Dedicated ominous boss approach exists
+PASS floor=8 Forced stair position cannot bypass locked approach
+PASS floor=8 Gate physical sweeps=2 mismatches=0
+PASS floor=8 Possessing the key does not bypass the living boss
+PASS floor=8 Living guardian physically seals descent
+PASS floor=8 Gate physical sweeps=2 mismatches=0
+PASS floor=8 Legal key and guardian completion release the stairs
+PASS floor=8 Authored descent chamber exists
+PASS floor=8 Exploration and opening gates reuse the static architecture
+PASS floor=9 Authored floor prerequisites 
+PASS floor=9 All boundary physical sweeps=4024 mismatches=0
+floor=9 sweep_class=Wall count=1571
+floor=9 sweep_class=Open count=2413
+floor=9 sweep_class=Pit count=36
+floor=9 sweep_class=Secret count=1
+floor=9 sweep_class=Bars count=1
+floor=9 sweep_class=Door count=2
+PASS floor=9 Arrival faces a connected passage
+PASS floor=9 Player torch and ambient fill present
+PASS floor=9 Entrance fog hides the unexplored floor
+PASS floor=9 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=9 Wall, floor and vault sections retain distinct material assignments
+PASS floor=9 One themed staircase, no overlapping legacy staircase
+PASS floor=9 Dedicated ominous boss approach exists
+PASS floor=9 Forced stair position cannot bypass locked approach
+PASS floor=9 Gate physical sweeps=2 mismatches=0
+PASS floor=9 Gate physical sweeps=2 mismatches=0
+PASS floor=9 Legal key and guardian completion release the stairs
+PASS floor=9 Authored descent chamber exists
+PASS floor=9 Exploration and opening gates reuse the static architecture
+PASS floor=10 Authored floor prerequisites 
+PASS floor=10 All boundary physical sweeps=4033 mismatches=0
+floor=10 sweep_class=Wall count=1573
+floor=10 sweep_class=Open count=2420
+floor=10 sweep_class=Secret count=1
+floor=10 sweep_class=Pit count=36
+floor=10 sweep_class=Bars count=1
+floor=10 sweep_class=Door count=2
+PASS floor=10 Arrival faces a connected passage
+PASS floor=10 Player torch and ambient fill present
+PASS floor=10 Entrance fog hides the unexplored floor
+PASS floor=10 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=10 Wall, floor and vault sections retain distinct material assignments
+PASS floor=10 One themed staircase, no overlapping legacy staircase
+PASS floor=10 Dedicated ominous boss approach exists
+PASS floor=10 Forced stair position cannot bypass locked approach
+PASS floor=10 Gate physical sweeps=2 mismatches=0
+PASS floor=10 Possessing the key does not bypass the living boss
+PASS floor=10 Living guardian physically seals descent
+PASS floor=10 Gate physical sweeps=2 mismatches=0
+PASS floor=10 Legal key and guardian completion release the stairs
+PASS floor=10 Authored descent chamber exists
+PASS floor=10 Exploration and opening gates reuse the static architecture
+PASS floor=11 Authored floor prerequisites 
+PASS floor=11 All boundary physical sweeps=4042 mismatches=0
+floor=11 sweep_class=Wall count=1570
+floor=11 sweep_class=Open count=2432
+floor=11 sweep_class=Pit count=36
+floor=11 sweep_class=Secret count=1
+floor=11 sweep_class=Bars count=1
+floor=11 sweep_class=Door count=2
+PASS floor=11 Arrival faces a connected passage
+PASS floor=11 Player torch and ambient fill present
+PASS floor=11 Entrance fog hides the unexplored floor
+PASS floor=11 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=11 Wall, floor and vault sections retain distinct material assignments
+PASS floor=11 One themed staircase, no overlapping legacy staircase
+PASS floor=11 Dedicated ominous boss approach exists
+PASS floor=11 Forced stair position cannot bypass locked approach
+PASS floor=11 Gate physical sweeps=2 mismatches=0
+PASS floor=11 Gate physical sweeps=2 mismatches=0
+PASS floor=11 Legal key and guardian completion release the stairs
+PASS floor=11 Authored descent chamber exists
+PASS floor=11 Exploration and opening gates reuse the static architecture
+PASS floor=12 Authored floor prerequisites 
+PASS floor=12 All boundary physical sweeps=4034 mismatches=0
+floor=12 sweep_class=Wall count=1573
+floor=12 sweep_class=Open count=2421
+floor=12 sweep_class=Pit count=36
+floor=12 sweep_class=Secret count=1
+floor=12 sweep_class=Bars count=1
+floor=12 sweep_class=Door count=2
+PASS floor=12 Arrival faces a connected passage
+PASS floor=12 Player torch and ambient fill present
+PASS floor=12 Entrance fog hides the unexplored floor
+PASS floor=12 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=12 Wall, floor and vault sections retain distinct material assignments
+PASS floor=12 One themed staircase, no overlapping legacy staircase
+PASS floor=12 Dedicated ominous boss approach exists
+PASS floor=12 Forced stair position cannot bypass locked approach
+PASS floor=12 Gate physical sweeps=2 mismatches=0
+PASS floor=12 Possessing the key does not bypass the living boss
+PASS floor=12 Living guardian physically seals descent
+PASS floor=12 Gate physical sweeps=2 mismatches=0
+PASS floor=12 Legal key and guardian completion release the stairs
+PASS floor=12 Authored descent chamber exists
+PASS floor=12 Exploration and opening gates reuse the static architecture
+PASS floor=13 Authored floor prerequisites 
+PASS floor=13 All boundary physical sweeps=3986 mismatches=0
+floor=13 sweep_class=Wall count=1575
+floor=13 sweep_class=Open count=2371
+floor=13 sweep_class=Secret count=1
+floor=13 sweep_class=Pit count=36
+floor=13 sweep_class=Bars count=1
+floor=13 sweep_class=Door count=2
+PASS floor=13 Arrival faces a connected passage
+PASS floor=13 Player torch and ambient fill present
+PASS floor=13 Entrance fog hides the unexplored floor
+PASS floor=13 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=13 Wall, floor and vault sections retain distinct material assignments
+PASS floor=13 One themed staircase, no overlapping legacy staircase
+PASS floor=13 Dedicated ominous boss approach exists
+PASS floor=13 Forced stair position cannot bypass locked approach
+PASS floor=13 Gate physical sweeps=2 mismatches=0
+PASS floor=13 Gate physical sweeps=2 mismatches=0
+PASS floor=13 Legal key and guardian completion release the stairs
+PASS floor=13 Authored descent chamber exists
+PASS floor=13 Exploration and opening gates reuse the static architecture
+PASS floor=14 Authored floor prerequisites 
+PASS floor=14 All boundary physical sweeps=4080 mismatches=0
+floor=14 sweep_class=Wall count=1572
+floor=14 sweep_class=Open count=2468
+floor=14 sweep_class=Secret count=1
+floor=14 sweep_class=Pit count=36
+floor=14 sweep_class=Bars count=1
+floor=14 sweep_class=Door count=2
+PASS floor=14 Arrival faces a connected passage
+PASS floor=14 Player torch and ambient fill present
+PASS floor=14 Entrance fog hides the unexplored floor
+PASS floor=14 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=14 Wall, floor and vault sections retain distinct material assignments
+PASS floor=14 One themed staircase, no overlapping legacy staircase
+PASS floor=14 Dedicated ominous boss approach exists
+PASS floor=14 Forced stair position cannot bypass locked approach
+PASS floor=14 Gate physical sweeps=2 mismatches=0
+PASS floor=14 Possessing the key does not bypass the living boss
+PASS floor=14 Living guardian physically seals descent
+PASS floor=14 Gate physical sweeps=2 mismatches=0
+PASS floor=14 Legal key and guardian completion release the stairs
+PASS floor=14 Authored descent chamber exists
+PASS floor=14 Exploration and opening gates reuse the static architecture
+PASS floor=15 Authored floor prerequisites 
+PASS floor=15 All boundary physical sweeps=3984 mismatches=0
+floor=15 sweep_class=Wall count=1572
+floor=15 sweep_class=Open count=2372
+floor=15 sweep_class=Secret count=1
+floor=15 sweep_class=Pit count=36
+floor=15 sweep_class=Bars count=1
+floor=15 sweep_class=Door count=2
+PASS floor=15 Arrival faces a connected passage
+PASS floor=15 Player torch and ambient fill present
+PASS floor=15 Entrance fog hides the unexplored floor
+PASS floor=15 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=15 Wall, floor and vault sections retain distinct material assignments
+PASS floor=15 One themed staircase, no overlapping legacy staircase
+PASS floor=15 Dedicated ominous boss approach exists
+PASS floor=15 Forced stair position cannot bypass locked approach
+PASS floor=15 Gate physical sweeps=2 mismatches=0
+PASS floor=15 Gate physical sweeps=2 mismatches=0
+PASS floor=15 Legal key and guardian completion release the stairs
+PASS floor=15 Authored descent chamber exists
+PASS floor=15 Exploration and opening gates reuse the static architecture
+PASS floor=16 Authored floor prerequisites 
+PASS floor=16 All boundary physical sweeps=4032 mismatches=0
+floor=16 sweep_class=Wall count=1572
+floor=16 sweep_class=Open count=2420
+floor=16 sweep_class=Pit count=36
+floor=16 sweep_class=Secret count=1
+floor=16 sweep_class=Bars count=1
+floor=16 sweep_class=Door count=2
+PASS floor=16 Arrival faces a connected passage
+PASS floor=16 Player torch and ambient fill present
+PASS floor=16 Entrance fog hides the unexplored floor
+PASS floor=16 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=16 Wall, floor and vault sections retain distinct material assignments
+PASS floor=16 One themed staircase, no overlapping legacy staircase
+PASS floor=16 Dedicated ominous boss approach exists
+PASS floor=16 Forced stair position cannot bypass locked approach
+PASS floor=16 Gate physical sweeps=2 mismatches=0
+PASS floor=16 Possessing the key does not bypass the living boss
+PASS floor=16 Living guardian physically seals descent
+PASS floor=16 Gate physical sweeps=2 mismatches=0
+PASS floor=16 Legal key and guardian completion release the stairs
+PASS floor=16 Authored descent chamber exists
+PASS floor=16 Exploration and opening gates reuse the static architecture
+PASS floor=17 Authored floor prerequisites 
+PASS floor=17 All boundary physical sweeps=4081 mismatches=0
+floor=17 sweep_class=Wall count=1571
+floor=17 sweep_class=Open count=2470
+floor=17 sweep_class=Secret count=1
+floor=17 sweep_class=Pit count=36
+floor=17 sweep_class=Bars count=1
+floor=17 sweep_class=Door count=2
+PASS floor=17 Arrival faces a connected passage
+PASS floor=17 Player torch and ambient fill present
+PASS floor=17 Entrance fog hides the unexplored floor
+PASS floor=17 Authored shells=68 placements=68; exact transforms, unit scale and material slots
+PASS floor=17 Wall, floor and vault sections retain distinct material assignments
+PASS floor=17 One themed staircase, no overlapping legacy staircase
+PASS floor=17 Dedicated ominous boss approach exists
+PASS floor=17 Forced stair position cannot bypass locked approach
+PASS floor=17 Gate physical sweeps=2 mismatches=0
+PASS floor=17 Gate physical sweeps=2 mismatches=0
+PASS floor=17 Legal key and guardian completion release the stairs
+PASS floor=17 Authored descent chamber exists
+PASS floor=17 Exploration and opening gates reuse the static architecture
+Floors=18; physical sweeps=72758; captured_room_types=6; failures=0

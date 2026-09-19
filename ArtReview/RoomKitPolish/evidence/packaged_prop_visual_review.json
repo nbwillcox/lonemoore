@@ -1,0 +1,526 @@
+{
+  "reviewedAt": "2026-09-18T17:13:57.719400+00:00",
+  "reviewer": "room_geometry independent packaged screenshot inspection",
+  "result": "PASS_WITH_ANGLE_LIMITATIONS",
+  "packagedCaptureRoot": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit",
+  "manualVisualInspection": {
+    "distinctTypes": 24,
+    "selectedPhotos": 24,
+    "additionalAlternatePhotos": 2,
+    "fullFrontDetailTypes": 22,
+    "angleLimitedTypes": [
+      "crypts_standard",
+      "fortress_armory"
+    ],
+    "observedFloatingGaps": 0,
+    "observedObviousCentralLaneBlockages": 0,
+    "observedMissingDefaultMaterials": 0,
+    "method": "Inspected nine region-specific image sheets containing one complete HUD-free native capture per type, and full alternate captures for the banner and armory. Images show actual packaged runtime placements, not Blender previews."
+  },
+  "automatedCaptureCoverage": {
+    "floors": 18,
+    "detailImages": 48,
+    "uniqueTypes": 24,
+    "imagesByFloor": {
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 2,
+      "5": 2,
+      "6": 3,
+      "7": 3,
+      "8": 3,
+      "9": 3,
+      "10": 2,
+      "11": 2,
+      "12": 3,
+      "13": 3,
+      "14": 2,
+      "15": 2,
+      "16": 3,
+      "17": 3,
+      "18": 3
+    },
+    "nativePassChecks": 114,
+    "nativeFailChecks": 0,
+    "completionFailures": 0,
+    "log": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\packaged_dressing_review.log",
+    "scope": "Capture availability, regional scenery batches, NoCollision status and accessible camera candidates; this is separate from the manual 24-type visual inspection."
+  },
+  "records": [
+    {
+      "id": "cathedral_votive",
+      "name": "Sixfold Votive Candelabrum",
+      "regionIndex": 0,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Prop_SM_RD_cathedral_votive.png",
+      "sourceSha256": "7785e142ef21d4c0bf3cf5eab504c345b5986ca712b0706fa2d31b58243edda7",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Six candles, branch arms and full foot are visible; the base meets the floor at the wall margin.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_01_Prop_SM_RD_cathedral_votive.jpg"
+    },
+    {
+      "id": "cathedral_bell",
+      "name": "The Unanswered Bell",
+      "regionIndex": 0,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Prop_SM_RD_cathedral_bell.png",
+      "sourceSha256": "8b72d507e6112281dacba38b34920726401126a005ae3f8e8bc35541f39e51fa",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Rust-patinated bell silhouette and supporting stones are visible at the floor beside the wall.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_01_Prop_SM_RD_cathedral_bell.jpg"
+    },
+    {
+      "id": "cathedral_lectern",
+      "name": "Stone Scripture Lectern",
+      "regionIndex": 0,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_01_Prop_SM_RD_cathedral_lectern.png",
+      "sourceSha256": "ed6f6ffdc14c979634808c7f64a51d151e5449f075600d218202077686d9b357",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Repaired page surface is visible above a lower stone pedestal; the complete stepped base is grounded.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_01_Prop_SM_RD_cathedral_lectern.jpg"
+    },
+    {
+      "id": "sewer_ooze_pipe",
+      "name": "Leaking Sump Elbow",
+      "regionIndex": 1,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_02_Prop_SM_RD_sewer_ooze_pipe.png",
+      "sourceSha256": "7b993846cc55a397c1fe9721a5aff50e422b52f46562f5653ed6f148fbd53c25",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "The outlet now faces the room; the green stream reaches a floor puddle and the elbow base is grounded.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_02_Prop_SM_RD_sewer_ooze_pipe.jpg"
+    },
+    {
+      "id": "sewer_sump_grate",
+      "name": "Slime-Crusted Sump",
+      "regionIndex": 1,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_02_Prop_SM_RD_sewer_sump_grate.png",
+      "sourceSha256": "ceb428a6a4fe3996ab799f6912735e637b58ee5d79dfe87b6f43ea4439ae08fa",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Metal bars, stone rim and green spill patches read clearly against the floor.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_02_Prop_SM_RD_sewer_sump_grate.jpg"
+    },
+    {
+      "id": "sewer_sludge_bank",
+      "name": "Refuse and Sludge Bank",
+      "regionIndex": 1,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_02_Prop_SM_RD_sewer_sludge_bank.png",
+      "sourceSha256": "1c52f88a01f7a210d0f022099acac9c663b72096f9767d8192050333b413c4d3",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Sludge, broken pipe and refuse sit beside the wall while the central passage stays visually clear.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_02_Prop_SM_RD_sewer_sludge_bank.jpg"
+    },
+    {
+      "id": "catacombs_bone_pile",
+      "name": "The Unburied Remains",
+      "regionIndex": 2,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_04_Prop_SM_RD_catacombs_bone_pile.png",
+      "sourceSha256": "871013f8a22d712e5ddcf65363f90a692920783e18dcf9e2f3695a4f0eeff06f",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Skull faces and loose long bones are visible in a grounded pile along the wall.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_04_Prop_SM_RD_catacombs_bone_pile.jpg"
+    },
+    {
+      "id": "catacombs_ossuary",
+      "name": "Crowned Bone Shelves",
+      "regionIndex": 2,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_04_Prop_SM_RD_catacombs_ossuary.png",
+      "sourceSha256": "ca29273128d72bf818d3e938dac290fd808bf08d20de5d404791d244e35f5ee8",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "The open skull shelves now face into the room; the stone shelf base meets the floor.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_04_Prop_SM_RD_catacombs_ossuary.jpg"
+    },
+    {
+      "id": "warrens_barricade",
+      "name": "Scavenger Palisade",
+      "regionIndex": 3,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_06_Prop_SM_RD_warrens_barricade.png",
+      "sourceSha256": "084549bc82d88034342f0622ec258d5baff54ed3def00c9435ba321241c889f0",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Skull-facing crossbars now face the room; pointed stakes and supports meet the floor beside the wall.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_06_Prop_SM_RD_warrens_barricade.jpg"
+    },
+    {
+      "id": "warrens_cache",
+      "name": "Goblin Spear Cache",
+      "regionIndex": 3,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_06_Prop_SM_RD_warrens_cache.png",
+      "sourceSha256": "f4173f9a0807e582a25c4b76340bc331c65917850e9c815f1ea360a84d1c5bd6",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Barrel, spears, box and green bundle form a readable storage grouping outside the central passage.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_06_Prop_SM_RD_warrens_cache.jpg"
+    },
+    {
+      "id": "warrens_fungus",
+      "name": "Pale Root Fungi",
+      "regionIndex": 3,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_06_Prop_SM_RD_warrens_fungus.png",
+      "sourceSha256": "2d53f426eacfe7318d7ccd031b82d1344e617eb17faeb017ff42d54bcea909fc",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Mushroom caps, pale stems and root pieces are visible against the floor at the wall edge.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_06_Prop_SM_RD_warrens_fungus.jpg"
+    },
+    {
+      "id": "crypts_sarcophagus",
+      "name": "Crimson Vigil Sarcophagus",
+      "regionIndex": 4,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_08_Prop_SM_RD_crypts_sarcophagus.png",
+      "sourceSha256": "014485c1ae11155838b69e1a3bc15043505228b4584c2d3d0454ae3da87c51b2",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Stone coffin, cross and skull read as funerary dressing; its feet are visible at the floor.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_08_Prop_SM_RD_crypts_sarcophagus.jpg"
+    },
+    {
+      "id": "crypts_vigil",
+      "name": "The Watchers Lantern",
+      "regionIndex": 4,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_08_Prop_SM_RD_crypts_vigil.png",
+      "sourceSha256": "0c1257a14f753d6e7003f6b02966213c230accd2bb5bbf73c0e5a79705b19d04",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Lantern cage, candle, supporting stem and broad foot are visible and grounded.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_08_Prop_SM_RD_crypts_vigil.jpg"
+    },
+    {
+      "id": "crypts_standard",
+      "name": "Sepulchral Procession Banner",
+      "regionIndex": 4,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_09_Prop_SM_RD_crypts_standard.png",
+      "sourceSha256": "d792447137c7c2288a8c7ef8439457a4772c711f5fe1ddd9ca53484db34c2603",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS_WITH_ANGLE_LIMITATION",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "limited by near-edge-on angle",
+      "observation": "Banner cloth, pole and floor base are present, but the selected view is almost edge-on; frontal emblem detail cannot be reliably judged.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_09_Prop_SM_RD_crypts_standard.jpg"
+    },
+    {
+      "id": "fortress_armory",
+      "name": "Warden Shield and Spear Rack",
+      "regionIndex": 5,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_11_Prop_SM_RD_fortress_armory.png",
+      "sourceSha256": "bb78692bdcf2d3afb0df3ef09389de0428f988d034faf657516df556828edda7",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS_WITH_ANGLE_LIMITATION",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "limited by near-edge-on angle",
+      "observation": "Spears, rack supports and shield edges are present, but the near-edge-on angle limits shield-face detail review.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_11_Prop_SM_RD_fortress_armory.jpg"
+    },
+    {
+      "id": "fortress_shackles",
+      "name": "Forgotten Restraints",
+      "regionIndex": 5,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_10_Prop_SM_RD_fortress_shackles.png",
+      "sourceSha256": "8b973f2d9de276d665961a1e5f112f53d4c7abed0bf4d6a50429bc99aff7a38b",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "The chain-and-shackle face is now visible; its low stone backing and chain ends sit at the floor.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_10_Prop_SM_RD_fortress_shackles.jpg"
+    },
+    {
+      "id": "deep_drake_skull",
+      "name": "Horned Drake Skull",
+      "regionIndex": 6,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_12_Prop_SM_RD_deep_drake_skull.png",
+      "sourceSha256": "bad9990f44ed722368754324c6cdf274c807c18feb28e6b1206c0c289d5d5529",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Horned skull, jaw and teeth face into the room; the supporting bone/rock footprint is visible.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_12_Prop_SM_RD_deep_drake_skull.jpg"
+    },
+    {
+      "id": "deep_ribcage",
+      "name": "Drake Ribcage Remains",
+      "regionIndex": 6,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_12_Prop_SM_RD_deep_ribcage.png",
+      "sourceSha256": "551b3b0f97da47704f9d25b5798f2e0460c78a97b409b2dc0de9857260072b1b",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Spine, ribs and scattered bones read clearly; rib tips and loose bones meet the floor.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_12_Prop_SM_RD_deep_ribcage.jpg"
+    },
+    {
+      "id": "deep_crystals",
+      "name": "Cold Mineral Outcrop",
+      "regionIndex": 6,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_12_Prop_SM_RD_deep_crystals.png",
+      "sourceSha256": "2dd2091e581e4ba89c47cf95da9ee3b324de07c6d8d1bfe824a43b3c0ed1c96a",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Blue faceted crystals rise from visible stone bases beside a clear passage.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_12_Prop_SM_RD_deep_crystals.jpg"
+    },
+    {
+      "id": "infernal_seal",
+      "name": "The Broken Binding Stone",
+      "regionIndex": 7,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_14_Prop_SM_RD_infernal_seal.png",
+      "sourceSha256": "78a7f084e71c05bf1dd49dfc49f1bb32f759abbefb9e2870eac3f7e3373ef0f7",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Orange binding symbols and chains face into the room on a grounded stone pedestal.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_14_Prop_SM_RD_infernal_seal.jpg"
+    },
+    {
+      "id": "infernal_brazier",
+      "name": "Eight-Spined Offering Brazier",
+      "regionIndex": 7,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_14_Prop_SM_RD_infernal_brazier.png",
+      "sourceSha256": "16409d89f16c31bd41970b0c92fc569294b0675ea0b2d0665f089d83a24c6767",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Spiked bowl, skull decoration and flame sit above a visible grounded foot beside the passage.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_14_Prop_SM_RD_infernal_brazier.jpg"
+    },
+    {
+      "id": "hell_lava_basin",
+      "name": "Basalt Lava Sump",
+      "regionIndex": 8,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_16_Prop_SM_RD_hell_lava_basin.png",
+      "sourceSha256": "3a3ca60eea372e8cee525b6fa46316042fef7faf8d893807fc060c88a19c892f",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Orange molten surface, small flame and basalt bowl read clearly with the bowl seated on the floor.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_16_Prop_SM_RD_hell_lava_basin.jpg"
+    },
+    {
+      "id": "hell_fissure",
+      "name": "Ember Fissure",
+      "regionIndex": 8,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_16_Prop_SM_RD_hell_fissure.png",
+      "sourceSha256": "dca7bde969a5adaab33f20e7ca107226af037a7243fc7607356e9158bac9c0a1",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Flame-and-rock fissure runs beside the wall; its low rock borders sit on the floor and leave the passage centre clear.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_16_Prop_SM_RD_hell_fissure.jpg"
+    },
+    {
+      "id": "hell_drake_trophy",
+      "name": "Charred Drake Trophy",
+      "regionIndex": 8,
+      "source": "J:\\First Person Dungeon Crawler Game\\Builds\\RoomKitPolishCandidate\\Windows\\DungeonCrawler\\Saved\\RoomKit\\Floor_16_Prop_SM_RD_hell_drake_trophy.png",
+      "sourceSha256": "ae9f2c4b4fda6e51346dc402b3945033e9e058ed019ca644e41043e6135f24b5",
+      "sizePx": [
+        3440,
+        1369
+      ],
+      "result": "PASS",
+      "visibleGroundContact": "present",
+      "floatingGapObserved": false,
+      "obviousCentralLaneBlockageObserved": false,
+      "missingDefaultMaterialObserved": false,
+      "frontDetailReview": "readable",
+      "observation": "Forward-facing horned skull sits on a visible plinth with infernal ornament and a molten patch at its foot.",
+      "viewingCopy": "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\Floor_16_Prop_SM_RD_hell_drake_trophy.jpg"
+    }
+  ],
+  "limitations": [
+    "Banner and armory views are nearly edge-on. Their bases and placement are visible, but frontal artwork detail is not fully validated. Independent source inspection confirmed the correct native +Y front convention.",
+    "One selected placement per type is manually reviewed; the other automated floor instances are coverage evidence, not individually signed-off artwork views.",
+    "No visible floating gap or obvious central-lane obstruction was found, but still images cannot establish all collision clearances, backsides, camera paths or transient z-fighting.",
+    "Material/theme checks concern visible runtime rendering. They do not measure artistic preference or certify every mip/streaming state.",
+    "The obsolete pre-orientation and pre-lectern-fix captures are excluded from the approval evidence."
+  ],
+  "contactSheets": [
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_00.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_01.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_02.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_03.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_04.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_05.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_06.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_07.jpg",
+    "J:\\First Person Dungeon Crawler Game\\Saved\\RoomKitPolish\\Previews\\Packaged\\props_region_08.jpg"
+  ]
+}

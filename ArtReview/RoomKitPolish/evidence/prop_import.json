@@ -1,0 +1,1512 @@
+{
+  "status": "PASS",
+  "failures": 0,
+  "materials": [
+    {
+      "region": "Cathedral",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Cathedral_Wall.MI_RD_Cathedral_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Cathedral_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Cathedral_LimeWall_BC.T_Cathedral_LimeWall_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Cathedral_LimeWall_N.T_Cathedral_LimeWall_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Cathedral_LimeWall_R.T_Cathedral_LimeWall_R"
+      }
+    },
+    {
+      "region": "Cathedral",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Cathedral_Trim.MI_RD_Cathedral_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Cathedral_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Cathedral_CarvedLimestone_BC.T_Cathedral_CarvedLimestone_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Cathedral_CarvedLimestone_N.T_Cathedral_CarvedLimestone_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Cathedral_CarvedLimestone_R.T_Cathedral_CarvedLimestone_R"
+      }
+    },
+    {
+      "region": "Cathedral",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Cathedral_Iron.MI_RD_Cathedral_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Cathedral_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Cathedral_OxidizedIron_BC.T_Cathedral_OxidizedIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Cathedral_OxidizedIron_N.T_Cathedral_OxidizedIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Cathedral_OxidizedIron_R.T_Cathedral_OxidizedIron_R"
+      }
+    },
+    {
+      "region": "Cathedral",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Cathedral_Bone.MI_RD_Cathedral_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Cathedral",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Cathedral_Accent.MI_RD_Cathedral_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Cathedral_AltarDressing",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Cathedral_AltarDressing_BC.T_Cathedral_AltarDressing_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Cathedral_AltarDressing_N.T_Cathedral_AltarDressing_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Cathedral_AltarDressing_R.T_Cathedral_AltarDressing_R"
+      }
+    },
+    {
+      "region": "Sewer",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Sewer_Wall.MI_RD_Sewer_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Sewer_Wall",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_ReservoirAshlar_BC.T_ReservoirAshlar_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_ReservoirAshlar_N.T_ReservoirAshlar_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_ReservoirAshlar_R.T_ReservoirAshlar_R"
+      }
+    },
+    {
+      "region": "Sewer",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Sewer_Trim.MI_RD_Sewer_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Sewer_Trim",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_LimestoneCoping_BC.T_LimestoneCoping_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_LimestoneCoping_N.T_LimestoneCoping_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_LimestoneCoping_R.T_LimestoneCoping_R"
+      }
+    },
+    {
+      "region": "Sewer",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Sewer_Iron.MI_RD_Sewer_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Sewer_Iron",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_CorrodedIron_BC.T_CorrodedIron_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_CorrodedIron_N.T_CorrodedIron_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_CorrodedIron_R.T_CorrodedIron_R"
+      }
+    },
+    {
+      "region": "Sewer",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Sewer_Bone.MI_RD_Sewer_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Sewer",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Sewer_Accent.MI_RD_Sewer_Accent",
+      "source": "/Game/OldCitySewers/Materials/MI_MossMat",
+      "textures": {
+        "base_color": "/Game/OldCitySewers/Textures/T_MossMat_BC.T_MossMat_BC",
+        "normal": "/Game/OldCitySewers/Textures/T_MossMat_N.T_MossMat_N",
+        "roughness": "/Game/OldCitySewers/Textures/T_MossMat_R.T_MossMat_R"
+      }
+    },
+    {
+      "region": "Catacombs",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Catacombs_Wall.MI_RD_Catacombs_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Catacombs_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialRubble_BC.T_Catacombs_BurialRubble_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialRubble_N.T_Catacombs_BurialRubble_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Catacombs_BurialRubble_R.T_Catacombs_BurialRubble_R"
+      }
+    },
+    {
+      "region": "Catacombs",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Catacombs_Trim.MI_RD_Catacombs_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Catacombs_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Catacombs_ChalkLimestone_BC.T_Catacombs_ChalkLimestone_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Catacombs_ChalkLimestone_N.T_Catacombs_ChalkLimestone_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Catacombs_ChalkLimestone_R.T_Catacombs_ChalkLimestone_R"
+      }
+    },
+    {
+      "region": "Catacombs",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Catacombs_Iron.MI_RD_Catacombs_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Catacombs_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_AgedBronze_BC.T_Catacombs_AgedBronze_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_AgedBronze_N.T_Catacombs_AgedBronze_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_AgedBronze_R.T_Catacombs_AgedBronze_R"
+      }
+    },
+    {
+      "region": "Catacombs",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Catacombs_Bone.MI_RD_Catacombs_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Catacombs",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Catacombs_Accent.MI_RD_Catacombs_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Warrens",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Warrens_Wall.MI_RD_Warrens_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Warrens_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Warrens_EarthShale_BC.T_Warrens_EarthShale_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Warrens_EarthShale_N.T_Warrens_EarthShale_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Warrens_EarthShale_R.T_Warrens_EarthShale_R"
+      }
+    },
+    {
+      "region": "Warrens",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Warrens_Trim.MI_RD_Warrens_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Warrens_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Warrens_ScavengedOak_BC.T_Warrens_ScavengedOak_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Warrens_ScavengedOak_N.T_Warrens_ScavengedOak_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Warrens_ScavengedOak_R.T_Warrens_ScavengedOak_R"
+      }
+    },
+    {
+      "region": "Warrens",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Warrens_Iron.MI_RD_Warrens_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Warrens_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Warrens_BatteredIron_BC.T_Warrens_BatteredIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Warrens_BatteredIron_N.T_Warrens_BatteredIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Warrens_BatteredIron_R.T_Warrens_BatteredIron_R"
+      }
+    },
+    {
+      "region": "Warrens",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Warrens_Bone.MI_RD_Warrens_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Warrens",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Warrens_Accent.MI_RD_Warrens_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Warrens_RootMoss",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Warrens_RootMoss_BC.T_Warrens_RootMoss_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Warrens_RootMoss_N.T_Warrens_RootMoss_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Warrens_RootMoss_R.T_Warrens_RootMoss_R"
+      }
+    },
+    {
+      "region": "Crypts",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Crypts_Wall.MI_RD_Crypts_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Crypts_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Crypts_VigilMarble_BC.T_Crypts_VigilMarble_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Crypts_VigilMarble_N.T_Crypts_VigilMarble_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Crypts_VigilMarble_R.T_Crypts_VigilMarble_R"
+      }
+    },
+    {
+      "region": "Crypts",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Crypts_Trim.MI_RD_Crypts_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Crypts_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Crypts_SepulchralBorder_BC.T_Crypts_SepulchralBorder_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Crypts_SepulchralBorder_N.T_Crypts_SepulchralBorder_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Crypts_SepulchralBorder_R.T_Crypts_SepulchralBorder_R"
+      }
+    },
+    {
+      "region": "Crypts",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Crypts_Iron.MI_RD_Crypts_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Crypts_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Crypts_TarnishedSilver_BC.T_Crypts_TarnishedSilver_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Crypts_TarnishedSilver_N.T_Crypts_TarnishedSilver_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Crypts_TarnishedSilver_R.T_Crypts_TarnishedSilver_R"
+      }
+    },
+    {
+      "region": "Crypts",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Crypts_Bone.MI_RD_Crypts_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Crypts",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Crypts_Accent.MI_RD_Crypts_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Crypts_CrimsonCloth",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Crypts_CrimsonCloth_BC.T_Crypts_CrimsonCloth_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Crypts_CrimsonCloth_N.T_Crypts_CrimsonCloth_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Crypts_CrimsonCloth_R.T_Crypts_CrimsonCloth_R"
+      }
+    },
+    {
+      "region": "Fortress",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Fortress_Wall.MI_RD_Fortress_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Fortress_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Fortress_DefenseBlocks_BC.T_Fortress_DefenseBlocks_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Fortress_DefenseBlocks_N.T_Fortress_DefenseBlocks_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Fortress_DefenseBlocks_R.T_Fortress_DefenseBlocks_R"
+      }
+    },
+    {
+      "region": "Fortress",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Fortress_Trim.MI_RD_Fortress_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Fortress_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Fortress_ForgedStraps_BC.T_Fortress_ForgedStraps_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Fortress_ForgedStraps_N.T_Fortress_ForgedStraps_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Fortress_ForgedStraps_R.T_Fortress_ForgedStraps_R"
+      }
+    },
+    {
+      "region": "Fortress",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Fortress_Iron.MI_RD_Fortress_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Fortress_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Fortress_WardenIron_BC.T_Fortress_WardenIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Fortress_WardenIron_N.T_Fortress_WardenIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Fortress_WardenIron_R.T_Fortress_WardenIron_R"
+      }
+    },
+    {
+      "region": "Fortress",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Fortress_Bone.MI_RD_Fortress_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Fortress",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Fortress_Accent.MI_RD_Fortress_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Fortress_BarredPlate",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Fortress_BarredPlate_BC.T_Fortress_BarredPlate_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Fortress_BarredPlate_N.T_Fortress_BarredPlate_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Fortress_BarredPlate_R.T_Fortress_BarredPlate_R"
+      }
+    },
+    {
+      "region": "Deep",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Deep_Wall.MI_RD_Deep_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Deep_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Deep_ChasmRock_BC.T_Deep_ChasmRock_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Deep_ChasmRock_N.T_Deep_ChasmRock_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Deep_ChasmRock_R.T_Deep_ChasmRock_R"
+      }
+    },
+    {
+      "region": "Deep",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Deep_Trim.MI_RD_Deep_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Deep_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Deep_MineralEdges_BC.T_Deep_MineralEdges_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Deep_MineralEdges_N.T_Deep_MineralEdges_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Deep_MineralEdges_R.T_Deep_MineralEdges_R"
+      }
+    },
+    {
+      "region": "Deep",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Deep_Iron.MI_RD_Deep_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Deep_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Deep_AncientIron_BC.T_Deep_AncientIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Deep_AncientIron_N.T_Deep_AncientIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Deep_AncientIron_R.T_Deep_AncientIron_R"
+      }
+    },
+    {
+      "region": "Deep",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Deep_Bone.MI_RD_Deep_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Deep",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Deep_Accent.MI_RD_Deep_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Deep_MineralCrust",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Deep_MineralCrust_BC.T_Deep_MineralCrust_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Deep_MineralCrust_N.T_Deep_MineralCrust_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Deep_MineralCrust_R.T_Deep_MineralCrust_R"
+      }
+    },
+    {
+      "region": "Infernal",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Infernal_Wall.MI_RD_Infernal_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Infernal_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Infernal_SealMonolith_BC.T_Infernal_SealMonolith_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Infernal_SealMonolith_N.T_Infernal_SealMonolith_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Infernal_SealMonolith_R.T_Infernal_SealMonolith_R"
+      }
+    },
+    {
+      "region": "Infernal",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Infernal_Trim.MI_RD_Infernal_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Infernal_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Infernal_RitualEdges_BC.T_Infernal_RitualEdges_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Infernal_RitualEdges_N.T_Infernal_RitualEdges_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Infernal_RitualEdges_R.T_Infernal_RitualEdges_R"
+      }
+    },
+    {
+      "region": "Infernal",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Infernal_Iron.MI_RD_Infernal_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Infernal_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Infernal_HeatIron_BC.T_Infernal_HeatIron_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Infernal_HeatIron_N.T_Infernal_HeatIron_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Infernal_HeatIron_R.T_Infernal_HeatIron_R"
+      }
+    },
+    {
+      "region": "Infernal",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Infernal_Bone.MI_RD_Infernal_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Infernal",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Infernal_Accent.MI_RD_Infernal_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Infernal_HeatFissures",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Infernal_HeatFissures_BC.T_Infernal_HeatFissures_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Infernal_HeatFissures_N.T_Infernal_HeatFissures_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Infernal_HeatFissures_R.T_Infernal_HeatFissures_R"
+      }
+    },
+    {
+      "region": "Hell",
+      "role": "Wall",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Hell_Wall.MI_RD_Hell_Wall",
+      "source": "/Game/RoomKit/Materials/MI_RK_Hell_Wall",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Hell_ColumnBasalt_BC.T_Hell_ColumnBasalt_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Hell_ColumnBasalt_N.T_Hell_ColumnBasalt_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Hell_ColumnBasalt_R.T_Hell_ColumnBasalt_R"
+      }
+    },
+    {
+      "region": "Hell",
+      "role": "Trim",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Hell_Trim.MI_RD_Hell_Trim",
+      "source": "/Game/RoomKit/Materials/MI_RK_Hell_Trim",
+      "textures": {
+        "base_color": "/Game/RegionalIdentity/Textures/T_Hell_BrokenHaloStone_BC.T_Hell_BrokenHaloStone_BC",
+        "normal": "/Game/RegionalIdentity/Textures/T_Hell_BrokenHaloStone_N.T_Hell_BrokenHaloStone_N",
+        "roughness": "/Game/RegionalIdentity/Textures/T_Hell_BrokenHaloStone_R.T_Hell_BrokenHaloStone_R"
+      }
+    },
+    {
+      "region": "Hell",
+      "role": "Iron",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Hell_Iron.MI_RD_Hell_Iron",
+      "source": "/Game/RoomKit/Materials/MI_RK_Hell_Iron",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Hell_InfernalMetal_BC.T_Hell_InfernalMetal_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Hell_InfernalMetal_N.T_Hell_InfernalMetal_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Hell_InfernalMetal_R.T_Hell_InfernalMetal_R"
+      }
+    },
+    {
+      "region": "Hell",
+      "role": "Bone",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Hell_Bone.MI_RD_Hell_Bone",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_BC.T_Catacombs_ChalkBone_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_N.T_Catacombs_ChalkBone_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Catacombs_ChalkBone_R.T_Catacombs_ChalkBone_R"
+      }
+    },
+    {
+      "region": "Hell",
+      "role": "Accent",
+      "material": "/Game/RegionalDressing/Materials/MI_RD_Hell_Accent.MI_RD_Hell_Accent",
+      "source": "/Game/RegionalArt/Materials/MI_UV_Hell_EmberSeams",
+      "textures": {
+        "base_color": "/Game/RegionalArt/Textures/T_Hell_EmberSeams_BC.T_Hell_EmberSeams_BC",
+        "normal": "/Game/RegionalArt/Textures/T_Hell_EmberSeams_N.T_Hell_EmberSeams_N",
+        "roughness": "/Game/RegionalArt/Textures/T_Hell_EmberSeams_R.T_Hell_EmberSeams_R"
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "id": "cathedral_votive",
+      "name": "Sixfold Votive Candelabrum",
+      "regionIndex": 0,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_cathedral_votive.SM_RD_cathedral_votive",
+      "placement": "wall",
+      "boundsCm": [
+        126.0,
+        112.60254669189453,
+        240.04852294921875
+      ],
+      "minCm": [
+        -63.0,
+        -56.301273345947266,
+        0.0
+      ],
+      "maxCm": [
+        63.0,
+        56.301273345947266,
+        240.04852294921875
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.7936507936507936,
+      "landmark": false,
+      "triangles": 3308,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "sourceFbxSha256": "35df38dbe373092ff0c9bd011b98c6605c09b2e391352176db5f0025c22c5045"
+    },
+    {
+      "id": "cathedral_bell",
+      "name": "The Unanswered Bell",
+      "regionIndex": 0,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_cathedral_bell.SM_RD_cathedral_bell",
+      "placement": "floor",
+      "boundsCm": [
+        179.09054565429688,
+        153.40000915527344,
+        141.36436653137207
+      ],
+      "minCm": [
+        -91.89949035644531,
+        -76.70000457763672,
+        -3.8643665313720703
+      ],
+      "maxCm": [
+        87.19105529785156,
+        76.70000457763672,
+        137.5
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5583767676549078,
+      "landmark": true,
+      "triangles": 2904,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Trim",
+        "Iron"
+      ],
+      "sourceFbxSha256": "e46838aeebdeb77b9a77bda817276b720fd602daccd636446b719eeeb20fdff4"
+    },
+    {
+      "id": "cathedral_lectern",
+      "name": "Stone Scripture Lectern",
+      "regionIndex": 0,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_cathedral_lectern.SM_RD_cathedral_lectern",
+      "placement": "wall",
+      "boundsCm": [
+        92.00000762939453,
+        76.63747024536133,
+        145.1999969482422
+      ],
+      "minCm": [
+        -46.000003814697266,
+        -37.500003814697266,
+        0.0
+      ],
+      "maxCm": [
+        46.000003814697266,
+        39.13746643066406,
+        145.1999969482422
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 1.0,
+      "landmark": false,
+      "triangles": 300,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Bone"
+      ],
+      "sourceFbxSha256": "7cc44605752e91764da393813dcf1b3a218f7f2c98213bbd58cc4728f70d38f3"
+    },
+    {
+      "id": "sewer_ooze_pipe",
+      "name": "Leaking Sump Elbow",
+      "regionIndex": 1,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_sewer_ooze_pipe.SM_RD_sewer_ooze_pipe",
+      "placement": "wall",
+      "boundsCm": [
+        190.04644775390625,
+        237.6573257446289,
+        163.5
+      ],
+      "minCm": [
+        -92.99950408935547,
+        -82.00000762939453,
+        0.0
+      ],
+      "maxCm": [
+        97.04694366455078,
+        155.65731811523438,
+        163.5
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.42077390076943594,
+      "landmark": true,
+      "triangles": 2140,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Accent"
+      ],
+      "sourceFbxSha256": "beea53878fe6942376f4e142547e1e2322c4ca0676693798f42cfe70f44a2cf7"
+    },
+    {
+      "id": "sewer_sump_grate",
+      "name": "Slime-Crusted Sump",
+      "regionIndex": 1,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_sewer_sump_grate.SM_RD_sewer_sump_grate",
+      "placement": "patch",
+      "boundsCm": [
+        235.0164794921875,
+        178.33485412597656,
+        21.1200008392334
+      ],
+      "minCm": [
+        -116.50525665283203,
+        -82.0,
+        2.0
+      ],
+      "maxCm": [
+        118.51122283935547,
+        96.33485412597656,
+        23.1200008392334
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4255020763483279,
+      "landmark": true,
+      "triangles": 1508,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "sourceFbxSha256": "4af74b9dbeea1f1e0812c42058d521da6aa4a25ad482ebbb83f86fffe8ecd1d0"
+    },
+    {
+      "id": "sewer_sludge_bank",
+      "name": "Refuse and Sludge Bank",
+      "regionIndex": 1,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_sewer_sludge_bank.SM_RD_sewer_sludge_bank",
+      "placement": "floor",
+      "boundsCm": [
+        233.83293914794922,
+        139.04895782470703,
+        53.75449085235596
+      ],
+      "minCm": [
+        -113.6521224975586,
+        -68.16047668457031,
+        4.199999809265137
+      ],
+      "maxCm": [
+        120.18081665039062,
+        70.88848114013672,
+        57.954490661621094
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4276557458687575,
+      "landmark": true,
+      "triangles": 2464,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "sourceFbxSha256": "e818dddabf20a0eef0ec1fbf5aa0a32f9e99f04605e2523fcff1309da0b097ab"
+    },
+    {
+      "id": "catacombs_bone_pile",
+      "name": "The Unburied Remains",
+      "regionIndex": 2,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_catacombs_bone_pile.SM_RD_catacombs_bone_pile",
+      "placement": "floor",
+      "boundsCm": [
+        135.29182815551758,
+        100.85735321044922,
+        74.19119501113892
+      ],
+      "minCm": [
+        -72.99635314941406,
+        -55.615413665771484,
+        3.4588065147399902
+      ],
+      "maxCm": [
+        62.295475006103516,
+        45.241939544677734,
+        77.6500015258789
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.7391429428025045,
+      "landmark": false,
+      "triangles": 12572,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Iron",
+        "Bone"
+      ],
+      "sourceFbxSha256": "2ee0cd5a62083549eead74edc82f6efa373839cbeb988b23ab518c1fd73910ae"
+    },
+    {
+      "id": "catacombs_ossuary",
+      "name": "Crowned Bone Shelves",
+      "regionIndex": 2,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_catacombs_ossuary.SM_RD_catacombs_ossuary",
+      "placement": "wall",
+      "boundsCm": [
+        168.0,
+        79.00001525878906,
+        137.5
+      ],
+      "minCm": [
+        -84.0,
+        -39.50000762939453,
+        0.0
+      ],
+      "maxCm": [
+        84.0,
+        39.50000762939453,
+        137.5
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5952380952380952,
+      "landmark": false,
+      "triangles": 12020,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone"
+      ],
+      "sourceFbxSha256": "5fc41d4493bdddcaf14f47d438b08367614e6a349f737062666adfb4b4040c1d"
+    },
+    {
+      "id": "warrens_barricade",
+      "name": "Scavenger Palisade",
+      "regionIndex": 3,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_warrens_barricade.SM_RD_warrens_barricade",
+      "placement": "wall",
+      "boundsCm": [
+        196.591064453125,
+        82.31003952026367,
+        166.03041076660156
+      ],
+      "minCm": [
+        -98.2955322265625,
+        -55.61003494262695,
+        0.0
+      ],
+      "maxCm": [
+        98.2955322265625,
+        26.70000457763672,
+        166.03041076660156
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5086701182384813,
+      "landmark": true,
+      "triangles": 4688,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Bone"
+      ],
+      "sourceFbxSha256": "d023e02b76ef3fecb956c009b9c66b5b3aa50bc6cf230eba76802888d307105b"
+    },
+    {
+      "id": "warrens_cache",
+      "name": "Goblin Spear Cache",
+      "regionIndex": 3,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_warrens_cache.SM_RD_warrens_cache",
+      "placement": "floor",
+      "boundsCm": [
+        150.0372772216797,
+        100.3913803100586,
+        191.7206907272339
+      ],
+      "minCm": [
+        -77.0,
+        -48.805931091308594,
+        -1.7206907272338867
+      ],
+      "maxCm": [
+        73.03727722167969,
+        51.58544921875,
+        190.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.6665010312887127,
+      "landmark": false,
+      "triangles": 2694,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Accent"
+      ],
+      "sourceFbxSha256": "b9405b06be5ea7baa6b5900aaa5144e741ec2fd7f5723e24918e1956d5a6103c"
+    },
+    {
+      "id": "warrens_fungus",
+      "name": "Pale Root Fungi",
+      "regionIndex": 3,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_warrens_fungus.SM_RD_warrens_fungus",
+      "placement": "floor",
+      "boundsCm": [
+        158.1039276123047,
+        124.24253845214844,
+        91.08121716976166
+      ],
+      "minCm": [
+        -90.30956268310547,
+        -62.80828094482422,
+        -1.4012168645858765
+      ],
+      "maxCm": [
+        67.79436492919922,
+        61.43425750732422,
+        89.68000030517578
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.6324953561255954,
+      "landmark": false,
+      "triangles": 2280,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Bone",
+        "Accent"
+      ],
+      "sourceFbxSha256": "c9f75b0de3b9fd24ae82c70c6a65af269df916e3f3d09d1058105c4a2c2e86c2"
+    },
+    {
+      "id": "crypts_sarcophagus",
+      "name": "Crimson Vigil Sarcophagus",
+      "regionIndex": 4,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_crypts_sarcophagus.SM_RD_crypts_sarcophagus",
+      "placement": "wall",
+      "boundsCm": [
+        134.00000762939453,
+        191.00001525878906,
+        122.79000091552734
+      ],
+      "minCm": [
+        -67.0,
+        -91.00000762939453,
+        0.0
+      ],
+      "maxCm": [
+        67.00000762939453,
+        100.00000762939453,
+        122.79000091552734
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5235601675974128,
+      "landmark": true,
+      "triangles": 3424,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone"
+      ],
+      "sourceFbxSha256": "8dfa1ac8015f0f723aa8683df21b7ab30778628bc39b954151b9ad869bf3b489"
+    },
+    {
+      "id": "crypts_vigil",
+      "name": "The Watchers Lantern",
+      "regionIndex": 4,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_crypts_vigil.SM_RD_crypts_vigil",
+      "placement": "wall",
+      "boundsCm": [
+        82.38423156738281,
+        74.0,
+        243.1999969482422
+      ],
+      "minCm": [
+        -41.192115783691406,
+        -37.0,
+        0.0
+      ],
+      "maxCm": [
+        41.192115783691406,
+        37.0,
+        243.1999969482422
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 1.0,
+      "landmark": false,
+      "triangles": 988,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "sourceFbxSha256": "4e2f58f8cc35b474b2c68415507821478f39cf1f518fe56657962c98281bb074"
+    },
+    {
+      "id": "crypts_standard",
+      "name": "Sepulchral Procession Banner",
+      "regionIndex": 4,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_crypts_standard.SM_RD_crypts_standard",
+      "placement": "wall",
+      "boundsCm": [
+        134.0,
+        66.0,
+        291.0
+      ],
+      "minCm": [
+        -67.0,
+        -33.0,
+        0.0
+      ],
+      "maxCm": [
+        67.0,
+        33.0,
+        291.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.746268656716418,
+      "landmark": false,
+      "triangles": 532,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Accent"
+      ],
+      "sourceFbxSha256": "75081805029c78aafe820145c705ee0c42e6577387f964574aac7acbe76559b1"
+    },
+    {
+      "id": "fortress_armory",
+      "name": "Warden Shield and Spear Rack",
+      "regionIndex": 5,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_fortress_armory.SM_RD_fortress_armory",
+      "placement": "wall",
+      "boundsCm": [
+        179.1999969482422,
+        49.55001354217529,
+        230.0
+      ],
+      "minCm": [
+        -87.5,
+        -39.00000762939453,
+        0.0
+      ],
+      "maxCm": [
+        91.69999694824219,
+        10.550005912780762,
+        230.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.558035723789006,
+      "landmark": true,
+      "triangles": 428,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Trim",
+        "Iron",
+        "Accent"
+      ],
+      "sourceFbxSha256": "c4ab2a9a49dbb4e9a4f06c08770840dc565f040aeba3f2e63c9b0191a4812f96"
+    },
+    {
+      "id": "fortress_shackles",
+      "name": "Forgotten Restraints",
+      "regionIndex": 5,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_fortress_shackles.SM_RD_fortress_shackles",
+      "placement": "wall",
+      "boundsCm": [
+        113.0,
+        88.20001029968262,
+        76.0
+      ],
+      "minCm": [
+        -56.5,
+        -24.0000057220459,
+        0.0
+      ],
+      "maxCm": [
+        56.5,
+        64.20000457763672,
+        76.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.8849557522123894,
+      "landmark": false,
+      "triangles": 4380,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Iron"
+      ],
+      "sourceFbxSha256": "d19d4d1af1d02973ba94e690b7822311d577a681b256665b08aa10c390a03d6e"
+    },
+    {
+      "id": "deep_drake_skull",
+      "name": "Horned Drake Skull",
+      "regionIndex": 6,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_deep_drake_skull.SM_RD_deep_drake_skull",
+      "placement": "floor",
+      "boundsCm": [
+        178.82289123535156,
+        233.15771484375,
+        187.91150283813477
+      ],
+      "minCm": [
+        -93.1352767944336,
+        -103.15771484375,
+        -1.7884254455566406
+      ],
+      "maxCm": [
+        85.68761444091797,
+        130.0,
+        186.12307739257812
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4288942361054393,
+      "landmark": true,
+      "triangles": 2536,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Bone"
+      ],
+      "sourceFbxSha256": "9210d0f24a985b58752f773b4a6760538929fe581f9d3ce4e5c628766dd23e1e"
+    },
+    {
+      "id": "deep_ribcage",
+      "name": "Drake Ribcage Remains",
+      "regionIndex": 6,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_deep_ribcage.SM_RD_deep_ribcage",
+      "placement": "floor",
+      "boundsCm": [
+        193.75,
+        224.19741821289062,
+        172.67173850536346
+      ],
+      "minCm": [
+        -94.58680725097656,
+        -112.09870910644531,
+        0.35999977588653564
+      ],
+      "maxCm": [
+        99.16319274902344,
+        112.09870910644531,
+        173.03173828125
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.44603546640774977,
+      "landmark": true,
+      "triangles": 3396,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Bone"
+      ],
+      "sourceFbxSha256": "5a57d4213a9a8cf39dd2cb8e1e21225c756eb35c10ca7edbdc940ab35854532f"
+    },
+    {
+      "id": "deep_crystals",
+      "name": "Cold Mineral Outcrop",
+      "regionIndex": 6,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_deep_crystals.SM_RD_deep_crystals",
+      "placement": "floor",
+      "boundsCm": [
+        143.14128875732422,
+        122.76553344726562,
+        159.4538140296936
+      ],
+      "minCm": [
+        -67.92134094238281,
+        -63.585670471191406,
+        -7.438204288482666
+      ],
+      "maxCm": [
+        75.2199478149414,
+        59.17986297607422,
+        152.01560974121094
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.6986104489357773,
+      "landmark": false,
+      "triangles": 610,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Accent"
+      ],
+      "sourceFbxSha256": "e302ebab1f1a741e130eeadef15af401ac3162416ea4599d4b91848a32e84a7a"
+    },
+    {
+      "id": "infernal_seal",
+      "name": "The Broken Binding Stone",
+      "regionIndex": 7,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_infernal_seal.SM_RD_infernal_seal",
+      "placement": "wall",
+      "boundsCm": [
+        141.8203239440918,
+        79.97643661499023,
+        158.72124201059341
+      ],
+      "minCm": [
+        -55.500003814697266,
+        -42.27643585205078,
+        -0.9746447205543518
+      ],
+      "maxCm": [
+        86.32032012939453,
+        37.70000076293945,
+        157.74659729003906
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.7051175545151191,
+      "landmark": false,
+      "triangles": 3360,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Iron",
+        "Accent"
+      ],
+      "sourceFbxSha256": "d7fe48b599b38d47005949ae58daee7bafea93796fdeaca0af05cf40afc9896e"
+    },
+    {
+      "id": "infernal_brazier",
+      "name": "Eight-Spined Offering Brazier",
+      "regionIndex": 7,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_infernal_brazier.SM_RD_infernal_brazier",
+      "placement": "floor",
+      "boundsCm": [
+        124.34217071533203,
+        124.34217071533203,
+        169.14183044433594
+      ],
+      "minCm": [
+        -62.171085357666016,
+        -62.171085357666016,
+        0.0
+      ],
+      "maxCm": [
+        62.171085357666016,
+        62.171085357666016,
+        169.14183044433594
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.804232380894646,
+      "landmark": false,
+      "triangles": 4520,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "sourceFbxSha256": "ee80e44d0c64a5792fd0b2bd9858dff30660c83a15b494f5f18278e80174cf8d"
+    },
+    {
+      "id": "hell_lava_basin",
+      "name": "Basalt Lava Sump",
+      "regionIndex": 8,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_hell_lava_basin.SM_RD_hell_lava_basin",
+      "placement": "floor",
+      "boundsCm": [
+        207.70549774169922,
+        208.84959411621094,
+        88.14948272705078
+      ],
+      "minCm": [
+        -102.70550537109375,
+        -104.42479705810547,
+        2.0
+      ],
+      "maxCm": [
+        104.99999237060547,
+        104.42479705810547,
+        90.14948272705078
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4788134754255574,
+      "landmark": true,
+      "triangles": 1716,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Accent"
+      ],
+      "sourceFbxSha256": "872e59a312a250fa3eb7741d9db0002785584d2330daf9b98e468b173ed039a9"
+    },
+    {
+      "id": "hell_fissure",
+      "name": "Ember Fissure",
+      "regionIndex": 8,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_hell_fissure.SM_RD_hell_fissure",
+      "placement": "patch",
+      "boundsCm": [
+        249.01925659179688,
+        110.57431030273438,
+        66.51312017440796
+      ],
+      "minCm": [
+        -129.09722900390625,
+        -55.37963104248047,
+        -7.765042781829834
+      ],
+      "maxCm": [
+        119.92202758789062,
+        55.194679260253906,
+        58.748077392578125
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.40157536958647466,
+      "landmark": true,
+      "triangles": 1704,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Accent"
+      ],
+      "sourceFbxSha256": "5ff6bb92cd0b47f8f745619e991927b176d4a7207f6e221f112237e3ca671b99"
+    },
+    {
+      "id": "hell_drake_trophy",
+      "name": "Charred Drake Trophy",
+      "regionIndex": 8,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_hell_drake_trophy.SM_RD_hell_drake_trophy",
+      "placement": "wall",
+      "boundsCm": [
+        144.50797271728516,
+        171.7741241455078,
+        184.18307495117188
+      ],
+      "minCm": [
+        -74.12757873535156,
+        -71.47412109375,
+        0.0
+      ],
+      "maxCm": [
+        70.3803939819336,
+        100.30000305175781,
+        184.18307495117188
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5821598596264196,
+      "landmark": true,
+      "triangles": 6104,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false,
+      "nanite": true,
+      "sections": [
+        "Wall",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "sourceFbxSha256": "918cf405a3465a747e9f04069aaeaff5bafaf8cf0af8b7a67574d4883b29f9cc"
+    }
+  ],
+  "selectiveUpdate": "cathedral_lectern"
+}

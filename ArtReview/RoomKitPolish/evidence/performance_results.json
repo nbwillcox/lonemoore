@@ -1,0 +1,128 @@
+[
+  {
+    "label": "Release",
+    "scene": "Floor_02_Entrance",
+    "samples": 1300,
+    "fps": 73.6,
+    "mean_ms": 13.582,
+    "p99_ms": 14.942,
+    "p99_fps": 66.9,
+    "stats_ms": {
+      "GameThreadTime": 2.159,
+      "RenderThreadTime": 5.279,
+      "GPUTime": 12.581,
+      "GPU/TemporalSuperResolution": 2.68,
+      "GPU/RenderDeferredLighting": 3.588,
+      "GPU/LumenSceneUpdate": 0.318,
+      "GPU/LumenScreenProbeGather": 0.008
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_07_BossApproach",
+    "samples": 1300,
+    "fps": 75.0,
+    "mean_ms": 13.339,
+    "p99_ms": 14.577,
+    "p99_fps": 68.6,
+    "stats_ms": {
+      "GameThreadTime": 2.109,
+      "RenderThreadTime": 4.979,
+      "GPUTime": 12.332,
+      "GPU/TemporalSuperResolution": 2.643,
+      "GPU/RenderDeferredLighting": 3.653,
+      "GPU/LumenSceneUpdate": 0.327,
+      "GPU/LumenScreenProbeGather": 0.016
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_07_Bridge",
+    "samples": 1300,
+    "fps": 74.6,
+    "mean_ms": 13.409,
+    "p99_ms": 14.502,
+    "p99_fps": 69.0,
+    "stats_ms": {
+      "GameThreadTime": 2.183,
+      "RenderThreadTime": 5.427,
+      "GPUTime": 12.388,
+      "GPU/TemporalSuperResolution": 2.702,
+      "GPU/RenderDeferredLighting": 3.521,
+      "GPU/LumenSceneUpdate": 0.331,
+      "GPU/LumenScreenProbeGather": 0.008
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_07_Entrance",
+    "samples": 1300,
+    "fps": 75.6,
+    "mean_ms": 13.231,
+    "p99_ms": 14.268,
+    "p99_fps": 70.1,
+    "stats_ms": {
+      "GameThreadTime": 2.176,
+      "RenderThreadTime": 5.238,
+      "GPUTime": 12.221,
+      "GPU/TemporalSuperResolution": 2.651,
+      "GPU/RenderDeferredLighting": 3.55,
+      "GPU/LumenSceneUpdate": 0.322,
+      "GPU/LumenScreenProbeGather": 0.008
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_09_BossApproach",
+    "samples": 1300,
+    "fps": 73.9,
+    "mean_ms": 13.54,
+    "p99_ms": 14.616,
+    "p99_fps": 68.4,
+    "stats_ms": {
+      "GameThreadTime": 2.079,
+      "RenderThreadTime": 5.002,
+      "GPUTime": 12.551,
+      "GPU/TemporalSuperResolution": 2.633,
+      "GPU/RenderDeferredLighting": 3.904,
+      "GPU/LumenSceneUpdate": 0.33,
+      "GPU/LumenScreenProbeGather": 0.015
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_13_Entrance",
+    "samples": 1300,
+    "fps": 75.1,
+    "mean_ms": 13.313,
+    "p99_ms": 14.677,
+    "p99_fps": 68.1,
+    "stats_ms": {
+      "GameThreadTime": 2.179,
+      "RenderThreadTime": 5.252,
+      "GPUTime": 12.304,
+      "GPU/TemporalSuperResolution": 2.662,
+      "GPU/RenderDeferredLighting": 3.617,
+      "GPU/LumenSceneUpdate": 0.323,
+      "GPU/LumenScreenProbeGather": 0.008
+    }
+  },
+  {
+    "label": "Release",
+    "scene": "Floor_17_Entrance",
+    "samples": 1300,
+    "fps": 75.5,
+    "mean_ms": 13.237,
+    "p99_ms": 14.505,
+    "p99_fps": 68.9,
+    "stats_ms": {
+      "GameThreadTime": 2.129,
+      "RenderThreadTime": 5.276,
+      "GPUTime": 12.225,
+      "GPU/TemporalSuperResolution": 2.658,
+      "GPU/RenderDeferredLighting": 3.619,
+      "GPU/LumenSceneUpdate": 0.328,
+      "GPU/LumenScreenProbeGather": 0.008
+    }
+  }
+]

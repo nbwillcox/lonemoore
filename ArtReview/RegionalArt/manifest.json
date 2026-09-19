@@ -1,0 +1,3421 @@
+{
+  "status": "INTEGRATED_PACKAGED_VALIDATED",
+  "regions": [
+    {
+      "index": 0,
+      "code": "Cathedral",
+      "name": "Last Dawn Cathedral",
+      "floors": [
+        "Last Dawn Cathedral \u2014 Level 1: The Unanswered Bell"
+      ],
+      "lore": "The bell has not rung for a century. Beneath its altar, something still answers.",
+      "materials": [
+        {
+          "id": "Cathedral_PilgrimLimestone",
+          "kind": "ashlar",
+          "color": [
+            0.38,
+            0.35,
+            0.29
+          ],
+          "nx": 3,
+          "ny": 5,
+          "role": "wall"
+        },
+        {
+          "id": "Cathedral_RuinedLimePlaster",
+          "kind": "plaster",
+          "color": [
+            0.46,
+            0.42,
+            0.34
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "secondary"
+        },
+        {
+          "id": "Cathedral_ProcessionalFlags",
+          "kind": "flags",
+          "color": [
+            0.34,
+            0.32,
+            0.28
+          ],
+          "nx": 4,
+          "ny": 4,
+          "role": "floor"
+        },
+        {
+          "id": "Cathedral_ChapelVault",
+          "kind": "brick",
+          "color": [
+            0.32,
+            0.28,
+            0.23
+          ],
+          "nx": 6,
+          "ny": 10,
+          "role": "vault"
+        },
+        {
+          "id": "Cathedral_BellCarving",
+          "kind": "engraved",
+          "color": [
+            0.46,
+            0.42,
+            0.32
+          ],
+          "nx": 2,
+          "ny": 4,
+          "role": "trim"
+        },
+        {
+          "id": "Cathedral_OxidizedIron",
+          "kind": "metal",
+          "color": [
+            0.2,
+            0.11,
+            0.055
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Cathedral_OldPewOak",
+          "kind": "wood",
+          "color": [
+            0.29,
+            0.19,
+            0.1
+          ],
+          "nx": 6,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Cathedral_AltarDressing",
+          "kind": "ashlar",
+          "color": [
+            0.45,
+            0.42,
+            0.34
+          ],
+          "nx": 2,
+          "ny": 3,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Cathedral_WaxRun",
+        "Cathedral_PlasterLoss",
+        "Cathedral_SootFan",
+        "Cathedral_DampFoot"
+      ],
+      "props": [
+        "Cathedral_AltarFragment",
+        "Cathedral_BellAnchor",
+        "Cathedral_BrokenPew"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\desecrated-temple.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\abandon-gate-house.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    },
+    {
+      "index": 2,
+      "code": "Catacombs",
+      "name": "Forgotten Catacombs",
+      "floors": [
+        "Forgotten Catacombs \u2014 Level 1: The Failed Chapel",
+        "Forgotten Catacombs \u2014 Level 2: The Ossuary"
+      ],
+      "lore": "The crowns in these graves predate the city. Lonemoore was built on a warning.",
+      "materials": [
+        {
+          "id": "Catacombs_BurialRubble",
+          "kind": "ashlar",
+          "color": [
+            0.32,
+            0.3,
+            0.25
+          ],
+          "nx": 5,
+          "ny": 7,
+          "role": "wall"
+        },
+        {
+          "id": "Catacombs_FuneraryPlaster",
+          "kind": "plaster",
+          "color": [
+            0.4,
+            0.37,
+            0.29
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "secondary"
+        },
+        {
+          "id": "Catacombs_SettledFlags",
+          "kind": "flags",
+          "color": [
+            0.3,
+            0.29,
+            0.25
+          ],
+          "nx": 3,
+          "ny": 5,
+          "role": "floor"
+        },
+        {
+          "id": "Catacombs_BurialVault",
+          "kind": "brick",
+          "color": [
+            0.29,
+            0.26,
+            0.21
+          ],
+          "nx": 8,
+          "ny": 12,
+          "role": "vault"
+        },
+        {
+          "id": "Catacombs_CrownMemorial",
+          "kind": "engraved",
+          "color": [
+            0.41,
+            0.36,
+            0.26
+          ],
+          "nx": 3,
+          "ny": 3,
+          "role": "trim"
+        },
+        {
+          "id": "Catacombs_AgedBronze",
+          "kind": "metal",
+          "color": [
+            0.28,
+            0.23,
+            0.105
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Catacombs_ChalkBone",
+          "kind": "bone",
+          "color": [
+            0.56,
+            0.51,
+            0.39
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Catacombs_NicheStone",
+          "kind": "ashlar",
+          "color": [
+            0.37,
+            0.34,
+            0.28
+          ],
+          "nx": 4,
+          "ny": 8,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Catacombs_ChalkBloom",
+        "Catacombs_DustFall",
+        "Catacombs_WaxTrace",
+        "Catacombs_MemorialSpall"
+      ],
+      "props": [
+        "Catacombs_BoneShelf",
+        "Catacombs_MemorialPlaque",
+        "Catacombs_FuneraryUrn"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\grand-catacombs.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\desecrated-temple.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    },
+    {
+      "index": 3,
+      "code": "Warrens",
+      "name": "Goblin Warrens",
+      "floors": [
+        "Goblin Warrens \u2014 Level 1: The Scavenger Roads",
+        "Goblin Warrens \u2014 Level 2: The Thorn Court"
+      ],
+      "lore": "The goblins trade in broken seals. They have mistaken the locks for treasure.",
+      "materials": [
+        {
+          "id": "Warrens_PatchedRubble",
+          "kind": "ashlar",
+          "color": [
+            0.29,
+            0.27,
+            0.19
+          ],
+          "nx": 4,
+          "ny": 7,
+          "role": "wall"
+        },
+        {
+          "id": "Warrens_ScavengedPlanks",
+          "kind": "wood",
+          "color": [
+            0.26,
+            0.18,
+            0.095
+          ],
+          "nx": 9,
+          "ny": 0,
+          "role": "secondary"
+        },
+        {
+          "id": "Warrens_TroddenEarth",
+          "kind": "gravel",
+          "color": [
+            0.235,
+            0.2,
+            0.13
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "floor"
+        },
+        {
+          "id": "Warrens_RootStrata",
+          "kind": "strata",
+          "color": [
+            0.255,
+            0.245,
+            0.16
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "vault"
+        },
+        {
+          "id": "Warrens_TimberBracing",
+          "kind": "wood",
+          "color": [
+            0.24,
+            0.15,
+            0.075
+          ],
+          "nx": 4,
+          "ny": 0,
+          "role": "trim"
+        },
+        {
+          "id": "Warrens_BatteredIron",
+          "kind": "metal",
+          "color": [
+            0.25,
+            0.13,
+            0.065
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Warrens_RootMoss",
+          "kind": "growth",
+          "color": [
+            0.145,
+            0.2,
+            0.07
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Warrens_WovenScraps",
+          "kind": "cloth",
+          "color": [
+            0.3,
+            0.25,
+            0.13
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Warrens_MudSplash",
+        "Warrens_MossPatch",
+        "Warrens_SalvageScuff",
+        "Warrens_EarthFall"
+      ],
+      "props": [
+        "Warrens_SalvageBundle",
+        "Warrens_SealTray",
+        "Warrens_ThornCluster"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\fungal-caverns.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\forgotten-mines.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    },
+    {
+      "index": 4,
+      "code": "Crypts",
+      "name": "Ancient Crypts",
+      "floors": [
+        "Ancient Crypts \u2014 Level 1: The Pilgrim's Vigil",
+        "Ancient Crypts \u2014 Level 2: The Crimson Sepulchre"
+      ],
+      "lore": "Holy names were scraped from every coffin. The last inscription reads: Do not answer her.",
+      "materials": [
+        {
+          "id": "Crypts_SepulchralAshlar",
+          "kind": "ashlar",
+          "color": [
+            0.31,
+            0.32,
+            0.36
+          ],
+          "nx": 2,
+          "ny": 5,
+          "role": "wall"
+        },
+        {
+          "id": "Crypts_ScrapedMemorial",
+          "kind": "engraved",
+          "color": [
+            0.39,
+            0.39,
+            0.42
+          ],
+          "nx": 2,
+          "ny": 2,
+          "role": "secondary"
+        },
+        {
+          "id": "Crypts_VigilSlabs",
+          "kind": "flags",
+          "color": [
+            0.29,
+            0.29,
+            0.32
+          ],
+          "nx": 2,
+          "ny": 3,
+          "role": "floor"
+        },
+        {
+          "id": "Crypts_RibVaultStone",
+          "kind": "brick",
+          "color": [
+            0.27,
+            0.27,
+            0.32
+          ],
+          "nx": 4,
+          "ny": 12,
+          "role": "vault"
+        },
+        {
+          "id": "Crypts_FuneraryCarving",
+          "kind": "engraved",
+          "color": [
+            0.42,
+            0.4,
+            0.39
+          ],
+          "nx": 4,
+          "ny": 3,
+          "role": "trim"
+        },
+        {
+          "id": "Crypts_TarnishedSilver",
+          "kind": "metal",
+          "color": [
+            0.3,
+            0.29,
+            0.25
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Crypts_CrimsonCloth",
+          "kind": "cloth",
+          "color": [
+            0.25,
+            0.055,
+            0.05
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Crypts_CoffinStone",
+          "kind": "veins",
+          "color": [
+            0.37,
+            0.36,
+            0.38
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Crypts_ErasedName",
+        "Crypts_CandleWax",
+        "Crypts_CrimsonDust",
+        "Crypts_ColdSeep"
+      ],
+      "props": [
+        "Crypts_Nameplate",
+        "Crypts_CoffinCorner",
+        "Crypts_VotiveStand"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\grand-catacombs.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\desecrated-temple.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    },
+    {
+      "index": 5,
+      "code": "Fortress",
+      "name": "Buried Fortress",
+      "floors": [
+        "Buried Fortress \u2014 Level 1: The Warden's Cells",
+        "Buried Fortress \u2014 Level 2: The Hollow Keep"
+      ],
+      "lore": "The garrison fought inward, not outward. This fortress was built to keep something underneath it.",
+      "materials": [
+        {
+          "id": "Fortress_GarrisonBlocks",
+          "kind": "ashlar",
+          "color": [
+            0.285,
+            0.31,
+            0.33
+          ],
+          "nx": 3,
+          "ny": 4,
+          "role": "wall"
+        },
+        {
+          "id": "Fortress_DefenseMasonry",
+          "kind": "ashlar",
+          "color": [
+            0.255,
+            0.28,
+            0.3
+          ],
+          "nx": 4,
+          "ny": 6,
+          "role": "secondary"
+        },
+        {
+          "id": "Fortress_GarrisonFlags",
+          "kind": "flags",
+          "color": [
+            0.27,
+            0.29,
+            0.3
+          ],
+          "nx": 4,
+          "ny": 3,
+          "role": "floor"
+        },
+        {
+          "id": "Fortress_UtilityVault",
+          "kind": "brick",
+          "color": [
+            0.26,
+            0.275,
+            0.285
+          ],
+          "nx": 5,
+          "ny": 8,
+          "role": "vault"
+        },
+        {
+          "id": "Fortress_MilitaryTrim",
+          "kind": "engraved",
+          "color": [
+            0.33,
+            0.35,
+            0.35
+          ],
+          "nx": 3,
+          "ny": 4,
+          "role": "trim"
+        },
+        {
+          "id": "Fortress_WardenIron",
+          "kind": "metal",
+          "color": [
+            0.21,
+            0.13,
+            0.08
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Fortress_BarracksOak",
+          "kind": "wood",
+          "color": [
+            0.24,
+            0.17,
+            0.11
+          ],
+          "nx": 5,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Fortress_BarredPlate",
+          "kind": "plate",
+          "color": [
+            0.26,
+            0.275,
+            0.285
+          ],
+          "nx": 2,
+          "ny": 3,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Fortress_RustRun",
+        "Fortress_BootScuff",
+        "Fortress_SootStain",
+        "Fortress_SaltSeep"
+      ],
+      "props": [
+        "Fortress_ShackleFixture",
+        "Fortress_ShieldRack",
+        "Fortress_ChainGuide"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\old-prison-cells.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\abandon-gate-house.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    },
+    {
+      "index": 6,
+      "code": "Deep",
+      "name": "The Deep",
+      "floors": [
+        "The Deep \u2014 Level 1: The Chasm of Wings",
+        "The Deep \u2014 Level 2: The Drake's Heart"
+      ],
+      "lore": "Beyond the chasm, the stars appear below your feet. The descent has left the mortal world.",
+      "materials": [
+        {
+          "id": "Deep_ChasmStrata",
+          "kind": "strata",
+          "color": [
+            0.225,
+            0.275,
+            0.285
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "wall"
+        },
+        {
+          "id": "Deep_FracturedCave",
+          "kind": "rock",
+          "color": [
+            0.215,
+            0.25,
+            0.27
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "secondary"
+        },
+        {
+          "id": "Deep_CaveGravel",
+          "kind": "gravel",
+          "color": [
+            0.23,
+            0.255,
+            0.25
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "floor"
+        },
+        {
+          "id": "Deep_OverhangRock",
+          "kind": "strata",
+          "color": [
+            0.2,
+            0.24,
+            0.25
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "vault"
+        },
+        {
+          "id": "Deep_MineralCrust",
+          "kind": "veins",
+          "color": [
+            0.31,
+            0.37,
+            0.35
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "trim"
+        },
+        {
+          "id": "Deep_AncientIron",
+          "kind": "metal",
+          "color": [
+            0.16,
+            0.23,
+            0.22
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Deep_ScorchedDrakeRock",
+          "kind": "slag",
+          "color": [
+            0.22,
+            0.16,
+            0.13
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Deep_DarkSediment",
+          "kind": "gravel",
+          "color": [
+            0.17,
+            0.205,
+            0.21
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Deep_MineralBloom",
+        "Deep_ClawScars",
+        "Deep_SootScorch",
+        "Deep_CaveSeep"
+      ],
+      "props": [
+        "Deep_MineralCluster",
+        "Deep_DrakeScales",
+        "Deep_RockSpur"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\abyssal-descent.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\fungal-caverns.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\lost-underground-city.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    },
+    {
+      "index": 7,
+      "code": "Infernal",
+      "name": "Infernal Ruins",
+      "floors": [
+        "Infernal Ruins \u2014 Level 1: The Sealed Witness",
+        "Infernal Ruins \u2014 Level 2: The Ashen Compact"
+      ],
+      "lore": "Seven generations fed the seals. The last keeper chose power instead. The breach remembers.",
+      "materials": [
+        {
+          "id": "Infernal_SealMasonry",
+          "kind": "ashlar",
+          "color": [
+            0.29,
+            0.235,
+            0.21
+          ],
+          "nx": 3,
+          "ny": 6,
+          "role": "wall"
+        },
+        {
+          "id": "Infernal_SealCarvedSlabs",
+          "kind": "engraved",
+          "color": [
+            0.34,
+            0.27,
+            0.22
+          ],
+          "nx": 2,
+          "ny": 3,
+          "role": "secondary"
+        },
+        {
+          "id": "Infernal_AshFlags",
+          "kind": "flags",
+          "color": [
+            0.285,
+            0.26,
+            0.24
+          ],
+          "nx": 3,
+          "ny": 4,
+          "role": "floor"
+        },
+        {
+          "id": "Infernal_FracturedVault",
+          "kind": "brick",
+          "color": [
+            0.27,
+            0.21,
+            0.19
+          ],
+          "nx": 5,
+          "ny": 9,
+          "role": "vault"
+        },
+        {
+          "id": "Infernal_RitualTrim",
+          "kind": "engraved",
+          "color": [
+            0.36,
+            0.29,
+            0.22
+          ],
+          "nx": 3,
+          "ny": 5,
+          "role": "trim"
+        },
+        {
+          "id": "Infernal_HeatIron",
+          "kind": "metal",
+          "color": [
+            0.25,
+            0.12,
+            0.075
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Infernal_ScorchedPlaster",
+          "kind": "plaster",
+          "color": [
+            0.28,
+            0.235,
+            0.21
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Infernal_HeatFissures",
+          "kind": "heat",
+          "color": [
+            0.2,
+            0.14,
+            0.12
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Infernal_AshFall",
+        "Infernal_BrokenSeal",
+        "Infernal_HeatScorch",
+        "Infernal_RitualResidue"
+      ],
+      "props": [
+        "Infernal_SealFragment",
+        "Infernal_RitualClamp",
+        "Infernal_OfferingVessel"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\desecrated-temple.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\hell-gate.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    },
+    {
+      "index": 8,
+      "code": "Hell",
+      "name": "Hell",
+      "floors": [
+        "Hell \u2014 Level 1: The Ashen Threshold",
+        "Hell \u2014 Level 2: The Hellforge",
+        "Hell \u2014 Level 3: The Broken Halo"
+      ],
+      "lore": "Astra wears the Hell Key. The door is bound to her will. Killing her may break its master, but not its hunger.",
+      "materials": [
+        {
+          "id": "Hell_BasaltRampart",
+          "kind": "ashlar",
+          "color": [
+            0.23,
+            0.205,
+            0.22
+          ],
+          "nx": 2,
+          "ny": 4,
+          "role": "wall"
+        },
+        {
+          "id": "Hell_FracturedBasalt",
+          "kind": "rock",
+          "color": [
+            0.215,
+            0.185,
+            0.22
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "secondary"
+        },
+        {
+          "id": "Hell_ForgePlates",
+          "kind": "plate",
+          "color": [
+            0.245,
+            0.225,
+            0.23
+          ],
+          "nx": 3,
+          "ny": 3,
+          "role": "floor"
+        },
+        {
+          "id": "Hell_VaultBasalt",
+          "kind": "strata",
+          "color": [
+            0.23,
+            0.18,
+            0.215
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "vault"
+        },
+        {
+          "id": "Hell_ObsidianCarving",
+          "kind": "engraved",
+          "color": [
+            0.27,
+            0.245,
+            0.3
+          ],
+          "nx": 2,
+          "ny": 4,
+          "role": "trim"
+        },
+        {
+          "id": "Hell_InfernalMetal",
+          "kind": "metal",
+          "color": [
+            0.28,
+            0.13,
+            0.09
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "metal"
+        },
+        {
+          "id": "Hell_ForgeSlag",
+          "kind": "slag",
+          "color": [
+            0.265,
+            0.19,
+            0.15
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "accent"
+        },
+        {
+          "id": "Hell_EmberSeams",
+          "kind": "heat",
+          "color": [
+            0.19,
+            0.135,
+            0.15
+          ],
+          "nx": 0,
+          "ny": 0,
+          "role": "detail"
+        }
+      ],
+      "decals": [
+        "Hell_AshDrift",
+        "Hell_ForgeScorch",
+        "Hell_BrokenSigil",
+        "Hell_SlagSpatter"
+      ],
+      "props": [
+        "Hell_SlagCluster",
+        "Hell_ChainAnchor",
+        "Hell_BrokenHalo"
+      ],
+      "reference_images": [
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\hell-gate.png",
+        "J:\\First Person Dungeon Crawler Game\\.art\\.concepts\\abyssal-descent.png"
+      ],
+      "reference_status": "Inspected originals; visual associations with existing lore, not new campaign canon",
+      "authority": "J:\\First Person Dungeon Crawler Game\\Content\\Game\\Data\\campaign.json"
+    }
+  ],
+  "materials": [
+    {
+      "id": "Cathedral_PilgrimLimestone",
+      "role": "wall",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_PilgrimLimestone\\Cathedral_PilgrimLimestone_BC.png",
+        "normal": "textures\\Cathedral_PilgrimLimestone\\Cathedral_PilgrimLimestone_N.png",
+        "roughness": "textures\\Cathedral_PilgrimLimestone\\Cathedral_PilgrimLimestone_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_PilgrimLimestone",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_PilgrimLimestone"
+    },
+    {
+      "id": "Cathedral_RuinedLimePlaster",
+      "role": "secondary",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_RuinedLimePlaster\\Cathedral_RuinedLimePlaster_BC.png",
+        "normal": "textures\\Cathedral_RuinedLimePlaster\\Cathedral_RuinedLimePlaster_N.png",
+        "roughness": "textures\\Cathedral_RuinedLimePlaster\\Cathedral_RuinedLimePlaster_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_RuinedLimePlaster",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_RuinedLimePlaster"
+    },
+    {
+      "id": "Cathedral_ProcessionalFlags",
+      "role": "floor",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_ProcessionalFlags\\Cathedral_ProcessionalFlags_BC.png",
+        "normal": "textures\\Cathedral_ProcessionalFlags\\Cathedral_ProcessionalFlags_N.png",
+        "roughness": "textures\\Cathedral_ProcessionalFlags\\Cathedral_ProcessionalFlags_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_ProcessionalFlags",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_ProcessionalFlags"
+    },
+    {
+      "id": "Cathedral_ChapelVault",
+      "role": "vault",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_ChapelVault\\Cathedral_ChapelVault_BC.png",
+        "normal": "textures\\Cathedral_ChapelVault\\Cathedral_ChapelVault_N.png",
+        "roughness": "textures\\Cathedral_ChapelVault\\Cathedral_ChapelVault_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_ChapelVault",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_ChapelVault"
+    },
+    {
+      "id": "Cathedral_BellCarving",
+      "role": "trim",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_BellCarving\\Cathedral_BellCarving_BC.png",
+        "normal": "textures\\Cathedral_BellCarving\\Cathedral_BellCarving_N.png",
+        "roughness": "textures\\Cathedral_BellCarving\\Cathedral_BellCarving_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_BellCarving",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_BellCarving"
+    },
+    {
+      "id": "Cathedral_OxidizedIron",
+      "role": "metal",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_OxidizedIron\\Cathedral_OxidizedIron_BC.png",
+        "normal": "textures\\Cathedral_OxidizedIron\\Cathedral_OxidizedIron_N.png",
+        "roughness": "textures\\Cathedral_OxidizedIron\\Cathedral_OxidizedIron_R.png",
+        "metallic": "textures\\Cathedral_OxidizedIron\\Cathedral_OxidizedIron_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_OxidizedIron",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_OxidizedIron"
+    },
+    {
+      "id": "Cathedral_OldPewOak",
+      "role": "accent",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_OldPewOak\\Cathedral_OldPewOak_BC.png",
+        "normal": "textures\\Cathedral_OldPewOak\\Cathedral_OldPewOak_N.png",
+        "roughness": "textures\\Cathedral_OldPewOak\\Cathedral_OldPewOak_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_OldPewOak",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_OldPewOak"
+    },
+    {
+      "id": "Cathedral_AltarDressing",
+      "role": "detail",
+      "region": 0,
+      "maps": {
+        "base_color": "textures\\Cathedral_AltarDressing\\Cathedral_AltarDressing_BC.png",
+        "normal": "textures\\Cathedral_AltarDressing\\Cathedral_AltarDressing_N.png",
+        "roughness": "textures\\Cathedral_AltarDressing\\Cathedral_AltarDressing_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Cathedral_AltarDressing",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Cathedral_AltarDressing"
+    },
+    {
+      "id": "Catacombs_BurialRubble",
+      "role": "wall",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_BurialRubble\\Catacombs_BurialRubble_BC.png",
+        "normal": "textures\\Catacombs_BurialRubble\\Catacombs_BurialRubble_N.png",
+        "roughness": "textures\\Catacombs_BurialRubble\\Catacombs_BurialRubble_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_BurialRubble",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_BurialRubble"
+    },
+    {
+      "id": "Catacombs_FuneraryPlaster",
+      "role": "secondary",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_FuneraryPlaster\\Catacombs_FuneraryPlaster_BC.png",
+        "normal": "textures\\Catacombs_FuneraryPlaster\\Catacombs_FuneraryPlaster_N.png",
+        "roughness": "textures\\Catacombs_FuneraryPlaster\\Catacombs_FuneraryPlaster_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_FuneraryPlaster",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_FuneraryPlaster"
+    },
+    {
+      "id": "Catacombs_SettledFlags",
+      "role": "floor",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_SettledFlags\\Catacombs_SettledFlags_BC.png",
+        "normal": "textures\\Catacombs_SettledFlags\\Catacombs_SettledFlags_N.png",
+        "roughness": "textures\\Catacombs_SettledFlags\\Catacombs_SettledFlags_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_SettledFlags",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_SettledFlags"
+    },
+    {
+      "id": "Catacombs_BurialVault",
+      "role": "vault",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_BurialVault\\Catacombs_BurialVault_BC.png",
+        "normal": "textures\\Catacombs_BurialVault\\Catacombs_BurialVault_N.png",
+        "roughness": "textures\\Catacombs_BurialVault\\Catacombs_BurialVault_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_BurialVault",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_BurialVault"
+    },
+    {
+      "id": "Catacombs_CrownMemorial",
+      "role": "trim",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_CrownMemorial\\Catacombs_CrownMemorial_BC.png",
+        "normal": "textures\\Catacombs_CrownMemorial\\Catacombs_CrownMemorial_N.png",
+        "roughness": "textures\\Catacombs_CrownMemorial\\Catacombs_CrownMemorial_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_CrownMemorial",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_CrownMemorial"
+    },
+    {
+      "id": "Catacombs_AgedBronze",
+      "role": "metal",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_AgedBronze\\Catacombs_AgedBronze_BC.png",
+        "normal": "textures\\Catacombs_AgedBronze\\Catacombs_AgedBronze_N.png",
+        "roughness": "textures\\Catacombs_AgedBronze\\Catacombs_AgedBronze_R.png",
+        "metallic": "textures\\Catacombs_AgedBronze\\Catacombs_AgedBronze_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_AgedBronze",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_AgedBronze"
+    },
+    {
+      "id": "Catacombs_ChalkBone",
+      "role": "accent",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_ChalkBone\\Catacombs_ChalkBone_BC.png",
+        "normal": "textures\\Catacombs_ChalkBone\\Catacombs_ChalkBone_N.png",
+        "roughness": "textures\\Catacombs_ChalkBone\\Catacombs_ChalkBone_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_ChalkBone",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_ChalkBone"
+    },
+    {
+      "id": "Catacombs_NicheStone",
+      "role": "detail",
+      "region": 2,
+      "maps": {
+        "base_color": "textures\\Catacombs_NicheStone\\Catacombs_NicheStone_BC.png",
+        "normal": "textures\\Catacombs_NicheStone\\Catacombs_NicheStone_N.png",
+        "roughness": "textures\\Catacombs_NicheStone\\Catacombs_NicheStone_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Catacombs_NicheStone",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Catacombs_NicheStone"
+    },
+    {
+      "id": "Warrens_PatchedRubble",
+      "role": "wall",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_PatchedRubble\\Warrens_PatchedRubble_BC.png",
+        "normal": "textures\\Warrens_PatchedRubble\\Warrens_PatchedRubble_N.png",
+        "roughness": "textures\\Warrens_PatchedRubble\\Warrens_PatchedRubble_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_PatchedRubble",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_PatchedRubble"
+    },
+    {
+      "id": "Warrens_ScavengedPlanks",
+      "role": "secondary",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_ScavengedPlanks\\Warrens_ScavengedPlanks_BC.png",
+        "normal": "textures\\Warrens_ScavengedPlanks\\Warrens_ScavengedPlanks_N.png",
+        "roughness": "textures\\Warrens_ScavengedPlanks\\Warrens_ScavengedPlanks_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_ScavengedPlanks",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_ScavengedPlanks"
+    },
+    {
+      "id": "Warrens_TroddenEarth",
+      "role": "floor",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_TroddenEarth\\Warrens_TroddenEarth_BC.png",
+        "normal": "textures\\Warrens_TroddenEarth\\Warrens_TroddenEarth_N.png",
+        "roughness": "textures\\Warrens_TroddenEarth\\Warrens_TroddenEarth_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_TroddenEarth",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_TroddenEarth"
+    },
+    {
+      "id": "Warrens_RootStrata",
+      "role": "vault",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_RootStrata\\Warrens_RootStrata_BC.png",
+        "normal": "textures\\Warrens_RootStrata\\Warrens_RootStrata_N.png",
+        "roughness": "textures\\Warrens_RootStrata\\Warrens_RootStrata_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_RootStrata",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_RootStrata"
+    },
+    {
+      "id": "Warrens_TimberBracing",
+      "role": "trim",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_TimberBracing\\Warrens_TimberBracing_BC.png",
+        "normal": "textures\\Warrens_TimberBracing\\Warrens_TimberBracing_N.png",
+        "roughness": "textures\\Warrens_TimberBracing\\Warrens_TimberBracing_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_TimberBracing",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_TimberBracing"
+    },
+    {
+      "id": "Warrens_BatteredIron",
+      "role": "metal",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_BatteredIron\\Warrens_BatteredIron_BC.png",
+        "normal": "textures\\Warrens_BatteredIron\\Warrens_BatteredIron_N.png",
+        "roughness": "textures\\Warrens_BatteredIron\\Warrens_BatteredIron_R.png",
+        "metallic": "textures\\Warrens_BatteredIron\\Warrens_BatteredIron_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_BatteredIron",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_BatteredIron"
+    },
+    {
+      "id": "Warrens_RootMoss",
+      "role": "accent",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_RootMoss\\Warrens_RootMoss_BC.png",
+        "normal": "textures\\Warrens_RootMoss\\Warrens_RootMoss_N.png",
+        "roughness": "textures\\Warrens_RootMoss\\Warrens_RootMoss_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_RootMoss",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_RootMoss"
+    },
+    {
+      "id": "Warrens_WovenScraps",
+      "role": "detail",
+      "region": 3,
+      "maps": {
+        "base_color": "textures\\Warrens_WovenScraps\\Warrens_WovenScraps_BC.png",
+        "normal": "textures\\Warrens_WovenScraps\\Warrens_WovenScraps_N.png",
+        "roughness": "textures\\Warrens_WovenScraps\\Warrens_WovenScraps_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Warrens_WovenScraps",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Warrens_WovenScraps"
+    },
+    {
+      "id": "Crypts_SepulchralAshlar",
+      "role": "wall",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_SepulchralAshlar\\Crypts_SepulchralAshlar_BC.png",
+        "normal": "textures\\Crypts_SepulchralAshlar\\Crypts_SepulchralAshlar_N.png",
+        "roughness": "textures\\Crypts_SepulchralAshlar\\Crypts_SepulchralAshlar_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_SepulchralAshlar",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_SepulchralAshlar"
+    },
+    {
+      "id": "Crypts_ScrapedMemorial",
+      "role": "secondary",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_ScrapedMemorial\\Crypts_ScrapedMemorial_BC.png",
+        "normal": "textures\\Crypts_ScrapedMemorial\\Crypts_ScrapedMemorial_N.png",
+        "roughness": "textures\\Crypts_ScrapedMemorial\\Crypts_ScrapedMemorial_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_ScrapedMemorial",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_ScrapedMemorial"
+    },
+    {
+      "id": "Crypts_VigilSlabs",
+      "role": "floor",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_VigilSlabs\\Crypts_VigilSlabs_BC.png",
+        "normal": "textures\\Crypts_VigilSlabs\\Crypts_VigilSlabs_N.png",
+        "roughness": "textures\\Crypts_VigilSlabs\\Crypts_VigilSlabs_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_VigilSlabs",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_VigilSlabs"
+    },
+    {
+      "id": "Crypts_RibVaultStone",
+      "role": "vault",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_RibVaultStone\\Crypts_RibVaultStone_BC.png",
+        "normal": "textures\\Crypts_RibVaultStone\\Crypts_RibVaultStone_N.png",
+        "roughness": "textures\\Crypts_RibVaultStone\\Crypts_RibVaultStone_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_RibVaultStone",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_RibVaultStone"
+    },
+    {
+      "id": "Crypts_FuneraryCarving",
+      "role": "trim",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_FuneraryCarving\\Crypts_FuneraryCarving_BC.png",
+        "normal": "textures\\Crypts_FuneraryCarving\\Crypts_FuneraryCarving_N.png",
+        "roughness": "textures\\Crypts_FuneraryCarving\\Crypts_FuneraryCarving_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_FuneraryCarving",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_FuneraryCarving"
+    },
+    {
+      "id": "Crypts_TarnishedSilver",
+      "role": "metal",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_TarnishedSilver\\Crypts_TarnishedSilver_BC.png",
+        "normal": "textures\\Crypts_TarnishedSilver\\Crypts_TarnishedSilver_N.png",
+        "roughness": "textures\\Crypts_TarnishedSilver\\Crypts_TarnishedSilver_R.png",
+        "metallic": "textures\\Crypts_TarnishedSilver\\Crypts_TarnishedSilver_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_TarnishedSilver",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_TarnishedSilver"
+    },
+    {
+      "id": "Crypts_CrimsonCloth",
+      "role": "accent",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_CrimsonCloth\\Crypts_CrimsonCloth_BC.png",
+        "normal": "textures\\Crypts_CrimsonCloth\\Crypts_CrimsonCloth_N.png",
+        "roughness": "textures\\Crypts_CrimsonCloth\\Crypts_CrimsonCloth_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_CrimsonCloth",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_CrimsonCloth"
+    },
+    {
+      "id": "Crypts_CoffinStone",
+      "role": "detail",
+      "region": 4,
+      "maps": {
+        "base_color": "textures\\Crypts_CoffinStone\\Crypts_CoffinStone_BC.png",
+        "normal": "textures\\Crypts_CoffinStone\\Crypts_CoffinStone_N.png",
+        "roughness": "textures\\Crypts_CoffinStone\\Crypts_CoffinStone_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Crypts_CoffinStone",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Crypts_CoffinStone"
+    },
+    {
+      "id": "Fortress_GarrisonBlocks",
+      "role": "wall",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_GarrisonBlocks\\Fortress_GarrisonBlocks_BC.png",
+        "normal": "textures\\Fortress_GarrisonBlocks\\Fortress_GarrisonBlocks_N.png",
+        "roughness": "textures\\Fortress_GarrisonBlocks\\Fortress_GarrisonBlocks_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_GarrisonBlocks",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_GarrisonBlocks"
+    },
+    {
+      "id": "Fortress_DefenseMasonry",
+      "role": "secondary",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_DefenseMasonry\\Fortress_DefenseMasonry_BC.png",
+        "normal": "textures\\Fortress_DefenseMasonry\\Fortress_DefenseMasonry_N.png",
+        "roughness": "textures\\Fortress_DefenseMasonry\\Fortress_DefenseMasonry_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_DefenseMasonry",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_DefenseMasonry"
+    },
+    {
+      "id": "Fortress_GarrisonFlags",
+      "role": "floor",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_GarrisonFlags\\Fortress_GarrisonFlags_BC.png",
+        "normal": "textures\\Fortress_GarrisonFlags\\Fortress_GarrisonFlags_N.png",
+        "roughness": "textures\\Fortress_GarrisonFlags\\Fortress_GarrisonFlags_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_GarrisonFlags",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_GarrisonFlags"
+    },
+    {
+      "id": "Fortress_UtilityVault",
+      "role": "vault",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_UtilityVault\\Fortress_UtilityVault_BC.png",
+        "normal": "textures\\Fortress_UtilityVault\\Fortress_UtilityVault_N.png",
+        "roughness": "textures\\Fortress_UtilityVault\\Fortress_UtilityVault_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_UtilityVault",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_UtilityVault"
+    },
+    {
+      "id": "Fortress_MilitaryTrim",
+      "role": "trim",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_MilitaryTrim\\Fortress_MilitaryTrim_BC.png",
+        "normal": "textures\\Fortress_MilitaryTrim\\Fortress_MilitaryTrim_N.png",
+        "roughness": "textures\\Fortress_MilitaryTrim\\Fortress_MilitaryTrim_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_MilitaryTrim",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_MilitaryTrim"
+    },
+    {
+      "id": "Fortress_WardenIron",
+      "role": "metal",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_WardenIron\\Fortress_WardenIron_BC.png",
+        "normal": "textures\\Fortress_WardenIron\\Fortress_WardenIron_N.png",
+        "roughness": "textures\\Fortress_WardenIron\\Fortress_WardenIron_R.png",
+        "metallic": "textures\\Fortress_WardenIron\\Fortress_WardenIron_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_WardenIron",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_WardenIron"
+    },
+    {
+      "id": "Fortress_BarracksOak",
+      "role": "accent",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_BarracksOak\\Fortress_BarracksOak_BC.png",
+        "normal": "textures\\Fortress_BarracksOak\\Fortress_BarracksOak_N.png",
+        "roughness": "textures\\Fortress_BarracksOak\\Fortress_BarracksOak_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_BarracksOak",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_BarracksOak"
+    },
+    {
+      "id": "Fortress_BarredPlate",
+      "role": "detail",
+      "region": 5,
+      "maps": {
+        "base_color": "textures\\Fortress_BarredPlate\\Fortress_BarredPlate_BC.png",
+        "normal": "textures\\Fortress_BarredPlate\\Fortress_BarredPlate_N.png",
+        "roughness": "textures\\Fortress_BarredPlate\\Fortress_BarredPlate_R.png",
+        "metallic": "textures\\Fortress_BarredPlate\\Fortress_BarredPlate_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Fortress_BarredPlate",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Fortress_BarredPlate"
+    },
+    {
+      "id": "Deep_ChasmStrata",
+      "role": "wall",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_ChasmStrata\\Deep_ChasmStrata_BC.png",
+        "normal": "textures\\Deep_ChasmStrata\\Deep_ChasmStrata_N.png",
+        "roughness": "textures\\Deep_ChasmStrata\\Deep_ChasmStrata_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_ChasmStrata",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_ChasmStrata"
+    },
+    {
+      "id": "Deep_FracturedCave",
+      "role": "secondary",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_FracturedCave\\Deep_FracturedCave_BC.png",
+        "normal": "textures\\Deep_FracturedCave\\Deep_FracturedCave_N.png",
+        "roughness": "textures\\Deep_FracturedCave\\Deep_FracturedCave_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_FracturedCave",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_FracturedCave"
+    },
+    {
+      "id": "Deep_CaveGravel",
+      "role": "floor",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_CaveGravel\\Deep_CaveGravel_BC.png",
+        "normal": "textures\\Deep_CaveGravel\\Deep_CaveGravel_N.png",
+        "roughness": "textures\\Deep_CaveGravel\\Deep_CaveGravel_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_CaveGravel",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_CaveGravel"
+    },
+    {
+      "id": "Deep_OverhangRock",
+      "role": "vault",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_OverhangRock\\Deep_OverhangRock_BC.png",
+        "normal": "textures\\Deep_OverhangRock\\Deep_OverhangRock_N.png",
+        "roughness": "textures\\Deep_OverhangRock\\Deep_OverhangRock_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_OverhangRock",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_OverhangRock"
+    },
+    {
+      "id": "Deep_MineralCrust",
+      "role": "trim",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_MineralCrust\\Deep_MineralCrust_BC.png",
+        "normal": "textures\\Deep_MineralCrust\\Deep_MineralCrust_N.png",
+        "roughness": "textures\\Deep_MineralCrust\\Deep_MineralCrust_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_MineralCrust",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_MineralCrust"
+    },
+    {
+      "id": "Deep_AncientIron",
+      "role": "metal",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_AncientIron\\Deep_AncientIron_BC.png",
+        "normal": "textures\\Deep_AncientIron\\Deep_AncientIron_N.png",
+        "roughness": "textures\\Deep_AncientIron\\Deep_AncientIron_R.png",
+        "metallic": "textures\\Deep_AncientIron\\Deep_AncientIron_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_AncientIron",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_AncientIron"
+    },
+    {
+      "id": "Deep_ScorchedDrakeRock",
+      "role": "accent",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_ScorchedDrakeRock\\Deep_ScorchedDrakeRock_BC.png",
+        "normal": "textures\\Deep_ScorchedDrakeRock\\Deep_ScorchedDrakeRock_N.png",
+        "roughness": "textures\\Deep_ScorchedDrakeRock\\Deep_ScorchedDrakeRock_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_ScorchedDrakeRock",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_ScorchedDrakeRock"
+    },
+    {
+      "id": "Deep_DarkSediment",
+      "role": "detail",
+      "region": 6,
+      "maps": {
+        "base_color": "textures\\Deep_DarkSediment\\Deep_DarkSediment_BC.png",
+        "normal": "textures\\Deep_DarkSediment\\Deep_DarkSediment_N.png",
+        "roughness": "textures\\Deep_DarkSediment\\Deep_DarkSediment_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Deep_DarkSediment",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Deep_DarkSediment"
+    },
+    {
+      "id": "Infernal_SealMasonry",
+      "role": "wall",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_SealMasonry\\Infernal_SealMasonry_BC.png",
+        "normal": "textures\\Infernal_SealMasonry\\Infernal_SealMasonry_N.png",
+        "roughness": "textures\\Infernal_SealMasonry\\Infernal_SealMasonry_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_SealMasonry",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_SealMasonry"
+    },
+    {
+      "id": "Infernal_SealCarvedSlabs",
+      "role": "secondary",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_SealCarvedSlabs\\Infernal_SealCarvedSlabs_BC.png",
+        "normal": "textures\\Infernal_SealCarvedSlabs\\Infernal_SealCarvedSlabs_N.png",
+        "roughness": "textures\\Infernal_SealCarvedSlabs\\Infernal_SealCarvedSlabs_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_SealCarvedSlabs",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_SealCarvedSlabs"
+    },
+    {
+      "id": "Infernal_AshFlags",
+      "role": "floor",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_AshFlags\\Infernal_AshFlags_BC.png",
+        "normal": "textures\\Infernal_AshFlags\\Infernal_AshFlags_N.png",
+        "roughness": "textures\\Infernal_AshFlags\\Infernal_AshFlags_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_AshFlags",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_AshFlags"
+    },
+    {
+      "id": "Infernal_FracturedVault",
+      "role": "vault",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_FracturedVault\\Infernal_FracturedVault_BC.png",
+        "normal": "textures\\Infernal_FracturedVault\\Infernal_FracturedVault_N.png",
+        "roughness": "textures\\Infernal_FracturedVault\\Infernal_FracturedVault_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_FracturedVault",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_FracturedVault"
+    },
+    {
+      "id": "Infernal_RitualTrim",
+      "role": "trim",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_RitualTrim\\Infernal_RitualTrim_BC.png",
+        "normal": "textures\\Infernal_RitualTrim\\Infernal_RitualTrim_N.png",
+        "roughness": "textures\\Infernal_RitualTrim\\Infernal_RitualTrim_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_RitualTrim",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_RitualTrim"
+    },
+    {
+      "id": "Infernal_HeatIron",
+      "role": "metal",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_HeatIron\\Infernal_HeatIron_BC.png",
+        "normal": "textures\\Infernal_HeatIron\\Infernal_HeatIron_N.png",
+        "roughness": "textures\\Infernal_HeatIron\\Infernal_HeatIron_R.png",
+        "metallic": "textures\\Infernal_HeatIron\\Infernal_HeatIron_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_HeatIron",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_HeatIron"
+    },
+    {
+      "id": "Infernal_ScorchedPlaster",
+      "role": "accent",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_ScorchedPlaster\\Infernal_ScorchedPlaster_BC.png",
+        "normal": "textures\\Infernal_ScorchedPlaster\\Infernal_ScorchedPlaster_N.png",
+        "roughness": "textures\\Infernal_ScorchedPlaster\\Infernal_ScorchedPlaster_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_ScorchedPlaster",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_ScorchedPlaster"
+    },
+    {
+      "id": "Infernal_HeatFissures",
+      "role": "detail",
+      "region": 7,
+      "maps": {
+        "base_color": "textures\\Infernal_HeatFissures\\Infernal_HeatFissures_BC.png",
+        "normal": "textures\\Infernal_HeatFissures\\Infernal_HeatFissures_N.png",
+        "roughness": "textures\\Infernal_HeatFissures\\Infernal_HeatFissures_R.png",
+        "emission": "textures\\Infernal_HeatFissures\\Infernal_HeatFissures_E.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Infernal_HeatFissures",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Infernal_HeatFissures"
+    },
+    {
+      "id": "Hell_BasaltRampart",
+      "role": "wall",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_BasaltRampart\\Hell_BasaltRampart_BC.png",
+        "normal": "textures\\Hell_BasaltRampart\\Hell_BasaltRampart_N.png",
+        "roughness": "textures\\Hell_BasaltRampart\\Hell_BasaltRampart_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing structural walls",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_BasaltRampart",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_BasaltRampart"
+    },
+    {
+      "id": "Hell_FracturedBasalt",
+      "role": "secondary",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_FracturedBasalt\\Hell_FracturedBasalt_BC.png",
+        "normal": "textures\\Hell_FracturedBasalt\\Hell_FracturedBasalt_N.png",
+        "roughness": "textures\\Hell_FracturedBasalt\\Hell_FracturedBasalt_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Localized lower wall repair panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_FracturedBasalt",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_FracturedBasalt"
+    },
+    {
+      "id": "Hell_ForgePlates",
+      "role": "floor",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_ForgePlates\\Hell_ForgePlates_BC.png",
+        "normal": "textures\\Hell_ForgePlates\\Hell_ForgePlates_N.png",
+        "roughness": "textures\\Hell_ForgePlates\\Hell_ForgePlates_R.png",
+        "metallic": "textures\\Hell_ForgePlates\\Hell_ForgePlates_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing walkable floor surfaces",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_ForgePlates",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_ForgePlates"
+    },
+    {
+      "id": "Hell_VaultBasalt",
+      "role": "vault",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_VaultBasalt\\Hell_VaultBasalt_BC.png",
+        "normal": "textures\\Hell_VaultBasalt\\Hell_VaultBasalt_N.png",
+        "roughness": "textures\\Hell_VaultBasalt\\Hell_VaultBasalt_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Vaults and ceiling caps",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_VaultBasalt",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_VaultBasalt"
+    },
+    {
+      "id": "Hell_ObsidianCarving",
+      "role": "trim",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_ObsidianCarving\\Hell_ObsidianCarving_BC.png",
+        "normal": "textures\\Hell_ObsidianCarving\\Hell_ObsidianCarving_N.png",
+        "roughness": "textures\\Hell_ObsidianCarving\\Hell_ObsidianCarving_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing arches, trim, stairs and pillars",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_ObsidianCarving",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_ObsidianCarving"
+    },
+    {
+      "id": "Hell_InfernalMetal",
+      "role": "metal",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_InfernalMetal\\Hell_InfernalMetal_BC.png",
+        "normal": "textures\\Hell_InfernalMetal\\Hell_InfernalMetal_N.png",
+        "roughness": "textures\\Hell_InfernalMetal\\Hell_InfernalMetal_R.png",
+        "metallic": "textures\\Hell_InfernalMetal\\Hell_InfernalMetal_M.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Existing doors, grates, fixtures and themed hardware",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_InfernalMetal",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_InfernalMetal"
+    },
+    {
+      "id": "Hell_ForgeSlag",
+      "role": "accent",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_ForgeSlag\\Hell_ForgeSlag_BC.png",
+        "normal": "textures\\Hell_ForgeSlag\\Hell_ForgeSlag_N.png",
+        "roughness": "textures\\Hell_ForgeSlag\\Hell_ForgeSlag_R.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Regional prop detail and camp dressing",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_ForgeSlag",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_ForgeSlag"
+    },
+    {
+      "id": "Hell_EmberSeams",
+      "role": "detail",
+      "region": 8,
+      "maps": {
+        "base_color": "textures\\Hell_EmberSeams\\Hell_EmberSeams_BC.png",
+        "normal": "textures\\Hell_EmberSeams\\Hell_EmberSeams_N.png",
+        "roughness": "textures\\Hell_EmberSeams\\Hell_EmberSeams_R.png",
+        "emission": "textures\\Hell_EmberSeams\\Hell_EmberSeams_E.png"
+      },
+      "uv_span_m": 2,
+      "resolution": 2048,
+      "placement": "Niches, tombs and selected later-floor wall panels",
+      "unreal_world_material": "/Game/RegionalArt/Materials/MI_Hell_EmberSeams",
+      "unreal_uv_material": "/Game/RegionalArt/Materials/MI_UV_Hell_EmberSeams"
+    }
+  ],
+  "decals": [
+    {
+      "id": "Cathedral_WaxRun",
+      "region": 0,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Cathedral_WaxRun\\Cathedral_WaxRun_BC.png",
+        "roughness": "textures\\Cathedral_WaxRun\\Cathedral_WaxRun_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Cathedral_WaxRun"
+    },
+    {
+      "id": "Cathedral_PlasterLoss",
+      "region": 0,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Cathedral_PlasterLoss\\Cathedral_PlasterLoss_BC.png",
+        "roughness": "textures\\Cathedral_PlasterLoss\\Cathedral_PlasterLoss_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Cathedral_PlasterLoss"
+    },
+    {
+      "id": "Cathedral_SootFan",
+      "region": 0,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Cathedral_SootFan\\Cathedral_SootFan_BC.png",
+        "roughness": "textures\\Cathedral_SootFan\\Cathedral_SootFan_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Cathedral_SootFan"
+    },
+    {
+      "id": "Cathedral_DampFoot",
+      "region": 0,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Cathedral_DampFoot\\Cathedral_DampFoot_BC.png",
+        "roughness": "textures\\Cathedral_DampFoot\\Cathedral_DampFoot_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Cathedral_DampFoot"
+    },
+    {
+      "id": "Catacombs_ChalkBloom",
+      "region": 2,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Catacombs_ChalkBloom\\Catacombs_ChalkBloom_BC.png",
+        "roughness": "textures\\Catacombs_ChalkBloom\\Catacombs_ChalkBloom_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Catacombs_ChalkBloom"
+    },
+    {
+      "id": "Catacombs_DustFall",
+      "region": 2,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Catacombs_DustFall\\Catacombs_DustFall_BC.png",
+        "roughness": "textures\\Catacombs_DustFall\\Catacombs_DustFall_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Catacombs_DustFall"
+    },
+    {
+      "id": "Catacombs_WaxTrace",
+      "region": 2,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Catacombs_WaxTrace\\Catacombs_WaxTrace_BC.png",
+        "roughness": "textures\\Catacombs_WaxTrace\\Catacombs_WaxTrace_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Catacombs_WaxTrace"
+    },
+    {
+      "id": "Catacombs_MemorialSpall",
+      "region": 2,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Catacombs_MemorialSpall\\Catacombs_MemorialSpall_BC.png",
+        "roughness": "textures\\Catacombs_MemorialSpall\\Catacombs_MemorialSpall_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Catacombs_MemorialSpall"
+    },
+    {
+      "id": "Warrens_MudSplash",
+      "region": 3,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Warrens_MudSplash\\Warrens_MudSplash_BC.png",
+        "roughness": "textures\\Warrens_MudSplash\\Warrens_MudSplash_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Warrens_MudSplash"
+    },
+    {
+      "id": "Warrens_MossPatch",
+      "region": 3,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Warrens_MossPatch\\Warrens_MossPatch_BC.png",
+        "roughness": "textures\\Warrens_MossPatch\\Warrens_MossPatch_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Warrens_MossPatch"
+    },
+    {
+      "id": "Warrens_SalvageScuff",
+      "region": 3,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Warrens_SalvageScuff\\Warrens_SalvageScuff_BC.png",
+        "roughness": "textures\\Warrens_SalvageScuff\\Warrens_SalvageScuff_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Warrens_SalvageScuff"
+    },
+    {
+      "id": "Warrens_EarthFall",
+      "region": 3,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Warrens_EarthFall\\Warrens_EarthFall_BC.png",
+        "roughness": "textures\\Warrens_EarthFall\\Warrens_EarthFall_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Warrens_EarthFall"
+    },
+    {
+      "id": "Crypts_ErasedName",
+      "region": 4,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Crypts_ErasedName\\Crypts_ErasedName_BC.png",
+        "roughness": "textures\\Crypts_ErasedName\\Crypts_ErasedName_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Crypts_ErasedName"
+    },
+    {
+      "id": "Crypts_CandleWax",
+      "region": 4,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Crypts_CandleWax\\Crypts_CandleWax_BC.png",
+        "roughness": "textures\\Crypts_CandleWax\\Crypts_CandleWax_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Crypts_CandleWax"
+    },
+    {
+      "id": "Crypts_CrimsonDust",
+      "region": 4,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Crypts_CrimsonDust\\Crypts_CrimsonDust_BC.png",
+        "roughness": "textures\\Crypts_CrimsonDust\\Crypts_CrimsonDust_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Crypts_CrimsonDust"
+    },
+    {
+      "id": "Crypts_ColdSeep",
+      "region": 4,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Crypts_ColdSeep\\Crypts_ColdSeep_BC.png",
+        "roughness": "textures\\Crypts_ColdSeep\\Crypts_ColdSeep_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Crypts_ColdSeep"
+    },
+    {
+      "id": "Fortress_RustRun",
+      "region": 5,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Fortress_RustRun\\Fortress_RustRun_BC.png",
+        "roughness": "textures\\Fortress_RustRun\\Fortress_RustRun_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Fortress_RustRun"
+    },
+    {
+      "id": "Fortress_BootScuff",
+      "region": 5,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Fortress_BootScuff\\Fortress_BootScuff_BC.png",
+        "roughness": "textures\\Fortress_BootScuff\\Fortress_BootScuff_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Fortress_BootScuff"
+    },
+    {
+      "id": "Fortress_SootStain",
+      "region": 5,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Fortress_SootStain\\Fortress_SootStain_BC.png",
+        "roughness": "textures\\Fortress_SootStain\\Fortress_SootStain_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Fortress_SootStain"
+    },
+    {
+      "id": "Fortress_SaltSeep",
+      "region": 5,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Fortress_SaltSeep\\Fortress_SaltSeep_BC.png",
+        "roughness": "textures\\Fortress_SaltSeep\\Fortress_SaltSeep_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Fortress_SaltSeep"
+    },
+    {
+      "id": "Deep_MineralBloom",
+      "region": 6,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Deep_MineralBloom\\Deep_MineralBloom_BC.png",
+        "roughness": "textures\\Deep_MineralBloom\\Deep_MineralBloom_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Deep_MineralBloom"
+    },
+    {
+      "id": "Deep_ClawScars",
+      "region": 6,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Deep_ClawScars\\Deep_ClawScars_BC.png",
+        "roughness": "textures\\Deep_ClawScars\\Deep_ClawScars_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Deep_ClawScars"
+    },
+    {
+      "id": "Deep_SootScorch",
+      "region": 6,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Deep_SootScorch\\Deep_SootScorch_BC.png",
+        "roughness": "textures\\Deep_SootScorch\\Deep_SootScorch_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Deep_SootScorch"
+    },
+    {
+      "id": "Deep_CaveSeep",
+      "region": 6,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Deep_CaveSeep\\Deep_CaveSeep_BC.png",
+        "roughness": "textures\\Deep_CaveSeep\\Deep_CaveSeep_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Deep_CaveSeep"
+    },
+    {
+      "id": "Infernal_AshFall",
+      "region": 7,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Infernal_AshFall\\Infernal_AshFall_BC.png",
+        "roughness": "textures\\Infernal_AshFall\\Infernal_AshFall_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Infernal_AshFall"
+    },
+    {
+      "id": "Infernal_BrokenSeal",
+      "region": 7,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Infernal_BrokenSeal\\Infernal_BrokenSeal_BC.png",
+        "roughness": "textures\\Infernal_BrokenSeal\\Infernal_BrokenSeal_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Infernal_BrokenSeal"
+    },
+    {
+      "id": "Infernal_HeatScorch",
+      "region": 7,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Infernal_HeatScorch\\Infernal_HeatScorch_BC.png",
+        "roughness": "textures\\Infernal_HeatScorch\\Infernal_HeatScorch_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Infernal_HeatScorch"
+    },
+    {
+      "id": "Infernal_RitualResidue",
+      "region": 7,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Infernal_RitualResidue\\Infernal_RitualResidue_BC.png",
+        "roughness": "textures\\Infernal_RitualResidue\\Infernal_RitualResidue_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Infernal_RitualResidue"
+    },
+    {
+      "id": "Hell_AshDrift",
+      "region": 8,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Hell_AshDrift\\Hell_AshDrift_BC.png",
+        "roughness": "textures\\Hell_AshDrift\\Hell_AshDrift_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Hell_AshDrift"
+    },
+    {
+      "id": "Hell_ForgeScorch",
+      "region": 8,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Hell_ForgeScorch\\Hell_ForgeScorch_BC.png",
+        "roughness": "textures\\Hell_ForgeScorch\\Hell_ForgeScorch_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Hell_ForgeScorch"
+    },
+    {
+      "id": "Hell_BrokenSigil",
+      "region": 8,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Hell_BrokenSigil\\Hell_BrokenSigil_BC.png",
+        "roughness": "textures\\Hell_BrokenSigil\\Hell_BrokenSigil_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Hell_BrokenSigil"
+    },
+    {
+      "id": "Hell_SlagSpatter",
+      "region": 8,
+      "role": "decal",
+      "maps": {
+        "base_color": "textures\\Hell_SlagSpatter\\Hell_SlagSpatter_BC.png",
+        "roughness": "textures\\Hell_SlagSpatter\\Hell_SlagSpatter_R.png"
+      },
+      "size_m": [
+        1.3,
+        1.6
+      ],
+      "alpha": "straight RGBA; transparent border",
+      "placement": "Selected wall surfaces only; localized transparent projection, no collision",
+      "unreal_material": "/Game/RegionalArt/Materials/MI_Hell_SlagSpatter"
+    }
+  ],
+  "props": [
+    {
+      "id": "SM_Catacombs_BoneShelf",
+      "role": "decoration",
+      "region": 2,
+      "fbx": "props/SM_Catacombs_BoneShelf.fbx",
+      "size_m": [
+        0.9399999976158142,
+        0.4444521367549896,
+        0.7500000596046448
+      ],
+      "triangles": 3220,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Catacombs_NicheStone",
+        "Catacombs_ChalkBone"
+      ],
+      "source": "sources/Catacombs.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Catacombs_MemorialPlaque",
+      "role": "decoration",
+      "region": 2,
+      "fbx": "props/SM_Catacombs_MemorialPlaque.fbx",
+      "size_m": [
+        0.6499999761581421,
+        0.20948649942874908,
+        0.8600000143051147
+      ],
+      "triangles": 1576,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Catacombs_BurialRubble",
+        "Catacombs_ChalkBone"
+      ],
+      "source": "sources/Catacombs.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Catacombs_FuneraryUrn",
+      "role": "decoration",
+      "region": 2,
+      "fbx": "props/SM_Catacombs_FuneraryUrn.fbx",
+      "size_m": [
+        0.6372576951980591,
+        0.6372576951980591,
+        0.8199999928474426
+      ],
+      "triangles": 1920,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Catacombs_ChalkBone"
+      ],
+      "source": "sources/Catacombs.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Catacombs_Lever",
+      "role": "lever",
+      "region": 2,
+      "fbx": "props/SM_Catacombs_Lever.fbx",
+      "size_m": [
+        0.550000011920929,
+        0.550000011920929,
+        1.0749999284744263
+      ],
+      "triangles": 5696,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Catacombs_AgedBronze",
+        "Catacombs_ChalkBone"
+      ],
+      "source": "sources/Catacombs.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Key_Crypt",
+      "role": "world_key",
+      "region": 2,
+      "fbx": "props/SM_Key_Crypt.fbx",
+      "size_m": [
+        0.36559346318244934,
+        0.056383997201919556,
+        0.6927967071533203
+      ],
+      "triangles": 1596,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Catacombs_AgedBronze",
+        "Catacombs_ChalkBone"
+      ],
+      "source": "sources/Catacombs.blend",
+      "placement": "Existing uncollected key tile; original pickup and lock identity"
+    },
+    {
+      "id": "SM_Catacombs_Showcase",
+      "role": "showcase",
+      "region": 2,
+      "fbx": "props/SM_Catacombs_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Catacombs_SettledFlags",
+        "Catacombs_BurialVault",
+        "Catacombs_BurialRubble",
+        "Catacombs_FuneraryPlaster",
+        "Catacombs_CrownMemorial"
+      ],
+      "source": "sources/Catacombs.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    },
+    {
+      "id": "SM_Cathedral_AltarFragment",
+      "role": "decoration",
+      "region": 0,
+      "fbx": "props/SM_Cathedral_AltarFragment.fbx",
+      "size_m": [
+        0.9474055767059326,
+        0.48500001430511475,
+        0.49513018131256104
+      ],
+      "triangles": 296,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Cathedral_RuinedLimePlaster",
+        "Cathedral_AltarDressing"
+      ],
+      "source": "sources/Cathedral.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Cathedral_BellAnchor",
+      "role": "decoration",
+      "region": 0,
+      "fbx": "props/SM_Cathedral_BellAnchor.fbx",
+      "size_m": [
+        0.5099999904632568,
+        0.2639999985694885,
+        0.800000011920929
+      ],
+      "triangles": 3308,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Cathedral_OxidizedIron"
+      ],
+      "source": "sources/Cathedral.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Cathedral_BrokenPew",
+      "role": "decoration",
+      "region": 0,
+      "fbx": "props/SM_Cathedral_BrokenPew.fbx",
+      "size_m": [
+        0.9600000381469727,
+        0.42750000953674316,
+        0.9800000190734863
+      ],
+      "triangles": 648,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Cathedral_OldPewOak"
+      ],
+      "source": "sources/Cathedral.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Cathedral_Lever",
+      "role": "lever",
+      "region": 0,
+      "fbx": "props/SM_Cathedral_Lever.fbx",
+      "size_m": [
+        0.550000011920929,
+        0.550000011920929,
+        1.0749999284744263
+      ],
+      "triangles": 5056,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Cathedral_OxidizedIron",
+        "Cathedral_RuinedLimePlaster"
+      ],
+      "source": "sources/Cathedral.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Key_Rusted",
+      "role": "world_key",
+      "region": 0,
+      "fbx": "props/SM_Key_Rusted.fbx",
+      "size_m": [
+        0.35199999809265137,
+        0.05500002205371857,
+        0.6859999895095825
+      ],
+      "triangles": 1044,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Cathedral_OxidizedIron"
+      ],
+      "source": "sources/Cathedral.blend",
+      "placement": "Existing uncollected key tile; original pickup and lock identity"
+    },
+    {
+      "id": "SM_Cathedral_Showcase",
+      "role": "showcase",
+      "region": 0,
+      "fbx": "props/SM_Cathedral_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Cathedral_ProcessionalFlags",
+        "Cathedral_ChapelVault",
+        "Cathedral_PilgrimLimestone",
+        "Cathedral_RuinedLimePlaster",
+        "Cathedral_BellCarving"
+      ],
+      "source": "sources/Cathedral.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    },
+    {
+      "id": "SM_Crypts_Nameplate",
+      "role": "decoration",
+      "region": 4,
+      "fbx": "props/SM_Crypts_Nameplate.fbx",
+      "size_m": [
+        0.75,
+        0.22349999845027924,
+        0.800000011920929
+      ],
+      "triangles": 756,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Crypts_CoffinStone",
+        "Crypts_TarnishedSilver"
+      ],
+      "source": "sources/Crypts.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Crypts_CoffinCorner",
+      "role": "decoration",
+      "region": 4,
+      "fbx": "props/SM_Crypts_CoffinCorner.fbx",
+      "size_m": [
+        0.8199999928474426,
+        0.800000011920929,
+        0.4000000059604645
+      ],
+      "triangles": 592,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Crypts_CoffinStone",
+        "Crypts_TarnishedSilver"
+      ],
+      "source": "sources/Crypts.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Crypts_VotiveStand",
+      "role": "decoration",
+      "region": 4,
+      "fbx": "props/SM_Crypts_VotiveStand.fbx",
+      "size_m": [
+        0.5239999890327454,
+        0.4000000059604645,
+        0.8699999451637268
+      ],
+      "triangles": 1424,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Crypts_TarnishedSilver",
+        "Crypts_CoffinStone"
+      ],
+      "source": "sources/Crypts.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Crypts_Lever",
+      "role": "lever",
+      "region": 4,
+      "fbx": "props/SM_Crypts_Lever.fbx",
+      "size_m": [
+        0.550000011920929,
+        0.550000011920929,
+        1.0749999284744263
+      ],
+      "triangles": 5696,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Crypts_TarnishedSilver",
+        "Crypts_CoffinStone"
+      ],
+      "source": "sources/Crypts.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Crypts_Showcase",
+      "role": "showcase",
+      "region": 4,
+      "fbx": "props/SM_Crypts_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Crypts_VigilSlabs",
+        "Crypts_RibVaultStone",
+        "Crypts_SepulchralAshlar",
+        "Crypts_ScrapedMemorial",
+        "Crypts_FuneraryCarving"
+      ],
+      "source": "sources/Crypts.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    },
+    {
+      "id": "SM_Deep_MineralCluster",
+      "role": "decoration",
+      "region": 6,
+      "fbx": "props/SM_Deep_MineralCluster.fbx",
+      "size_m": [
+        0.7811777591705322,
+        0.5333497524261475,
+        0.8816964030265808
+      ],
+      "triangles": 2564,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Deep_ChasmStrata",
+        "Deep_MineralCrust"
+      ],
+      "source": "sources/Deep.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Deep_DrakeScales",
+      "role": "decoration",
+      "region": 6,
+      "fbx": "props/SM_Deep_DrakeScales.fbx",
+      "size_m": [
+        0.8197323083877563,
+        0.6316046714782715,
+        0.2672517001628876
+      ],
+      "triangles": 560,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Deep_ScorchedDrakeRock"
+      ],
+      "source": "sources/Deep.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Deep_RockSpur",
+      "role": "decoration",
+      "region": 6,
+      "fbx": "props/SM_Deep_RockSpur.fbx",
+      "size_m": [
+        0.6653029918670654,
+        0.5978649854660034,
+        1.2295961380004883
+      ],
+      "triangles": 160,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Deep_FracturedCave",
+        "Deep_ChasmStrata"
+      ],
+      "source": "sources/Deep.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Deep_Lever",
+      "role": "lever",
+      "region": 6,
+      "fbx": "props/SM_Deep_Lever.fbx",
+      "size_m": [
+        0.5609328150749207,
+        0.550000011920929,
+        1.0749999284744263
+      ],
+      "triangles": 5608,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Deep_AncientIron",
+        "Deep_MineralCrust"
+      ],
+      "source": "sources/Deep.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Key_Drake",
+      "role": "world_key",
+      "region": 6,
+      "fbx": "props/SM_Key_Drake.fbx",
+      "size_m": [
+        0.36746782064437866,
+        0.05661569535732269,
+        0.7616062164306641
+      ],
+      "triangles": 1596,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Deep_AncientIron"
+      ],
+      "source": "sources/Deep.blend",
+      "placement": "Existing uncollected key tile; original pickup and lock identity"
+    },
+    {
+      "id": "SM_Deep_Showcase",
+      "role": "showcase",
+      "region": 6,
+      "fbx": "props/SM_Deep_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Deep_CaveGravel",
+        "Deep_OverhangRock",
+        "Deep_ChasmStrata",
+        "Deep_FracturedCave",
+        "Deep_MineralCrust"
+      ],
+      "source": "sources/Deep.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    },
+    {
+      "id": "SM_Fortress_ShackleFixture",
+      "role": "decoration",
+      "region": 5,
+      "fbx": "props/SM_Fortress_ShackleFixture.fbx",
+      "size_m": [
+        0.5499938726425171,
+        0.21100002527236938,
+        0.8149861097335815
+      ],
+      "triangles": 6284,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Fortress_WardenIron"
+      ],
+      "source": "sources/Fortress.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Fortress_ShieldRack",
+      "role": "decoration",
+      "region": 5,
+      "fbx": "props/SM_Fortress_ShieldRack.fbx",
+      "size_m": [
+        0.8500000238418579,
+        0.3225000202655792,
+        0.9200000166893005
+      ],
+      "triangles": 540,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Fortress_BarracksOak",
+        "Fortress_WardenIron",
+        "Fortress_GarrisonBlocks"
+      ],
+      "source": "sources/Fortress.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Fortress_ChainGuide",
+      "role": "decoration",
+      "region": 5,
+      "fbx": "props/SM_Fortress_ChainGuide.fbx",
+      "size_m": [
+        0.6299999952316284,
+        0.4000000059604645,
+        0.7949999570846558
+      ],
+      "triangles": 3948,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Fortress_GarrisonBlocks",
+        "Fortress_WardenIron"
+      ],
+      "source": "sources/Fortress.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Fortress_Lever",
+      "role": "lever",
+      "region": 5,
+      "fbx": "props/SM_Fortress_Lever.fbx",
+      "size_m": [
+        0.550000011920929,
+        0.550000011920929,
+        1.0749999284744263
+      ],
+      "triangles": 5164,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Fortress_WardenIron",
+        "Fortress_GarrisonBlocks"
+      ],
+      "source": "sources/Fortress.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Key_Warden",
+      "role": "world_key",
+      "region": 5,
+      "fbx": "props/SM_Key_Warden.fbx",
+      "size_m": [
+        0.30000001192092896,
+        0.05500004440546036,
+        0.6000000238418579
+      ],
+      "triangles": 836,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Fortress_WardenIron"
+      ],
+      "source": "sources/Fortress.blend",
+      "placement": "Existing uncollected key tile; original pickup and lock identity"
+    },
+    {
+      "id": "SM_Fortress_Showcase",
+      "role": "showcase",
+      "region": 5,
+      "fbx": "props/SM_Fortress_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Fortress_GarrisonFlags",
+        "Fortress_UtilityVault",
+        "Fortress_GarrisonBlocks",
+        "Fortress_DefenseMasonry",
+        "Fortress_MilitaryTrim"
+      ],
+      "source": "sources/Fortress.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    },
+    {
+      "id": "SM_Hell_SlagCluster",
+      "role": "decoration",
+      "region": 8,
+      "fbx": "props/SM_Hell_SlagCluster.fbx",
+      "size_m": [
+        0.9186173677444458,
+        0.7988920211791992,
+        0.42569684982299805
+      ],
+      "triangles": 640,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Hell_ForgeSlag"
+      ],
+      "source": "sources/Hell.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Hell_ChainAnchor",
+      "role": "decoration",
+      "region": 8,
+      "fbx": "props/SM_Hell_ChainAnchor.fbx",
+      "size_m": [
+        0.6600000262260437,
+        0.5199999809265137,
+        0.9110000133514404
+      ],
+      "triangles": 3308,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Hell_BasaltRampart",
+        "Hell_InfernalMetal"
+      ],
+      "source": "sources/Hell.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Hell_BrokenHalo",
+      "role": "decoration",
+      "region": 8,
+      "fbx": "props/SM_Hell_BrokenHalo.fbx",
+      "size_m": [
+        1.1664313077926636,
+        0.4000000059604645,
+        1.2418268918991089
+      ],
+      "triangles": 2504,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Hell_BasaltRampart",
+        "Hell_FracturedBasalt",
+        "Hell_InfernalMetal"
+      ],
+      "source": "sources/Hell.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Hell_Lever",
+      "role": "lever",
+      "region": 8,
+      "fbx": "props/SM_Hell_Lever.fbx",
+      "size_m": [
+        0.6989876627922058,
+        0.550000011920929,
+        1.2547448873519897
+      ],
+      "triangles": 6072,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Hell_InfernalMetal",
+        "Hell_FracturedBasalt"
+      ],
+      "source": "sources/Hell.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Key_Hell",
+      "role": "world_key",
+      "region": 8,
+      "fbx": "props/SM_Key_Hell.fbx",
+      "size_m": [
+        0.36746782064437866,
+        0.07530785351991653,
+        0.7616062164306641
+      ],
+      "triangles": 1608,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Hell_InfernalMetal",
+        "Hell_EmberSeams"
+      ],
+      "source": "sources/Hell.blend",
+      "placement": "Existing uncollected key tile; original pickup and lock identity"
+    },
+    {
+      "id": "SM_Hell_Showcase",
+      "role": "showcase",
+      "region": 8,
+      "fbx": "props/SM_Hell_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Hell_ForgePlates",
+        "Hell_VaultBasalt",
+        "Hell_BasaltRampart",
+        "Hell_FracturedBasalt",
+        "Hell_ObsidianCarving"
+      ],
+      "source": "sources/Hell.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    },
+    {
+      "id": "SM_Infernal_SealFragment",
+      "role": "decoration",
+      "region": 7,
+      "fbx": "props/SM_Infernal_SealFragment.fbx",
+      "size_m": [
+        0.9382532835006714,
+        0.6193497180938721,
+        0.8479585647583008
+      ],
+      "triangles": 544,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Infernal_ScorchedPlaster",
+        "Infernal_HeatIron"
+      ],
+      "source": "sources/Infernal.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Infernal_RitualClamp",
+      "role": "decoration",
+      "region": 7,
+      "fbx": "props/SM_Infernal_RitualClamp.fbx",
+      "size_m": [
+        0.6499999761581421,
+        0.5,
+        0.7432037591934204
+      ],
+      "triangles": 1532,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Infernal_SealMasonry",
+        "Infernal_HeatIron"
+      ],
+      "source": "sources/Infernal.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Infernal_OfferingVessel",
+      "role": "decoration",
+      "region": 7,
+      "fbx": "props/SM_Infernal_OfferingVessel.fbx",
+      "size_m": [
+        0.6372576951980591,
+        0.6372576951980591,
+        0.8199999928474426
+      ],
+      "triangles": 2000,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Infernal_HeatIron",
+        "Infernal_ScorchedPlaster"
+      ],
+      "source": "sources/Infernal.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Infernal_Lever",
+      "role": "lever",
+      "region": 7,
+      "fbx": "props/SM_Infernal_Lever.fbx",
+      "size_m": [
+        0.6986697316169739,
+        0.550000011920929,
+        1.25484037399292
+      ],
+      "triangles": 6232,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Infernal_HeatIron",
+        "Infernal_ScorchedPlaster"
+      ],
+      "source": "sources/Infernal.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Key_Infernal",
+      "role": "world_key",
+      "region": 7,
+      "fbx": "props/SM_Key_Infernal.fbx",
+      "size_m": [
+        0.36559346318244934,
+        0.07519200444221497,
+        0.6927967071533203
+      ],
+      "triangles": 1704,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Infernal_HeatIron",
+        "Infernal_HeatFissures"
+      ],
+      "source": "sources/Infernal.blend",
+      "placement": "Existing uncollected key tile; original pickup and lock identity"
+    },
+    {
+      "id": "SM_Infernal_Showcase",
+      "role": "showcase",
+      "region": 7,
+      "fbx": "props/SM_Infernal_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Infernal_AshFlags",
+        "Infernal_FracturedVault",
+        "Infernal_SealMasonry",
+        "Infernal_SealCarvedSlabs",
+        "Infernal_RitualTrim"
+      ],
+      "source": "sources/Infernal.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    },
+    {
+      "id": "SM_Warrens_SalvageBundle",
+      "role": "decoration",
+      "region": 3,
+      "fbx": "props/SM_Warrens_SalvageBundle.fbx",
+      "size_m": [
+        0.9148529767990112,
+        0.7536748051643372,
+        0.23749998211860657
+      ],
+      "triangles": 864,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Warrens_ScavengedPlanks",
+        "Warrens_BatteredIron"
+      ],
+      "source": "sources/Warrens.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Warrens_SealTray",
+      "role": "decoration",
+      "region": 3,
+      "fbx": "props/SM_Warrens_SealTray.fbx",
+      "size_m": [
+        0.75,
+        0.47999998927116394,
+        0.23366546630859375
+      ],
+      "triangles": 668,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Warrens_ScavengedPlanks",
+        "Warrens_TimberBracing"
+      ],
+      "source": "sources/Warrens.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Warrens_ThornCluster",
+      "role": "decoration",
+      "region": 3,
+      "fbx": "props/SM_Warrens_ThornCluster.fbx",
+      "size_m": [
+        0.8703826069831848,
+        0.44304871559143066,
+        0.9473251700401306
+      ],
+      "triangles": 4176,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Warrens_ScavengedPlanks"
+      ],
+      "source": "sources/Warrens.blend",
+      "placement": "Offset 65cm inward and 88cm sideways from selected existing wall boundaries; no collision"
+    },
+    {
+      "id": "SM_Warrens_Lever",
+      "role": "lever",
+      "region": 3,
+      "fbx": "props/SM_Warrens_Lever.fbx",
+      "size_m": [
+        0.550000011920929,
+        0.550000011920929,
+        1.0749999284744263
+      ],
+      "triangles": 6976,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Warrens_BatteredIron",
+        "Warrens_ScavengedPlanks"
+      ],
+      "source": "sources/Warrens.blend",
+      "placement": "Existing lever tile; original switch interaction"
+    },
+    {
+      "id": "SM_Warrens_Showcase",
+      "role": "showcase",
+      "region": 3,
+      "fbx": "props/SM_Warrens_Showcase.fbx",
+      "size_m": [
+        4.520000457763672,
+        12.239999771118164,
+        5.639999866485596
+      ],
+      "triangles": 5616,
+      "pivot": "ground centre; keys visual centre",
+      "materials": [
+        "Warrens_TroddenEarth",
+        "Warrens_RootStrata",
+        "Warrens_PatchedRubble",
+        "Warrens_ScavengedPlanks",
+        "Warrens_TimberBracing"
+      ],
+      "source": "sources/Warrens.blend",
+      "placement": "Isolated test corridor only; excluded from main runtime content"
+    }
+  ],
+  "texture_conventions": {
+    "base_color": "sRGB pigment, no baked illumination",
+    "normal": "DirectX, green flip false in Unreal; invert green in Blender",
+    "roughness": "linear",
+    "physical_repeat_m": 2,
+    "resolution": 2048
+  },
+  "camera": {
+    "height_cm": 155,
+    "fov": 76,
+    "grid_cm": 400
+  },
+  "image_generation": "Tool available; not used. Procedural surfaces and modeled geometry.",
+  "integration": {
+    "runtime_root": "/Game/RegionalArt",
+    "floors_covered": 18,
+    "new_regional_surface_packs": 8,
+    "approved_sewer_pack": "/Game/OldCitySewers preserved",
+    "decoration_collision": "None; existing logical and physical boundaries unchanged",
+    "world_keys": "6 identities, camera facing, 20cm hover over 2.4 seconds",
+    "world_key_scale": 1.4,
+    "approved_crate": "/Game/SharedInteractables preserved",
+    "parents": [
+      "M_RegionalWorld",
+      "M_RegionalUV",
+      "M_RegionalDecal"
+    ],
+    "review_camera": "400cm cells, 155cm eye height, 76 degree horizontal FOV",
+    "production_tools": [
+      "Blender 5.2",
+      "Python with NumPy and Pillow",
+      "Unreal Engine 5.8.2"
+    ],
+    "generation": "No image generation used; procedural maps and modeled geometry"
+  }
+}
