@@ -18,6 +18,8 @@ with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
             continue
         if path.suffix.lower() in ('.pdb', '.log', '.dmp', '.sav', '.debug'):
             continue
+        if path.name.startswith('Manifest_'):
+            continue
         z.write(path, relative.as_posix())
     z.writestr('README.txt', '''Lonemoore 0.2.0 - Windows x64 Shipping build
 
