@@ -1,0 +1,2932 @@
+{
+  "version": 1,
+  "units": "cm",
+  "coordinateSystem": "Native room coordinates; N=-Y, E=+X, floorZ=0",
+  "templates": [
+    {
+      "id": "arrival_chamber",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 629
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 521
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 497
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 586
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 671
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 772
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 803
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 720
+        }
+      ]
+    },
+    {
+      "id": "vaulted_hall",
+      "anchors": [
+        {
+          "position": [
+            -200.0,
+            -550.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 187
+        },
+        {
+          "position": [
+            -200.0,
+            -1050.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 350.0,
+          "sourcePolygon": 132
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 123
+        },
+        {
+          "position": [
+            200.0,
+            -650.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 750.0,
+          "sourcePolygon": 151
+        },
+        {
+          "position": [
+            200.0,
+            50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1350.0,
+          "sourcePolygon": 197
+        },
+        {
+          "position": [
+            200.0,
+            850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 550.0,
+          "sourcePolygon": 245
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 282
+        },
+        {
+          "position": [
+            -200.0,
+            550.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 229
+        }
+      ]
+    },
+    {
+      "id": "long_gallery",
+      "anchors": [
+        {
+          "position": [
+            -600.0,
+            -150.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1312.44,
+          "sourcePolygon": 401
+        },
+        {
+          "position": [
+            -600.0,
+            -950.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 602.08,
+          "sourcePolygon": 337
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 293
+        },
+        {
+          "position": [
+            600.0,
+            -550.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 939.415,
+          "sourcePolygon": 383
+        },
+        {
+          "position": [
+            600.0,
+            150.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1312.44,
+          "sourcePolygon": 413
+        },
+        {
+          "position": [
+            600.0,
+            950.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 602.08,
+          "sourcePolygon": 476
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 515
+        },
+        {
+          "position": [
+            -600.0,
+            550.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 939.415,
+          "sourcePolygon": 419
+        }
+      ]
+    },
+    {
+      "id": "short_turn",
+      "anchors": [
+        {
+          "position": [
+            -200.0,
+            -550.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 188
+        },
+        {
+          "position": [
+            -200.0,
+            -1050.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 350.0,
+          "sourcePolygon": 132
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 123
+        },
+        {
+          "position": [
+            450.0,
+            -200.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 950.0,
+          "sourcePolygon": 224
+        },
+        {
+          "position": [
+            950.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 450.0,
+          "sourcePolygon": 251
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 286
+        },
+        {
+          "position": [
+            250.0,
+            200.0,
+            165.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1150.0,
+          "sourcePolygon": 239
+        },
+        {
+          "position": [
+            -200.0,
+            150.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1550.0,
+          "sourcePolygon": 207
+        }
+      ]
+    },
+    {
+      "id": "rounded_turn",
+      "anchors": [
+        {
+          "position": [
+            -200.0,
+            -586.833,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 813.167,
+          "sourcePolygon": 1240
+        },
+        {
+          "position": [
+            200.0,
+            -1164.773,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 235.227,
+          "sourcePolygon": 1126
+        },
+        {
+          "position": [
+            200.0,
+            -694.318,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 705.682,
+          "sourcePolygon": 1136
+        },
+        {
+          "position": [
+            506.136,
+            -200.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 893.864,
+          "sourcePolygon": 1162
+        },
+        {
+          "position": [
+            976.591,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 423.409,
+          "sourcePolygon": 1172
+        },
+        {
+          "position": [
+            1160.833,
+            200.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 239.167,
+          "sourcePolygon": 1186
+        },
+        {
+          "position": [
+            299.833,
+            200.0,
+            165.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1100.167,
+          "sourcePolygon": 1204
+        },
+        {
+          "position": [
+            -183.242,
+            121.367,
+            190.0
+          ],
+          "inwardNormal": [
+            0.910366,
+            -0.413803,
+            0.0
+          ],
+          "clearanceToPortalCm": 1521.367,
+          "sourcePolygon": 1222
+        }
+      ]
+    },
+    {
+      "id": "t_junction",
+      "anchors": [
+        {
+          "position": [
+            -200.0,
+            -50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1350.0,
+          "sourcePolygon": 249
+        },
+        {
+          "position": [
+            -200.0,
+            -650.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 750.0,
+          "sourcePolygon": 208
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 174
+        },
+        {
+          "position": [
+            200.0,
+            -450.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 950.0,
+          "sourcePolygon": 222
+        },
+        {
+          "position": [
+            550.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 263
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 324
+        },
+        {
+          "position": [
+            200.0,
+            550.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 339
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 399
+        }
+      ]
+    },
+    {
+      "id": "cross_hall",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 569
+        },
+        {
+          "position": [
+            -600.0,
+            -850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 471
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 429
+        },
+        {
+          "position": [
+            850.0,
+            -600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 541
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 611
+        },
+        {
+          "position": [
+            600.0,
+            850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 709
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 751
+        },
+        {
+          "position": [
+            -850.0,
+            600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 625
+        }
+      ]
+    },
+    {
+      "id": "circular_ossuary",
+      "anchors": [
+        {
+          "position": [
+            -880.29,
+            -616.438,
+            90.0
+          ],
+          "inwardNormal": [
+            0.819129,
+            0.573609,
+            0.0
+          ],
+          "clearanceToPortalCm": 665.972,
+          "sourcePolygon": 2616
+        },
+        {
+          "position": [
+            -200.0,
+            -1185.145,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 214.855,
+          "sourcePolygon": 2650
+        },
+        {
+          "position": [
+            616.438,
+            -880.29,
+            165.0
+          ],
+          "inwardNormal": [
+            -0.573609,
+            0.819129,
+            0.0
+          ],
+          "clearanceToPortalCm": 665.972,
+          "sourcePolygon": 2680
+        },
+        {
+          "position": [
+            1185.145,
+            -200.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 214.855,
+          "sourcePolygon": 2714
+        },
+        {
+          "position": [
+            880.29,
+            616.438,
+            90.0
+          ],
+          "inwardNormal": [
+            -0.819129,
+            -0.573609,
+            0.0
+          ],
+          "clearanceToPortalCm": 665.972,
+          "sourcePolygon": 2488
+        },
+        {
+          "position": [
+            200.0,
+            1185.145,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 214.855,
+          "sourcePolygon": 2522
+        },
+        {
+          "position": [
+            -616.438,
+            880.29,
+            165.0
+          ],
+          "inwardNormal": [
+            0.573609,
+            -0.819129,
+            0.0
+          ],
+          "clearanceToPortalCm": 665.972,
+          "sourcePolygon": 2552
+        },
+        {
+          "position": [
+            -1185.145,
+            200.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 214.855,
+          "sourcePolygon": 2586
+        }
+      ]
+    },
+    {
+      "id": "octagonal_chamber",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 569
+        },
+        {
+          "position": [
+            -600.0,
+            -850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 471
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 429
+        },
+        {
+          "position": [
+            850.0,
+            -600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 541
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 611
+        },
+        {
+          "position": [
+            600.0,
+            850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 709
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 751
+        },
+        {
+          "position": [
+            -850.0,
+            600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 625
+        }
+      ]
+    },
+    {
+      "id": "cruciform_chapel",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 569
+        },
+        {
+          "position": [
+            -600.0,
+            -850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 471
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 429
+        },
+        {
+          "position": [
+            850.0,
+            -600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 541
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 611
+        },
+        {
+          "position": [
+            600.0,
+            850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 709
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 751
+        },
+        {
+          "position": [
+            -850.0,
+            600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 625
+        }
+      ]
+    },
+    {
+      "id": "burial_gallery",
+      "anchors": [
+        {
+          "position": [
+            -600.0,
+            -150.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1312.44,
+          "sourcePolygon": 401
+        },
+        {
+          "position": [
+            -600.0,
+            -950.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 602.08,
+          "sourcePolygon": 337
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 293
+        },
+        {
+          "position": [
+            600.0,
+            -550.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 939.415,
+          "sourcePolygon": 383
+        },
+        {
+          "position": [
+            600.0,
+            150.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1312.44,
+          "sourcePolygon": 413
+        },
+        {
+          "position": [
+            600.0,
+            950.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 602.08,
+          "sourcePolygon": 476
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 515
+        },
+        {
+          "position": [
+            -600.0,
+            550.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 939.415,
+          "sourcePolygon": 419
+        }
+      ]
+    },
+    {
+      "id": "twin_crypt",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 629
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 521
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 497
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 586
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 671
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 772
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 803
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 720
+        }
+      ]
+    },
+    {
+      "id": "reliquary",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 569
+        },
+        {
+          "position": [
+            -600.0,
+            -850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 471
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 429
+        },
+        {
+          "position": [
+            850.0,
+            -600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 541
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 611
+        },
+        {
+          "position": [
+            600.0,
+            850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 709
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 751
+        },
+        {
+          "position": [
+            -850.0,
+            600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 625
+        }
+      ]
+    },
+    {
+      "id": "sunken_shrine",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 629
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 521
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 497
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 586
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 671
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 772
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 803
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 720
+        }
+      ]
+    },
+    {
+      "id": "guard_barracks",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 629
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 521
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 497
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 586
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 671
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 772
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 803
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 720
+        }
+      ]
+    },
+    {
+      "id": "ruined_library",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 629
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 521
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 497
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 586
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 671
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 772
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 803
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 720
+        }
+      ]
+    },
+    {
+      "id": "pillar_court",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 629
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 521
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 497
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 586
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 671
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 772
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 803
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 720
+        }
+      ]
+    },
+    {
+      "id": "broken_sanctum",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 569
+        },
+        {
+          "position": [
+            -600.0,
+            -850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 471
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 429
+        },
+        {
+          "position": [
+            850.0,
+            -600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 541
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 611
+        },
+        {
+          "position": [
+            600.0,
+            850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 709
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 751
+        },
+        {
+          "position": [
+            -850.0,
+            600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 680.074,
+          "sourcePolygon": 625
+        }
+      ]
+    },
+    {
+      "id": "cavern_hall",
+      "anchors": [
+        {
+          "position": [
+            -1196.875,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 203.125,
+          "sourcePolygon": 4188
+        },
+        {
+          "position": [
+            -600.0,
+            -883.333,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 653.41,
+          "sourcePolygon": 4256
+        },
+        {
+          "position": [
+            200.0,
+            -1196.875,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 203.125,
+          "sourcePolygon": 3828
+        },
+        {
+          "position": [
+            883.333,
+            -600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 653.41,
+          "sourcePolygon": 3896
+        },
+        {
+          "position": [
+            1196.875,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 203.125,
+          "sourcePolygon": 3948
+        },
+        {
+          "position": [
+            600.0,
+            883.333,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 653.41,
+          "sourcePolygon": 4016
+        },
+        {
+          "position": [
+            -200.0,
+            1196.875,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 203.125,
+          "sourcePolygon": 4068
+        },
+        {
+          "position": [
+            -883.333,
+            600.0,
+            190.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 653.41,
+          "sourcePolygon": 4136
+        }
+      ]
+    },
+    {
+      "id": "void_bridge",
+      "anchors": [
+        {
+          "position": [
+            -1000.0,
+            -50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1569.235,
+          "sourcePolygon": 573
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 467
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 443
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 917.878,
+          "sourcePolygon": 532
+        },
+        {
+          "position": [
+            1000.0,
+            50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1569.235,
+          "sourcePolygon": 585
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 682
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 713
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 917.878,
+          "sourcePolygon": 630
+        }
+      ]
+    },
+    {
+      "id": "fire_bridge",
+      "anchors": [
+        {
+          "position": [
+            -1000.0,
+            -50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1569.235,
+          "sourcePolygon": 573
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 467
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 443
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 917.878,
+          "sourcePolygon": 532
+        },
+        {
+          "position": [
+            1000.0,
+            50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1569.235,
+          "sourcePolygon": 585
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 682
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 713
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 917.878,
+          "sourcePolygon": 630
+        }
+      ]
+    },
+    {
+      "id": "cistern_crossing",
+      "anchors": [
+        {
+          "position": [
+            -1150.0,
+            -200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 613
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 505
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 481
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 570
+        },
+        {
+          "position": [
+            1150.0,
+            200.0,
+            90.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 655
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 756
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 787
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 704
+        }
+      ]
+    },
+    {
+      "id": "boss_approach",
+      "anchors": [
+        {
+          "position": [
+            -200.0,
+            -550.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 187
+        },
+        {
+          "position": [
+            -200.0,
+            -1050.0,
+            125.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 350.0,
+          "sourcePolygon": 132
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 123
+        },
+        {
+          "position": [
+            200.0,
+            -650.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 750.0,
+          "sourcePolygon": 151
+        },
+        {
+          "position": [
+            200.0,
+            50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1350.0,
+          "sourcePolygon": 197
+        },
+        {
+          "position": [
+            200.0,
+            850.0,
+            125.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 550.0,
+          "sourcePolygon": 245
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 282
+        },
+        {
+          "position": [
+            -200.0,
+            550.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 229
+        }
+      ]
+    },
+    {
+      "id": "boss_arena",
+      "anchors": [
+        {
+          "position": [
+            -1000.0,
+            -50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1569.235,
+          "sourcePolygon": 593
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 487
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 463
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 917.878,
+          "sourcePolygon": 552
+        },
+        {
+          "position": [
+            1000.0,
+            50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1569.235,
+          "sourcePolygon": 605
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 702
+        },
+        {
+          "position": [
+            -200.0,
+            1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 733
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 917.878,
+          "sourcePolygon": 650
+        }
+      ]
+    },
+    {
+      "id": "sealed_descent",
+      "anchors": [
+        {
+          "position": [
+            -1000.0,
+            -50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1569.235,
+          "sourcePolygon": 576
+        },
+        {
+          "position": [
+            -950.0,
+            -1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 850.0,
+          "sourcePolygon": 470
+        },
+        {
+          "position": [
+            200.0,
+            -1150.0,
+            165.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 250.0,
+          "sourcePolygon": 446
+        },
+        {
+          "position": [
+            1000.0,
+            -950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 917.878,
+          "sourcePolygon": 535
+        },
+        {
+          "position": [
+            1000.0,
+            50.0,
+            90.0
+          ],
+          "inwardNormal": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 1656.05,
+          "sourcePolygon": 588
+        },
+        {
+          "position": [
+            950.0,
+            1000.0,
+            125.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 2514.458,
+          "sourcePolygon": 695
+        },
+        {
+          "position": [
+            -50.0,
+            1000.0,
+            165.0
+          ],
+          "inwardNormal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 2400.0,
+          "sourcePolygon": 662
+        },
+        {
+          "position": [
+            -1000.0,
+            950.0,
+            190.0
+          ],
+          "inwardNormal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "clearanceToPortalCm": 2482.438,
+          "sourcePolygon": 633
+        }
+      ]
+    }
+  ]
+}

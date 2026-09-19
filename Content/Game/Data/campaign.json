@@ -1,0 +1,1861 @@
+{
+  "classes": [
+    {
+      "name": "Warrior",
+      "art": "warrior",
+      "stats": [
+        9,
+        5,
+        9,
+        3,
+        4,
+        4
+      ],
+      "primary": 0,
+      "skills": [
+        "Power Strike",
+        "Cleave",
+        "Shield Wall"
+      ],
+      "passive": "Iron Resolve: +4 physical armor",
+      "weapons": [
+        "dagger",
+        "sword",
+        "broadsword",
+        "axe",
+        "mace",
+        "spear"
+      ],
+      "armor": [
+        "leather",
+        "studded",
+        "chain",
+        "scale",
+        "scaleplate",
+        "plate",
+        "ornate"
+      ]
+    },
+    {
+      "name": "Mage",
+      "art": "mage",
+      "stats": [
+        3,
+        5,
+        5,
+        10,
+        7,
+        4
+      ],
+      "primary": 3,
+      "skills": [
+        "Fireball",
+        "Ice Lance",
+        "Chain Lightning"
+      ],
+      "passive": "Arcane Blood: +20% spell power",
+      "weapons": [
+        "dagger",
+        "magestaff"
+      ],
+      "armor": [
+        "cloth",
+        "magerobes"
+      ]
+    },
+    {
+      "name": "Ranger",
+      "art": "ranger",
+      "stats": [
+        6,
+        10,
+        6,
+        4,
+        5,
+        6
+      ],
+      "primary": 1,
+      "skills": [
+        "Power Shot",
+        "Multi-Shot",
+        "Hunter's Mark"
+      ],
+      "passive": "Keen Eye: improved accuracy and critical chance",
+      "weapons": [
+        "dagger",
+        "sword",
+        "spear",
+        "bow",
+        "crossbow"
+      ],
+      "armor": [
+        "leather",
+        "studded",
+        "chain",
+        "scale"
+      ]
+    },
+    {
+      "name": "Cleric",
+      "art": "cleric",
+      "stats": [
+        5,
+        4,
+        7,
+        6,
+        10,
+        4
+      ],
+      "primary": 4,
+      "skills": [
+        "Heal",
+        "Holy Smite",
+        "Resurrection"
+      ],
+      "passive": "Mercy: +25% healing",
+      "weapons": [
+        "mace",
+        "holystaff"
+      ],
+      "armor": [
+        "cloth",
+        "priestrobes",
+        "chain",
+        "scale"
+      ]
+    },
+    {
+      "name": "Rogue",
+      "art": "rogue",
+      "stats": [
+        6,
+        11,
+        5,
+        4,
+        4,
+        9
+      ],
+      "primary": 1,
+      "skills": [
+        "Backstab",
+        "Poison Blade",
+        "Small Grenade"
+      ],
+      "passive": "Shadowcraft: critical chance and trap detection",
+      "weapons": [
+        "dagger",
+        "sword",
+        "bow",
+        "crossbow"
+      ],
+      "armor": [
+        "cloth",
+        "leather",
+        "studded"
+      ]
+    },
+    {
+      "name": "Paladin",
+      "art": "paladin",
+      "stats": [
+        8,
+        4,
+        9,
+        4,
+        8,
+        4
+      ],
+      "primary": 0,
+      "skills": [
+        "Holy Strike",
+        "Divine Shield",
+        "Lay on Hands"
+      ],
+      "passive": "Consecrated: armor and holy resistance",
+      "weapons": [
+        "sword",
+        "broadsword",
+        "mace",
+        "spear",
+        "holystaff"
+      ],
+      "armor": [
+        "chain",
+        "scale",
+        "scaleplate",
+        "plate",
+        "ornate"
+      ]
+    },
+    {
+      "name": "Warlock",
+      "art": "warlock",
+      "stats": [
+        3,
+        6,
+        6,
+        10,
+        7,
+        5
+      ],
+      "primary": 3,
+      "skills": [
+        "Shadow Bolt",
+        "Curse",
+        "Soul Drain"
+      ],
+      "passive": "Void Pact: +20% dark damage",
+      "weapons": [
+        "dagger",
+        "magestaff"
+      ],
+      "armor": [
+        "cloth",
+        "magerobes"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Power Strike",
+      "cost": 3,
+      "power": 1.7,
+      "type": "Physical",
+      "effect": "",
+      "target": "enemy",
+      "unlock": 1
+    },
+    {
+      "name": "Cleave",
+      "cost": 6,
+      "power": 1.1,
+      "type": "Physical",
+      "effect": "",
+      "target": "all",
+      "unlock": 5
+    },
+    {
+      "name": "Shield Wall",
+      "cost": 8,
+      "power": 1,
+      "type": "Physical",
+      "effect": "Guard",
+      "target": "party",
+      "unlock": 10
+    },
+    {
+      "name": "Fireball",
+      "cost": 4,
+      "power": 1.5,
+      "type": "Fire",
+      "effect": "Burn",
+      "target": "enemy",
+      "unlock": 1
+    },
+    {
+      "name": "Ice Lance",
+      "cost": 6,
+      "power": 1.65,
+      "type": "Ice",
+      "effect": "Stun",
+      "target": "enemy",
+      "unlock": 5
+    },
+    {
+      "name": "Chain Lightning",
+      "cost": 10,
+      "power": 1.3,
+      "type": "Lightning",
+      "effect": "",
+      "target": "all",
+      "unlock": 10
+    },
+    {
+      "name": "Power Shot",
+      "cost": 3,
+      "power": 1.7,
+      "type": "Physical",
+      "effect": "",
+      "target": "enemy",
+      "unlock": 1
+    },
+    {
+      "name": "Multi-Shot",
+      "cost": 6,
+      "power": 1.1,
+      "type": "Physical",
+      "effect": "",
+      "target": "all",
+      "unlock": 5
+    },
+    {
+      "name": "Hunter's Mark",
+      "cost": 7,
+      "power": 1,
+      "type": "Physical",
+      "effect": "Mark",
+      "target": "enemy",
+      "unlock": 10
+    },
+    {
+      "name": "Heal",
+      "cost": 4,
+      "power": 2,
+      "type": "Holy",
+      "effect": "",
+      "target": "heal",
+      "unlock": 1
+    },
+    {
+      "name": "Holy Smite",
+      "cost": 6,
+      "power": 1.8,
+      "type": "Holy",
+      "effect": "",
+      "target": "enemy",
+      "unlock": 5
+    },
+    {
+      "name": "Resurrection",
+      "cost": 15,
+      "power": 1,
+      "type": "Holy",
+      "effect": "",
+      "target": "revive",
+      "unlock": 10
+    },
+    {
+      "name": "Backstab",
+      "cost": 4,
+      "power": 1.9,
+      "type": "Physical",
+      "effect": "",
+      "target": "enemy",
+      "unlock": 1
+    },
+    {
+      "name": "Poison Blade",
+      "cost": 5,
+      "power": 1.2,
+      "type": "Physical",
+      "effect": "Poison",
+      "target": "enemy",
+      "unlock": 5
+    },
+    {
+      "name": "Small Grenade",
+      "cost": 8,
+      "power": 1.15,
+      "type": "Physical",
+      "effect": "",
+      "target": "all",
+      "unlock": 10
+    },
+    {
+      "name": "Holy Strike",
+      "cost": 4,
+      "power": 1.5,
+      "type": "Holy",
+      "effect": "",
+      "target": "enemy",
+      "unlock": 1
+    },
+    {
+      "name": "Divine Shield",
+      "cost": 7,
+      "power": 1,
+      "type": "Physical",
+      "effect": "Guard",
+      "target": "party",
+      "unlock": 5
+    },
+    {
+      "name": "Lay on Hands",
+      "cost": 10,
+      "power": 3,
+      "type": "Holy",
+      "effect": "",
+      "target": "heal",
+      "unlock": 10
+    },
+    {
+      "name": "Shadow Bolt",
+      "cost": 4,
+      "power": 1.6,
+      "type": "Dark",
+      "effect": "",
+      "target": "enemy",
+      "unlock": 1
+    },
+    {
+      "name": "Curse",
+      "cost": 6,
+      "power": 0.8,
+      "type": "Dark",
+      "effect": "Curse",
+      "target": "enemy",
+      "unlock": 5
+    },
+    {
+      "name": "Soul Drain",
+      "cost": 10,
+      "power": 1.8,
+      "type": "Dark",
+      "effect": "Drain",
+      "target": "enemy",
+      "unlock": 10
+    }
+  ],
+  "items": [
+    {
+      "id": "health",
+      "name": "Health Potion",
+      "family": "consumable",
+      "slot": "",
+      "power": 45,
+      "value": 18,
+      "stack": 5,
+      "effect": "hp"
+    },
+    {
+      "id": "greater_health",
+      "name": "Greater Health Potion",
+      "family": "consumable",
+      "slot": "",
+      "power": 150,
+      "value": 55,
+      "stack": 5,
+      "effect": "hp"
+    },
+    {
+      "id": "mana",
+      "name": "Mana Potion",
+      "family": "consumable",
+      "slot": "",
+      "power": 25,
+      "value": 22,
+      "stack": 5,
+      "effect": "mp"
+    },
+    {
+      "id": "greater_mana",
+      "name": "Greater Mana Potion",
+      "family": "consumable",
+      "slot": "",
+      "power": 90,
+      "value": 65,
+      "stack": 5,
+      "effect": "mp"
+    },
+    {
+      "id": "food",
+      "name": "Travel Bread",
+      "family": "consumable",
+      "slot": "",
+      "power": 25,
+      "value": 9,
+      "stack": 5,
+      "effect": "hp"
+    },
+    {
+      "id": "remedy",
+      "name": "Cleansing Tonic",
+      "family": "consumable",
+      "slot": "",
+      "power": 0,
+      "value": 20,
+      "stack": 5,
+      "effect": "cleanse"
+    },
+    {
+      "id": "dagger",
+      "name": "Dagger",
+      "family": "dagger",
+      "slot": "Weapon",
+      "power": 5,
+      "value": 45,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "sword",
+      "name": "Sword",
+      "family": "sword",
+      "slot": "Weapon",
+      "power": 6,
+      "value": 50,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "broadsword",
+      "name": "Broadsword",
+      "family": "broadsword",
+      "slot": "Weapon",
+      "power": 7,
+      "value": 55,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "axe",
+      "name": "Axe",
+      "family": "axe",
+      "slot": "Weapon",
+      "power": 8,
+      "value": 60,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "mace",
+      "name": "Hammer / Mace",
+      "family": "mace",
+      "slot": "Weapon",
+      "power": 5,
+      "value": 65,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "spear",
+      "name": "Spear",
+      "family": "spear",
+      "slot": "Weapon",
+      "power": 6,
+      "value": 70,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "bow",
+      "name": "Bow",
+      "family": "bow",
+      "slot": "Weapon",
+      "power": 7,
+      "value": 75,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "crossbow",
+      "name": "Crossbow",
+      "family": "crossbow",
+      "slot": "Weapon",
+      "power": 8,
+      "value": 80,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "holystaff",
+      "name": "Holy Staff",
+      "family": "holystaff",
+      "slot": "Weapon",
+      "power": 5,
+      "value": 85,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "magestaff",
+      "name": "Mage Staff",
+      "family": "magestaff",
+      "slot": "Weapon",
+      "power": 6,
+      "value": 90,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "cloth",
+      "name": "Cloth Armor",
+      "family": "cloth",
+      "slot": "Body",
+      "power": 2,
+      "value": 35,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "leather",
+      "name": "Leather Armor",
+      "family": "leather",
+      "slot": "Body",
+      "power": 3,
+      "value": 45,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "studded",
+      "name": "Studded Leather Armor",
+      "family": "studded",
+      "slot": "Body",
+      "power": 4,
+      "value": 55,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "chain",
+      "name": "Chain Armor",
+      "family": "chain",
+      "slot": "Body",
+      "power": 5,
+      "value": 65,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "scale",
+      "name": "Scale Armor",
+      "family": "scale",
+      "slot": "Body",
+      "power": 6,
+      "value": 75,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "scaleplate",
+      "name": "Scale and Plate Armor",
+      "family": "scaleplate",
+      "slot": "Body",
+      "power": 7,
+      "value": 85,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "plate",
+      "name": "Plate Armor",
+      "family": "plate",
+      "slot": "Body",
+      "power": 8,
+      "value": 95,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "ornate",
+      "name": "Ornate Plate Armor",
+      "family": "ornate",
+      "slot": "Body",
+      "power": 9,
+      "value": 105,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "priestrobes",
+      "name": "Priest Robes Armor",
+      "family": "priestrobes",
+      "slot": "Body",
+      "power": 2,
+      "value": 115,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "magerobes",
+      "name": "Mage Robes Armor",
+      "family": "magerobes",
+      "slot": "Body",
+      "power": 3,
+      "value": 125,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "family": "universal",
+      "slot": "Off Hand",
+      "power": 4,
+      "value": 40,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "hood",
+      "name": "Travel Hood",
+      "family": "universal",
+      "slot": "Head",
+      "power": 1,
+      "value": 40,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "gloves",
+      "name": "Travel Gloves",
+      "family": "universal",
+      "slot": "Hands",
+      "power": 1,
+      "value": 40,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "boots",
+      "name": "Travel Boots",
+      "family": "universal",
+      "slot": "Feet",
+      "power": 1,
+      "value": 40,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "ring",
+      "name": "Silver Ring",
+      "family": "universal",
+      "slot": "Accessory 1",
+      "power": 2,
+      "value": 40,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "charm",
+      "name": "Dawn Charm",
+      "family": "universal",
+      "slot": "Accessory 2",
+      "power": 2,
+      "value": 40,
+      "stack": 1,
+      "effect": ""
+    },
+    {
+      "id": "antiquity",
+      "name": "Sealed Antiquity",
+      "family": "treasure",
+      "slot": "",
+      "power": 0,
+      "value": 180,
+      "stack": 1,
+      "effect": ""
+    }
+  ],
+  "enemies": [
+    {
+      "id": "rat",
+      "name": "Cursed Rat",
+      "art": "rat1",
+      "family": "Vermin",
+      "hp": 0.7,
+      "attack": 0.7,
+      "speed": 1.1,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "spider",
+      "name": "Cave Spider",
+      "art": "cavespider1",
+      "family": "Vermin",
+      "hp": 0.9,
+      "attack": 0.8,
+      "speed": 1,
+      "type": "Physical",
+      "status": "Poison",
+      "resist": {}
+    },
+    {
+      "id": "cultist",
+      "name": "Cult Enforcer",
+      "art": "cultenforcer1",
+      "family": "Cult",
+      "hp": 1.2,
+      "attack": 1,
+      "speed": 1,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton Warrior",
+      "art": "skeleton1",
+      "family": "Undead",
+      "hp": 1,
+      "attack": 1,
+      "speed": 0.8,
+      "type": "Physical",
+      "status": "",
+      "resist": {
+        "Holy": 1.5,
+        "Dark": 0.6
+      }
+    },
+    {
+      "id": "fungal",
+      "name": "Fungal Rat",
+      "art": "fungalrat1",
+      "family": "Vermin",
+      "hp": 1,
+      "attack": 0.8,
+      "speed": 1,
+      "type": "Physical",
+      "status": "Poison",
+      "resist": {}
+    },
+    {
+      "id": "beetle",
+      "name": "Sewer Beetle",
+      "art": "beetle1",
+      "family": "Vermin",
+      "hp": 1.3,
+      "attack": 0.8,
+      "speed": 0.6,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "slime",
+      "name": "Slime",
+      "art": "slime1",
+      "family": "Vermin",
+      "hp": 1.2,
+      "attack": 0.7,
+      "speed": 0.6,
+      "type": "Physical",
+      "status": "",
+      "resist": {
+        "Physical": 0.7,
+        "Fire": 1.5
+      }
+    },
+    {
+      "id": "wraith",
+      "name": "Wraith",
+      "art": "wraith1",
+      "family": "Undead",
+      "hp": 1.1,
+      "attack": 1,
+      "speed": 1.1,
+      "type": "Dark",
+      "status": "Fear",
+      "resist": {
+        "Holy": 1.5,
+        "Dark": 0.5
+      }
+    },
+    {
+      "id": "archer",
+      "name": "Skeleton Archer",
+      "art": "skeletonarcher1",
+      "family": "Undead",
+      "hp": 0.85,
+      "attack": 1.1,
+      "speed": 1.2,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin Scavenger",
+      "art": "goblinscavenger1",
+      "family": "Goblin",
+      "hp": 0.9,
+      "attack": 1,
+      "speed": 1.1,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "brute",
+      "name": "Goblin Brute",
+      "art": "goblinbrute1",
+      "family": "Goblin",
+      "hp": 1.4,
+      "attack": 1.2,
+      "speed": 0.65,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "shaman",
+      "name": "Goblin Shaman",
+      "art": "goblinshaman1",
+      "family": "Goblin",
+      "hp": 1,
+      "attack": 1,
+      "speed": 1,
+      "type": "Fire",
+      "status": "Burn",
+      "resist": {}
+    },
+    {
+      "id": "knight",
+      "name": "Restless Knight",
+      "art": "restlessknight1",
+      "family": "Undead",
+      "hp": 1.5,
+      "attack": 1.1,
+      "speed": 0.7,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "gargoyle",
+      "name": "Stone Gargoyle",
+      "art": "stonegargoyle1",
+      "family": "Construct",
+      "hp": 1.5,
+      "attack": 1,
+      "speed": 0.8,
+      "type": "Physical",
+      "status": "",
+      "resist": {
+        "Physical": 0.8,
+        "Lightning": 1.4
+      }
+    },
+    {
+      "id": "vampire",
+      "name": "Vampire Duelist",
+      "art": "vampireDuelist1",
+      "family": "Undead",
+      "hp": 1.2,
+      "attack": 1.2,
+      "speed": 1.3,
+      "type": "Physical",
+      "status": "Bleed",
+      "resist": {}
+    },
+    {
+      "id": "bandit",
+      "name": "Bandit Cutthroat",
+      "art": "banditCutthroat1",
+      "family": "Soldier",
+      "hp": 1,
+      "attack": 1.2,
+      "speed": 1.2,
+      "type": "Physical",
+      "status": "Blind",
+      "resist": {}
+    },
+    {
+      "id": "hound",
+      "name": "Grave Hound",
+      "art": "gravehound1",
+      "family": "Beast",
+      "hp": 1.2,
+      "attack": 1.2,
+      "speed": 1.3,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "minotaur",
+      "name": "Minotaur Jailer",
+      "art": "minotaurJailer1",
+      "family": "Beast",
+      "hp": 1.8,
+      "attack": 1.2,
+      "speed": 0.6,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "bat",
+      "name": "Dungeon Bat",
+      "art": "dungeonbat1",
+      "family": "Beast",
+      "hp": 0.7,
+      "attack": 0.9,
+      "speed": 1.5,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "witch",
+      "name": "Dark Witch",
+      "art": "darkwitch1",
+      "family": "Cult",
+      "hp": 1,
+      "attack": 1.2,
+      "speed": 1,
+      "type": "Dark",
+      "status": "Curse",
+      "resist": {}
+    },
+    {
+      "id": "succubus",
+      "name": "Armored Succubus",
+      "art": "ArmoredFemaleSuccubus1",
+      "family": "Demon",
+      "hp": 1.3,
+      "attack": 1.2,
+      "speed": 1.1,
+      "type": "Dark",
+      "status": "Curse",
+      "resist": {
+        "Dark": 0.6,
+        "Holy": 1.4
+      }
+    },
+    {
+      "id": "hellknight",
+      "name": "Infernal Enforcer [dev variant]",
+      "art": "cultenforcer1",
+      "family": "Demon",
+      "hp": 1.6,
+      "attack": 1.3,
+      "speed": 0.8,
+      "type": "Fire",
+      "status": "Burn",
+      "resist": {
+        "Fire": 0.5,
+        "Ice": 1.4
+      }
+    },
+    {
+      "id": "ratking",
+      "name": "The Rat King",
+      "art": "TheRatKing",
+      "family": "Vermin",
+      "hp": 3,
+      "attack": 1.2,
+      "speed": 0.9,
+      "type": "Physical",
+      "status": "Poison",
+      "resist": {}
+    },
+    {
+      "id": "widow",
+      "name": "The Widow Queen",
+      "art": "TheWidowQueen",
+      "family": "Vermin",
+      "hp": 3,
+      "attack": 1.2,
+      "speed": 1.2,
+      "type": "Physical",
+      "status": "Poison",
+      "resist": {}
+    },
+    {
+      "id": "castellan",
+      "name": "The Hollow Castellan",
+      "art": "TheHollowCastellan",
+      "family": "Undead",
+      "hp": 3.2,
+      "attack": 1.4,
+      "speed": 0.8,
+      "type": "Physical",
+      "status": "Fear",
+      "resist": {}
+    },
+    {
+      "id": "matriarch",
+      "name": "The Blackthorn Matriarch",
+      "art": "TheBlackthornMatriarch",
+      "family": "Cult",
+      "hp": 2.8,
+      "attack": 1.3,
+      "speed": 1.2,
+      "type": "Dark",
+      "status": "Curse",
+      "resist": {}
+    },
+    {
+      "id": "agni",
+      "name": "The Grand Agni Drake",
+      "art": "TheGrandAgniDrake",
+      "family": "Drake",
+      "hp": 3.4,
+      "attack": 1.4,
+      "speed": 1,
+      "type": "Fire",
+      "status": "Burn",
+      "resist": {
+        "Fire": 0.5,
+        "Ice": 1.5
+      }
+    },
+    {
+      "id": "reaper",
+      "name": "The Death Reaper Drake",
+      "art": "TheDeathReaperDrake",
+      "family": "Drake",
+      "hp": 3.4,
+      "attack": 1.4,
+      "speed": 1,
+      "type": "Poison",
+      "status": "Poison",
+      "resist": {
+        "Poison": 0,
+        "Holy": 1.4
+      }
+    },
+    {
+      "id": "astra",
+      "name": "Astra, Cosmic Chaos Nephilim Queen",
+      "art": "final_boss",
+      "family": "Demon",
+      "hp": 4.2,
+      "attack": 1.5,
+      "speed": 1.3,
+      "type": "Dark",
+      "status": "Curse",
+      "resist": {
+        "Dark": 0.65,
+        "Holy": 0.8
+      }
+    },
+    {
+      "id": "keeper",
+      "name": "The Ossuary Keeper",
+      "art": "cryptGuardian1",
+      "family": "Undead",
+      "hp": 3.1,
+      "attack": 1.4,
+      "speed": 0.8,
+      "type": "Physical",
+      "status": "Fear",
+      "resist": {}
+    },
+    {
+      "id": "vampiress",
+      "name": "Enraged Vampiress",
+      "art": "enragedVampiress1",
+      "family": "Undead",
+      "hp": 3.1,
+      "attack": 1.2,
+      "speed": 1.3,
+      "type": "Physical",
+      "status": "Bleed",
+      "resist": {}
+    },
+    {
+      "id": "ashwarden",
+      "name": "Warden of Ash [dev presentation]",
+      "art": "minotaurJailer1",
+      "family": "Demon",
+      "hp": 3.1,
+      "attack": 1.2,
+      "speed": 0.6,
+      "type": "Physical",
+      "status": "",
+      "resist": {}
+    },
+    {
+      "id": "gatewarden",
+      "name": "The Last Gatekeeper [dev presentation]",
+      "art": "ArmoredFemaleSuccubus1",
+      "family": "Demon",
+      "hp": 3.1,
+      "attack": 1.2,
+      "speed": 1.1,
+      "type": "Dark",
+      "status": "Curse",
+      "resist": {
+        "Dark": 0.6,
+        "Holy": 1.4
+      }
+    }
+  ],
+  "floors": [
+    {
+      "name": "Last Dawn Cathedral \u2014 Level 1: The Unanswered Bell",
+      "region": "Last Dawn Cathedral",
+      "regionIndex": 0,
+      "rank": 1,
+      "rows": [
+        "###############",
+        "#S....#...H...#",
+        "#.##..#.#####.#",
+        "#..!..+.......#",
+        "###.###.###.#.#",
+        "#K..#...#C#.#.#",
+        "#.###.###?#.#.#",
+        "#...E...#...#.#",
+        "#.###.#.###.#.#",
+        "#...T.#...L.#.#",
+        "#.#.###.#####.#",
+        "#C#...D...B...#",
+        "#######.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "rat",
+        "spider",
+        "skeleton"
+      ],
+      "boss": "cultist",
+      "key": "Rusted Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "The bell has not rung for a century. Beneath its altar, something still answers.",
+      "tint": [
+        0.38,
+        0.32,
+        0.23
+      ]
+    },
+    {
+      "name": "Old City Sewers \u2014 Level 1: The Drowned Conduit",
+      "region": "Old City Sewers",
+      "regionIndex": 1,
+      "rank": 2,
+      "rows": [
+        "###############",
+        "#S....#....H..#",
+        "#.##..#.###.#.#",
+        "#..K..+...#.#.#",
+        "###.#####.#.#.#",
+        "#...#C?...E#..#",
+        "#.###.###.###.#",
+        "#...E...#.....#",
+        "#.#####.#####.#",
+        "#...T...L...#.#",
+        "#.###.#####.#.#",
+        "#C#...D...E...#",
+        "#.###.#.#####.#",
+        "#..?$.G...V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "fungal",
+        "beetle",
+        "slime"
+      ],
+      "boss": "",
+      "key": "Rusted Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "The old channels carry no rain. Every drop seeps upward from below.",
+      "tint": [
+        0.21,
+        0.29,
+        0.2
+      ]
+    },
+    {
+      "name": "Old City Sewers \u2014 Level 2: The Rat King's Cistern",
+      "region": "Old City Sewers",
+      "regionIndex": 1,
+      "rank": 3,
+      "rows": [
+        "###############",
+        "#S..#.....#..H#",
+        "#.#.#.###.#.#.#",
+        "#K#...#...+...#",
+        "#.#####.###.#.#",
+        "#...E...#...#.#",
+        "###.#.###.###.#",
+        "#...#...E.....#",
+        "#.#####.###.#.#",
+        "#C?...#...L.#.#",
+        "#####.###.###.#",
+        "#...T.D...B...#",
+        "#.###.#####.#.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "fungal",
+        "beetle",
+        "slime"
+      ],
+      "boss": "ratking",
+      "key": "Rusted Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "The old channels carry no rain. Every drop seeps upward from below.",
+      "tint": [
+        0.21,
+        0.29,
+        0.2
+      ]
+    },
+    {
+      "name": "Forgotten Catacombs \u2014 Level 1: The Failed Chapel",
+      "region": "Forgotten Catacombs",
+      "regionIndex": 2,
+      "rank": 4,
+      "rows": [
+        "###############",
+        "#S......#....H#",
+        "#.#####.#.###.#",
+        "#...K.#.+...#.#",
+        "###.#.#.###.#.#",
+        "#C?.#...E...#.#",
+        "###.###.#####.#",
+        "#...#R..#.....#",
+        "#.###.#.#.###.#",
+        "#.....#...T...#",
+        "#.#######.###.#",
+        "#...E.D...L...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "skeleton",
+        "archer",
+        "wraith"
+      ],
+      "boss": "",
+      "key": "Crypt Key",
+      "recruit": 3,
+      "recruitBark": "Cleric: I came to bury my brothers. The graves opened before I could begin. Let me help you end this.",
+      "lore": "The crowns in these graves predate the city. Lonemoore was built on a warning.",
+      "tint": [
+        0.34,
+        0.32,
+        0.28
+      ]
+    },
+    {
+      "name": "Forgotten Catacombs \u2014 Level 2: The Ossuary",
+      "region": "Forgotten Catacombs",
+      "regionIndex": 2,
+      "rank": 5,
+      "rows": [
+        "###############",
+        "#S..#.....#..H#",
+        "#.#.#.###.#.#.#",
+        "#.#...#K..+...#",
+        "#.#####.###.###",
+        "#...E...#.....#",
+        "###.###.#.###.#",
+        "#...#C?.E...#.#",
+        "#.###.#####.#.#",
+        "#...T.....L...#",
+        "#.#######.###.#",
+        "#.....D...B...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "skeleton",
+        "archer",
+        "wraith"
+      ],
+      "boss": "keeper",
+      "key": "Crypt Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "The crowns in these graves predate the city. Lonemoore was built on a warning.",
+      "tint": [
+        0.34,
+        0.32,
+        0.28
+      ]
+    },
+    {
+      "name": "Goblin Warrens \u2014 Level 1: The Scavenger Roads",
+      "region": "Goblin Warrens",
+      "regionIndex": 3,
+      "rank": 6,
+      "rows": [
+        "###############",
+        "#S....#....H..#",
+        "#.###.#.#####.#",
+        "#K..#.+.....#.#",
+        "#.#.#.###.#.#.#",
+        "#.#.E...#.#...#",
+        "#.#####.#.###.#",
+        "#...#C?.#...E.#",
+        "###.###.###.#.#",
+        "#...T...#...#.#",
+        "#.#####.#.###.#",
+        "#C....D...L...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "goblin",
+        "brute",
+        "shaman"
+      ],
+      "boss": "",
+      "key": "Rusted Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "The goblins trade in broken seals. They have mistaken the locks for treasure.",
+      "tint": [
+        0.3,
+        0.25,
+        0.15
+      ]
+    },
+    {
+      "name": "Goblin Warrens \u2014 Level 2: The Thorn Court",
+      "region": "Goblin Warrens",
+      "regionIndex": 3,
+      "rank": 7,
+      "rows": [
+        "###############",
+        "#S..#.....#..H#",
+        "#.#.#.###.#.#.#",
+        "#K#...#...+...#",
+        "#.###.#.###.#.#",
+        "#...E.#...#.#.#",
+        "###.#####.#.#.#",
+        "#C?.#...E...#.#",
+        "#.#.#.#####.#.#",
+        "#...T.....L...#",
+        "#.#######.###.#",
+        "#.....D...B...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "goblin",
+        "brute",
+        "shaman"
+      ],
+      "boss": "matriarch",
+      "key": "Rusted Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "The goblins trade in broken seals. They have mistaken the locks for treasure.",
+      "tint": [
+        0.3,
+        0.25,
+        0.15
+      ]
+    },
+    {
+      "name": "Ancient Crypts \u2014 Level 1: The Pilgrim's Vigil",
+      "region": "Ancient Crypts",
+      "regionIndex": 4,
+      "rank": 8,
+      "rows": [
+        "###############",
+        "#S......#....H#",
+        "#.#####.#.###.#",
+        "#...K.#.+...#.#",
+        "#.###.#.###.#.#",
+        "#...E...#...#.#",
+        "###.###.#.###.#",
+        "#C?...#...R...#",
+        "#####.###.###.#",
+        "#...T...E.L...#",
+        "#.###.#####.#.#",
+        "#.....D.......#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "knight",
+        "wraith",
+        "gargoyle",
+        "vampire"
+      ],
+      "boss": "",
+      "key": "Crypt Key",
+      "recruit": 5,
+      "recruitBark": "Paladin: My expedition is gone. But an oath does not end because its witnesses are dead.",
+      "lore": "Holy names were scraped from every coffin. The last inscription reads: Do not answer her.",
+      "tint": [
+        0.24,
+        0.24,
+        0.33
+      ]
+    },
+    {
+      "name": "Ancient Crypts \u2014 Level 2: The Crimson Sepulchre",
+      "region": "Ancient Crypts",
+      "regionIndex": 4,
+      "rank": 9,
+      "rows": [
+        "###############",
+        "#S..#.....#..H#",
+        "#.#.#.###.#.#.#",
+        "#.#...#K..+...#",
+        "#.#####.#.###.#",
+        "#.....E.#.....#",
+        "#.###.###.###.#",
+        "#...#C?.E...#.#",
+        "#.###.#####.#.#",
+        "#.....T...L...#",
+        "#####.###.###.#",
+        "#C....D...B...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "knight",
+        "wraith",
+        "gargoyle",
+        "vampire"
+      ],
+      "boss": "vampiress",
+      "key": "Crypt Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "Holy names were scraped from every coffin. The last inscription reads: Do not answer her.",
+      "tint": [
+        0.24,
+        0.24,
+        0.33
+      ]
+    },
+    {
+      "name": "Buried Fortress \u2014 Level 1: The Warden's Cells",
+      "region": "Buried Fortress",
+      "regionIndex": 5,
+      "rank": 10,
+      "rows": [
+        "###############",
+        "#S....#....H..#",
+        "#.###.#.###.#.#",
+        "#K..#.+...#.#.#",
+        "###.#.###.#.#.#",
+        "#...E...#...#.#",
+        "#.#####.#####.#",
+        "#...#R..#...E.#",
+        "#.#.#.#.#.###.#",
+        "#.#...#...T...#",
+        "#.#######.###.#",
+        "#C....D...L...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "bandit",
+        "hound",
+        "knight",
+        "gargoyle"
+      ],
+      "boss": "",
+      "key": "Warden Key",
+      "recruit": 4,
+      "recruitBark": "Rogue: Treasure brought me here. A locked cell changed my priorities. You have my blades.",
+      "lore": "The garrison fought inward, not outward. This fortress was built to keep something underneath it.",
+      "tint": [
+        0.26,
+        0.29,
+        0.32
+      ]
+    },
+    {
+      "name": "Buried Fortress \u2014 Level 2: The Hollow Keep",
+      "region": "Buried Fortress",
+      "regionIndex": 5,
+      "rank": 11,
+      "rows": [
+        "###############",
+        "#S......#....H#",
+        "#.#####.#.###.#",
+        "#...K.#.+...#.#",
+        "#.###.#.###.#.#",
+        "#...E...#.....#",
+        "###.#.###.###.#",
+        "#C?.#...E...#.#",
+        "#.#######.###.#",
+        "#.....T...L...#",
+        "#.###.#####.#.#",
+        "#.....D...B...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "bandit",
+        "hound",
+        "knight",
+        "gargoyle"
+      ],
+      "boss": "castellan",
+      "key": "Warden Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "The garrison fought inward, not outward. This fortress was built to keep something underneath it.",
+      "tint": [
+        0.26,
+        0.29,
+        0.32
+      ]
+    },
+    {
+      "name": "The Deep \u2014 Level 1: The Chasm of Wings",
+      "region": "The Deep",
+      "regionIndex": 6,
+      "rank": 12,
+      "rows": [
+        "###############",
+        "#S..#.....#..H#",
+        "#.#.#.###.#.#.#",
+        "#K#...#...+...#",
+        "#.#####.###.#.#",
+        "#...E...#...#.#",
+        "#.###.#.#.###.#",
+        "#...#C?.E.....#",
+        "###.#####.###.#",
+        "#...T.....L...#",
+        "#.###.#####.#.#",
+        "#.....D...E...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "bat",
+        "spider",
+        "beetle",
+        "minotaur"
+      ],
+      "boss": "",
+      "key": "Drake Lair Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "Beyond the chasm, the stars appear below your feet. The descent has left the mortal world.",
+      "tint": [
+        0.15,
+        0.25,
+        0.29
+      ]
+    },
+    {
+      "name": "The Deep \u2014 Level 2: The Drake's Heart",
+      "region": "The Deep",
+      "regionIndex": 6,
+      "rank": 13,
+      "rows": [
+        "###############",
+        "#S....#....H..#",
+        "#.###.#.###.#.#",
+        "#K..#.+...#.#.#",
+        "#.#.#.###.#.#.#",
+        "#.#.E...#...#.#",
+        "#.#####.###.#.#",
+        "#C?...#...E...#",
+        "#####.###.###.#",
+        "#...T.....L...#",
+        "#.###.#####.#.#",
+        "#.....D...B...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "bat",
+        "spider",
+        "beetle",
+        "minotaur"
+      ],
+      "boss": "agni",
+      "key": "Drake Lair Key",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "Beyond the chasm, the stars appear below your feet. The descent has left the mortal world.",
+      "tint": [
+        0.15,
+        0.25,
+        0.29
+      ]
+    },
+    {
+      "name": "Infernal Ruins \u2014 Level 1: The Sealed Witness",
+      "region": "Infernal Ruins",
+      "regionIndex": 7,
+      "rank": 14,
+      "rows": [
+        "###############",
+        "#S......#....H#",
+        "#.#####.#.###.#",
+        "#...K.#.+...#.#",
+        "###.#.#.###.#.#",
+        "#C?.#...E.....#",
+        "#.###.#####.#.#",
+        "#...#...#...#.#",
+        "#.#.#.#.#.###.#",
+        "#.#...#R..T...#",
+        "#.###.#####.#.#",
+        "#...E.D...L...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "succubus",
+        "hellknight",
+        "witch"
+      ],
+      "boss": "",
+      "key": "Master Key (Infernal Ruins)",
+      "recruit": 6,
+      "recruitBark": "Warlock: This is no curse leaking from a tomb. It is a door. And something on the other side knows your name.",
+      "lore": "Seven generations fed the seals. The last keeper chose power instead. The breach remembers.",
+      "tint": [
+        0.32,
+        0.18,
+        0.16
+      ]
+    },
+    {
+      "name": "Infernal Ruins \u2014 Level 2: The Ashen Compact",
+      "region": "Infernal Ruins",
+      "regionIndex": 7,
+      "rank": 15,
+      "rows": [
+        "###############",
+        "#S..#.....#..H#",
+        "#.#.#.###.#.#.#",
+        "#.#...#K..+...#",
+        "#.#####.###.#.#",
+        "#...E...#.....#",
+        "#.###.###.###.#",
+        "#C?.#...E...#.#",
+        "###.#####.###.#",
+        "#...T.....L...#",
+        "#.###.#####.#.#",
+        "#.....D...B...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "succubus",
+        "hellknight",
+        "witch"
+      ],
+      "boss": "ashwarden",
+      "key": "Master Key (Infernal Ruins)",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "Seven generations fed the seals. The last keeper chose power instead. The breach remembers.",
+      "tint": [
+        0.32,
+        0.18,
+        0.16
+      ]
+    },
+    {
+      "name": "Hell \u2014 Level 1: The Ashen Threshold",
+      "region": "Hell",
+      "regionIndex": 8,
+      "rank": 16,
+      "rows": [
+        "###############",
+        "#S....#....H..#",
+        "#.###.#.###.#.#",
+        "#K..#.+...#.#.#",
+        "#.#.#.###.#.#.#",
+        "#...E...#...#.#",
+        "###.###.###.#.#",
+        "#C?...#...E...#",
+        "#.###.#.###.#.#",
+        "#...T.....L...#",
+        "#.###.#####.#.#",
+        "#.....D...E...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "succubus",
+        "hellknight",
+        "minotaur"
+      ],
+      "boss": "",
+      "key": "Master Key (Hell)",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "Astra wears the Hell Key. The door is bound to her will. Killing her may break its master, but not its hunger.",
+      "tint": [
+        0.19,
+        0.12,
+        0.18
+      ]
+    },
+    {
+      "name": "Hell \u2014 Level 2: The Hellforge",
+      "region": "Hell",
+      "regionIndex": 8,
+      "rank": 17,
+      "rows": [
+        "###############",
+        "#S......#....H#",
+        "#.#####.#.###.#",
+        "#...K.#.+...#.#",
+        "#.###.#.###.#.#",
+        "#...E...#...#.#",
+        "###.###.###.#.#",
+        "#C?...#...E...#",
+        "#.###.#.###.#.#",
+        "#...T.....L...#",
+        "#.###.#####.#.#",
+        "#.....D...B...#",
+        "#.###.#.#####.#",
+        "#$?..G....V.>.#",
+        "###############"
+      ],
+      "enemies": [
+        "succubus",
+        "hellknight",
+        "minotaur"
+      ],
+      "boss": "gatewarden",
+      "key": "Master Key (Hell)",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "Astra wears the Hell Key. The door is bound to her will. Killing her may break its master, but not its hunger.",
+      "tint": [
+        0.19,
+        0.12,
+        0.18
+      ]
+    },
+    {
+      "name": "Hell \u2014 Level 3: The Broken Halo",
+      "region": "Hell",
+      "regionIndex": 8,
+      "rank": 18,
+      "rows": [
+        "###############",
+        "#S....#....H..#",
+        "#.###.#.###.#.#",
+        "#K..#.+...#.#.#",
+        "#.#.#.###.#.#.#",
+        "#.#.E...#...#.#",
+        "#.#####.###.#.#",
+        "#C?...#...E...#",
+        "#####.###.###.#",
+        "#...T.....L...#",
+        "#.###.#####.#.#",
+        "#.....D.......#",
+        "#.###.#.#####.#",
+        "#$?..G....V.A.#",
+        "###############"
+      ],
+      "enemies": [
+        "succubus",
+        "hellknight",
+        "minotaur"
+      ],
+      "boss": "",
+      "key": "Master Key (Hell)",
+      "recruit": -1,
+      "recruitBark": "",
+      "lore": "Astra wears the Hell Key. The door is bound to her will. Killing her may break its master, but not its hunger.",
+      "tint": [
+        0.19,
+        0.12,
+        0.18
+      ]
+    }
+  ]
+}

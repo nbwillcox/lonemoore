@@ -1,0 +1,862 @@
+{
+  "version": 1,
+  "materialRoles": [
+    "Wall",
+    "Trim",
+    "Iron",
+    "Bone",
+    "Accent"
+  ],
+  "assets": [
+    {
+      "id": "cathedral_votive",
+      "name": "Sixfold Votive Candelabrum",
+      "regionIndex": 0,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_cathedral_votive.SM_RD_cathedral_votive",
+      "placement": "wall",
+      "boundsCm": [
+        126.0,
+        112.60254669189453,
+        240.04852294921875
+      ],
+      "minCm": [
+        -63.0,
+        -56.301273345947266,
+        0.0
+      ],
+      "maxCm": [
+        63.0,
+        56.301273345947266,
+        240.04852294921875
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.7936507936507936,
+      "landmark": false,
+      "triangles": 3308,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "cathedral_bell",
+      "name": "The Unanswered Bell",
+      "regionIndex": 0,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_cathedral_bell.SM_RD_cathedral_bell",
+      "placement": "floor",
+      "boundsCm": [
+        179.09054565429688,
+        153.40000915527344,
+        141.36436653137207
+      ],
+      "minCm": [
+        -91.89949035644531,
+        -76.70000457763672,
+        -3.8643665313720703
+      ],
+      "maxCm": [
+        87.19105529785156,
+        76.70000457763672,
+        137.5
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5583767676549078,
+      "landmark": true,
+      "triangles": 2904,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "cathedral_lectern",
+      "name": "Stone Scripture Lectern",
+      "regionIndex": 0,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_cathedral_lectern.SM_RD_cathedral_lectern",
+      "placement": "wall",
+      "boundsCm": [
+        92.00000762939453,
+        76.63747024536133,
+        145.1999969482422
+      ],
+      "minCm": [
+        -46.000003814697266,
+        -37.500003814697266,
+        0.0
+      ],
+      "maxCm": [
+        46.000003814697266,
+        39.13746643066406,
+        145.1999969482422
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 1.0,
+      "landmark": false,
+      "triangles": 300,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "sewer_ooze_pipe",
+      "name": "Leaking Sump Elbow",
+      "regionIndex": 1,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_sewer_ooze_pipe.SM_RD_sewer_ooze_pipe",
+      "placement": "wall",
+      "boundsCm": [
+        190.04644775390625,
+        237.6573257446289,
+        163.5
+      ],
+      "minCm": [
+        -92.99950408935547,
+        -82.00000762939453,
+        0.0
+      ],
+      "maxCm": [
+        97.04694366455078,
+        155.65731811523438,
+        163.5
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.42077390076943594,
+      "landmark": true,
+      "triangles": 2140,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "sewer_sump_grate",
+      "name": "Slime-Crusted Sump",
+      "regionIndex": 1,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_sewer_sump_grate.SM_RD_sewer_sump_grate",
+      "placement": "patch",
+      "boundsCm": [
+        235.0164794921875,
+        178.33485412597656,
+        21.1200008392334
+      ],
+      "minCm": [
+        -116.50525665283203,
+        -82.0,
+        2.0
+      ],
+      "maxCm": [
+        118.51122283935547,
+        96.33485412597656,
+        23.1200008392334
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4255020763483279,
+      "landmark": true,
+      "triangles": 1508,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "sewer_sludge_bank",
+      "name": "Refuse and Sludge Bank",
+      "regionIndex": 1,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_sewer_sludge_bank.SM_RD_sewer_sludge_bank",
+      "placement": "floor",
+      "boundsCm": [
+        233.83293914794922,
+        139.04895782470703,
+        53.75449085235596
+      ],
+      "minCm": [
+        -113.6521224975586,
+        -68.16047668457031,
+        4.199999809265137
+      ],
+      "maxCm": [
+        120.18081665039062,
+        70.88848114013672,
+        57.954490661621094
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4276557458687575,
+      "landmark": true,
+      "triangles": 2464,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "catacombs_bone_pile",
+      "name": "The Unburied Remains",
+      "regionIndex": 2,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_catacombs_bone_pile.SM_RD_catacombs_bone_pile",
+      "placement": "floor",
+      "boundsCm": [
+        135.29182815551758,
+        100.85735321044922,
+        74.19119501113892
+      ],
+      "minCm": [
+        -72.99635314941406,
+        -55.615413665771484,
+        3.4588065147399902
+      ],
+      "maxCm": [
+        62.295475006103516,
+        45.241939544677734,
+        77.6500015258789
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.7391429428025045,
+      "landmark": false,
+      "triangles": 12572,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "catacombs_ossuary",
+      "name": "Crowned Bone Shelves",
+      "regionIndex": 2,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_catacombs_ossuary.SM_RD_catacombs_ossuary",
+      "placement": "wall",
+      "boundsCm": [
+        168.0,
+        79.00001525878906,
+        137.5
+      ],
+      "minCm": [
+        -84.0,
+        -39.50000762939453,
+        0.0
+      ],
+      "maxCm": [
+        84.0,
+        39.50000762939453,
+        137.5
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5952380952380952,
+      "landmark": false,
+      "triangles": 12020,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "warrens_barricade",
+      "name": "Scavenger Palisade",
+      "regionIndex": 3,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_warrens_barricade.SM_RD_warrens_barricade",
+      "placement": "wall",
+      "boundsCm": [
+        196.591064453125,
+        82.31003952026367,
+        166.03041076660156
+      ],
+      "minCm": [
+        -98.2955322265625,
+        -55.61003494262695,
+        0.0
+      ],
+      "maxCm": [
+        98.2955322265625,
+        26.70000457763672,
+        166.03041076660156
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5086701182384813,
+      "landmark": true,
+      "triangles": 4688,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "warrens_cache",
+      "name": "Goblin Spear Cache",
+      "regionIndex": 3,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_warrens_cache.SM_RD_warrens_cache",
+      "placement": "floor",
+      "boundsCm": [
+        150.0372772216797,
+        100.3913803100586,
+        191.7206907272339
+      ],
+      "minCm": [
+        -77.0,
+        -48.805931091308594,
+        -1.7206907272338867
+      ],
+      "maxCm": [
+        73.03727722167969,
+        51.58544921875,
+        190.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.6665010312887127,
+      "landmark": false,
+      "triangles": 2694,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "warrens_fungus",
+      "name": "Pale Root Fungi",
+      "regionIndex": 3,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_warrens_fungus.SM_RD_warrens_fungus",
+      "placement": "floor",
+      "boundsCm": [
+        158.1039276123047,
+        124.24253845214844,
+        91.08121716976166
+      ],
+      "minCm": [
+        -90.30956268310547,
+        -62.80828094482422,
+        -1.4012168645858765
+      ],
+      "maxCm": [
+        67.79436492919922,
+        61.43425750732422,
+        89.68000030517578
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.6324953561255954,
+      "landmark": false,
+      "triangles": 2280,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "crypts_sarcophagus",
+      "name": "Crimson Vigil Sarcophagus",
+      "regionIndex": 4,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_crypts_sarcophagus.SM_RD_crypts_sarcophagus",
+      "placement": "wall",
+      "boundsCm": [
+        134.00000762939453,
+        191.00001525878906,
+        122.79000091552734
+      ],
+      "minCm": [
+        -67.0,
+        -91.00000762939453,
+        0.0
+      ],
+      "maxCm": [
+        67.00000762939453,
+        100.00000762939453,
+        122.79000091552734
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5235601675974128,
+      "landmark": true,
+      "triangles": 3424,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "crypts_vigil",
+      "name": "The Watchers Lantern",
+      "regionIndex": 4,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_crypts_vigil.SM_RD_crypts_vigil",
+      "placement": "wall",
+      "boundsCm": [
+        82.38423156738281,
+        74.0,
+        243.1999969482422
+      ],
+      "minCm": [
+        -41.192115783691406,
+        -37.0,
+        0.0
+      ],
+      "maxCm": [
+        41.192115783691406,
+        37.0,
+        243.1999969482422
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 1.0,
+      "landmark": false,
+      "triangles": 988,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "crypts_standard",
+      "name": "Sepulchral Procession Banner",
+      "regionIndex": 4,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_crypts_standard.SM_RD_crypts_standard",
+      "placement": "wall",
+      "boundsCm": [
+        134.0,
+        66.0,
+        291.0
+      ],
+      "minCm": [
+        -67.0,
+        -33.0,
+        0.0
+      ],
+      "maxCm": [
+        67.0,
+        33.0,
+        291.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.746268656716418,
+      "landmark": false,
+      "triangles": 532,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "fortress_armory",
+      "name": "Warden Shield and Spear Rack",
+      "regionIndex": 5,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_fortress_armory.SM_RD_fortress_armory",
+      "placement": "wall",
+      "boundsCm": [
+        179.1999969482422,
+        49.55001354217529,
+        230.0
+      ],
+      "minCm": [
+        -87.5,
+        -39.00000762939453,
+        0.0
+      ],
+      "maxCm": [
+        91.69999694824219,
+        10.550005912780762,
+        230.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.558035723789006,
+      "landmark": true,
+      "triangles": 428,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "fortress_shackles",
+      "name": "Forgotten Restraints",
+      "regionIndex": 5,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_fortress_shackles.SM_RD_fortress_shackles",
+      "placement": "wall",
+      "boundsCm": [
+        113.0,
+        88.20001029968262,
+        76.0
+      ],
+      "minCm": [
+        -56.5,
+        -24.0000057220459,
+        0.0
+      ],
+      "maxCm": [
+        56.5,
+        64.20000457763672,
+        76.0
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.8849557522123894,
+      "landmark": false,
+      "triangles": 4380,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "deep_drake_skull",
+      "name": "Horned Drake Skull",
+      "regionIndex": 6,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_deep_drake_skull.SM_RD_deep_drake_skull",
+      "placement": "floor",
+      "boundsCm": [
+        178.82289123535156,
+        233.15771484375,
+        187.91150283813477
+      ],
+      "minCm": [
+        -93.1352767944336,
+        -103.15771484375,
+        -1.7884254455566406
+      ],
+      "maxCm": [
+        85.68761444091797,
+        130.0,
+        186.12307739257812
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4288942361054393,
+      "landmark": true,
+      "triangles": 2536,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "deep_ribcage",
+      "name": "Drake Ribcage Remains",
+      "regionIndex": 6,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_deep_ribcage.SM_RD_deep_ribcage",
+      "placement": "floor",
+      "boundsCm": [
+        193.75,
+        224.19741821289062,
+        172.67173850536346
+      ],
+      "minCm": [
+        -94.58680725097656,
+        -112.09870910644531,
+        0.35999977588653564
+      ],
+      "maxCm": [
+        99.16319274902344,
+        112.09870910644531,
+        173.03173828125
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.44603546640774977,
+      "landmark": true,
+      "triangles": 3396,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "deep_crystals",
+      "name": "Cold Mineral Outcrop",
+      "regionIndex": 6,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_deep_crystals.SM_RD_deep_crystals",
+      "placement": "floor",
+      "boundsCm": [
+        143.14128875732422,
+        122.76553344726562,
+        159.4538140296936
+      ],
+      "minCm": [
+        -67.92134094238281,
+        -63.585670471191406,
+        -7.438204288482666
+      ],
+      "maxCm": [
+        75.2199478149414,
+        59.17986297607422,
+        152.01560974121094
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.6986104489357773,
+      "landmark": false,
+      "triangles": 610,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "infernal_seal",
+      "name": "The Broken Binding Stone",
+      "regionIndex": 7,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_infernal_seal.SM_RD_infernal_seal",
+      "placement": "wall",
+      "boundsCm": [
+        141.8203239440918,
+        79.97643661499023,
+        158.72124201059341
+      ],
+      "minCm": [
+        -55.500003814697266,
+        -42.27643585205078,
+        -0.9746447205543518
+      ],
+      "maxCm": [
+        86.32032012939453,
+        37.70000076293945,
+        157.74659729003906
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.7051175545151191,
+      "landmark": false,
+      "triangles": 3360,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "infernal_brazier",
+      "name": "Eight-Spined Offering Brazier",
+      "regionIndex": 7,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_infernal_brazier.SM_RD_infernal_brazier",
+      "placement": "floor",
+      "boundsCm": [
+        124.34217071533203,
+        124.34217071533203,
+        169.14183044433594
+      ],
+      "minCm": [
+        -62.171085357666016,
+        -62.171085357666016,
+        0.0
+      ],
+      "maxCm": [
+        62.171085357666016,
+        62.171085357666016,
+        169.14183044433594
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.804232380894646,
+      "landmark": false,
+      "triangles": 4520,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "hell_lava_basin",
+      "name": "Basalt Lava Sump",
+      "regionIndex": 8,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_hell_lava_basin.SM_RD_hell_lava_basin",
+      "placement": "floor",
+      "boundsCm": [
+        207.70549774169922,
+        208.84959411621094,
+        88.14948272705078
+      ],
+      "minCm": [
+        -102.70550537109375,
+        -104.42479705810547,
+        2.0
+      ],
+      "maxCm": [
+        104.99999237060547,
+        104.42479705810547,
+        90.14948272705078
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.4788134754255574,
+      "landmark": true,
+      "triangles": 1716,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "hell_fissure",
+      "name": "Ember Fissure",
+      "regionIndex": 8,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_hell_fissure.SM_RD_hell_fissure",
+      "placement": "patch",
+      "boundsCm": [
+        249.01925659179688,
+        110.57431030273438,
+        66.51312017440796
+      ],
+      "minCm": [
+        -129.09722900390625,
+        -55.37963104248047,
+        -7.765042781829834
+      ],
+      "maxCm": [
+        119.92202758789062,
+        55.194679260253906,
+        58.748077392578125
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.40157536958647466,
+      "landmark": true,
+      "triangles": 1704,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    },
+    {
+      "id": "hell_drake_trophy",
+      "name": "Charred Drake Trophy",
+      "regionIndex": 8,
+      "mesh": "/Game/RegionalDressing/Meshes/SM_RD_hell_drake_trophy.SM_RD_hell_drake_trophy",
+      "placement": "wall",
+      "boundsCm": [
+        144.50797271728516,
+        171.7741241455078,
+        184.18307495117188
+      ],
+      "minCm": [
+        -74.12757873535156,
+        -71.47412109375,
+        0.0
+      ],
+      "maxCm": [
+        70.3803939819336,
+        100.30000305175781,
+        184.18307495117188
+      ],
+      "maxScale": 1.0,
+      "cornerScale": 0.5821598596264196,
+      "landmark": true,
+      "triangles": 6104,
+      "materialSlots": [
+        "Wall",
+        "Trim",
+        "Iron",
+        "Bone",
+        "Accent"
+      ],
+      "collision": false,
+      "addsPointLights": false
+    }
+  ],
+  "blenderFront": [
+    0,
+    -1,
+    0
+  ],
+  "nativeFront": [
+    0,
+    1,
+    0
+  ]
+}

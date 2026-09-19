@@ -1,0 +1,479 @@
+FIRST PERSON DUNGEON CRAWLER GAME PROMPT.
+
+PHASE 1:
+=============================================
+1: engine
+Unreal would give the best lighting
+
+2: rendering
+3d modelled dungeon.  I know astra can handle building a simple dungeon in blender, textures and all, then unreals lighting
+
+3: movement
+Option A
+
+4: combat timing
+option B - turn based
+
+5: player structure
+B.  Hero and companions eventually, max of 5 in a party, max of 4 total recruitable heroes through the dungeon story.
+It will be done as a card system, turn based, across the bottom of the screen like in Darkest Dungeon except the combat will be first person, not side scroller.
+The recruitable hero character cards are in the following directory:
+J:\First Person Dungeon Crawler Game\.art\characters\heroes
+
+6: Character creation
+Option E - none.  The player should pick from one of 3 preset characters:
+Male warrior
+Female Mage
+Male Ranger
+Their character cards are in the following directory now:
+J:\First Person Dungeon Crawler Game\.art\characters
+
+7: Traditional classes - yes
+
+8: Core RPG stats
+Yes
+
+9: Leveling
+Option A - traditional XP > level > attribute/skill points
+
+10: Loot complexity
+Option A, but weapons and armor need quality levels to give boosts
+
+11: Inventory style
+Option A, simple, but numerical slot capacity, let's do 20 slots per character in the team.  Being able to teleport back to town should be a skill available at all times, need no scrolls or potions or anything.  So basically the player would pick up weapons, armor, potions, and gold - which gold shouldn't be an inventory slot obviously.  But other than that 20 slots max.
+
+12: Death
+Option C, but resurrect in town.  Option for hardcore/permadeath option available to those players that want it.
+
+13: Saving
+Option D: auto + save anywhere outside combat (good old f5 f9)
+
+14: Campaign Size
+Option C
+
+15: Dungeon Structure
+Option B for sure
+
+16: Procedural generation
+Option C 
+
+17: Town Importance
+Option C
+
+18: Story tone
+Option E
+
+
+
+PHASE 2:
+=============================================
+19: Combat initiation
+Option B
+
+20: Enemy positioning
+Traditional old school first person dungeon crawlers don't have front row and back row, but they do have multiple enemies in groups so we do need to do that but not front row back row mechanics.
+
+21: Maximum enemies
+Option C
+
+22: Party formation
+No positions front or back, just based on Speed would be the order they attack.
+
+23: Turn order
+Option B, yes dexterity should impact speed and attack order, yes.
+
+24: Character card behavior
+Correct
+
+25: basic combat actions
+swap positions - no
+basic attacks for everyone - yes
+Only uniqueness would be the class based skill
+
+26: skills
+Option B
+
+27: Skill resources
+Just Mana / MP
+
+28: Status Effects
+Yes, but simplified/controlled
+
+29: Element System
+Yes 
+
+30: Critical Hits
+Yes
+
+31: Missing attacks
+Yes, but keep misses uncommon
+
+32: Equipment slots
+Simpler version yes.
+Weapon
+Off Hand
+Head
+Body
+Hands
+Feet
+Accessory 1
+Accessory 2
+
+33: Equipment quality
+Option C, but yeah no Diablo rainbow trash - just a subtle outline or something as visual indictor
+
+34: weapon restriction
+Yes
+
+35: Dungeon Interaction
+absolutely yes.  the more interactions would really bring this up a notch.
+
+36: Traps
+Option C
+
+37: Dungeon Map
+Option C
+
+38: Teleport to Town
+Fair point - I agree.  Teleport out from anywhere out of combat, but teleport in goes to waypoints
+
+39: Town Healing
+Option D
+
+40: Resting inside dungeon
+Option C, but it needs to be rare or even secret areas.
+
+
+PHASE 3:
+=============================================
+41: starting character classes
+Yes - those 3 approved
+
+42: what happens to the 2 you didn't choose
+Option A - gone
+
+43: 4 recruitable heroes
+approve
+Warrior
+Mage
+Ranger
+Cleric
+Rogue
+Paladin
+Warlock
+
+44: Recruitment structure
+Yes
+
+45: all 4 characters guaranteed
+Option A
+
+46: party management
+They should all be in the active combat party together.  I do not want a complex party control management system.
+
+47: Party switching
+D. None - all in the party at once.
+
+48: Individual inventories
+Yes, 20 slots each
+No characters left in town.
+
+49: shared storage
+No storage...just the 20 slots per character in the party, one big loot bag inventory view
+
+50: Level cap
+D. 99.  If players want to play that long and be that OP - let them.
+
+51: Level-Up Attributes
+Option C.  3 points to assign how the player likes
+
+52: Skill points
+none.  Just the base leveling system.  Nothing complicated here.
+
+53: attribute limits
+D.  None.  Let the players level up like madmen
+
+54: class skill trees.
+Nope  Option D again.  3 skills max per class.  NOTHING complicated here.
+
+
+55: passive skills
+yes, per class
+
+56: respec
+No.  Class lock through and through.  Nothing to respec.
+
+57: XP Distribution
+option c since they will all be in the same party together
+
+58: catch-up mechanic
+when a character arrives late in the game, have their level equal the players level
+
+59: main protagonist rule
+doesn't matter - all characters will be in the active party all the time
+
+60: game over condition
+if the main starting character is by themselves they will be automatically resurrected in town.  If they don't have the money the game will be over.  Period.
+If the player has a full party, and one character dies in combat, and the others live and win the battle, they can opt to teleport back to town, resurrect their buddy, no loss of loot - just pay the fine, and continue on.
+
+
+PHASE 4:
+=============================================
+61: full-party wipe
+option A yes approved
+
+62: Number of major dungeon regions
+8 yes
+Old City Sewers
+Forgotten Catacombs
+Goblin Warrens
+Ancient Crypts
+Buried Fortress
+The Deep
+Infernal Ruins
+Hell
+
+approved
+
+63: Dungeon progression
+unlock linear - yes with secrets wherever we can put them.  players love secrets
+
+64: Region bosses
+Yes absolutely
+
+65: Mini-bosses
+yes absolutely
+
+66: dungeon floor structure
+option c - named floors and named areas
+
+67: dungeon size
+approved
+
+68: waypoints
+2, one at the start of the level and region both and 1 at the end of each as well
+
+69: waypoint visual
+Option b - ancient stone shrines
+
+70: secret rooms
+a, rare, but 1 or 2 per level, not per region.
+but make 1 secret room a super secret with heavy loot inside it per region
+
+71: secret rewards
+approve
+
+72: puzzles
+A with occasional B - approved
+
+73: keys
+yes absolutely....all kinds.  let's do 6
+rusted
+crypt
+warden
+master key (for an entire region, but not every region has one!)
+drake lair key
+hell key
+
+74: enemy respawning
+Option C
+For those that really want that max level we will need to build some sort of endgame hunt system off the hunt board in town
+
+75: loot respawning
+option A - never refill
+enemy drops are fine
+
+76: dungeon changes after bosses
+yes absolutely - players love this kind of effect
+
+77: hell
+Option B, agreed.  Once the player defeats the final boss, the hunt board could catch on fire, burn up all previous hunts, and begin HELL HUNTS in hell only, and they'd be difficult bosses to find and destroy!
+
+78: Story time
+Option E, the offspring Nephalem of an angel and demon.  Female.  Powerful Mage and swordswoman.  Tall, slanky, pale skin, 1 radiant blue eye and 1 burning hot red eye.  LONG Hair a twine of black and ice-blue with flaming red tips.  Toned to the point of near emaciation, large breasts, male genitalia also - a hermaphrodite, carrying a hell key around her neck.  Scars all over her body.  Her breath is ice.  Her rage is fire.  Her hatred keeps her breasts heaving and her spine taught.  She is temptation, rage, fury, and power wrapped in one image.  Her only giveaway is her genitalia and massive wings; one looks like a dead drake and one looks like a radiant new born dove angel.  Oh, and the tail of dripping wet lust; black as night and ending in a spine shaper than the Reaper's sickle.
+  Her weapon of choice is an over exaggerated two-handed broadsword with both angelic and demonic runes on the blade and only the crystal on the hilt glows the purest of white with black lightning about it.
+  Above her head floats a cracked and broken halo of void space wrapped in soft pale yellow lightning.
+  Her footsteps leave behind burning hot ice.
+
+
+
+PHASE 5:
+=============================================
+79: Town Name
+Lonemoore
+
+80: Dungeon Name
+Last Dawn Cathedral will be the top level.
+
+81: Opening Setup
+Option B is great
+
+82: Why did the protagonist come here?
+Option B.  Darkness pulled in the hero.
+
+83: Town size
+small.
+art already generated:
+back alley
+blacksmith
+dungeon entrance
+gambler
+healer
+hunt board
+main town square - first view when game starts
+merchant
+tavern
+Art generated in : J:\First Person Dungeon Crawler Game\.art\locations\town
+
+84: Town Camera/exploration
+C.  The art is already generated in the above noted directory
+there's the main square view, then the player will mouse over each area and it will highlight and text popup what it is and then they click on that and it opens the shop.  When they close it, it goes back to the square.
+
+85: Core town services
+back alley leads to the gambler
+blacksmith for upgrades and repairs or whatever
+dungeon entrance to start that 
+gambler for rare antiquities
+healer for resurrection and healing
+hunt board for jobs and rare hunts and end game
+main town square as the 'central hub'
+merchant for food and potions
+tavern for food and potions and rest enhancements
+
+86: side quests
+option b - hunt board is literally for this until end game then it becomes the Hell Hunt board
+
+87: Main quest structure
+approve
+
+88: recruitable hero story beats
+yes - approved
+
+89: companion dialogue complexity
+option c if we can build the backend for it otherwise option b
+
+90: story delivery style
+option b is fine
+
+91: lore depth
+option b is fine
+
+92: endings
+Two endings.
+1 - kill the final boss - begin the hell hunt.
+2 - side with the boss lady, take control of the portal, become the new hell lord, the town burns, everyone dies, your party fights you and they die now you're empowered by Nephilim power, etc.
+
+93: 2 endings
+noted above
+
+94: Final choice concept
+1 - kill the final boss - begin the hell hunt.
+2 - side with the boss lady, take control of the portal, become the new hell lord, the town burns, everyone dies, your party fights you and they die now you're empowered by Nephilim power, etc.
+
+95: Credits behavior
+1 - after the final boss death - play final cutscene - roll credits
+2 - after final boss death - play final cutscene - add secondary cutscene to show that hell portal isn't closed and lead to hell hunt
+
+96: Hell Hunts unlock rule
+if the player kills the final boss and DOESN'T side with her.
+
+
+PHASE 6:
+=============================================
+97: Dungeon regions and Last Dawn Cathedral
+Approve
+
+98: Class skills and passive
+approve
+
+99: skill unlocking
+approve
+
+100: MP regeneration
+Mix of B and C.  Extremely slow natural recovery.  Potions are the big recovery point.
+
+101: HP Regeneration
+Extremely slow natural recovery, but press potions and return to town if critical.
+
+102: Food
+Approve - no hunger meter, just HP and rest
+
+103: weapon types
+Yup.  Art already generated for icons.
+daggers
+sword
+broadsword
+axes
+hammers/maces
+spears
+bows
+crossbows
+holy staff
+mage staff
+
+104: armor types
+yup
+art already generated there too
+cloth
+leather
+studded leather
+chain
+scale
+scale and plate
+plate
+ornate plate
+priest robes
+mage robes
+
+105: blacksmith
+yup approved gold only
+
+106: Gambler
+Yes
+
+107: Hunt Board
+Yes
+Until the player kills the final boss - if they choose that, then it becomes a Hell Hunt which is kill all the demons; mini-bosses, rare enemies, kill x enemies, kill a named demon/etc
+
+108: Hunt limits
+max 5 i think is a good number and then as they complete them, let's say they only do 1, the hunt board would open 1 more available and it would stay up there till taken or declined
+
+109: Enemy Families
+Yes,  I have some art already generated for that as well.
+J:\First Person Dungeon Crawler Game\.art\monsters is the home directory for monsters, but you're right we might need multiple classifications of each.
+Approve of all suggestions in this list of enemies.
+
+110: Enemy art integration
+Use when available but if something is missing create a _MISSING_ART_LIST.md file and tell me to inspect it and just keep it simple, list enemies and what is needed.  IE: generate an image of the spider, but a fire spider instead of a regular poison spider.  etc.
+
+111: boss rule
+Yes to all suggestions
+Definitely HARD NO on anything "SOULS LIKE" ever ever.
+
+112: Final boss name
+Let's name her.... Astra.  No offense meant, but you deserve the head nod for doing all the heavy lifting here.  Let's be real.  Astra the Cosmic Chaos Nephilim Queen.
+
+113: Combat Presentation
+yes - keep it simple we are NOT generating 10k art files.  1990's first person dungeon crawler throw back.
+
+114: player weapon view
+no, no view of character weapons just different slashes and slash colors for each one or special effects for magic effects
+
+115: controls
+agreed - approve
+
+116: main menu
+approve
+
+117: difficulty
+option A
+
+118: art strategy
+yes.  if something is missing tell me before generating more.
+at the very least ask before adding generated art into the game.
+
+119: Audio
+Yes - try to make it old school like the 8bit and 16bit NES/SNES games used to do.
+
+120: Dev Philosophy
+approve - simple, old school first person dungeon crawler RPG.  That's it.

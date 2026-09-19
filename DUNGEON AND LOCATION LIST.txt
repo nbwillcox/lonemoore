@@ -1,0 +1,87 @@
+DUNGEON AND LOCATION LIST
+
+## TLDR
+
+Build **one clickable town hub**, **four progressively deeper dungeon tiers**, and **Hell as the final region**. Here’s a proposed **30-location art list**, with each area visually distinct.
+
+# 1. Main Town
+
+*A lived-in medieval refuge: warm lanterns, weathered stone, timber buildings, and danger waiting beneath it.*
+
+| #  | Location               | Artwork direction / purpose                                                                                                      |
+| -- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| 01 | **Main Town Overview** | Wide, clickable town square. Clearly recognizable shops, central hunt board, dungeon entrance, and a slightly tucked-away alley. |
+| 02 | **Job / Hunt Board**   | Heavy wooden noticeboard covered with contracts, bounty posters, monster sketches, and wax seals.                                |
+| 03 | **Blacksmith**         | Open forge, glowing coals, anvil, weapon racks, armor stands, and a soot-covered smith. Weapons and armor services.              |
+| 04 | **Merchant’s Shop**    | Crowded shelves of potions, herbs, lanterns, rope, packs, and adventuring supplies. A welcoming but calculating shopkeeper.      |
+| 05 | **Healer’s Sanctuary** | Peaceful stone chapel with candles, a restorative fountain, and a glowing resurrection altar.                                    |
+| 06 | **Tavern & Inn**       | Warm hearth, heavy tables, adventurers’ belongings, and stairs leading to rented rooms. A cozy contrast to the dungeon.          |
+| 07 | **Back Alley**         | Narrow passage beside the shops. Easy to overlook initially, but visibly accessible; a dim lantern hints at activity.            |
+| 08 | **Gambler’s Hideaway** | Shady dealer at a small table beneath an awning. Dice, cards, mysterious equipment, and locked strongboxes.                      |
+| 09 | **Dungeon Entrance**   | Ancient fortified stairwell descending beneath the town. Rusted gates, warning signs, and abandoned adventuring gear.            |
+
+**Healer rule:** Players can receive ordinary healing or choose resurrection instead of recovering their corpse. **That resurrection forfeits the items in their lost inventory.**
+
+**Gambler visibility:** The alley should be discoverable by looking around the town—not through an invisible hotspot or an obscure puzzle.
+
+# 2. Upper Dungeon
+
+*Recognizably human construction: damp masonry, rusted iron, weak torchlight, and signs of abandonment.*
+
+| #  | Location                    | Artwork direction / purpose                                                                                           |
+| -- | --------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| 10 | **Abandoned Gatehouse**     | Broad stone corridors, broken barricades, guard alcoves, and neglected torch brackets. The first dungeon environment. |
+| 11 | **Old Prison Cells**        | Iron-barred cells, broken bunks, hanging chains, and cramped interrogation chambers.                                  |
+| 12 | **Sewer Tunnels & Cistern** | Arched drainage passages, shallow murky water, leaking pipes, and a larger underground reservoir.                     |
+| 13 | **Upper Burial Halls**      | Simple tomb niches, cracked gravestones, scattered bones, and modest family crypts.                                   |
+
+# 3. Middle Dungeon
+
+*Older, less maintained, and increasingly overtaken by nature and monsters.*
+
+| #  | Location            | Artwork direction / purpose                                                                          |
+| -- | ------------------- | ---------------------------------------------------------------------------------------------------- |
+| 14 | **Grand Catacombs** | Dense burial passages, elaborate sarcophagi, skull-lined walls, and towering funerary statues.       |
+| 15 | **Fungal Caverns**  | Giant luminous mushrooms, hanging spores, twisted roots, and damp rock overtaking ruined masonry.    |
+| 16 | **Forgotten Mines** | Collapsed supports, abandoned carts, exposed mineral veins, narrow shafts, and broken bridges.       |
+| 17 | **Buried Garrison** | Underground barracks and armories with rotting banners, overturned bunks, and fortified checkpoints. |
+
+# 4. Lower Dungeon
+
+*An ancient civilization’s remains, corrupted religion, and dangerous magic.*
+
+| #  | Location                  | Artwork direction / purpose                                                                                         |
+| -- | ------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| 18 | **Lost Underground City** | Ruined streets beneath an enormous cavern ceiling. Broken homes, monumental arches, and distant unnatural lights.   |
+| 19 | **Desecrated Temple**     | Defaced statues, shattered stained glass, corrupted altars, and black roots splitting sacred stone.                 |
+| 20 | **Cult Ritual Chambers**  | Crimson banners, ceremonial masks, engraved circles, candles, and a central sacrificial dais.                       |
+| 21 | **Forbidden Laboratory**  | Alchemical apparatus, strange containment vessels, surgical tables, spell diagrams, and unstable magical machinery. |
+
+# 5. Dungeon Depths
+
+*Huge silhouettes, impossible architecture, and the first unmistakable influence of Hell.*
+
+| #  | Location               | Artwork direction / purpose                                                                                               |
+| -- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 22 | **Abyssal Descent**    | Vast vertical chasm crossed by narrow stairs, hanging bridges, and platforms disappearing into darkness.                  |
+| 23 | **Obsidian Labyrinth** | Black volcanic corridors, angular pillars, glowing fractures, and architecture that feels distinctly inhuman.             |
+| 24 | **The Chained Vault**  | Colossal sealed doors, enormous chains, broken protective runes, and containment chambers built for something terrifying. |
+| 25 | **The Hell Gate**      | Monumental infernal portal surrounded by scorched stone and failing seals. The boundary before the final region.          |
+
+# 6. Hell Dungeon
+
+*Not merely another lava cave: each area represents a different part of an infernal realm.*
+
+| #  | Location                          | Artwork direction / purpose                                                                                          |
+| -- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 26 | **Ashen Threshold**               | Entry into Hell: drifting ash, scorched ruins, blackened ground, and distant demonic fortifications.                 |
+| 27 | **Infernal Prison**               | Hanging cages, towering cell blocks, hooked chains, oppressive ironwork, and furnace-lit corridors.                  |
+| 28 | **The Hellforge**                 | Demonic foundry with rivers of molten metal, enormous anvils, weapon molds, and massive furnace mouths.              |
+| 29 | **Lake of Fire**                  | Narrow causeways over a burning expanse, jagged islands, ruined bridges, and immense silhouettes beneath the flames. |
+| 30 | **Infernal Throne / Final Arena** | Monumental throne chamber with black pillars, infernal sigils, and a clear central space for the final encounter.    |
+
+## Shared Artwork Needed Within Each Dungeon Theme
+
+Each theme also needs matching **straight corridors, corners, intersections, doorways, stairs up/down, treasure rooms, and boss chambers**. These are reusable variations—not additional regions.
+
+**Art standard:** Detailed, sleek medieval dark fantasy. Town artwork uses clickable overview and service scenes; dungeon artwork uses consistent **first-person, eye-level views**. Keep interface buttons, shop labels, and contract text separate from the painted backgrounds.

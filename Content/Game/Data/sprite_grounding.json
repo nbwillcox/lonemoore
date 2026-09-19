@@ -1,0 +1,426 @@
+{
+  "alphaThreshold": 85,
+  "floorInsetCm": 4,
+  "sprites": [
+    {
+      "art": "ArmoredFemaleSuccubus1",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\ArmoredFemaleSuccubus1.png",
+      "sourceSha256": "a4ff216de06d44cf630dbc2a3aedeeaf81448e452d0b157ad69816e352717e32",
+      "width": 1122,
+      "height": 1402,
+      "solidBounds": [
+        1,
+        0,
+        1122,
+        1402
+      ]
+    },
+    {
+      "art": "banditCutthroat1",
+      "bottomPadding": 0.013020833333333334,
+      "source": ".art\\monsters\\banditCutthroat1.png",
+      "sourceSha256": "9c8f9e613f43005ff94c8c30dae1101ab53cf832364cde22c15729e26fe3ed43",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        54,
+        18,
+        966,
+        1516
+      ]
+    },
+    {
+      "art": "beetle1",
+      "bottomPadding": 0.006334125098970704,
+      "source": ".art\\monsters\\beetle1.png",
+      "sourceSha256": "9678f96de03ffdb37782a259cb19516a48b3a9a9e8ad5c7d88dd5ce17d26c35a",
+      "width": 1245,
+      "height": 1263,
+      "solidBounds": [
+        7,
+        14,
+        1239,
+        1255
+      ]
+    },
+    {
+      "art": "cavespider1",
+      "bottomPadding": 0.013671875,
+      "source": ".art\\monsters\\cavespider1.png",
+      "sourceSha256": "7da4d2f74c75e8e64e6729ee80ef77308d17b147ed2fe7a78956d4cba536f073",
+      "width": 1536,
+      "height": 1024,
+      "solidBounds": [
+        13,
+        16,
+        1527,
+        1010
+      ]
+    },
+    {
+      "art": "cryptGuardian1",
+      "bottomPadding": 0.001953125,
+      "source": ".art\\monsters\\cryptGuardian1.png",
+      "sourceSha256": "6b9094c0b9bedd313610c37f82354cc5e0a2c8d658ad3b338b185d0b828cd3dc",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        7,
+        4,
+        1016,
+        1533
+      ]
+    },
+    {
+      "art": "cultenforcer1",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\cultenforcer1.png",
+      "sourceSha256": "3c120514b6b41c78c10eb3d53546e04478582859497a892dda3ca5e7a9f3caa2",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        0,
+        0,
+        1024,
+        1536
+      ]
+    },
+    {
+      "art": "darkwitch1",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\darkwitch1.png",
+      "sourceSha256": "3c33d689d6c549ad363161ed106051162399aae01fb8f5542aa79f6ce614d85f",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        22,
+        0,
+        1014,
+        1536
+      ]
+    },
+    {
+      "art": "dungeonbat1",
+      "bottomPadding": 0.029296875,
+      "source": ".art\\monsters\\dungeonbat1.png",
+      "sourceSha256": "1e7fe71e8ef477e8c3f858cff67748476231c6b41f31add0f975dbf057c47ad7",
+      "width": 1536,
+      "height": 1024,
+      "solidBounds": [
+        8,
+        6,
+        1531,
+        994
+      ]
+    },
+    {
+      "art": "enragedVampiress1",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\enragedVampiress1.png",
+      "sourceSha256": "1112d9262fb91c66b571d850933839be01adf06a87ca041fc736cca986ce9fa2",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        12,
+        0,
+        1024,
+        1536
+      ]
+    },
+    {
+      "art": "final_boss",
+      "bottomPadding": 0.015193370165745856,
+      "source": ".art\\monsters\\final_boss.png",
+      "sourceSha256": "3ab4443ac448e554116a7f419ce90b72b6a3000a5e5df9bf1d7b7a74c735238e",
+      "width": 1086,
+      "height": 1448,
+      "solidBounds": [
+        7,
+        0,
+        1085,
+        1426
+      ]
+    },
+    {
+      "art": "fungalrat1",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\fungalrat1.png",
+      "sourceSha256": "a37ef90a23a7400974d624e2e7ea5c875cb745ac4566f619a38f99c48cbd40ef",
+      "width": 1375,
+      "height": 1144,
+      "solidBounds": [
+        64,
+        2,
+        1375,
+        1144
+      ]
+    },
+    {
+      "art": "goblinbrute1",
+      "bottomPadding": 0.0042796005706134095,
+      "source": ".art\\monsters\\goblinbrute1.png",
+      "sourceSha256": "b685944820d9127d986ff63bf33eb03f92ddde70fb3f4da8480659ea215aa3ba",
+      "width": 1122,
+      "height": 1402,
+      "solidBounds": [
+        2,
+        2,
+        1121,
+        1396
+      ]
+    },
+    {
+      "art": "goblinscavenger1",
+      "bottomPadding": 0.016267123287671232,
+      "source": ".art\\monsters\\goblinscavenger1.png",
+      "sourceSha256": "f68758dc2bd9fe9ee0737ce240409d866ef1730f578d42dfb0233b9f28daf8ce",
+      "width": 1346,
+      "height": 1168,
+      "solidBounds": [
+        40,
+        17,
+        1331,
+        1149
+      ]
+    },
+    {
+      "art": "goblinshaman1",
+      "bottomPadding": 0.006510416666666667,
+      "source": ".art\\monsters\\goblinshaman1.png",
+      "sourceSha256": "52b07df1f052c39f71ded3ea240a4fdc53a509b25666dbc7d32b3329c6b1c3a6",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        11,
+        11,
+        1021,
+        1526
+      ]
+    },
+    {
+      "art": "gravehound1",
+      "bottomPadding": 0.006379585326953748,
+      "source": ".art\\monsters\\gravehound1.png",
+      "sourceSha256": "2051b00a915e0474380671589a4ff7192c6d59cf1c6313086d2b800a737d4446",
+      "width": 1254,
+      "height": 1254,
+      "solidBounds": [
+        323,
+        3,
+        993,
+        1246
+      ]
+    },
+    {
+      "art": "minotaurJailer1",
+      "bottomPadding": 0.001455604075691412,
+      "source": ".art\\monsters\\minotaurJailer1.png",
+      "sourceSha256": "7621e681696d43861b2c1b453e196b43faa5503125ef7ff6171bdf98b920468d",
+      "width": 1145,
+      "height": 1374,
+      "solidBounds": [
+        4,
+        4,
+        1144,
+        1372
+      ]
+    },
+    {
+      "art": "rat1",
+      "bottomPadding": 0.011608623548922056,
+      "source": ".art\\monsters\\rat1.png",
+      "sourceSha256": "e0d776d0f014fa8d79065edfa2049d0c4a471abacd38ce7bcdaae7db84b1995e",
+      "width": 1304,
+      "height": 1206,
+      "solidBounds": [
+        24,
+        20,
+        1285,
+        1192
+      ]
+    },
+    {
+      "art": "restlessknight1",
+      "bottomPadding": 0.006510416666666667,
+      "source": ".art\\monsters\\restlessknight1.png",
+      "sourceSha256": "c99ddc0a63827941dc7ced17a6202b69fd9a50aa08d23bb0a37945ee2cc72be0",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        25,
+        10,
+        1015,
+        1526
+      ]
+    },
+    {
+      "art": "skeleton1",
+      "bottomPadding": 0.013671875,
+      "source": ".art\\monsters\\skeleton1.png",
+      "sourceSha256": "c618c65dd9ec2f7324ab951404cc11c770fb0c297511a29050c5b23e463a4263",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        10,
+        5,
+        1019,
+        1515
+      ]
+    },
+    {
+      "art": "skeletonarcher1",
+      "bottomPadding": 0.013020833333333334,
+      "source": ".art\\monsters\\skeletonarcher1.png",
+      "sourceSha256": "3593383669a12d6ededec30263c3547d8259ed0f799a65cefe82b4214e2420ff",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        90,
+        0,
+        996,
+        1516
+      ]
+    },
+    {
+      "art": "slime1",
+      "bottomPadding": 0.015625,
+      "source": ".art\\monsters\\slime1.png",
+      "sourceSha256": "8d2f427903380a38fec8442179ab9ec58b2d1978cc579af4b3c7a4496bbf06bb",
+      "width": 1536,
+      "height": 1024,
+      "solidBounds": [
+        13,
+        7,
+        1527,
+        1008
+      ]
+    },
+    {
+      "art": "stonegargoyle1",
+      "bottomPadding": 0.00390625,
+      "source": ".art\\monsters\\stonegargoyle1.png",
+      "sourceSha256": "bb882fa159efaf2c7069c7f033d8f055fb0be943cfcadbc73cb8e6ade1dad029",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        0,
+        18,
+        1024,
+        1530
+      ]
+    },
+    {
+      "art": "TheBlackthornMatriarch",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\TheBlackthornMatriarch.png",
+      "sourceSha256": "7490809f9947f426bb622147367f4d63203f810464d6bc3663d1781fec3ca312",
+      "width": 1122,
+      "height": 1402,
+      "solidBounds": [
+        18,
+        1,
+        1105,
+        1402
+      ]
+    },
+    {
+      "art": "TheDeathReaperDrake",
+      "bottomPadding": 0.009208103130755065,
+      "source": ".art\\monsters\\TheDeathReaperDrake.png",
+      "sourceSha256": "a5a9821fead18b6d197ab2b45f98e4c84843321c704b3edea8f0024635138bc5",
+      "width": 1448,
+      "height": 1086,
+      "solidBounds": [
+        11,
+        12,
+        1433,
+        1076
+      ]
+    },
+    {
+      "art": "TheGrandAgniDrake",
+      "bottomPadding": 0.0068359375,
+      "source": ".art\\monsters\\TheGrandAgniDrake.png",
+      "sourceSha256": "ab296f85461c07a9e580b7a6c374aa6e015ef18ccc6056dc1368bed9727b5000",
+      "width": 1536,
+      "height": 1024,
+      "solidBounds": [
+        2,
+        20,
+        1524,
+        1017
+      ]
+    },
+    {
+      "art": "TheHollowCastellan",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\TheHollowCastellan.png",
+      "sourceSha256": "a7ec7beec413e5ce13a7bad9e2143c84ec2f9faeb3575e09effd960e97ba44f1",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        4,
+        1,
+        1008,
+        1536
+      ]
+    },
+    {
+      "art": "TheRatKing",
+      "bottomPadding": 0.0042796005706134095,
+      "source": ".art\\monsters\\TheRatKing.png",
+      "sourceSha256": "24daafd9ff3766e0c0ec3b281ade22675164921c3c74565ed05ead345da18ae6",
+      "width": 1122,
+      "height": 1402,
+      "solidBounds": [
+        0,
+        3,
+        1122,
+        1396
+      ]
+    },
+    {
+      "art": "TheWidowQueen",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\TheWidowQueen.png",
+      "sourceSha256": "d334218c45bb13cd1e6e05382eda25595fd9d7e539415a9d14e4cff077cd70cd",
+      "width": 1536,
+      "height": 1024,
+      "solidBounds": [
+        2,
+        0,
+        1535,
+        1024
+      ]
+    },
+    {
+      "art": "vampireDuelist1",
+      "bottomPadding": 0.004992867332382311,
+      "source": ".art\\monsters\\vampireDuelist1.png",
+      "sourceSha256": "cb7c90ae136e1a4fb22de923b88d3bc39e840773b79e9bc3b323732001f55f9a",
+      "width": 1122,
+      "height": 1402,
+      "solidBounds": [
+        6,
+        8,
+        1115,
+        1395
+      ]
+    },
+    {
+      "art": "wraith1",
+      "bottomPadding": 0.0,
+      "source": ".art\\monsters\\wraith1.png",
+      "sourceSha256": "181e9e0948f16d859b67aa7e116e042c75da27574813a8457a31401f42484400",
+      "width": 1024,
+      "height": 1536,
+      "solidBounds": [
+        21,
+        9,
+        1009,
+        1536
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+ENEMY LIST
+
+
+## TLDR
+
+**A cursed rat is a perfectly reasonable fantasy enemy.** Mangy fur, glowing eyes, fungal growths, and an aggressive pose can make it disturbing without graphic wounds.
+
+Here’s a **30-enemy roster** for our medieval dungeon crawler, ranging from starting-area pests to bosses.
+
+### Starting-area enemies
+
+*Small threats with distinct shapes, ideal for our first batch.*
+
+| # | Enemy                  | Visual direction                                                               |
+| - | ---------------------- | ------------------------------------------------------------------------------ |
+| 1 | **Cursed Rat**         | Large, hunched rat; patchy black fur, violet eyes, twisted tail.               |
+| 2 | **Fungal Rat**         | Pale mushrooms and crusty fungal plates growing through its fur.               |
+| 3 | **Giant Sewer Beetle** | Glossy black shell, rusty armor-like plates, oversized mandibles.              |
+| 4 | **Cave Spider**        | Thick hairy legs, pale markings, clustered amber eyes.                         |
+| 5 | **Dungeon Bat**        | Oversized ears, leathery wings, snarling face; wings spread toward the player. |
+| 6 | **Slime**              | Translucent green body containing swallowed coins and an old helmet.           |
+| 7 | **Goblin Scavenger**   | Small, wiry goblin with a chipped knife and stolen cookware armor.             |
+| 8 | **Kobold Spearman**    | Scrappy reptilian humanoid with a crude spear and oversized shield.            |
+
+### Crypts and haunted ruins
+
+*Recognizable undead and supernatural enemies.*
+
+| #  | Enemy                | Visual direction                                                    |
+| -- | -------------------- | ------------------------------------------------------------------- |
+| 9  | **Skeleton Warrior** | Rusted sword, broken shield, scraps of ancient armor.               |
+| 10 | **Skeleton Archer**  | Hooded skull, crooked bow, battered leather equipment.              |
+| 11 | **Crypt Guardian**   | Towering skeleton sealed in ornate burial armor; heavy polearm.     |
+| 12 | **Restless Knight**  | Empty plate armor held together by ghostly blue light.              |
+| 13 | **Wraith**           | Floating hooded figure, elongated hands, smoke-like trailing robes. |
+| 14 | **Grave Hound**      | Gaunt supernatural dog with ash-gray fur and glowing eyes.          |
+
+### Bandits, goblins, and dark magic
+
+*Humanoid opponents with readable weapons and personalities.*
+
+| #  | Enemy                  | Visual direction                                                              |
+| -- | ---------------------- | ----------------------------------------------------------------------------- |
+| 15 | **Bandit Cutthroat**   | Masked highwayman, fitted leather armor, paired daggers.                      |
+| 16 | **Bandit Crossbowman** | Hooded mercenary aiming a heavy crossbow directly forward.                    |
+| 17 | **Goblin Brute**       | Broad, muscular goblin with scrap-metal armor and an enormous club.           |
+| 18 | **Goblin Shaman**      | Bone charms, oversized ceremonial mask, crooked glowing staff.                |
+| 19 | **Dark Witch**         | Adult sorceress; sleek black-and-violet outfit, pointed hat, spell-lit hands. |
+| 20 | **Cult Enforcer**      | Faceless iron mask, layered crimson robes, brutal two-handed mace.            |
+| 20a | **Cult Enforcer Priest** | Faceless iron mask, layered crimson robes, large magical staff with golden star at the tip |
+| 20b | **Cult Enforcer Mage ** | Female Faceless iron mask, sexy low cut layered crimson robes, small magical red gem wand |
+
+### Deeper-dungeon monsters
+
+*Larger silhouettes and stronger fantasy elements.*
+
+| #  | Enemy                | Visual direction                                                                 |
+| -- | -------------------- | -------------------------------------------------------------------------------- |
+| 21 | **Werewolf**         | Upright wolf-beast, powerful shoulders, dark fur, snarling forward-facing head.  |
+| 22 | **Stone Gargoyle**   | Cracked gothic stone, folded wings, glowing eyes, crouched attack stance.        |
+| 23 | **Mimic Chest**      | Iron-bound treasure chest opening into a tooth-filled mouth.                     |
+| 24 | **Vampire Duelist**  | Elegant adult noblewoman; fitted gothic armor, crimson cape, slender sword.      |
+| 24a | **Enraged Vampiress**  | enraged adult noblewoman; torn ragged gothic armor, crimson cape, bloody claws, extremely sexy, pale skin.      |
+| 25 | **Armored Female Succubus** | Adult horned demon; sculpted black armor, folded wings, confident battle stance. |
+| 26 | **Minotaur Jailor**  | Massive bull-headed humanoid with iron restraints, keys, and a heavy axe.        |
+
+### Bosses
+
+*Signature enemies worth giving especially detailed artwork.*
+
+| #  | Enemy                        | Visual direction                                                                      |
+| -- | ---------------------------- | ------------------------------------------------------------------------------------- |
+| 27 | **The Rat King**             | One enormous crowned rat wearing scavenged relics; smaller rats gathered at its feet. |
+| 28 | **The Hollow Castellan**     | Monumental haunted armor with a spectral crown and enormous greatsword.               |
+| 29 | **The Widow Queen**          | Giant armored spider with silver markings and a crown-like arrangement of eyes.       |
+| 30 | **The Blackthorn Matriarch** | Regal adult witch in thorn-shaped armor; antler-like crown and floating spell sigils. |
+| 31 | **The Grand Agni Drake** | Enormous Golden scaled dragon with a lions head and red main of fire and on its back are 2 large brilliant white wings and the tail is long and scaled with red fur on the tip. |
+| 31 | **The Death Reaper Drake** | Enormous black scaled wraith dragon wyrm with long wings stretching down the length of it's body, a snake tongue and eyes, and the tip of it's tail a scorpion stinger, green venom dripping out of its mouth |
+
+
+**Shared render standard:** One enemy per image, transparent background, full body and weapons completely inside the frame, facing the player. Modern, sleek, highly detailed dark-fantasy artwork—not pixel art. Keep spell effects close to the character and exclude scenery.

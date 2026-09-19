@@ -1,0 +1,41 @@
+# Credentials and private local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials.json
+secrets.json
+.ssh/
+.aws/
+.codex/
+.agents/
+
+# Personal saves, logs, crash dumps, and machine-specific generated files
+Saved/
+**/Saved/
+*.sav
+*.dmp
+*.log
+Binaries/
+Intermediate/
+DerivedDataCache/
+.vs/
+.vscode/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Distribute compiled packages through GitHub Releases, not source history
+Builds/
+Dist/
+Build/Windows/FileOpenOrder/

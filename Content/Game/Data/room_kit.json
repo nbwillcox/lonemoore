@@ -1,0 +1,1746 @@
+{
+  "version": 1,
+  "cellCm": 400,
+  "spanCells": 7,
+  "centerCell": [
+    3,
+    3
+  ],
+  "materialSlots": [
+    "Wall",
+    "Floor",
+    "Vault",
+    "Trim",
+    "Iron"
+  ],
+  "capMesh": "/Game/RoomKit/Meshes/SM_RK_portal_cap.SM_RK_portal_cap",
+  "capSizeCm": [
+    400,
+    36,
+    600
+  ],
+  "socketOrder": [
+    "N",
+    "E",
+    "S",
+    "W"
+  ],
+  "socketClearWidthCm": 400,
+  "textureRepeatMetres": 2,
+  "templates": [
+    {
+      "id": "arrival_chamber",
+      "name": "The Pilgrim Vestibule",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_arrival_chamber.SM_RK_arrival_chamber",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "#.....#",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 740,
+      "style": "arrival",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "vaulted_hall",
+      "name": "Ribbed Passage",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_vaulted_hall.SM_RK_vaulted_hall",
+      "rows": [
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###"
+      ],
+      "socketMask": 5,
+      "ceilingCm": 740,
+      "style": "hall",
+      "lights": [
+        {
+          "position": [
+            -165,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -165,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "long_gallery",
+      "name": "Gallery of the Vigil",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_long_gallery.SM_RK_long_gallery",
+      "rows": [
+        "###.###",
+        "##...##",
+        "##...##",
+        "##...##",
+        "##...##",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 5,
+      "ceilingCm": 740,
+      "style": "gallery",
+      "lights": [
+        {
+          "position": [
+            -520,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            520,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -520,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            520,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "short_turn",
+      "name": "The Stone Elbow",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_short_turn.SM_RK_short_turn",
+      "rows": [
+        "###.###",
+        "###.###",
+        "###.###",
+        "###....",
+        "#######",
+        "#######",
+        "#######"
+      ],
+      "socketMask": 3,
+      "ceilingCm": 640,
+      "style": "turn",
+      "lights": [
+        {
+          "position": [
+            -165,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "rounded_turn",
+      "name": "The Curved Ambulatory",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_rounded_turn.SM_RK_rounded_turn",
+      "rows": [
+        "###.###",
+        "###.###",
+        "###.###",
+        "###....",
+        "#######",
+        "#######",
+        "#######"
+      ],
+      "socketMask": 3,
+      "ceilingCm": 680,
+      "style": "turn",
+      "lights": [
+        {
+          "position": [
+            -165,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [],
+      "roundCorners": true
+    },
+    {
+      "id": "t_junction",
+      "name": "Threefold Passage",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_t_junction.SM_RK_t_junction",
+      "rows": [
+        "###.###",
+        "###.###",
+        "###.###",
+        "###....",
+        "###.###",
+        "###.###",
+        "###.###"
+      ],
+      "socketMask": 7,
+      "ceilingCm": 740,
+      "style": "hall",
+      "lights": [
+        {
+          "position": [
+            -165,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -165,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "cross_hall",
+      "name": "Crossing of Lanterns",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_cross_hall.SM_RK_cross_hall",
+      "rows": [
+        "###.###",
+        "##...##",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 780,
+      "style": "cross",
+      "lights": [
+        {
+          "position": [
+            -710,
+            -576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            -576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -710,
+            576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "circular_ossuary",
+      "name": "The Round Ossuary",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_circular_ossuary.SM_RK_circular_ossuary",
+      "rows": [
+        "###.###",
+        "##...##",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 820,
+      "style": "round",
+      "lights": [
+        {
+          "position": [
+            -710,
+            -576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            -576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -710,
+            576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [],
+      "roundCorners": true
+    },
+    {
+      "id": "octagonal_chamber",
+      "name": "Eightfold Chapterhouse",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_octagonal_chamber.SM_RK_octagonal_chamber",
+      "rows": [
+        "###.###",
+        "##...##",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 780,
+      "style": "octagon",
+      "lights": [
+        {
+          "position": [
+            -710,
+            -576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            -576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -710,
+            576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "cruciform_chapel",
+      "name": "Chapel of Lost Names",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_cruciform_chapel.SM_RK_cruciform_chapel",
+      "rows": [
+        "###.###",
+        "##...##",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 840,
+      "style": "chapel",
+      "lights": [
+        {
+          "position": [
+            -710,
+            -576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            -576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -710,
+            576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "burial_gallery",
+      "name": "The Sepulchral Walk",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_burial_gallery.SM_RK_burial_gallery",
+      "rows": [
+        "###.###",
+        "##...##",
+        "##...##",
+        "##...##",
+        "##...##",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 5,
+      "ceilingCm": 740,
+      "style": "burial",
+      "lights": [
+        {
+          "position": [
+            -520,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            520,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -520,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            520,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "twin_crypt",
+      "name": "The Twin Tombs",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_twin_crypt.SM_RK_twin_crypt",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "#.....#",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 720,
+      "style": "twin",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "reliquary",
+      "name": "The Iron Reliquary",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_reliquary.SM_RK_reliquary",
+      "rows": [
+        "###.###",
+        "##...##",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 760,
+      "style": "reliquary",
+      "lights": [
+        {
+          "position": [
+            -710,
+            -576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            -576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -710,
+            576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "sunken_shrine",
+      "name": "The Drowned Shrine",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_sunken_shrine.SM_RK_sunken_shrine",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "#.....#",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 760,
+      "style": "shrine",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "guard_barracks",
+      "name": "Wardens Rest",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_guard_barracks.SM_RK_guard_barracks",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "#.....#",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 640,
+      "style": "barracks",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "ruined_library",
+      "name": "The Broken Archive",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_ruined_library.SM_RK_ruined_library",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "#.....#",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 700,
+      "style": "library",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "pillar_court",
+      "name": "Court of Black Pillars",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_pillar_court.SM_RK_pillar_court",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "#.....#",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 780,
+      "style": "pillars",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "broken_sanctum",
+      "name": "Sanctum of the Fallen Crown",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_broken_sanctum.SM_RK_broken_sanctum",
+      "rows": [
+        "###.###",
+        "##...##",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 800,
+      "style": "ruin",
+      "lights": [
+        {
+          "position": [
+            -710,
+            -576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            -576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -710,
+            576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "cavern_hall",
+      "name": "The Hollow Beneath",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_cavern_hall.SM_RK_cavern_hall",
+      "rows": [
+        "###.###",
+        "##...##",
+        "#.....#",
+        ".......",
+        "#.....#",
+        "##...##",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 920,
+      "style": "cavern",
+      "lights": [
+        {
+          "position": [
+            -710,
+            -576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            -576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -710,
+            576.0,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            710,
+            576.0,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [],
+      "roundCorners": true
+    },
+    {
+      "id": "void_bridge",
+      "name": "Bridge of the Unseen Deep",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_void_bridge.SM_RK_void_bridge",
+      "rows": [
+        "###.###",
+        "#~~.~~#",
+        "#~~.~~#",
+        "#~~.~~#",
+        "#~~.~~#",
+        "#~~.~~#",
+        "###.###"
+      ],
+      "socketMask": 5,
+      "ceilingCm": 860,
+      "style": "bridge",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [],
+      "pit": "void"
+    },
+    {
+      "id": "fire_bridge",
+      "name": "The Ember Crossing",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_fire_bridge.SM_RK_fire_bridge",
+      "rows": [
+        "###.###",
+        "#~~.~~#",
+        "#~~.~~#",
+        "#~~.~~#",
+        "#~~.~~#",
+        "#~~.~~#",
+        "###.###"
+      ],
+      "socketMask": 5,
+      "ceilingCm": 860,
+      "style": "bridge",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [],
+      "pit": "fire"
+    },
+    {
+      "id": "cistern_crossing",
+      "name": "Four Ways over the Cistern",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_cistern_crossing.SM_RK_cistern_crossing",
+      "rows": [
+        "###.###",
+        "#~~.~~#",
+        "#~~.~~#",
+        ".......",
+        "#~~.~~#",
+        "#~~.~~#",
+        "###.###"
+      ],
+      "socketMask": 15,
+      "ceilingCm": 780,
+      "style": "cistern",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [],
+      "pit": "water"
+    },
+    {
+      "id": "boss_approach",
+      "name": "The Procession of Judgment",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_boss_approach.SM_RK_boss_approach",
+      "rows": [
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###",
+        "###.###"
+      ],
+      "socketMask": 5,
+      "ceilingCm": 780,
+      "style": "approach",
+      "lights": [
+        {
+          "position": [
+            -165,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -165,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            165,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": []
+    },
+    {
+      "id": "boss_arena",
+      "name": "The Throne of the Guardian",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_boss_arena.SM_RK_boss_arena",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        "#.....#",
+        "#.....#",
+        "#.....#",
+        "###.###"
+      ],
+      "socketMask": 5,
+      "ceilingCm": 900,
+      "style": "arena",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    },
+    {
+      "id": "sealed_descent",
+      "name": "The Last Seal",
+      "mesh": "/Game/RoomKit/Meshes/SM_RK_sealed_descent.SM_RK_sealed_descent",
+      "rows": [
+        "###.###",
+        "#.....#",
+        "#.....#",
+        "#.....#",
+        "#.....#",
+        "#.....#",
+        "#######"
+      ],
+      "socketMask": 1,
+      "ceilingCm": 860,
+      "style": "descent",
+      "lights": [
+        {
+          "position": [
+            -920,
+            -800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            -800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            -920,
+            800,
+            310
+          ],
+          "yaw": 0,
+          "kind": "torch",
+          "variant": 0
+        },
+        {
+          "position": [
+            920,
+            800,
+            310
+          ],
+          "yaw": 180,
+          "kind": "torch",
+          "variant": 0
+        }
+      ],
+      "props": [
+        {
+          "position": [
+            -960,
+            -960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 0
+        },
+        {
+          "position": [
+            960,
+            960,
+            0
+          ],
+          "yaw": 180,
+          "kind": "furnishing",
+          "variant": 1
+        },
+        {
+          "position": [
+            -960,
+            960,
+            0
+          ],
+          "yaw": 0,
+          "kind": "furnishing",
+          "variant": 2
+        }
+      ]
+    }
+  ]
+}

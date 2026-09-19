@@ -1,0 +1,187 @@
+PLACE PROMPTS:
+
+MAIN TOWN SQUARE
+LOCATION:
+Main Town Square
+
+SCENE:
+The player stands in a compact medieval adventurer town square.
+
+Several major destinations are visually recognizable from this position:
+a working blacksmith forge,
+a merchant shop,
+a small healer sanctuary,
+a tavern,
+a large dungeon entrance descending underground,
+and a wooden job and monster hunt board near the center of town.
+
+A narrow side alley is visible between two buildings but does not immediately draw attention.
+
+The town is busy enough to feel inhabited but not crowded.
+
+The dungeon entrance should be one of the strongest visual landmarks in the scene.
+
+
+HUNT BOARD
+LOCATION:
+Adventurer Job and Hunt Board
+
+SCENE:
+The player stands directly in front of a large rugged wooden bounty board in the town square.
+
+The board contains many pinned parchment contracts, monster sketches, wax seals, crude drawings, torn notices, and small trophies from previous hunts.
+
+The actual writing on the parchment should be indistinct and unreadable because game UI will overlay the real mission information.
+
+Weapons and adventuring equipment lean nearby.
+
+The town square remains slightly visible behind and around the board.
+
+
+
+BLACKSMITH
+LOCATION:
+Town Blacksmith
+
+SCENE:
+The player stands inside an open medieval forge.
+
+A rugged blacksmith stands behind a heavy wooden counter near an anvil and glowing forge.
+
+Weapons hang along the walls:
+swords,
+axes,
+maces,
+daggers,
+shields,
+and polearms.
+
+Several armor pieces and helmets sit on racks.
+
+Orange forge light illuminates dark stone walls, iron tools, coal, sparks, and smoke.
+
+The blacksmith should appear clearly available to interact with.
+
+
+
+MERCHANT
+LOCATION:
+Adventurer Supply Merchant
+
+SCENE:
+The player stands inside a cramped but organized medieval adventuring supply shop.
+
+A merchant stands behind a wooden counter facing the player.
+
+Shelves contain potion bottles, lanterns, rope, bedrolls, backpacks, torches, herbs, empty bottles, food supplies, tools, maps, and miscellaneous dungeon equipment.
+
+The shop feels practical rather than luxurious.
+
+Warm lantern lighting.
+
+
+
+HEALER
+LOCATION:
+Town Healer Sanctuary
+
+SCENE:
+The player stands inside a small medieval sanctuary used for healing wounded adventurers.
+
+A healer stands near a simple stone altar.
+
+Behind the healer is a larger sacred resurrection altar surrounded by candles and subtle magical light.
+
+Beds and basic medical supplies sit along the walls.
+
+The location should communicate both ordinary healing and powerful resurrection magic.
+
+Calm, quiet, sacred atmosphere.
+
+
+
+TAVERN:
+LOCATION:
+Adventurer Tavern and Inn
+
+SCENE:
+The player stands inside a warm medieval tavern frequented by dungeon explorers.
+
+A bartender stands behind the main counter.
+
+Heavy wooden tables,
+a fireplace,
+tankards,
+travel packs,
+weapons resting against chairs,
+and several adventurers occupy the room.
+
+A staircase leads toward upstairs rooms.
+
+Warm firelight contrasts strongly with the darkness associated with the dungeon.
+
+
+
+BACK ALLEY:
+LOCATION:
+Hidden Town Back Alley
+
+SCENE:
+The player looks down a narrow alley between medieval buildings.
+
+The alley is visible enough that an observant player would investigate it, but it does not appear to be an important town destination at first glance.
+
+Crates,
+barrels,
+dripping gutters,
+old posters,
+trash,
+and uneven cobblestones line the passage.
+
+A faint lantern glows deeper inside the alley.
+
+Near the far end is a partially hidden doorway or covered gambling table hinting that someone operates back here.
+
+
+GAMBLER:
+LOCATION:
+Back Alley Gambler
+
+SCENE:
+The player has discovered a shady gambling setup hidden behind the main town buildings.
+
+A charismatic rogue-like gambler sits behind a worn wooden table facing the player.
+
+Dice,
+playing cards,
+coins,
+small locked boxes,
+strange relics,
+and unidentified equipment cover the table.
+
+A single hanging lantern illuminates the gambler while the surrounding alley remains darker.
+
+The scene should feel secretive and slightly dangerous, but not like a major criminal headquarters.
+
+
+DUNGEON ENTRANCE:
+LOCATION:
+Dungeon Entrance
+
+SCENE:
+The player stands before the ancient dungeon entrance beneath the town.
+
+A massive stone stairway descends into darkness.
+
+Old reinforced doors,
+iron gates,
+weathered warning markers,
+broken weapons,
+discarded packs,
+old blood stains,
+and extinguished torches show that many adventurers have entered before.
+
+Warm town light remains behind the player viewpoint while colder darkness dominates the descent.
+
+The entrance should immediately communicate:
+this is where the real game begins.

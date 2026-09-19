@@ -1,0 +1,394 @@
+[
+  {
+    "source": ".art\\characters\\cleric.png",
+    "asset": "/Game/Game/ImportedArt/T_cleric.T_cleric"
+  },
+  {
+    "source": ".art\\characters\\mage.png",
+    "asset": "/Game/Game/ImportedArt/T_mage.T_mage"
+  },
+  {
+    "source": ".art\\characters\\paladin.png",
+    "asset": "/Game/Game/ImportedArt/T_paladin.T_paladin"
+  },
+  {
+    "source": ".art\\characters\\ranger.png",
+    "asset": "/Game/Game/ImportedArt/T_ranger.T_ranger"
+  },
+  {
+    "source": ".art\\characters\\rogue.png",
+    "asset": "/Game/Game/ImportedArt/T_rogue.T_rogue"
+  },
+  {
+    "source": ".art\\characters\\warlock.png",
+    "asset": "/Game/Game/ImportedArt/T_warlock.T_warlock"
+  },
+  {
+    "source": ".art\\characters\\warrior.png",
+    "asset": "/Game/Game/ImportedArt/T_warrior.T_warrior"
+  },
+  {
+    "source": ".art\\gear_icons\\accessories_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_accessories_icons.T_accessories_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\bodyarmor_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_bodyarmor_icons.T_bodyarmor_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\bootarmor_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_bootarmor_icons.T_bootarmor_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\foods_potions_etc_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_foods_potions_etc_icons.T_foods_potions_etc_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\glovearmor_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_glovearmor_icons.T_glovearmor_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\helmet_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_helmet_icons.T_helmet_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\hunt_board_example.png",
+    "asset": "/Game/Game/ImportedArt/T_hunt_board_example.T_hunt_board_example"
+  },
+  {
+    "source": ".art\\gear_icons\\offhand_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_offhand_icons.T_offhand_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\town_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_town_icons.T_town_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\ui_ux_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_ui_ux_icons.T_ui_ux_icons"
+  },
+  {
+    "source": ".art\\gear_icons\\weapon_icons.png",
+    "asset": "/Game/Game/ImportedArt/T_weapon_icons.T_weapon_icons"
+  },
+  {
+    "source": ".art\\hell_key.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_key.T_hell_key"
+  },
+  {
+    "source": ".art\\hunt_board_images\\banditrogue.png",
+    "asset": "/Game/Game/ImportedArt/T_banditrogue.T_banditrogue"
+  },
+  {
+    "source": ".art\\hunt_board_images\\dragon_highthreat.png",
+    "asset": "/Game/Game/ImportedArt/T_dragon_highthreat.T_dragon_highthreat"
+  },
+  {
+    "source": ".art\\hunt_board_images\\goblins.png",
+    "asset": "/Game/Game/ImportedArt/T_goblins.T_goblins"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_archangel.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_archangel.T_hell_archangel"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_goblin.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_goblin.T_hell_goblin"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_guardian.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_guardian.T_hell_guardian"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_hound.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_hound.T_hell_hound"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_imp.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_imp.T_hell_imp"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_incubus.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_incubus.T_hell_incubus"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_pitlord.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_pitlord.T_hell_pitlord"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_princepality.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_princepality.T_hell_princepality"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_succubus.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_succubus.T_hell_succubus"
+  },
+  {
+    "source": ".art\\hunt_board_images\\hell_summoner.png",
+    "asset": "/Game/Game/ImportedArt/T_hell_summoner.T_hell_summoner"
+  },
+  {
+    "source": ".art\\hunt_board_images\\huntboard.png",
+    "asset": "/Game/Game/ImportedArt/T_huntboard.T_huntboard"
+  },
+  {
+    "source": ".art\\hunt_board_images\\kinghog.png",
+    "asset": "/Game/Game/ImportedArt/T_kinghog.T_kinghog"
+  },
+  {
+    "source": ".art\\hunt_board_images\\lych.png",
+    "asset": "/Game/Game/ImportedArt/T_lych.T_lych"
+  },
+  {
+    "source": ".art\\hunt_board_images\\ogres.png",
+    "asset": "/Game/Game/ImportedArt/T_ogres.T_ogres"
+  },
+  {
+    "source": ".art\\hunt_board_images\\parchment.png",
+    "asset": "/Game/Game/ImportedArt/T_parchment.T_parchment"
+  },
+  {
+    "source": ".art\\hunt_board_images\\spiders.png",
+    "asset": "/Game/Game/ImportedArt/T_spiders.T_spiders"
+  },
+  {
+    "source": ".art\\hunt_board_images\\swampwyrm.png",
+    "asset": "/Game/Game/ImportedArt/T_swampwyrm.T_swampwyrm"
+  },
+  {
+    "source": ".art\\hunt_board_images\\undead.png",
+    "asset": "/Game/Game/ImportedArt/T_undead.T_undead"
+  },
+  {
+    "source": ".art\\hunt_board_images\\wax_icon.png",
+    "asset": "/Game/Game/ImportedArt/T_wax_icon.T_wax_icon"
+  },
+  {
+    "source": ".art\\hunt_board_images\\wolf.png",
+    "asset": "/Game/Game/ImportedArt/T_wolf.T_wolf"
+  },
+  {
+    "source": ".art\\keys.png",
+    "asset": "/Game/Game/ImportedArt/T_keys.T_keys"
+  },
+  {
+    "source": ".art\\locations\\core dungeon paths\\straightCorridor.png",
+    "asset": "/Game/Game/ImportedArt/T_straightCorridor.T_straightCorridor"
+  },
+  {
+    "source": ".art\\locations\\town\\backAlley.png",
+    "asset": "/Game/Game/ImportedArt/T_backAlley.T_backAlley"
+  },
+  {
+    "source": ".art\\locations\\town\\blacksmith.png",
+    "asset": "/Game/Game/ImportedArt/T_blacksmith.T_blacksmith"
+  },
+  {
+    "source": ".art\\locations\\town\\dungeonEntrance.png",
+    "asset": "/Game/Game/ImportedArt/T_dungeonEntrance.T_dungeonEntrance"
+  },
+  {
+    "source": ".art\\locations\\town\\gambler.png",
+    "asset": "/Game/Game/ImportedArt/T_gambler.T_gambler"
+  },
+  {
+    "source": ".art\\locations\\town\\healer.png",
+    "asset": "/Game/Game/ImportedArt/T_healer.T_healer"
+  },
+  {
+    "source": ".art\\locations\\town\\huntBoard.png",
+    "asset": "/Game/Game/ImportedArt/T_huntBoard.T_huntBoard"
+  },
+  {
+    "source": ".art\\locations\\town\\mainTownSquare.png",
+    "asset": "/Game/Game/ImportedArt/T_mainTownSquare.T_mainTownSquare"
+  },
+  {
+    "source": ".art\\locations\\town\\merchant.png",
+    "asset": "/Game/Game/ImportedArt/T_merchant.T_merchant"
+  },
+  {
+    "source": ".art\\locations\\town\\tavern.png",
+    "asset": "/Game/Game/ImportedArt/T_tavern.T_tavern"
+  },
+  {
+    "source": ".art\\monsters\\ArmoredFemaleSuccubus1.png",
+    "asset": "/Game/Game/ImportedArt/T_ArmoredFemaleSuccubus1.T_ArmoredFemaleSuccubus1"
+  },
+  {
+    "source": ".art\\monsters\\banditcrossbowman1.png",
+    "asset": "/Game/Game/ImportedArt/T_banditcrossbowman1.T_banditcrossbowman1"
+  },
+  {
+    "source": ".art\\monsters\\banditCutthroat1.png",
+    "asset": "/Game/Game/ImportedArt/T_banditCutthroat1.T_banditCutthroat1"
+  },
+  {
+    "source": ".art\\monsters\\beetle1.png",
+    "asset": "/Game/Game/ImportedArt/T_beetle1.T_beetle1"
+  },
+  {
+    "source": ".art\\monsters\\cavespider1.png",
+    "asset": "/Game/Game/ImportedArt/T_cavespider1.T_cavespider1"
+  },
+  {
+    "source": ".art\\monsters\\cryptGuardian1.png",
+    "asset": "/Game/Game/ImportedArt/T_cryptGuardian1.T_cryptGuardian1"
+  },
+  {
+    "source": ".art\\monsters\\cultenforcer1.png",
+    "asset": "/Game/Game/ImportedArt/T_cultenforcer1.T_cultenforcer1"
+  },
+  {
+    "source": ".art\\monsters\\cultmage1.png",
+    "asset": "/Game/Game/ImportedArt/T_cultmage1.T_cultmage1"
+  },
+  {
+    "source": ".art\\monsters\\cultPriest1.png",
+    "asset": "/Game/Game/ImportedArt/T_cultPriest1.T_cultPriest1"
+  },
+  {
+    "source": ".art\\monsters\\darkwitch1.png",
+    "asset": "/Game/Game/ImportedArt/T_darkwitch1.T_darkwitch1"
+  },
+  {
+    "source": ".art\\monsters\\dungeonbat1.png",
+    "asset": "/Game/Game/ImportedArt/T_dungeonbat1.T_dungeonbat1"
+  },
+  {
+    "source": ".art\\monsters\\enragedVampiress1.png",
+    "asset": "/Game/Game/ImportedArt/T_enragedVampiress1.T_enragedVampiress1"
+  },
+  {
+    "source": ".art\\monsters\\final_boss.png",
+    "asset": "/Game/Game/ImportedArt/T_final_boss.T_final_boss"
+  },
+  {
+    "source": ".art\\monsters\\fungalrat1.png",
+    "asset": "/Game/Game/ImportedArt/T_fungalrat1.T_fungalrat1"
+  },
+  {
+    "source": ".art\\monsters\\goblinbrute1.png",
+    "asset": "/Game/Game/ImportedArt/T_goblinbrute1.T_goblinbrute1"
+  },
+  {
+    "source": ".art\\monsters\\goblinscavenger1.png",
+    "asset": "/Game/Game/ImportedArt/T_goblinscavenger1.T_goblinscavenger1"
+  },
+  {
+    "source": ".art\\monsters\\goblinshaman1.png",
+    "asset": "/Game/Game/ImportedArt/T_goblinshaman1.T_goblinshaman1"
+  },
+  {
+    "source": ".art\\monsters\\gravehound1.png",
+    "asset": "/Game/Game/ImportedArt/T_gravehound1.T_gravehound1"
+  },
+  {
+    "source": ".art\\monsters\\koboldspearman1.png",
+    "asset": "/Game/Game/ImportedArt/T_koboldspearman1.T_koboldspearman1"
+  },
+  {
+    "source": ".art\\monsters\\lycanthrope1.png",
+    "asset": "/Game/Game/ImportedArt/T_lycanthrope1.T_lycanthrope1"
+  },
+  {
+    "source": ".art\\monsters\\mimic1.png",
+    "asset": "/Game/Game/ImportedArt/T_mimic1.T_mimic1"
+  },
+  {
+    "source": ".art\\monsters\\minotaurJailer1.png",
+    "asset": "/Game/Game/ImportedArt/T_minotaurJailer1.T_minotaurJailer1"
+  },
+  {
+    "source": ".art\\monsters\\rat1.png",
+    "asset": "/Game/Game/ImportedArt/T_rat1.T_rat1"
+  },
+  {
+    "source": ".art\\monsters\\restlessknight1.png",
+    "asset": "/Game/Game/ImportedArt/T_restlessknight1.T_restlessknight1"
+  },
+  {
+    "source": ".art\\monsters\\skeleton1.png",
+    "asset": "/Game/Game/ImportedArt/T_skeleton1.T_skeleton1"
+  },
+  {
+    "source": ".art\\monsters\\skeletonarcher1.png",
+    "asset": "/Game/Game/ImportedArt/T_skeletonarcher1.T_skeletonarcher1"
+  },
+  {
+    "source": ".art\\monsters\\slime1.png",
+    "asset": "/Game/Game/ImportedArt/T_slime1.T_slime1"
+  },
+  {
+    "source": ".art\\monsters\\stonegargoyle1.png",
+    "asset": "/Game/Game/ImportedArt/T_stonegargoyle1.T_stonegargoyle1"
+  },
+  {
+    "source": ".art\\monsters\\TheBlackthornMatriarch.png",
+    "asset": "/Game/Game/ImportedArt/T_TheBlackthornMatriarch.T_TheBlackthornMatriarch"
+  },
+  {
+    "source": ".art\\monsters\\TheDeathReaperDrake.png",
+    "asset": "/Game/Game/ImportedArt/T_TheDeathReaperDrake.T_TheDeathReaperDrake"
+  },
+  {
+    "source": ".art\\monsters\\TheGrandAgniDrake.png",
+    "asset": "/Game/Game/ImportedArt/T_TheGrandAgniDrake.T_TheGrandAgniDrake"
+  },
+  {
+    "source": ".art\\monsters\\TheGrrandReaperDrake.png",
+    "asset": "/Game/Game/ImportedArt/T_TheGrrandReaperDrake.T_TheGrrandReaperDrake"
+  },
+  {
+    "source": ".art\\monsters\\TheHollowCastellan.png",
+    "asset": "/Game/Game/ImportedArt/T_TheHollowCastellan.T_TheHollowCastellan"
+  },
+  {
+    "source": ".art\\monsters\\TheRatKing.png",
+    "asset": "/Game/Game/ImportedArt/T_TheRatKing.T_TheRatKing"
+  },
+  {
+    "source": ".art\\monsters\\TheWidowQueen.png",
+    "asset": "/Game/Game/ImportedArt/T_TheWidowQueen.T_TheWidowQueen"
+  },
+  {
+    "source": ".art\\monsters\\vampireDuelist1.png",
+    "asset": "/Game/Game/ImportedArt/T_vampireDuelist1.T_vampireDuelist1"
+  },
+  {
+    "source": ".art\\monsters\\werewolf1.png",
+    "asset": "/Game/Game/ImportedArt/T_werewolf1.T_werewolf1"
+  },
+  {
+    "source": ".art\\monsters\\witch1.png",
+    "asset": "/Game/Game/ImportedArt/T_witch1.T_witch1"
+  },
+  {
+    "source": ".art\\monsters\\wraith1.png",
+    "asset": "/Game/Game/ImportedArt/T_wraith1.T_wraith1"
+  },
+  {
+    "source": ".art\\waypoint_shrine.png",
+    "asset": "/Game/Game/ImportedArt/T_waypoint_shrine.T_waypoint_shrine"
+  },
+  {
+    "source": ".art\\waypoint_shrine_room.png",
+    "asset": "/Game/Game/ImportedArt/T_waypoint_shrine_room.T_waypoint_shrine_room"
+  },
+  {
+    "source": ".art\\.ui-ux\\main.png",
+    "asset": "/Game/Game/ImportedArt/T_ui_main.T_ui_main"
+  },
+  {
+    "source": ".art\\.ui-ux\\main-menu-parchment.png",
+    "asset": "/Game/Game/ImportedArt/T_main_menu_parchment.T_main_menu_parchment"
+  },
+  {
+    "source": ".art\\.ui-ux\\lonemoore-title-bar.png",
+    "asset": "/Game/Game/ImportedArt/T_lonemoore_title_bar.T_lonemoore_title_bar"
+  },
+  {
+    "source": ".art\\.ui-ux\\paused-title-bar.png",
+    "asset": "/Game/Game/ImportedArt/T_paused_title_bar.T_paused_title_bar"
+  }
+]

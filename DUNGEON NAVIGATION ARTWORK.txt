@@ -1,0 +1,197 @@
+DUNGEON NAVIGATION ARTWORK
+
+## TLDR
+
+**Yes — dungeon navigation artwork should probably be the next major art batch.** You want a modular visual library that can represent nearly any dungeon node without constantly generating one-off scenes.
+
+### 1. Core Dungeon Path Set — do these next
+
+| #  | Scene                                          |
+| -- | ---------------------------------------------- |
+| 1  | Straight corridor                              |
+| 2  | Dead end                                       |
+| 3  | Left turn only                                 |
+| 4  | Right turn only                                |
+| 5  | T-intersection — left + right                  |
+| 6  | T-intersection — straight + left               |
+| 7  | T-intersection — straight + right              |
+| 8  | 4-way intersection                             |
+| 9  | Corridor ending at closed door                 |
+| 10 | Corridor with door on left                     |
+| 11 | Corridor with door on right                    |
+| 12 | Corridor with doors on both sides              |
+| 13 | Stairs going down                              |
+| 14 | Stairs going up                                |
+| 15 | Dungeon entrance / stairs descending from town |
+| 16 | Dungeon exit / daylight visible ahead          |
+
+That **16-image set becomes the backbone of dungeon exploration.**
+
+---
+
+Then I'd build these asset families.
+
+### 2. Dungeon Rooms
+
+* Small empty chamber
+* Medium chamber
+* Large hall
+* Pillared hall
+* Storage room
+* Armory
+* Prison cells
+* Crypt
+* Burial chamber
+* Shrine
+* Altar room
+* Library / study
+* Guard room
+* Barracks
+* Kitchen / food storage
+* Treasure room
+* Boss antechamber
+* Boss arena
+
+---
+
+### 3. Special Navigation Pieces
+
+These will make the dungeon feel much less like repeating hallways:
+
+* Broken bridge over pit
+* Narrow stone bridge
+* Cave tunnel
+* Flooded corridor
+* Collapsed corridor
+* Rubble-blocked passage
+* Wooden barricade
+* Locked iron gate
+* Portcullis
+* Secret wall
+* Hidden doorway
+* Crawlspace / narrow opening
+* Ladder upward
+* Ladder downward
+* Spiral staircase
+* Rope bridge
+* Large cavern entrance
+* Sewer tunnel transition
+
+---
+
+### 4. Interactive Dungeon Artwork
+
+I'd absolutely make dedicated artwork for these because they'll become recognizable gameplay objects:
+
+* Normal chest
+* Locked chest
+* Ornate chest
+* Mimic chest
+* Weapon rack
+* Armor rack
+* Bookshelf
+* Potion shelf
+* Lever
+* Wall switch
+* Pressure plate
+* Chain mechanism
+* Keyhole mechanism
+* Puzzle pedestal
+* Statue
+* Fountain
+* Well
+* Campfire
+* Adventurer's abandoned campsite
+
+---
+
+### 5. Traps
+
+These could have **inactive and triggered versions**.
+
+* Floor spikes
+* Wall darts
+* Swinging blade
+* Falling rocks
+* Pit trap
+* Fire jets
+* Poison gas vents
+* Crushing walls
+* Rune trap
+* Magical lightning trap
+* Suspicious treasure pedestal
+
+---
+
+### 6. Environmental Variants
+
+Rather than drawing entirely different dungeon systems, we can reuse the same compositions with different skins:
+
+**Stone Dungeon**
+
+* gray masonry
+* torches
+* moss
+* iron doors
+
+**Crypt**
+
+* carved stone
+* bones
+* sarcophagi
+* blue ghost light
+
+**Cave**
+
+* natural rock
+* roots
+* mushrooms
+* water
+
+**Sewer**
+
+* brick
+* runoff
+* slime
+* rusted pipes/grates
+
+**Ancient Temple**
+
+* giant blocks
+* statues
+* runes
+* gold accents
+
+**Deep Dungeon**
+
+* black stone
+* lava/fire
+* chains
+* demonic architecture
+
+That means the **same 16 navigation layouts** can eventually become 5–6 biome sets.
+
+---
+
+## One important thing I'd add
+
+For this particular **first-person old-school dungeon crawler**, we should establish a rigid visual standard before generating these.
+
+Every navigation scene should have:
+
+* Camera at identical player eye height.
+* Identical field of view.
+* Player centered in the corridor.
+* Exits unmistakably visible.
+* Same corridor width.
+* Same approximate wall height.
+* Same lighting direction.
+* No monsters baked into the scene.
+* No permanent loot baked into generic navigation scenes.
+* Enough empty foreground space for combat/UI overlays.
+
+That will prevent the AI-art drift we've already been fighting.
+
+### Best next move
+
+I would start with the **16-piece Core Dungeon Path Set** above and get that entire visual language approved before generating rooms. Once **Straight Corridor** is perfect, it becomes the reference image for the other 15.
