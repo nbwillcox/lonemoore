@@ -18,6 +18,6 @@ if($Package){
  # -NoLiveCoding changes generated registration structure sizes in UE 5.8.2.
  & "$engineRoot\Engine\Build\BatchFiles\Build.bat" DungeonCrawler Win64 $Configuration "-Project=$projectFile" -NoUBTMakefiles -NoHotReloadFromIDE -UBANoDetour -nocache -NoPCH -MaxParallelActions=3
  if($LASTEXITCODE -ne 0){throw 'Game build failed'}
- & "$engineRoot\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun "-project=$projectFile" -noP4 -platform=Win64 "-clientconfig=$Configuration" -skipbuild -nocompileeditor -cook -stage -pak -archive "-archivedirectory=$ArchiveDirectory" -unattended -utf8output
+ & "$engineRoot\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun "-project=$projectFile" -noP4 -platform=Win64 "-clientconfig=$Configuration" -skipbuild -nocompileeditor -cook -stage -pak -prereqs -archive "-archivedirectory=$ArchiveDirectory" -unattended -utf8output
  if($LASTEXITCODE -ne 0){throw 'Packaging failed'}
 }

@@ -35,7 +35,7 @@ void ADungeonController::TickAdventurePolishReview(float Delta){
   M->SavePrefix="AdventureNative_"+FGuid::NewGuid().ToString(EGuidFormats::Digits)+"_";M->RefreshCharacters();
   Check(M->Characters.IsEmpty(),"Native review starts in an isolated profile root");
   bool Loaded=true;for(const auto& Id:DungeonCombatAudio::CueIds()){auto Sound=CueSounds.FindRef(Id);Loaded&=Sound&&Sound->GetDuration()>0.f;}
-  Check(Loaded&&LoadedCues==27,"All 27 short combat sounds are resident before play");Command("New");break;
+  Check(Loaded&&LoadedCues==DungeonCombatAudio::CueIds().Num(),FString::Printf(TEXT("All %d registered combat sounds are resident before play (loaded %d)"),DungeonCombatAudio::CueIds().Num(),LoadedCues));Command("New");break;
  }
  case 1:{bool All=true;for(int I=0;I<7;++I)All&=Interface->Hits.ContainsByPredicate([&](const FUIHit& H){return H.Id=="Hero:"+FString::FromInt(I);});Check(All,"All seven classes have selectable native controls");Shot("01_all_classes");break;}
  case 2:Check(ReviewClick("Hero:6"),"Warlock can be selected from new game");break;

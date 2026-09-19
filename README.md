@@ -6,7 +6,7 @@ An old-school first-person dungeon crawler built with Unreal Engine 5.8.2. Explo
 
 Get the Windows x64 ZIP from [GitHub Releases](https://github.com/nbwillcox/lonemoore/releases). Extract the entire archive into a writable folder, then run `DungeonCrawler.exe` (the internal executable name for Lonemoore). Keep the accompanying folders together. Unreal Editor is not required to play.
 
-If Windows reports missing runtime components, run `Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe` when included. A Windows PC with a DirectX 12-capable graphics card is recommended; minimum hardware requirements have not been established.
+If Windows reports missing runtime components, run `Engine/Extras/Redist/en-us/vc_redist.x64.exe` when included. A Windows PC with a DirectX 12-capable graphics card is recommended; minimum hardware requirements have not been established.
 
 This is an early release, version 0.2.0. Begin a fresh New Game; retired save formats are not supported by the character browser. Back up your saves before replacing or removing an installation. Shipping builds normally store saves beneath `%LOCALAPPDATA%/DungeonCrawler/Saved/SaveGames`; development builds may use their packaged `DungeonCrawler/Saved/SaveGames` folder.
 

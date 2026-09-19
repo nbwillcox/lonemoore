@@ -25,7 +25,7 @@ with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
 
 Extract the entire ZIP into a writable folder and run DungeonCrawler.exe.
 Keep all supplied folders together. Unreal Editor is not required.
-If needed, install Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe.
+If needed, install Engine/Extras/Redist/en-us/vc_redist.x64.exe.
 
 W/S move, A/D turn, E interact, M map, I inventory, C character,
 J journal, T town, Esc menu, F5 quicksave, F9 quickload confirmation.
