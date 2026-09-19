@@ -1,0 +1,180 @@
+{
+  "rooms": [
+    {
+      "id": "arrival_chamber",
+      "ceilingPolygons": 464,
+      "floorPolygons": 29,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "vaulted_hall",
+      "ceilingPolygons": 112,
+      "floorPolygons": 7,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "long_gallery",
+      "ceilingPolygons": 272,
+      "floorPolygons": 17,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "short_turn",
+      "ceilingPolygons": 112,
+      "floorPolygons": 7,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "rounded_turn",
+      "ceilingPolygons": 912,
+      "floorPolygons": 210,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "t_junction",
+      "ceilingPolygons": 160,
+      "floorPolygons": 10,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "cross_hall",
+      "ceilingPolygons": 400,
+      "floorPolygons": 25,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "circular_ossuary",
+      "ceilingPolygons": 1728,
+      "floorPolygons": 736,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "octagonal_chamber",
+      "ceilingPolygons": 400,
+      "floorPolygons": 25,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "cruciform_chapel",
+      "ceilingPolygons": 400,
+      "floorPolygons": 25,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "burial_gallery",
+      "ceilingPolygons": 272,
+      "floorPolygons": 17,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "twin_crypt",
+      "ceilingPolygons": 464,
+      "floorPolygons": 29,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "reliquary",
+      "ceilingPolygons": 400,
+      "floorPolygons": 25,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "sunken_shrine",
+      "ceilingPolygons": 464,
+      "floorPolygons": 29,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "guard_barracks",
+      "ceilingPolygons": 464,
+      "floorPolygons": 29,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "ruined_library",
+      "ceilingPolygons": 464,
+      "floorPolygons": 29,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "pillar_court",
+      "ceilingPolygons": 464,
+      "floorPolygons": 29,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "broken_sanctum",
+      "ceilingPolygons": 400,
+      "floorPolygons": 25,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "cavern_hall",
+      "ceilingPolygons": 3072,
+      "floorPolygons": 752,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "void_bridge",
+      "ceilingPolygons": 432,
+      "floorPolygons": 7,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "fire_bridge",
+      "ceilingPolygons": 432,
+      "floorPolygons": 7,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "cistern_crossing",
+      "ceilingPolygons": 464,
+      "floorPolygons": 13,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "boss_approach",
+      "ceilingPolygons": 112,
+      "floorPolygons": 7,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "boss_arena",
+      "ceilingPolygons": 432,
+      "floorPolygons": 27,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    },
+    {
+      "id": "sealed_descent",
+      "ceilingPolygons": 416,
+      "floorPolygons": 26,
+      "incorrectCeilingNormals": 0,
+      "incorrectFloorNormals": 0
+    }
+  ],
+  "failures": 0
+}

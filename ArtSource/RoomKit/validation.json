@@ -1,0 +1,2633 @@
+{
+  "meshes": [
+    {
+      "id": "arrival_chamber",
+      "vertices": 9204,
+      "polygons": 2285,
+      "triangles": 4570,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_arrival_chamber.fbx",
+      "walkableCells": 29,
+      "sockets": 15,
+      "style": "arrival",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "vaulted_hall",
+      "vertices": 7148,
+      "polygons": 1763,
+      "triangles": 3526,
+      "internalFacesRemoved": 24,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_vaulted_hall.fbx",
+      "walkableCells": 7,
+      "sockets": 5,
+      "style": "hall",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "long_gallery",
+      "vertices": 8628,
+      "polygons": 2141,
+      "triangles": 4282,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_long_gallery.fbx",
+      "walkableCells": 17,
+      "sockets": 5,
+      "style": "gallery",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "short_turn",
+      "vertices": 4228,
+      "polygons": 1037,
+      "triangles": 2074,
+      "internalFacesRemoved": 20,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_short_turn.fbx",
+      "walkableCells": 7,
+      "sockets": 3,
+      "style": "turn",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "rounded_turn",
+      "vertices": 7714,
+      "polygons": 2000,
+      "triangles": 3714,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_rounded_turn.fbx",
+      "walkableCells": 7,
+      "sockets": 3,
+      "style": "turn",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "t_junction",
+      "vertices": 8368,
+      "polygons": 2064,
+      "triangles": 4128,
+      "internalFacesRemoved": 28,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_t_junction.fbx",
+      "walkableCells": 10,
+      "sockets": 7,
+      "style": "hall",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "cross_hall",
+      "vertices": 8932,
+      "polygons": 2233,
+      "triangles": 4466,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_cross_hall.fbx",
+      "walkableCells": 25,
+      "sockets": 15,
+      "style": "cross",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "circular_ossuary",
+      "vertices": 13776,
+      "polygons": 3664,
+      "triangles": 6448,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_circular_ossuary.fbx",
+      "walkableCells": 25,
+      "sockets": 15,
+      "style": "round",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "octagonal_chamber",
+      "vertices": 6820,
+      "polygons": 1705,
+      "triangles": 3410,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_octagonal_chamber.fbx",
+      "walkableCells": 25,
+      "sockets": 15,
+      "style": "octagon",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "cruciform_chapel",
+      "vertices": 8932,
+      "polygons": 2233,
+      "triangles": 4466,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_cruciform_chapel.fbx",
+      "walkableCells": 25,
+      "sockets": 15,
+      "style": "chapel",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "burial_gallery",
+      "vertices": 9204,
+      "polygons": 2285,
+      "triangles": 4570,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_burial_gallery.fbx",
+      "walkableCells": 17,
+      "sockets": 5,
+      "style": "burial",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "twin_crypt",
+      "vertices": 6676,
+      "polygons": 1653,
+      "triangles": 3306,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_twin_crypt.fbx",
+      "walkableCells": 29,
+      "sockets": 15,
+      "style": "twin",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "reliquary",
+      "vertices": 8164,
+      "polygons": 2041,
+      "triangles": 4082,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_reliquary.fbx",
+      "walkableCells": 25,
+      "sockets": 15,
+      "style": "reliquary",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "sunken_shrine",
+      "vertices": 7156,
+      "polygons": 1773,
+      "triangles": 3546,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_sunken_shrine.fbx",
+      "walkableCells": 29,
+      "sockets": 15,
+      "style": "shrine",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "guard_barracks",
+      "vertices": 7732,
+      "polygons": 1917,
+      "triangles": 3834,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_guard_barracks.fbx",
+      "walkableCells": 29,
+      "sockets": 15,
+      "style": "barracks",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "ruined_library",
+      "vertices": 7540,
+      "polygons": 1869,
+      "triangles": 3738,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_ruined_library.fbx",
+      "walkableCells": 29,
+      "sockets": 15,
+      "style": "library",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "pillar_court",
+      "vertices": 6580,
+      "polygons": 1629,
+      "triangles": 3258,
+      "internalFacesRemoved": 16,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_pillar_court.fbx",
+      "walkableCells": 29,
+      "sockets": 15,
+      "style": "pillars",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "broken_sanctum",
+      "vertices": 6476,
+      "polygons": 1619,
+      "triangles": 3238,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_broken_sanctum.fbx",
+      "walkableCells": 25,
+      "sockets": 15,
+      "style": "ruin",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "cavern_hall",
+      "vertices": 19608,
+      "polygons": 5154,
+      "triangles": 9300,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_cavern_hall.fbx",
+      "walkableCells": 25,
+      "sockets": 15,
+      "style": "cavern",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "void_bridge",
+      "vertices": 7212,
+      "polygons": 1747,
+      "triangles": 3494,
+      "internalFacesRemoved": 56,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_void_bridge.fbx",
+      "walkableCells": 7,
+      "sockets": 5,
+      "style": "bridge",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "fire_bridge",
+      "vertices": 7644,
+      "polygons": 1855,
+      "triangles": 3710,
+      "internalFacesRemoved": 56,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_fire_bridge.fbx",
+      "walkableCells": 7,
+      "sockets": 5,
+      "style": "bridge",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "cistern_crossing",
+      "vertices": 8372,
+      "polygons": 2045,
+      "triangles": 4090,
+      "internalFacesRemoved": 48,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_cistern_crossing.fbx",
+      "walkableCells": 13,
+      "sockets": 15,
+      "style": "cistern",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 2,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 2,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 8,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 8,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "boss_approach",
+      "vertices": 8012,
+      "polygons": 1979,
+      "triangles": 3958,
+      "internalFacesRemoved": 24,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_boss_approach.fbx",
+      "walkableCells": 7,
+      "sockets": 5,
+      "style": "approach",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "boss_arena",
+      "vertices": 7740,
+      "polygons": 1911,
+      "triangles": 3822,
+      "internalFacesRemoved": 24,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_boss_arena.fbx",
+      "walkableCells": 27,
+      "sockets": 5,
+      "style": "arena",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 4,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 4,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "sealed_descent",
+      "vertices": 6720,
+      "polygons": 1652,
+      "triangles": 3304,
+      "internalFacesRemoved": 28,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_sealed_descent.fbx",
+      "walkableCells": 26,
+      "sockets": 1,
+      "style": "descent",
+      "socketRoofVertices": [
+        {
+          "socket": 1,
+          "lateralCm": -200,
+          "heightCm": 560.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": -100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 0,
+          "heightCm": 640.0
+        },
+        {
+          "socket": 1,
+          "lateralCm": 100,
+          "heightCm": 609.2458
+        },
+        {
+          "socket": 1,
+          "lateralCm": 200,
+          "heightCm": 560.0
+        }
+      ]
+    },
+    {
+      "id": "portal_cap",
+      "vertices": 72,
+      "polygons": 18,
+      "triangles": 36,
+      "internalFacesRemoved": 0,
+      "duplicateFaces": 0,
+      "degenerateFaces": 0,
+      "ceilingFacesDown": true,
+      "floorFacesUp": true,
+      "uvLayer": "MetricUV_2m",
+      "materialSlots": [
+        "Wall",
+        "Floor",
+        "Vault",
+        "Trim",
+        "Iron"
+      ],
+      "unitScale": 1,
+      "fbx": "J:\\First Person Dungeon Crawler Game\\ArtSource\\RoomKit\\Meshes\\SM_RK_portal_cap.fbx"
+    }
+  ],
+  "roomCount": 25,
+  "notes": [
+    "Authored source dimensions in metres, FBX automatic centimetre conversion.",
+    "UV0 is metric 2m tiling on every structural surface.",
+    "Floors own disjoint cell surfaces, portal caps are runtime edge-owned.",
+    "Navigation masks are conservative tile contracts; exact physical boundaries are authored.",
+    "No original artwork or player save is modified."
+  ]
+}

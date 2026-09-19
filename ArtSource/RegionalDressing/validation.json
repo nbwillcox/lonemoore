@@ -1,0 +1,637 @@
+{
+  "status": "PASS",
+  "scope": "Source assets and previews only; Unreal import and native placement validation are separate",
+  "props": 24,
+  "regions": 9,
+  "triangles": 80576,
+  "maxTriangles": 12572,
+  "failures": 0,
+  "records": [
+    {
+      "id": "cathedral_votive",
+      "triangles": 3308,
+      "boundsCm": [
+        126.0,
+        112.6,
+        240.05
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_cathedral_votive.fbx",
+          "sha256": "35df38dbe373092ff0c9bd011b98c6605c09b2e391352176db5f0025c22c5045",
+          "bytes": 150764
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_cathedral_votive.blend",
+          "sha256": "c9756ab65d615eb5aa61f947cc77ac832fc4267c5c4f7de50cae1950af044322",
+          "bytes": 181004
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\cathedral_votive.png",
+          "sha256": "d3c0438acf2753351164019db4eb792732cffbcb74d0b8301a71f85fa847e161",
+          "bytes": 696237
+        }
+      ]
+    },
+    {
+      "id": "cathedral_bell",
+      "triangles": 2904,
+      "boundsCm": [
+        179.09,
+        153.4,
+        141.36
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_cathedral_bell.fbx",
+          "sha256": "e46838aeebdeb77b9a77bda817276b720fd602daccd636446b719eeeb20fdff4",
+          "bytes": 138812
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_cathedral_bell.blend",
+          "sha256": "1c514e2139657b3941eaebd9a6fe8b62dbc894293115ca5d98b0a5ad9d9a9c44",
+          "bytes": 173174
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\cathedral_bell.png",
+          "sha256": "fc3a6800b423bdf968d231cbaf293e66138a67c6b578201c5b2b8c06b2566073",
+          "bytes": 754756
+        }
+      ]
+    },
+    {
+      "id": "cathedral_lectern",
+      "triangles": 300,
+      "boundsCm": [
+        92.0,
+        76.64,
+        145.2
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_cathedral_lectern.fbx",
+          "sha256": "7cc44605752e91764da393813dcf1b3a218f7f2c98213bbd58cc4728f70d38f3",
+          "bytes": 44316
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_cathedral_lectern.blend",
+          "sha256": "f1e68418e266e40c6d7189493a3c54712de6dbfb78259c5dedb6dae0f661290c",
+          "bytes": 108803
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\cathedral_lectern.png",
+          "sha256": "4219939b01a413ea0026402e92b81c7a878fb452742bb0f493e7c7301fa81984",
+          "bytes": 722006
+        }
+      ]
+    },
+    {
+      "id": "sewer_ooze_pipe",
+      "triangles": 2140,
+      "boundsCm": [
+        190.05,
+        237.66,
+        163.5
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_sewer_ooze_pipe.fbx",
+          "sha256": "beea53878fe6942376f4e142547e1e2322c4ca0676693798f42cfe70f44a2cf7",
+          "bytes": 102812
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_sewer_ooze_pipe.blend",
+          "sha256": "9fb196ce9e9d0a624f5f5345b316fb0a49c4d27b80d635567735e5692a49d213",
+          "bytes": 151006
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\sewer_ooze_pipe.png",
+          "sha256": "6324ee5bdc678c46522c6e03192ea3797fd0ddb6d67a4642c90682e3e0013040",
+          "bytes": 716327
+        }
+      ]
+    },
+    {
+      "id": "sewer_sump_grate",
+      "triangles": 1508,
+      "boundsCm": [
+        235.02,
+        178.33,
+        21.12
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_sewer_sump_grate.fbx",
+          "sha256": "4af74b9dbeea1f1e0812c42058d521da6aa4a25ad482ebbb83f86fffe8ecd1d0",
+          "bytes": 75964
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_sewer_sump_grate.blend",
+          "sha256": "a14a2c7d2dfd9ff70cbd00ac53354a69d6d787b0731e901f58df27e5ebe73059",
+          "bytes": 129340
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\sewer_sump_grate.png",
+          "sha256": "3c3c0d3cf183b393750b567bf7da8f4eb16dab07dda4ea78c10c909d388ff23e",
+          "bytes": 717109
+        }
+      ]
+    },
+    {
+      "id": "sewer_sludge_bank",
+      "triangles": 2464,
+      "boundsCm": [
+        233.83,
+        139.05,
+        53.75
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_sewer_sludge_bank.fbx",
+          "sha256": "e818dddabf20a0eef0ec1fbf5aa0a32f9e99f04605e2523fcff1309da0b097ab",
+          "bytes": 107804
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_sewer_sludge_bank.blend",
+          "sha256": "f71850b2e864b9b2bc461b5a364495453c28f8cb93024c0ec6182462c7c8a60c",
+          "bytes": 156551
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\sewer_sludge_bank.png",
+          "sha256": "16d7535a9b665c67b6d21c2c0253c44d7093fc207346c0a49d6bcbbeb1a071aa",
+          "bytes": 715514
+        }
+      ]
+    },
+    {
+      "id": "catacombs_bone_pile",
+      "triangles": 12572,
+      "boundsCm": [
+        135.29,
+        100.86,
+        74.19
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_catacombs_bone_pile.fbx",
+          "sha256": "2ee0cd5a62083549eead74edc82f6efa373839cbeb988b23ab518c1fd73910ae",
+          "bytes": 441532
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_catacombs_bone_pile.blend",
+          "sha256": "661f059f1451f6f67d1d099874b96b60290b9219c2979cae858d9334d8437759",
+          "bytes": 397458
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\catacombs_bone_pile.png",
+          "sha256": "56fbc1ed811681befa1f117181c4ef4bf03285f6c936777ec4cf9267b5c2d32b",
+          "bytes": 773109
+        }
+      ]
+    },
+    {
+      "id": "catacombs_ossuary",
+      "triangles": 12020,
+      "boundsCm": [
+        168.0,
+        79.0,
+        137.5
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_catacombs_ossuary.fbx",
+          "sha256": "5fc41d4493bdddcaf14f47d438b08367614e6a349f737062666adfb4b4040c1d",
+          "bytes": 445692
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_catacombs_ossuary.blend",
+          "sha256": "c9dd089be43f44a9d9e12877f3f41de00a1bb86a92713cd839f4587c575bd52d",
+          "bytes": 379487
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\catacombs_ossuary.png",
+          "sha256": "69bb6de929e6c3d2887d3e98700afe63f85805f8bcf6a468c0abc50595d2969a",
+          "bytes": 866402
+        }
+      ]
+    },
+    {
+      "id": "warrens_barricade",
+      "triangles": 4688,
+      "boundsCm": [
+        196.59,
+        82.31,
+        166.03
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_warrens_barricade.fbx",
+          "sha256": "d023e02b76ef3fecb956c009b9c66b5b3aa50bc6cf230eba76802888d307105b",
+          "bytes": 198956
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_warrens_barricade.blend",
+          "sha256": "d3b4941f91dea60177ba367abdd9e3982ff00ee6e13b55eb846cdcf9f8cd6f4a",
+          "bytes": 218221
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\warrens_barricade.png",
+          "sha256": "c258afed9d0d12154c923827f8d68d8842be498a0fbe03e28fcbbd8e04433027",
+          "bytes": 795441
+        }
+      ]
+    },
+    {
+      "id": "warrens_cache",
+      "triangles": 2694,
+      "boundsCm": [
+        150.04,
+        100.39,
+        191.72
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_warrens_cache.fbx",
+          "sha256": "b9405b06be5ea7baa6b5900aaa5144e741ec2fd7f5723e24918e1956d5a6103c",
+          "bytes": 133836
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_warrens_cache.blend",
+          "sha256": "e4ce7e81040aab8190e16e0692f29d7c77118f571c86917f1a0786a1f2366b03",
+          "bytes": 169287
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\warrens_cache.png",
+          "sha256": "b35bf9a5309ff2eb6187cf496ae66265aa33b04da4550e828b602f50aee92591",
+          "bytes": 744798
+        }
+      ]
+    },
+    {
+      "id": "warrens_fungus",
+      "triangles": 2280,
+      "boundsCm": [
+        158.1,
+        124.24,
+        91.08
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_warrens_fungus.fbx",
+          "sha256": "c9f75b0de3b9fd24ae82c70c6a65af269df916e3f3d09d1058105c4a2c2e86c2",
+          "bytes": 124556
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_warrens_fungus.blend",
+          "sha256": "85f5b5a2d9d8e0a4259d52e43e37c446695d366d6de419e4ed026bf6d1e75ce4",
+          "bytes": 163078
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\warrens_fungus.png",
+          "sha256": "381b40b534274f50cdb645e854265ffc862a3344064430a59682c1e9add11b75",
+          "bytes": 780045
+        }
+      ]
+    },
+    {
+      "id": "crypts_sarcophagus",
+      "triangles": 3424,
+      "boundsCm": [
+        134.0,
+        191.0,
+        122.79
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_crypts_sarcophagus.fbx",
+          "sha256": "8dfa1ac8015f0f723aa8683df21b7ab30778628bc39b954151b9ad869bf3b489",
+          "bytes": 159420
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_crypts_sarcophagus.blend",
+          "sha256": "ac7a9c2c6aa4c9870a2b0621b03c8c64abe5c7ff51496b810ebb6475fc823089",
+          "bytes": 187954
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\crypts_sarcophagus.png",
+          "sha256": "9b31053b8cbfa1eb3c4897a0f863b195f8b54be029c763020744a2aa4c2ef7f4",
+          "bytes": 819140
+        }
+      ]
+    },
+    {
+      "id": "crypts_vigil",
+      "triangles": 988,
+      "boundsCm": [
+        82.38,
+        74.0,
+        243.2
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_crypts_vigil.fbx",
+          "sha256": "4e2f58f8cc35b474b2c68415507821478f39cf1f518fe56657962c98281bb074",
+          "bytes": 72012
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_crypts_vigil.blend",
+          "sha256": "40a3cffee8ad3a611aabf816db0f26e6269f5046d4670926127c67db13dcb4be",
+          "bytes": 124369
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\crypts_vigil.png",
+          "sha256": "f190c4f640bc12d75c43fab65deccd67b050d8d24ecf535cfed9c89561356432",
+          "bytes": 680475
+        }
+      ]
+    },
+    {
+      "id": "crypts_standard",
+      "triangles": 532,
+      "boundsCm": [
+        134.0,
+        66.0,
+        291.0
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_crypts_standard.fbx",
+          "sha256": "75081805029c78aafe820145c705ee0c42e6577387f964574aac7acbe76559b1",
+          "bytes": 54860
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_crypts_standard.blend",
+          "sha256": "7d2cfb766ea48eaa72fc84a692c0d66f324991cb6fda9a5665ec588382206ab3",
+          "bytes": 113334
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\crypts_standard.png",
+          "sha256": "1a780fcb82d371021af9454737895d7049c5ec99f5cab5984bd4ab1ec654f3a5",
+          "bytes": 692955
+        }
+      ]
+    },
+    {
+      "id": "fortress_armory",
+      "triangles": 428,
+      "boundsCm": [
+        179.2,
+        49.55,
+        230.0
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_fortress_armory.fbx",
+          "sha256": "c4ab2a9a49dbb4e9a4f06c08770840dc565f040aeba3f2e63c9b0191a4812f96",
+          "bytes": 52332
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_fortress_armory.blend",
+          "sha256": "2acc1c722ed3072f9bef7e60e5abb73f95bf9f8929d582a6700acefbe72bedc6",
+          "bytes": 112487
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\fortress_armory.png",
+          "sha256": "a7c2cd590b834415af9e04cf9f34fcd2abd0363dd8b8f6f6cea7c8c86e52af8f",
+          "bytes": 714862
+        }
+      ]
+    },
+    {
+      "id": "fortress_shackles",
+      "triangles": 4380,
+      "boundsCm": [
+        113.0,
+        88.2,
+        76.0
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_fortress_shackles.fbx",
+          "sha256": "d19d4d1af1d02973ba94e690b7822311d577a681b256665b08aa10c390a03d6e",
+          "bytes": 190412
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_fortress_shackles.blend",
+          "sha256": "bc72cf5471344ae64d52112597e7ede468eec2e2f807d651e8b80f442cb1397c",
+          "bytes": 211621
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\fortress_shackles.png",
+          "sha256": "cf71d65c58b4837bc802ab7805e606c9322d7520ce2539b5fc7b39036fffd7cc",
+          "bytes": 833229
+        }
+      ]
+    },
+    {
+      "id": "deep_drake_skull",
+      "triangles": 2536,
+      "boundsCm": [
+        178.82,
+        233.16,
+        187.91
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_deep_drake_skull.fbx",
+          "sha256": "9210d0f24a985b58752f773b4a6760538929fe581f9d3ce4e5c628766dd23e1e",
+          "bytes": 142252
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_deep_drake_skull.blend",
+          "sha256": "611caadc95806fef56486551043d8d046c9086025fe2443692bd6d53aa362f9f",
+          "bytes": 169275
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\deep_drake_skull.png",
+          "sha256": "1633d28f847fc6dfa6e2383f649dc0710255ddcc552105dc52bee27482086d18",
+          "bytes": 736745
+        }
+      ]
+    },
+    {
+      "id": "deep_ribcage",
+      "triangles": 3396,
+      "boundsCm": [
+        193.75,
+        224.2,
+        172.67
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_deep_ribcage.fbx",
+          "sha256": "5a57d4213a9a8cf39dd2cb8e1e21225c756eb35c10ca7edbdc940ab35854532f",
+          "bytes": 151804
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_deep_ribcage.blend",
+          "sha256": "88b845c7f40631df080857ea75f1c93d35450c06ffc9bbde07736a1a1cd7c63b",
+          "bytes": 183509
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\deep_ribcage.png",
+          "sha256": "c079b0cacc662dae0eb81cb86cf41174e9953ff62d43d2a994ba7d7f4e8f1fa3",
+          "bytes": 753154
+        }
+      ]
+    },
+    {
+      "id": "deep_crystals",
+      "triangles": 610,
+      "boundsCm": [
+        143.14,
+        122.77,
+        159.45
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_deep_crystals.fbx",
+          "sha256": "e302ebab1f1a741e130eeadef15af401ac3162416ea4599d4b91848a32e84a7a",
+          "bytes": 61452
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_deep_crystals.blend",
+          "sha256": "0566b6922f2fc45dc2de680239e64f44d4c52590932b1944e61c582b108c2b5b",
+          "bytes": 117762
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\deep_crystals.png",
+          "sha256": "7b3d79e1d6f4bb3b47cec4c236fa9ec9b3e86beafbf4673eec5fa9b87be43d83",
+          "bytes": 722847
+        }
+      ]
+    },
+    {
+      "id": "infernal_seal",
+      "triangles": 3360,
+      "boundsCm": [
+        141.82,
+        79.98,
+        158.72
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_infernal_seal.fbx",
+          "sha256": "d7fe48b599b38d47005949ae58daee7bafea93796fdeaca0af05cf40afc9896e",
+          "bytes": 162716
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_infernal_seal.blend",
+          "sha256": "07a763a5f3173681fa74c4ca4e7d55d8e06be0c348889726b1c986960f2f43e6",
+          "bytes": 188705
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\infernal_seal.png",
+          "sha256": "156e6f4ff39aebb8bebb2207d8420120f237e48dfa13948957cfcbb1dc3e47b8",
+          "bytes": 769988
+        }
+      ]
+    },
+    {
+      "id": "infernal_brazier",
+      "triangles": 4520,
+      "boundsCm": [
+        124.34,
+        124.34,
+        169.14
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_infernal_brazier.fbx",
+          "sha256": "ee80e44d0c64a5792fd0b2bd9858dff30660c83a15b494f5f18278e80174cf8d",
+          "bytes": 200460
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_infernal_brazier.blend",
+          "sha256": "27455f4620d2f16de4166991c42dcf2c39d8a69a76ef2233b877d32584a5233c",
+          "bytes": 215698
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\infernal_brazier.png",
+          "sha256": "3189d9dce7e70e6e33aa88eeb8c174d7bd457d63ad5c77c5bc9d6d1c2de0ea6d",
+          "bytes": 762145
+        }
+      ]
+    },
+    {
+      "id": "hell_lava_basin",
+      "triangles": 1716,
+      "boundsCm": [
+        207.71,
+        208.85,
+        88.15
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_hell_lava_basin.fbx",
+          "sha256": "872e59a312a250fa3eb7741d9db0002785584d2330daf9b98e468b173ed039a9",
+          "bytes": 104524
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_hell_lava_basin.blend",
+          "sha256": "dd2cefe65d026d5bfd35806743847f5775e9b0171b7a0b0eb75ea2ccaa9713ca",
+          "bytes": 142062
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\hell_lava_basin.png",
+          "sha256": "78efbc176f0f3a06a2c9ac29efdb2d87537620391df6670c752742855a683703",
+          "bytes": 767866
+        }
+      ]
+    },
+    {
+      "id": "hell_fissure",
+      "triangles": 1704,
+      "boundsCm": [
+        249.02,
+        110.57,
+        66.51
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_hell_fissure.fbx",
+          "sha256": "5ff6bb92cd0b47f8f745619e991927b176d4a7207f6e221f112237e3ca671b99",
+          "bytes": 109356
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_hell_fissure.blend",
+          "sha256": "658d2d5c412e95deb7530dd32759824915fd8c9f56313fb5d6cfedbd46b05d93",
+          "bytes": 144496
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\hell_fissure.png",
+          "sha256": "81656dd38032896377e6b74741b31d4f161f0f391a25f371291ca7d8498cc7cf",
+          "bytes": 737008
+        }
+      ]
+    },
+    {
+      "id": "hell_drake_trophy",
+      "triangles": 6104,
+      "boundsCm": [
+        144.51,
+        171.77,
+        184.18
+      ],
+      "files": [
+        {
+          "path": "ArtSource\\RegionalDressing\\Meshes\\SM_RD_hell_drake_trophy.fbx",
+          "sha256": "918cf405a3465a747e9f04069aaeaff5bafaf8cf0af8b7a67574d4883b29f9cc",
+          "bytes": 268572
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Scenes\\SM_RD_hell_drake_trophy.blend",
+          "sha256": "7669cb81fbd0b567bb671f271dbc822a2647dd39e373ea81ea7d1dbda22879d4",
+          "bytes": 262110
+        },
+        {
+          "path": "ArtSource\\RegionalDressing\\Renders\\hell_drake_trophy.png",
+          "sha256": "de3f52911e9b53987d0c42d0bb8eb93cf6a3a1504b3f1a8dc853e599fb15e157",
+          "bytes": 779005
+        }
+      ]
+    }
+  ],
+  "selectiveUpdate": "cathedral_lectern",
+  "unchangedOtherProps": 23
+}
