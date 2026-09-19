@@ -1,12 +1,12 @@
 # Lonemoore
 
-Double-click **Play Lonemoore.cmd** to play. Start a **New Game** for the smaller floors and named-character save system.
+Download the compiled Windows ZIP from [GitHub Releases](https://github.com/nbwillcox/lonemoore/releases/tag/v0.2.0), extract the entire archive, and double-click **DungeonCrawler.exe** in the extracted folder. Keep its accompanying folders together. See the [README](README.md) for installation and runtime prerequisite instructions. Start a **New Game** for this release.
 
 Choose any of the seven classes: Warrior, Mage, Ranger, Cleric, Rogue, Paladin or Warlock. Enter your character's name, choose Normal or Hardcore, then begin. Names can contain up to 24 letters, numbers, spaces, apostrophes, hyphens or underscores. Each name identifies a separate journey; choose another name to start another character. Companions still join below, and every starting class can form a party of five different classes.
 
 Each character has an **Autosave**, a **Quicksave**, and as many separate manual saves as you create. Open the pause menu, choose **Save**, then **Create new manual save**. **Load** lets you choose a character and a saved moment. **Continue** resumes the most recently saved usable journey. A successful save displays a **Game saved** popup. The initial autosave is created when your name is accepted; an interrupted introduction can resume safely in town.
 
-The normal campaign stores these files in `Builds/Windows/DungeonCrawler/Saved/SaveGames/Characters/<your character name>/`. Older flat saves remain on disk but are not listed in the new character browser. This release is intended for fresh journeys.
+The compiled Windows release normally stores these files in `%LOCALAPPDATA%\DungeonCrawler\Saved\SaveGames\Characters\<your character name>\`. Paste `%LOCALAPPDATA%\DungeonCrawler\Saved\SaveGames` into File Explorer to find and back up your saves. Older flat saves remain on disk but are not listed in the new character browser. This release is intended for fresh journeys.
 
 New floors contain **68 room sections**, about **35% fewer** than before, with **45–46 regular encounter sites** spread across the smaller layout. The 25 Blender room designs, regional props, enemy artwork, bridges and Gothic boss approach remain. Dungeon lighting is dimmer, with a local torch around the player. Fog of war still hides unexplored areas.
 
@@ -14,9 +14,7 @@ Every descent chamber has a **save shrine beside the stairs**, accessible after 
 
 Combat has distinct short effects for all 21 active skills, a retro fireball and metallic attack sounds. The Audio settings control their volume.
 
-**Play Authored Room Dungeon.cmd** remains a separate prepared crypt playtest. Choose **2** for a fresh random layout or **3** for the reviewed seed. Its saves are separate from named campaign characters. The expanded prototype launcher remains a separate legacy layout test. See the [current review](ArtReview/AdventurePolish/REVIEW.html) and [sound library](ArtReview/AdventurePolish/Audio/REVIEW.html).
-
-The first launch may take about a minute on this machine. Let it reach the menu before opening another copy.
+The first launch can take longer while resources initialize. Let it reach the menu before opening another copy.
 
 - **W / S:** step forward / backward
 - **A / D:** turn 90 degrees
@@ -43,4 +41,4 @@ Face a locked gate and press **E** after obtaining its key, then wait for it to 
 
 The pre-choice **BeforeAstra** save lets you explore both endings. Killing Astra and continuing through the credits and portal scene unlocks Hell Hunts. Hardcore deaths are permanent for that journey.
 
-This is a development build. See `BUILD_STATUS.md`, `KNOWN_ISSUES.md`, and `QUESTIONS_FOR_TOMORROW.md`.
+This is the early Windows release, version 0.2.0. See [known issues](KNOWN_ISSUES.md) for current limitations.
